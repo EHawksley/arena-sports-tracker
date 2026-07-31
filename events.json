@@ -9,12 +9,26 @@
     "date": "2026-08-02",
     "dateStart": "2026-07-31",
     "dateEnd": "2026-08-02",
-    "location": "Oulton Park, Cheshire, United Kingdom",
+    "location": "Oulton Park International, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
       "Supersport",
       "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Oulton's Technical Layout Demands Precision",
+        "b": "With its tight corners and elevation changes, Oulton Park punishes inconsistency—riders who nail the tricky Cascades section and maintain momentum through Druids will gain decisive advantages over those relying purely on top speed. <strong>Setup and rider confidence become paramount</strong> on this 2.19-mile circuit where track position is worth more than raw horsepower."
+      },
+      {
+        "h": "Mid-Season Title Race Intensifies",
+        "b": "Round 6 arrives at a pivotal juncture where the championship contenders are separated by minimal points, making this Cheshire showdown a critical opportunity to consolidate gains or claw back ground before the summer break. <strong>Points accumulated here could reshape the entire second half</strong> of the BSB campaign."
+      },
+      {
+        "h": "Wet Weather Could Shake Up Predictions",
+        "b": "August conditions at Oulton Park frequently bring rain, which would dramatically level the playing field and expose any rider-to-bike chemistry issues among the frontrunners. <strong>Weather adaptability and tire management</strong> could prove more decisive than qualifying pace if the track turns damp."
+      }
     ]
   },
   {
@@ -66,6 +80,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Challenge",
+        "b": "Road America's 4.048-mile layout features some of the fastest corners in North American motorsports, demanding <strong>precision at extreme lean angles</strong> that will separate elite riders from the field. The 200+ mph speeds through turns like Turn 5 and 6 require riders to manage tire degradation over a full race distance while maintaining confidence in physics-defying cornering."
+      },
+      {
+        "h": "Championship Points Battle Intensifies",
+        "b": "<strong>August racing means accumulated damage</strong> to bikes and bodies becomes a critical factor in Wisconsin's demanding heat and humidity. Riders fighting for the title will need to balance aggressive pace with machine management, as mechanical failures or crashes in this round could prove devastating for playoff positioning."
+      },
+      {
+        "h": "Drafting Strategy on Straightaways",
+        "b": "Road America's long straights combined with tight chicanes create unique tactical opportunities where <strong>slipstreaming positions become race-winning weapons</strong>. Smart riders will use the technical sections to gain setup advantages while saving moves for the high-speed straights, making real-time strategy crucial in close competition."
+      }
     ]
   },
   {
@@ -83,6 +111,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Sedgefield's Scoring Setup Favors Bombers",
+        "b": "The par-70 layout at Sedgefield typically plays to under 7,000 yards, making it one of the shortest tracks on the PGA Tour schedule. <strong>Long hitters with accurate iron play</strong> will have an outsized advantage attacking the relatively modest greens and converting birdie opportunities."
+      },
+      {
+        "h": "Last-Chance Qualifier for Cup Playoffs",
+        "b": "As the final regular season event before the FedEx Cup Playoffs begin, Wyndham serves as <strong>the ultimate desperation tournament for bubble players</strong> fighting for their playoff lives and positioning. Expect aggressive golf and heightened emotions as competitors know this is their last opportunity to secure their tour card status."
+      },
+      {
+        "h": "Heat and Humidity Test Mental Fortitude",
+        "b": "August in Greensboro brings intense heat and humidity that can be <strong>physically and mentally exhausting over 72 holes</strong>, potentially benefiting players with superior course management and conditioning. History suggests that those who avoid double bogeys and stay patient will outlast competitors who wilt in the oppressive conditions."
+      }
     ]
   },
   {
@@ -95,13 +137,47 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone, Northamptonshire, Great Britain",
+    "location": "Silverstone Circuit, Silverstone, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
       "Moto2",
       "Moto3",
       "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Silverstone's High-Speed Test",
+        "b": "With average lap speeds consistently exceeding 220 km/h, Silverstone demands <strong>aggressive braking stability and corner exit acceleration</strong> that will separate championship contenders from the field. Riders who master the fast-flowing sections like Copse and Maggotts could gain decisive tenths."
+      },
+      {
+        "h": "Weather Unpredictability in August",
+        "b": "<strong>British summer conditions can shift dramatically</strong>, and Silverstone's exposure means riders must excel across wet and dry setups within a single weekend. Teams that nail their tire strategy for potential rain events could steal crucial points from rivals caught unprepared."
+      },
+      {
+        "h": "Home Crowd's Psychological Edge",
+        "b": "British riders competing at Silverstone benefit from <strong>intense home support that amplifies confidence and motivation</strong>, historically translating to more aggressive riding and willingness to take calculated risks. The roaring crowd at Copse can be the invisible 23rd competitor on track."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -179,6 +255,37 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Playoff seeding stakes intensify",
+        "b": "With only three events remaining before the FedEx Cup Playoffs begin, every stroke at Memphis carries exponential weight in the final standings. <strong>Players outside the top 50 are essentially playing for their postseason lives</strong>, making this a do-or-die competition masked as a regular tour event."
+      },
+      {
+        "h": "TPC Southwind's par-70 precision",
+        "b": "The course's tight landing zones and strategic bunkering punish long hitters who rely on bombers without finesse, historically favoring <strong>shot-makers with exceptional iron play and course management</strong>. Expect scoring averages to stay relatively high despite the par-70 setup, rewarding patience over aggression."
+      },
+      {
+        "h": "August heat and mental fatigue",
+        "b": "Memphis in mid-August presents brutal conditions with 95-degree temperatures and high humidity, creating a grueling physical and mental test during the season's most critical stretch. <strong>Tournament fitness and composure often separate contenders from early exits</strong>, as dehydration and fatigue can derail even the most skilled competitors."
+      }
+    ]
+  },
+  {
+    "id": "pga-fedex-st-jude-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "FedEx St. Jude Championship",
+    "date": "2026-08-16",
+    "dateStart": "2026-08-13",
+    "dateEnd": "2026-08-16",
+    "location": "TPC Southwind, Memphis, TN, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
     ]
   },
   {
@@ -197,6 +304,20 @@
       "Superbike",
       "Supersport",
       "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Thruxton's Speed Demands Championship Resolve",
+        "b": "As the fastest circuit on the BSB calendar, Thruxton will separate genuine title contenders from pretenders, requiring <strong>perfect throttle control and nerve on the 100mph+ straights</strong>. With Round 7 approaching the mid-season mark, this is where championship credentials get tested under extreme lateral forces."
+      },
+      {
+        "h": "Tire Degradation Strategy Defines Winners",
+        "b": "Thruxton's relentless pace means <strong>front tire management becomes the critical variable</strong> in what's traditionally a two-race format, with riders forced to balance aggression against mechanical grip loss over race distance. Teams nailing setup for tire preservation will gain a decisive advantage in the points."
+      },
+      {
+        "h": "Slipstreaming Wars Intensify August Heat",
+        "b": "The Hampshire circuit's long straights create <strong>unpredictable drafting opportunities that can flip the race script</strong> in the final laps, rewarding tactical riders willing to gamble on positioning. Expect dramatic last-lap maneuvers as pilots jockey for tow advantage heading into the chicane."
+      }
     ]
   },
   {
@@ -274,6 +395,26 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ]
+  },
+  {
+    "id": "motoa-superbike-r8-new-jersey-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 8 - New Jersey Motorsports Park",
+    "date": "2026-08-23",
+    "dateStart": "2026-08-21",
+    "dateEnd": "2026-08-23",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -418,7 +559,7 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -452,7 +593,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano, Italy",
+    "location": "Misano Adriatico Circuit, Misano Adriatico, San Marino",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -472,6 +613,26 @@
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-12",
     "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "motoa-superbike-r9-beaverun-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Beaverun Motor Speedway",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "Beaverun Motor Speedway, Wampum, Pennsylvania, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -514,6 +675,22 @@
       "Lightweight",
       "Middleweight",
       "Featherweight"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-blaydes-cortes-acosta-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Blaydes vs. Cortes Acosta",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Glendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
     ]
   },
   {
@@ -677,6 +854,26 @@
     ]
   },
   {
+    "id": "motoa-superbike-r10-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - Laguna Seca",
+    "date": "2026-10-04",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-04",
+    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-baycurrent-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -702,7 +899,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -721,7 +918,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Circuito Estoril, Cascais, Portugal",
+    "location": "Circuito Estoril, Estoril, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -786,6 +983,26 @@
     ]
   },
   {
+    "id": "motoa-superbike-r11-austin-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 11 - Circuit of The Americas",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Circuit of The Americas, Austin, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -811,7 +1028,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -872,7 +1089,43 @@
     ]
   },
   {
+    "id": "motoa-superbike-r12-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 12 - Barber Motorsports Park",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-30",
+    "dateEnd": "2026-11-01",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-world-wide-technology-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "World Wide Technology Championship",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-05",
+    "dateEnd": "2026-11-08",
+    "location": "El Cardonal at Diamante, Cabo San Lucas, Mexico",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "pga-ww-technology-championship-2026",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
@@ -987,7 +1240,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
