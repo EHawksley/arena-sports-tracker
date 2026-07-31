@@ -179,6 +179,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Mid-Ohio's Technical Layout Tests Raw Speed",
+        "b": "The tight, flowing corners at Mid-Ohio demand precision over horsepower, making this round a <strong>true test of rider consistency and bike balance</strong> rather than a straightline power fest. Expect the championship leader to face unexpected pressure from technically gifted riders who thrive in this type of environment."
+      },
+      {
+        "h": "August Heat Amplifies Tire Strategy Variance",
+        "b": "Summer conditions at Mid-Ohio typically bring brutal track temperatures that <strong>compress tire degradation windows significantly</strong>, forcing teams into aggressive fuel and tire management decisions. This unpredictability could shuffle the podium order dramatically compared to cooler-weather rounds earlier in the season."
+      },
+      {
+        "h": "Championship Momentum Shifts at Series Midpoint",
+        "b": "As Round 7 approaches the season's turning point, <strong>consistency now matters more than individual wins</strong> for championship contenders who need to bank points without taking unnecessary risks. Look for defending champions to play it strategically while hungry challengers make aggressive moves to close the gap."
+      }
     ]
   },
   {
@@ -222,7 +236,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Northamptonshire, Great Britain",
+    "location": "Silverstone Circuit, Silverstone, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -379,6 +393,26 @@
         "h": "Heat and Humidity Impact Setup Choices",
         "b": "August racing in Wisconsin brings sweltering track temperatures that will challenge tire grip and rider endurance through multiple 15-20 lap stints. <strong>Teams betting on aggressive qualifying setups</strong> may find their motorcycles unrideable in race conditions, making conservative baseline development and real-time adjustments the difference between victory and DNF."
       }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-r7-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 7 Laguna Seca",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Laguna Seca Raceway, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -661,6 +695,36 @@
   },
   {
     "id": "ufc-330-makhachev-machado-garry",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 330: Makhachev vs. Machado Garry",
+    "date": "2026-08-15",
+    "dateStart": "2026-08-15",
+    "dateEnd": "2026-08-15",
+    "location": "Philadelphia, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Makhachev's lightweight supremacy tested",
+        "b": "Islam Makhachev enters as the dominant 155-pound champion, but <strong>Machado Garry's elite grappling and size advantage</strong> present a genuine threat to his undefeated streak in title fights. This matchup forces Makhachev to prove he can handle a wrestler with legitimate submission credentials rather than strikers."
+      },
+      {
+        "h": "Philadelphia crowd could shift momentum",
+        "b": "The <strong>East Coast boxing legacy and traditional wrestling culture</strong> in Philadelphia creates a natural advantage for Machado Garry, whose ground-heavy style typically thrives with crowd support behind him. Makhachev's Dagestani fighting style has historically struggled against partisan home crowds in hostile environments."
+      },
+      {
+        "h": "Grappling depth meets striking mastery",
+        "b": "<strong>Machado Garry's submission and positional wrestling</strong> directly counters Makhachev's typical game plan of suffocating pressure, making this the first real test of whether the champion's striking improvements can keep him upright and avoid the clinch. The fight essentially becomes a battle between Makhachev's evolution and Garry's foundational wrestling strength."
+      }
+    ]
+  },
+  {
+    "id": "ufc-330",
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
@@ -1272,7 +1336,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano Adriatico Circuit, Rimini, Italy",
+    "location": "Misano Adriatico Circuit, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1500,6 +1564,26 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-r8-bmw-motorrad-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 8 BMW Motorrad Race",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1539,7 +1623,7 @@
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
     "dateEnd": "2026-09-12",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -1576,6 +1660,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Blaydes seeks redemption against rising threat",
+        "b": "Curtis Blaydes enters this matchup needing a statement victory after recent setbacks in the heavyweight division. <strong>A win over an ascending competitor like Cortes Acosta would firmly reestablish him as a title contender</strong> rather than a gatekeeper."
+      },
+      {
+        "h": "Cortes Acosta's striking poses serious problems",
+        "b": "The Argentine fighter brings unorthodox striking patterns and relentless forward pressure that can disrupt even experienced heavyweights. <strong>Blaydes' wrestling-heavy approach could face unexpected difficulties if Cortes Acosta maintains aggressive distance management</strong>."
+      },
+      {
+        "h": "Glendale crowd energizes underdog narrative",
+        "b": "Fighting in Arizona provides a unique energy that historically favors fighters willing to engage in explosive exchanges over methodical gameplan execution. <strong>This venue could inspire Cortes Acosta to take calculated risks that exploit Blaydes' sometimes-conservative wrestling approach</strong>."
+      }
     ]
   },
   {
@@ -1592,6 +1690,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Desert Dust-Up in Glendale",
+        "b": "Fight Night events in Arizona have consistently produced <strong>explosive knockouts and submission finishes</strong>, making Glendale's desert setting a breeding ground for aggressive fighting styles that favor strikers and submission artists over grinders."
+      },
+      {
+        "h": "Late Summer Card Unpredictability",
+        "b": "September UFC events often feature <strong>hungry prospects and overlooked veterans</strong> using Fight Night stages to make career-defining statements, creating compelling matchups where underdogs frequently capitalize on overlooked preparation time."
+      },
+      {
+        "h": "Post-Summer Fighter Conditioning",
+        "b": "Athletes returning from summer camps and injury recovery in mid-September often show <strong>uneven cardio and ring rust</strong>, particularly in later rounds where previously scheduled opponents with superior camp timing can exploit fatigue."
+      }
     ]
   },
   {
@@ -1608,6 +1720,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Desert Heat Amplifies Grappling Exchanges",
+        "b": "Glendale's late September conditions create a grueling environment where <strong>cardio and wrestling pace become decisive factors</strong> over striking combinations. Fighters who've trained in high-altitude or humid conditions will have a significant advantage as dehydration accelerates fatigue."
+      },
+      {
+        "h": "Mid-Card Elevation Signals Promotion Pipeline",
+        "b": "UFC Fight Night events in major markets like Phoenix serve as <strong>crucial stepping stones for rising contenders seeking title visibility</strong>. Expect aggressive fighting styles as undercard talent treats this as a prime opportunity to catch Dana White's attention."
+      },
+      {
+        "h": "Post-Summer Layoff Rust Factor Looms",
+        "b": "<strong>September matchups often feature fighters returning from extended breaks</strong> following the summer fight schedule, creating unpredictable performances and potential for upset finishes. Wrestlers especially tend to look sloppy early when ring time has been limited."
+      }
     ]
   },
   {
@@ -1628,6 +1754,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship Implications at PIR",
+        "b": "Round 9 at Portland represents a crucial juncture where <strong>title contenders must capitalize on home-region advantage</strong>, as the tight technical layout rewards precision over raw power and could shuffle the points standings heading into the final stretch."
+      },
+      {
+        "h": "PIR's Unique Technical Challenge",
+        "b": "Portland's tight 1.9-mile circuit with its demanding Turn 1 and multiple elevation changes demands <strong>exceptional bike setup and rider consistency</strong>, favoring competitors who excel at trail-braking rather than those relying on straightaway horsepower."
+      },
+      {
+        "h": "Weather and Track Evolution Factors",
+        "b": "September conditions at PIR typically bring variable weather and rapid track evolution throughout race day, meaning <strong>teams that adapt their strategies between practice and race</strong> will gain a critical edge over those locked into static setups."
+      }
     ]
   },
   {
@@ -1908,6 +2048,26 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-r9-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 9 Barber Motorsports Park",
+    "date": "2026-10-04",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-04",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "motoamerica-sbk-r10-laguna-seca-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -1953,7 +2113,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika Circuit, Lombok, Indonesia",
+    "location": "Lombok International Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1972,7 +2132,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Circuito Estoril, Estoril, Portugal",
+    "location": "Circuito Estoril, Cascais, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2010,7 +2170,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2236,7 +2396,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Circuit, Phillip Island, Australia",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2255,10 +2415,30 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal Golf Club, Southampton, Bermuda",
+    "location": "Port Royal GC, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-r10-indianapolis-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 10 Indianapolis Motor Speedway",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-23",
+    "dateEnd": "2026-10-25",
+    "location": "Indianapolis Motor Speedway, Indianapolis, Indiana, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -2412,7 +2592,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Losail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2471,7 +2651,7 @@
     "date": "2026-11-07",
     "dateStart": "2026-11-07",
     "dateEnd": "2026-11-07",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -2542,7 +2722,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2562,6 +2742,26 @@
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-21",
     "location": "Memphis Motorsports Park, Memphis, Tennessee, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-r11-las-vegas-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
+    "date": "2026-11-22",
+    "dateStart": "2026-11-20",
+    "dateEnd": "2026-11-22",
+    "location": "Las Vegas Motor Speedway, Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2656,7 +2856,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
