@@ -202,7 +202,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Great Britain",
+    "location": "Silverstone Circuit, Silverstone, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -304,6 +304,40 @@
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
     "location": "New Jersey Motorsports Park, Allendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Summer Heat Tests Tire Strategy",
+        "b": "August conditions at New Jersey will push tire degradation to its limits, making mid-race pit stops and tire compound selection <strong>absolutely critical to race outcomes</strong>. Teams that nail the balance between pace and tire preservation could gain multiple positions in the final laps."
+      },
+      {
+        "h": "Championship Points Tightening Up Fast",
+        "b": "With the season halfway through, this round seven showdown could reshape the entire championship battle as <strong>consistency is now worth more than one-off heroics</strong>. Expect aggressive riding from mid-field contenders trying to close gaps on the front-runners before the series heads into its second half."
+      },
+      {
+        "h": "Home Track Advantage for Northeast Riders",
+        "b": "New Jersey's technical layout rewards smooth, precision cornering over raw horsepower, which could favor riders who've tested extensively at the facility or have northeast roots. <strong>Familiarity with this circuit's unique demands</strong> could be the difference between podium and mid-pack finishes for closely-matched competitors."
+      }
+    ]
+  },
+  {
+    "id": "motoa-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -666,6 +700,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Demands",
+        "b": "Road America's 4.048-mile layout features some of MotoAmerica's fastest corners and longest straightaways, making this round a <strong>true test of top-end power and aerodynamic efficiency</strong> rather than cornering precision alone."
+      },
+      {
+        "h": "Mid-Season Championship Stakes Intensify",
+        "b": "With Round 8 at the season's midpoint, <strong>championship positioning becomes nearly irreversible</strong>, meaning aggressive riding and risk-taking will spike as contenders cannot afford significant point losses."
+      },
+      {
+        "h": "Wisconsin Weather Wildcard Factor",
+        "b": "August weather at Road America can shift dramatically from hot dry conditions to unexpected rain, and <strong>setup adaptability will separate championship contenders from midfield competitors</strong> across multiple sessions."
+      }
     ]
   },
   {
@@ -893,7 +941,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragón, Alcaniz, Spain",
+    "location": "MotorLand Aragon, Alcañiz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1174,13 +1222,27 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
       "Moto2",
       "Moto3",
       "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Home Heroes Battle for Supremacy",
+        "b": "Misano's passionate Italian crowd will create an electric atmosphere that historically favors Ducati riders, who have dominated this circuit in recent years. <strong>Local factory support and track familiarity could prove decisive</strong> in what promises to be an intense battle among the grid's top contenders."
+      },
+      {
+        "h": "Tire Strategy Becomes Crucial Variable",
+        "b": "The demanding Misano layout with its tight corners and heavy braking zones puts exceptional stress on tire degradation, forcing teams to gamble on compound selection and pit stop timing. <strong>Managing tire temperature in September heat</strong> will separate champions from pretenders in the final stint."
+      },
+      {
+        "h": "Championship Implications Peak Here",
+        "b": "With only five rounds remaining after Misano, this mid-September clash becomes a critical turning point where title contenders must capitalize or risk falling behind in the championship hunt. <strong>Points finishes here directly determine playoff positioning</strong> for the season's final decisive races."
+      }
     ]
   },
   {
@@ -1201,6 +1263,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Corkscrew Corner Separates Champions",
+        "b": "Laguna Seca's iconic Corkscrew demands nerves of steel and precision braking that <strong>punishes even the slightest mistake</strong>, making this track a true character test for championship contenders seeking grid position advantages."
+      },
+      {
+        "h": "High-Speed Elevation Changes Challenge Setup",
+        "b": "The track's dramatic 400-foot elevation swing and constant direction changes mean riders must find <strong>the perfect suspension sweet spot</strong> to maintain grip through the undulating turns—a setup puzzle that often determines race outcomes."
+      },
+      {
+        "h": "Late-Season Title Pressure Intensifies",
+        "b": "By September, championship mathematics tighten significantly, and <strong>mental fortitude becomes as critical as horsepower</strong> as contenders face their final opportunities to make crucial points before the championship showdown."
+      }
     ]
   },
   {
@@ -1221,6 +1297,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Beaverun's Technical Challenge Intensifies",
+        "b": "The tight, twisty layout of Beaverun demands precision over pure horsepower, making this round <strong>unpredictable for championship contenders</strong> who've relied on straightline speed at earlier venues. Expect aggressive mid-corner battles and potential upsets from riders excelling in technical racecraft."
+      },
+      {
+        "h": "Championship Points Crunch Point",
+        "b": "With only four rounds remaining after Beaverun, <strong>every podium finish becomes critical currency</strong> for closing or extending the title gap in what's shaping up to be a competitive Superbike season. Risky strategy calls will likely emerge as contenders calculate their mathematical paths to the championship."
+      },
+      {
+        "h": "Pennsylvania Weather Could Reshape Grids",
+        "b": "September conditions at Beaverun often bring unpredictable rain and temperature swings that <strong>neutralize established performance advantages</strong> and reward adaptable bike setups and strategic tire choices. Look for teams to hedge their qualifying strategies with wet-weather contingencies already loaded in their truck."
+      }
     ]
   },
   {
@@ -1241,6 +1331,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "High-altitude test of tire strategy",
+        "b": "Miller's 4,600-foot elevation presents a <strong>unique thermal challenge</strong> where tire warm-up windows compress significantly, forcing teams to qualify differently and take calculated risks early in races to build heat before the track cools."
+      },
+      {
+        "h": "Closing stretch intensifies championship battle",
+        "b": "With only three rounds remaining after Miller, <strong>points become currency</strong> and championship contenders must balance aggressive riding with crash risk, as a DNF here could mathematically eliminate title hopes."
+      },
+      {
+        "h": "Brake zone dominance at Miller's turns",
+        "b": "The technical corners at Miller reward <strong>late-apex precision</strong> more than raw horsepower, meaning riders with superior trail-braking technique and lighter bikes can neutralize power advantages and create passing opportunities competitors won't see coming."
+      }
     ]
   },
   {
@@ -1284,6 +1388,26 @@
     ]
   },
   {
+    "id": "motoa-r8-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 8 - Laguna Seca",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-12",
+    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1309,7 +1433,7 @@
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
     "dateEnd": "2026-09-12",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -1516,7 +1640,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi Twin Ring, Motegi, Japan",
+    "location": "Twin Ring Motegi, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1624,6 +1748,26 @@
     ]
   },
   {
+    "id": "motoa-r9-indianapolis-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Indianapolis Motor Speedway",
+    "date": "2026-10-03",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-03",
+    "location": "Indianapolis Motor Speedway, Indianapolis, Indiana, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-baycurrent-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1649,7 +1793,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Lombok International Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1813,6 +1957,44 @@
     ]
   },
   {
+    "id": "bsb-r11-brandshatch-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 11 - Brands Hatch (Showdown Finale)",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Brands Hatch, Kent, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "motoa-r10-new-jersey-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - New Jersey Motorsports Park",
+    "date": "2026-10-17",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-17",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1893,7 +2075,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal GC, Southampton, Bermuda",
+    "location": "Port Royal Golf Club, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2083,22 +2265,23 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
+    "id": "motoa-r11-barber-2026",
+    "sport": "moto",
     "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 11 - Barber Motorsports Park",
     "date": "2026-11-07",
-    "dateStart": "2026-11-07",
+    "dateStart": "2026-11-06",
     "dateEnd": "2026-11-07",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
     "status": "scheduled",
     "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -2115,6 +2298,25 @@
     "status": "scheduled",
     "classes": [
       "Stroke Play"
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
     ]
   },
   {
@@ -2228,6 +2430,26 @@
     ]
   },
   {
+    "id": "motoa-r12-charleston-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 12 - Charleston Motor Speedway",
+    "date": "2026-12-05",
+    "dateStart": "2026-12-04",
+    "dateEnd": "2026-12-05",
+    "location": "Charleston Motor Speedway, Ladson, South Carolina, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-bjj-3",
     "sport": "bjj",
     "entityType": "championship",
@@ -2237,7 +2459,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
