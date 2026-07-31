@@ -1,1 +1,1073 @@
-[]
+[
+  {
+    "id": "bsb-r6-oulton-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 6 - Oulton Park",
+    "date": "2026-08-02",
+    "dateStart": "2026-07-31",
+    "dateEnd": "2026-08-02",
+    "location": "Oulton Park, Cheshire, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-medic-rodriguez-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Medic vs. Rodriguez",
+    "date": "2026-08-01",
+    "dateStart": "2026-08-01",
+    "dateEnd": "2026-08-01",
+    "location": "Belgrade, Serbia",
+    "status": "scheduled",
+    "classes": [
+      "Main Card",
+      "Prelims"
+    ],
+    "points": [
+      {
+        "h": "Medic's Home Continent Advantage",
+        "b": "Fighting in Belgrade gives Medic a significant edge with European fans and potential travel fatigue advantages over Rodriguez. <strong>The Serbian crowd will create an electric atmosphere</strong> that could lift Medic's performance in crucial moments."
+      },
+      {
+        "h": "Rodriguez's Striking Precision Test",
+        "b": "This matchup will reveal whether Rodriguez's technical striking can overwhelm Medic's wrestling-heavy approach in the octagon. <strong>The battle for octagon control</strong> between Rodriguez's hands and Medic's takedown game will likely determine the fight's outcome."
+      },
+      {
+        "h": "August Belgrade Card Unpredictability",
+        "b": "International Fight Nights often feature volatile matchmaking with less marquee names, making this card a potential showcase for emerging talent or upset opportunities. <strong>Expect unconventional fight dynamics</strong> that may not follow typical UFC prediction patterns."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Road America",
+    "date": "2026-08-02",
+    "dateStart": "2026-08-01",
+    "dateEnd": "2026-08-02",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "pga-wyndham-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Wyndham Championship",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-06",
+    "dateEnd": "2026-08-09",
+    "location": "Sedgefield Country Club, Greensboro, NC, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
+    "id": "mgp-british-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "British Grand Prix",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Silverstone, Northamptonshire, Great Britain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-gamrot-salkilld-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Gamrot vs. Salkilld",
+    "date": "2026-08-08",
+    "dateStart": "2026-08-08",
+    "dateEnd": "2026-08-08",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Gamrot's Lightweight Title Ambitions",
+        "b": "Mateusz Gamrot enters this contest as a top-5 contender looking to <strong>solidify his claim for a title shot</strong> against the current lightweight champion. A dominant performance here could force the UFC's hand in matching him with the belt holder within the next fight cycle."
+      },
+      {
+        "h": "Salkilld's Knockout Power Test",
+        "b": "<strong>Salkilld brings devastating striking credentials</strong> that could make this an explosive matchup, especially if Gamrot attempts to trade on the feet rather than utilizing his wrestling base. This stylistic clash creates potential for an early finish if either fighter catches the other in vulnerable positions."
+      },
+      {
+        "h": "Vegas August Card Stakes Rising",
+        "b": "UFC Fight Night events in August traditionally feature fighters on significant winning or losing streaks, and <strong>this main event has main card implications</strong> for the lightweight division's playoff picture. Expect the winner to jump several spots in the rankings and potentially leapfrog stalled contenders ahead of them."
+      }
+    ]
+  },
+  {
+    "id": "dwcs-10-1-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.1",
+    "date": "2026-08-11",
+    "dateStart": "2026-08-11",
+    "dateEnd": "2026-08-11",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas Crucible Awaits Contenders",
+        "b": "DWCS 10.1 returns to the UFC's home base where <strong>fighters must perform under the brightest spotlight</strong> to secure coveted UFC contracts. The Nevada Athletic Commission's standards and the watchful eye of UFC brass create an unforgiving proving ground."
+      },
+      {
+        "h": "Talent Pipeline Intensifies Post-Expansion",
+        "b": "With the UFC roster continuing to grow, <strong>DWCS has become the primary filter for international and regional prospects</strong> seeking legitimacy. Every victory here accelerates a fighter's trajectory toward the main roster faster than ever before."
+      },
+      {
+        "h": "Mid-Summer Momentum Shifts Weight Classes",
+        "b": "<strong>August timing positions rising stars for late-year UFC integration</strong>, meaning standout performers from DWCS 10.1 could realistically compete on premium fall fight cards. This proximity to major events makes individual performances significantly more consequential than earlier Contender Series installments."
+      }
+    ]
+  },
+  {
+    "id": "pga-fedex-stjude-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "FedEx St. Jude Championship",
+    "date": "2026-08-16",
+    "dateStart": "2026-08-13",
+    "dateEnd": "2026-08-16",
+    "location": "TPC Southwind, Memphis, TN, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
+    "id": "bsb-r7-thruxton-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 7 - Thruxton",
+    "date": "2026-08-16",
+    "dateStart": "2026-08-14",
+    "dateEnd": "2026-08-16",
+    "location": "Thruxton, Hampshire, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "ufc-330-makhachev-machado-garry-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 330: Makhachev vs. Machado Garry",
+    "date": "2026-08-15",
+    "dateStart": "2026-08-15",
+    "dateEnd": "2026-08-15",
+    "location": "Philadelphia, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Makhachev's Lightweight Dominance Test",
+        "b": "Islam Makhachev enters as the consensus lightweight elite, but Machado Garry represents <strong>the most well-rounded striking threat</strong> he's faced in the octagon, potentially forcing him into uncomfortable exchanges outside his grappling comfort zone."
+      },
+      {
+        "h": "Philadelphia's Wrestling-Heavy Fight Culture",
+        "b": "Hosting in Philadelphia typically favors grapplers and ground-heavy fighters, giving Makhachev's wrestling-centric approach <strong>an environmental advantage</strong> that could prove decisive if the fight remains competitive through the middle rounds."
+      },
+      {
+        "h": "Machado Garry's Title Shot Stakes",
+        "b": "For Machado Garry, this represents his <strong>final audition for title contention</strong>—a loss likely sends him back into the rankings queue, while a victory over the top-ranked Makhachev catapults him directly into championship conversation."
+      }
+    ]
+  },
+  {
+    "id": "dwcs-10-2-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.2",
+    "date": "2026-08-18",
+    "dateStart": "2026-08-18",
+    "dateEnd": "2026-08-18",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Contender Pipeline Reaches Critical Mass",
+        "b": "DWCS 10.2 arrives at a pivotal moment when <strong>UFC's development system faces pressure to produce elite-level talent</strong> amid rapid roster expansion and injury attrition across the main card. This card will likely showcase whether the Contender Series can still identify future title contenders or if talent dilution has compromised its selectivity."
+      },
+      {
+        "h": "Las Vegas August Heat Advantage Unknown",
+        "b": "Fighting in peak summer Las Vegas creates <strong>unpredictable conditioning challenges rarely seen in controlled UFC events</strong>, potentially exposing which prospects possess true mental toughness versus those accustomed to optimal performance environments. The desert heat often reveals cardio deficiencies that climates elsewhere mask."
+      },
+      {
+        "h": "Contract Awards Determine Series' True Value",
+        "b": "<strong>Each contract offered at DWCS 10.2 represents a calculated bet on future UFC profitability</strong>, making this card essentially a scouting exhibition where Dana White's selections will signal which fighter archetypes the promotion prioritizes heading into 2027. The fighters rejected will be equally revealing about UFC's shifting strategic preferences."
+      }
+    ]
+  },
+  {
+    "id": "pga-bmw-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "BMW Championship",
+    "date": "2026-08-23",
+    "dateStart": "2026-08-20",
+    "dateEnd": "2026-08-23",
+    "location": "Bellerive Country Club, St. Louis, MO, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-hernandez-rodrigues-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Hernandez vs. Rodrigues",
+    "date": "2026-08-22",
+    "dateStart": "2026-08-22",
+    "dateEnd": "2026-08-22",
+    "location": "Sacramento, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Hernandez's Striking Precision on Display",
+        "b": "Hernandez enters this bout as a <strong>calculated striker with exceptional distance management</strong>, making Sacramento's cage dimensions critical to his game plan. Expect him to control the tempo early and punish any careless advances from Rodrigues."
+      },
+      {
+        "h": "Rodrigues Seeks Statement Ground Game",
+        "b": "With <strong>wrestling credentials that could neutralize striking advantages</strong>, Rodrigues has the tools to drag this fight into his comfort zone where submission threats loom large. His ability to secure takedowns will determine whether this becomes a striking clinic or a grappling war."
+      },
+      {
+        "h": "Sacramento's Altitude Impacts Cardio Wars",
+        "b": "<strong>The elevation at 30 feet above sea level creates subtle but measurable oxygen disadvantages</strong> that typically favor fighters with superior conditioning in later rounds. Both camps have likely adjusted camp locations, but Rodrigues' reliance on sustained grappling pressure makes this environmental factor particularly relevant."
+      }
+    ]
+  },
+  {
+    "id": "dwcs-10-3-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.3",
+    "date": "2026-08-25",
+    "dateStart": "2026-08-25",
+    "dateEnd": "2026-08-25",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "pga-tour-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "TOUR Championship",
+    "date": "2026-08-30",
+    "dateStart": "2026-08-27",
+    "dateEnd": "2026-08-30",
+    "location": "East Lake Golf Club, Atlanta, GA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
+    "id": "road-to-ufc-5-3-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "Road To UFC 5.3",
+    "date": "2026-08-28",
+    "dateStart": "2026-08-28",
+    "dateEnd": "2026-08-28",
+    "location": "Shanghai, China",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "mgp-aragon-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Aragon Grand Prix",
+    "date": "2026-08-30",
+    "dateStart": "2026-08-28",
+    "dateEnd": "2026-08-30",
+    "location": "MotorLand Aragon, Alcañiz, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-nurmagomedov-song-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Nurmagomedov vs. Song",
+    "date": "2026-08-29",
+    "dateStart": "2026-08-29",
+    "dateEnd": "2026-08-29",
+    "location": "Shanghai, China",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "bsb-r8-cadwell-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 8 - Cadwell Park",
+    "date": "2026-08-31",
+    "dateStart": "2026-08-29",
+    "dateEnd": "2026-08-31",
+    "location": "Cadwell Park, Lincolnshire, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "wsbk-acerbis-french-round-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Acerbis French Round",
+    "date": "2026-09-06",
+    "dateStart": "2026-09-04",
+    "dateEnd": "2026-09-06",
+    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-hooker-parnasse-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Hooker vs. Parnasse",
+    "date": "2026-09-05",
+    "dateStart": "2026-09-05",
+    "dateEnd": "2026-09-05",
+    "location": "Paris, France",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "mgp-san-marino-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "San Marino Grand Prix",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "Misano World Circuit Marco Simoncelli, Misano, Italy",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Laguna Seca",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-12",
+    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Glendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "ufc-bjj-1",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 1",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ]
+  },
+  {
+    "id": "pga-biltmore-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Biltmore Championship Asheville",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-17",
+    "dateEnd": "2026-09-20",
+    "location": "The Cliffs at Walnut Cove, Arden, NC, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "mgp-austria-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Austrian Grand Prix",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-18",
+    "dateEnd": "2026-09-20",
+    "location": "Red Bull Ring, Spielberg, Austria",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "bsb-r9-assen-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 9 Showdown - Assen",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-18",
+    "dateEnd": "2026-09-20",
+    "location": "Assen, Netherlands",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "pga-presidents-cup-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Presidents Cup",
+    "date": "2026-09-27",
+    "dateStart": "2026-09-24",
+    "dateEnd": "2026-09-27",
+    "location": "Medinah Country Club, Medinah, IL, USA",
+    "status": "scheduled",
+    "classes": [
+      "Match Play"
+    ]
+  },
+  {
+    "id": "wsbk-eicma-italian-round-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "EICMA Italian Round",
+    "date": "2026-09-27",
+    "dateStart": "2026-09-25",
+    "dateEnd": "2026-09-27",
+    "location": "Cremona Circuit, Cremona, Italy",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ]
+  },
+  {
+    "id": "pga-bank-of-utah-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Bank of Utah Championship",
+    "date": "2026-10-04",
+    "dateStart": "2026-10-01",
+    "dateEnd": "2026-10-04",
+    "location": "Black Desert Golf Course, Ivins, UT, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "mgp-japan-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Japanese Grand Prix",
+    "date": "2026-10-04",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-04",
+    "location": "Twin Ring Motegi, Motegi, Japan",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "bsb-r10-donington-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 10 Showdown - Donington Park",
+    "date": "2026-10-04",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-04",
+    "location": "Donington Park, Leicestershire, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Barber Motorsports Park",
+    "date": "2026-10-03",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-03",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "pga-baycurrent-classic-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Baycurrent Classic",
+    "date": "2026-10-11",
+    "dateStart": "2026-10-08",
+    "dateEnd": "2026-10-11",
+    "location": "Yokohama Country Club West Course, Yokohama, Japan",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "mgp-indonesia-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Indonesian Grand Prix",
+    "date": "2026-10-11",
+    "dateStart": "2026-10-09",
+    "dateEnd": "2026-10-11",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "wsbk-tissot-estoril-round-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Tissot Estoril Round",
+    "date": "2026-10-11",
+    "dateStart": "2026-10-09",
+    "dateEnd": "2026-10-11",
+    "location": "Circuito Estoril, Cascais, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ]
+  },
+  {
+    "id": "wsbk-pirelli-spanish-round-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Pirelli Spanish Round",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ]
+  },
+  {
+    "id": "bsb-r11-brands-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "British Superbike Championship Round 11 Showdown Finale - Brands Hatch",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Brands Hatch, Kent, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-new-jersey-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - New Jersey Motorsports Park",
+    "date": "2026-10-17",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-17",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "ufc-fight-night-buckley-malott-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Buckley vs. Malott",
+    "date": "2026-10-17",
+    "dateStart": "2026-10-17",
+    "dateEnd": "2026-10-17",
+    "location": "Edmonton, Canada",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "mgp-australia-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Australian Grand Prix",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-22",
+    "dateEnd": "2026-10-25",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "pga-butterfield-bermuda-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Butterfield Bermuda Championship",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-22",
+    "dateEnd": "2026-10-25",
+    "location": "Port Royal GC, Southampton, Bermuda",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "pga-vidantaworld-mexico-open-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "VidantaWorld Mexico Open",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-29",
+    "dateEnd": "2026-11-01",
+    "location": "VidantaWorld, Vallarta, Mexico",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "mgp-malaysia-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Malaysian Grand Prix",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-30",
+    "dateEnd": "2026-11-01",
+    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "pga-world-wide-technology-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "World Wide Technology Championship",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-05",
+    "dateEnd": "2026-11-08",
+    "location": "El Cardonal at Diamante, Cabo San Lucas, Mexico",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "mgp-qatar-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Qatar Grand Prix",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Losail International Circuit, Doha, Qatar",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-austin-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Circuit of The Americas",
+    "date": "2026-11-07",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-07",
+    "location": "Circuit of The Americas, Austin, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-11-07",
+    "dateStart": "2026-11-07",
+    "dateEnd": "2026-11-07",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ]
+  },
+  {
+    "id": "pga-good-good-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Good Good Championship",
+    "date": "2026-11-15",
+    "dateStart": "2026-11-12",
+    "dateEnd": "2026-11-15",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "pga-rsm-classic-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "The RSM Classic",
+    "date": "2026-11-22",
+    "dateStart": "2026-11-19",
+    "dateEnd": "2026-11-22",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "mgp-portugal-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Portuguese Grand Prix",
+    "date": "2026-11-22",
+    "dateStart": "2026-11-20",
+    "dateEnd": "2026-11-22",
+    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "mgp-valencia-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Valencia Grand Prix",
+    "date": "2026-11-29",
+    "dateStart": "2026-11-27",
+    "dateEnd": "2026-11-29",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ]
+  },
+  {
+    "id": "pga-hero-world-challenge-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Hero World Challenge",
+    "date": "2026-12-06",
+    "dateStart": "2026-12-03",
+    "dateEnd": "2026-12-06",
+    "location": "Albany, Nassau, Bahamas",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-atlanta-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Atlanta Motor Speedway",
+    "date": "2026-12-05",
+    "dateStart": "2026-12-04",
+    "dateEnd": "2026-12-05",
+    "location": "Atlanta Motor Speedway, Hampton, Georgia, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-16",
+    "dateEnd": "2027-01-16",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ]
+  }
+]
