@@ -149,6 +149,25 @@ body{background:var(--bg);color:var(--text);font-family:"Spline Sans",system-ui,
 
 /* ── NEXT-UP LABEL ── */
 .next-label{font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);padding:2px 2px 8px}
+
+/* ── WATCH SECTION ── */
+.watch-section{margin-top:12px;padding-top:12px;border-top:1px solid var(--border)}
+.watch-header{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-bottom:8px;display:flex;align-items:center;gap:5px}
+.watch-header::before{content:'📺';font-size:12px;letter-spacing:0}
+.watch-sessions{display:flex;flex-direction:column;gap:7px}
+.watch-session{display:flex;flex-direction:column;gap:2px}
+.watch-session-name{font-size:12px;font-weight:600;color:var(--text)}
+.watch-session-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.watch-time{font-size:12px;color:var(--soft);font-weight:500}
+.watch-channels{display:flex;gap:4px;flex-wrap:wrap}
+.watch-ch{font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.03em;white-space:nowrap}
+.ufc  .watch-ch{background:var(--d-ufc);color:var(--c-ufc)}
+.bjj  .watch-ch{background:var(--d-bjj);color:var(--c-bjj)}
+.moto .watch-ch{background:var(--d-moto);color:var(--c-moto)}
+.golf .watch-ch{background:var(--d-golf);color:var(--c-golf)}
+.watch-note-text{font-size:11px;color:var(--muted);font-style:italic;margin-top:2px}
+.watch-session-note{font-size:10.5px;color:var(--muted);font-style:italic}
+.watch-footer{font-size:11px;color:var(--muted);margin-top:8px;font-style:italic;line-height:1.45}
 </style>
 </head>
 <body>
@@ -622,6 +641,29 @@ function renderCard(ev, isNext){
       <div class="tp-t"><strong>${p.h}.</strong> ${p.b}</div>
     </div>`).join("");
 
+  // Watch section — only shown for events within 7 days that have watch data
+  let watchHtml = "";
+  const today0 = new Date(); today0.setHours(0,0,0,0);
+  const evDate = new Date(getDate(ev)+"T00:00:00");
+  const daysAway = Math.round((evDate - today0) / 86400000);
+  if (daysAway >= 0 && daysAway <= 7 && ev.watch && ev.watch.sessions && ev.watch.sessions.length > 0) {
+    const sessHtml = ev.watch.sessions.map(s => {
+      const chHtml = (s.channels||[]).map(c=>`<span class="watch-ch">${c}</span>`).join("");
+      return `<div class="watch-session">
+        <div class="watch-session-name">${s.name}${s.day?` <span style="font-weight:400;color:var(--muted)">· ${s.day}</span>`:""}${s.note?` <span class="watch-session-note">— ${s.note}</span>`:""}</div>
+        <div class="watch-session-meta">
+          <span class="watch-time">⏰ ${s.time_mt}</span>
+          <div class="watch-channels">${chHtml}</div>
+        </div>
+      </div>`;
+    }).join("");
+    watchHtml = `<div class="watch-section">
+      <div class="watch-header">How to Watch (Mountain Time)</div>
+      <div class="watch-sessions">${sessHtml}</div>
+      ${ev.watch.watch_note?`<div class="watch-footer">${ev.watch.watch_note}</div>`:""}
+    </div>`;
+  }
+
   return `
   <div class="ecard ${ev.sport}${isNext?" next-up":""}${open?" open":""}" id="ec-${ev.id}" onclick="toggleCard('${ev.id}')">
     <div class="ecard-top">
@@ -643,7 +685,7 @@ function renderCard(ev, isNext){
       </div>
     </div>
     <div class="commentary">
-      <div class="commentary-inner">${tps}</div>
+      <div class="commentary-inner">${tps}${watchHtml}</div>
     </div>
   </div>`;
 }
