@@ -9,7 +9,7 @@
     "date": "2026-08-02",
     "dateStart": "2026-07-31",
     "dateEnd": "2026-08-02",
-    "location": "Oulton Park International, Cheshire, United Kingdom",
+    "location": "Oulton Park, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -178,6 +178,40 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Attrition Test",
+        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+      },
+      {
+        "h": "Chicane Mastery Separates Championship Contenders",
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+      },
+      {
+        "h": "Weather Wildcard Could Shake Up Grid",
+        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r7-803-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -286,6 +320,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Southwind's Demanding Setup Returns",
+        "b": "TPC Southwind's tight layout and premium on accuracy will severely punish the bombers who dominated earlier in the season. <strong>Ball-striking precision over distance</strong> becomes the ultimate separator this week, favoring players like Scottie Scheffler and Rory McIlroy who excel at both controlled aggression and strategic course management."
+      },
+      {
+        "h": "FedEx Cup Race Reaches Critical Point",
+        "b": "With only three events remaining before the playoff finale, this Memphis stop serves as <strong>the last major sorting mechanism</strong> before the Tour Championship field gets locked in at 30 players. The difference between a win here and a miss-the-cut could cost a player millions in playoff prize money and positioning."
+      },
+      {
+        "h": "Heat and Humidity Test Mental Fortitude",
+        "b": "August in Memphis means oppressive conditions that typically produce lower scoring as players battle fatigue and focus in 95-degree heat. <strong>Course management and nerves</strong> will trump pure skill more than usual, creating opportunities for grinders who've proven they can execute under physical duress."
+      }
     ]
   },
   {
@@ -395,6 +443,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Bellerive's Brutal Par-4s Dominate",
+        "b": "This St. Louis layout features six par-4s over 470 yards, making it one of the toughest driving courses on tour. <strong>Length combined with narrow fairways</strong> will separate elite ball-strikers from pretenders in this FedEx Cup playoff heat."
+      },
+      {
+        "h": "Elite Thirty-Bound for East Lake",
+        "b": "Only the top 30 finishers advance to the Tour Championship finale, making every stroke at Bellerive worth premium points. <strong>This is where playoff positioning crystallizes</strong>—a mediocre week could cost someone millions and a shot at the FedEx Cup trophy."
+      },
+      {
+        "h": "Short Game Becomes Championship Differentiator",
+        "b": "Bellerive's greens are notoriously difficult to access in regulation, forcing players into delicate wedge play and demanding scrambling skills. <strong>The best short-game operators</strong> will capitalize on mistakes others make, turning missed greens into birdie opportunities."
+      }
     ]
   },
   {
@@ -415,6 +477,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Tight Championship Battle Intensifies",
+        "b": "With the season reaching its second-to-last round, every point becomes crucial as title contenders face <strong>a high-speed, technical circuit that rewards consistency</strong> at New Jersey Motorsports Park's demanding layout."
+      },
+      {
+        "h": "Millville's Unique Technical Challenge",
+        "b": "The fast, flowing nature of NJMP's Thunderbolt course <strong>separates bike setup specialists from riders who rely purely on throttle control</strong>, making Friday's practice sessions absolutely vital for competitive tuning."
+      },
+      {
+        "h": "Weather Could Be a Wildcard",
+        "b": "Late August conditions in New Jersey can be unpredictable with potential afternoon thunderstorms, meaning <strong>teams who adapt quickest to changing track conditions will have a decisive advantage</strong> over the weekend."
+      }
     ]
   },
   {
@@ -461,6 +537,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Contender Pool Reaches Peak Depth",
+        "b": "DWCS 10.3 represents the deepest talent acquisition cycle yet, with <strong>international prospects flooding the pipeline</strong> from regions previously underrepresented in UFC development. This influx signals the organization's aggressive expansion strategy ahead of 2027's anticipated roster reshuffling."
+      },
+      {
+        "h": "Legacy Fighters Make Final Stand",
+        "b": "Several veterans are using this opportunity as their <strong>last audition for UFC main roster contention</strong>, creating high-stakes drama where one loss effectively ends careers rather than merely setting back trajectories. The desperation factor should produce unusually aggressive performances."
+      },
+      {
+        "h": "Weight Class Imbalances Create Opportunities",
+        "b": "With middleweight and light heavyweight experiencing notable UFC roster gaps, <strong>undersized heavyweights and overgrown middleweights have outsized leverage</strong> to negotiate favorable contracts if they perform decisively in Vegas. Strategic weight-cutting decisions could define contract negotiations post-event."
+      }
     ]
   },
   {
@@ -478,6 +568,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "East Lake's Brutal Finishing Stretch",
+        "b": "The final four holes at East Lake have historically punished even elite field competitors, with holes 15-18 playing to an average of +1.2 strokes over par. <strong>Whoever controls their emotions down the stretch will likely hoist the FedEx Cup.</strong>"
+      },
+      {
+        "h": "Points Reset Creates Wide-Open Race",
+        "b": "The staggered points system means the 30-man field starts with compressed scoring, giving even mid-tier finishers from the previous playoff events a realistic path to victory. <strong>This isn't a coronation—it's genuinely competitive golf</strong> where a hot week beats season-long consistency."
+      },
+      {
+        "h": "Home Course Advantage for Atlanta Native",
+        "b": "Any Georgia-based competitor in the field gains immeasurable comfort from the familiar greens and local course knowledge that visiting pros cannot replicate in just a few practice rounds. <strong>The player who knows East Lake's subtle breaks best holds a genuine edge</strong> in this winner-take-most scenario."
+      }
     ]
   },
   {
@@ -593,7 +697,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano Adriatico Circuit, Misano Adriatico, San Marino",
+    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -633,6 +737,26 @@
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
     "location": "Beaverun Motor Speedway, Wampum, Pennsylvania, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r8-miller-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 8 - Miller Motorsports Park",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-12",
+    "location": "Miller Motorsports Park, Tooele, Utah, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -707,6 +831,23 @@
     "status": "scheduled",
     "classes": [
       "Stroke Play"
+    ]
+  },
+  {
+    "id": "pga-biltmore-championship-asheville-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Biltmore Championship Asheville",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-17",
+    "dateEnd": "2026-09-20",
+    "location": "The Cliffs at Walnut Cove, Arden, NC, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
     ]
   },
   {
@@ -874,6 +1015,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r9-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Laguna Seca",
+    "date": "2026-10-04",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-04",
+    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-baycurrent-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -899,7 +1060,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika Circuit, Lombok, Indonesia",
+    "location": "Pertamina Mandalika Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1003,6 +1164,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-indy-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - Indianapolis Motor Speedway",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Indianapolis Motor Speedway, Indianapolis, Indiana, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1028,7 +1209,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Circuit, Phillip Island, Australia",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1109,6 +1290,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r11-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 11 - Barber Motorsports Park",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-30",
+    "dateEnd": "2026-11-01",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-world-wide-technology-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1141,6 +1342,23 @@
     ]
   },
   {
+    "id": "pga-worldwide-technology-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "World Wide Technology Championship",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-05",
+    "dateEnd": "2026-11-08",
+    "location": "El Cardonal at Diamante, Cabo San Lucas, Mexico",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
     "id": "mgp-qatar-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -1150,7 +1368,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
