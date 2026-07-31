@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Arena — Sports Event Tracker</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Arena">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Spline+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d0f14;
+  --bg2: #13161e;
+  --surface: #1a1d27;
+  --border: rgba(255,255,255,0.07);
+  --text: #e8e6f0;
+  --text-soft: #7a7890;
+  --text-muted: #4a4860;
+
+  /* sport colours */
+  --c-ufc:   #e8312a; --d-ufc:   rgba(232,49,42,0.12);
+  --c-bjj:   #9b4dca; --d-bjj:   rgba(155,77,202,0.12);
+  --c-moto:  #f5a623; --d-moto:  rgba(245,166,35,0.12);
+  --c-golf:  #2ecc71; --d-golf:  rgba(46,204,113,0.12);
+
+  /* status colours */
+  --s-scheduled: rgba(255,255,255,0.06);
+  --s-delayed:   rgba(245,166,35,0.18);
+  --s-shortened: rgba(155,77,202,0.18);
+  --s-cancelled: rgba(232,49,42,0.18);
+
+  --radius: 14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:"Spline Sans",system-ui,sans-serif;
+  min-height:100dvh;-webkit-font-smoothing:antialiased;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+
+/* ── HEADER ── */
+.header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(13,15,20,0.93);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--border);
+  padding:14px 18px 12px;
+}
+.header-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.wordmark{font-family:"Fraunces",serif;font-size:22px;font-weight:600;letter-spacing:-0.3px;font-variation-settings:"opsz" 144}
+.wordmark span{color:var(--c-moto)}
+
+.freshness{display:flex;align-items:center;gap:8px}
+.freshness-label{font-size:11px;color:var(--text-soft);letter-spacing:.02em}
+.freshness-label strong{color:var(--text);font-weight:600}
+
+.refresh-btn{
+  display:flex;align-items:center;gap:5px;
+  background:var(--surface);border:1px solid var(--border);border-radius:20px;
+  padding:5px 11px;font-size:11px;font-weight:600;color:var(--text-soft);
+  cursor:pointer;transition:all .2s;font-family:inherit;
+  letter-spacing:.03em;text-transform:uppercase;
+}
+.refresh-btn:hover{color:var(--text);border-color:rgba(255,255,255,.15)}
+.refresh-btn:active{transform:scale(.96)}
+.refresh-btn svg{transition:transform .5s}
+.refresh-btn.spinning svg{animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── FILTERS ── */
+.filters{
+  display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:0 2px;
+  flex-wrap:nowrap;
+}
+.filters::-webkit-scrollbar{display:none}
+.filter-btn{
+  display:flex;align-items:center;gap:5px;
+  padding:5px 12px;border-radius:20px;border:1px solid var(--border);
+  background:transparent;color:var(--text-soft);font-size:11.5px;font-weight:600;
+  font-family:inherit;cursor:pointer;white-space:nowrap;transition:all .18s;
+  letter-spacing:.02em;flex-shrink:0;
+}
+.filter-btn .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.filter-btn:hover{color:var(--text);border-color:rgba(255,255,255,.18)}
+.filter-btn.active{color:var(--text)}
+.filter-btn[data-f="all"].active{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)}
+.filter-btn[data-f="ufc"].active {background:var(--d-ufc); border-color:var(--c-ufc); color:var(--c-ufc)}
+.filter-btn[data-f="bjj"].active {background:var(--d-bjj); border-color:var(--c-bjj); color:var(--c-bjj)}
+.filter-btn[data-f="moto"].active{background:var(--d-moto);border-color:var(--c-moto);color:var(--c-moto)}
+.filter-btn[data-f="golf"].active{background:var(--d-golf);border-color:var(--c-golf);color:var(--c-golf)}
+
+/* ── MAIN ── */
+.main{padding:18px 14px 48px;max-width:660px;margin:0 auto}
+
+/* ── SECTION LABELS ── */
+.section-label{
+  font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--text-muted);margin:20px 0 9px;padding-left:2px;
+}
+.section-label.first{margin-top:0}
+
+/* ── CHAMPIONSHIP HEADER ── */
+.champ-header{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 14px 8px;
+  border-bottom:1px solid var(--border);
+  background:rgba(255,255,255,.025);
+  border-radius:var(--radius) var(--radius) 0 0;
+  cursor:pointer;
+  user-select:none;
+}
+.champ-icon{font-size:16px}
+.champ-name{font-family:"Fraunces",serif;font-size:14px;font-weight:600;font-variation-settings:"opsz" 144;flex:1}
+.champ-meta{font-size:11px;color:var(--text-muted);white-space:nowrap}
+.champ-toggle{font-size:12px;color:var(--text-muted);transition:transform .25s}
+.champ-block.collapsed .champ-toggle{transform:rotate(-90deg)}
+
+/* ── CHAMPIONSHIP BLOCK ── */
+.champ-block{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);margin-bottom:10px;overflow:hidden;
+}
+.champ-block.ufc  .champ-header{border-left:3px solid var(--c-ufc)}
+.champ-block.bjj  .champ-header{border-left:3px solid var(--c-bjj)}
+.champ-block.moto .champ-header{border-left:3px solid var(--c-moto)}
+.champ-block.golf .champ-header{border-left:3px solid var(--c-golf)}
+
+.champ-body{overflow:hidden;transition:max-height .35s cubic-bezier(.4,0,.2,1)}
+.champ-block.collapsed .champ-body{max-height:0!important}
+
+/* ── EVENT ROW ── */
+.event-row{
+  border-top:1px solid var(--border);cursor:pointer;
+  transition:background .15s;
+}
+.event-row:hover{background:rgba(255,255,255,.03)}
+.event-row.expanded{background:rgba(255,255,255,.025)}
+
+.row-main{display:flex;align-items:center;gap:12px;padding:12px 14px}
+.row-icon{font-size:15px;flex-shrink:0;width:24px;text-align:center}
+.row-info{flex:1;min-width:0}
+.row-title{
+  font-size:13.5px;font-weight:600;color:var(--text);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px;
+}
+.row-sub{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.row-date{font-size:11px;color:var(--text-soft)}
+.row-loc{font-size:11px;color:var(--text-muted)}
+.row-loc::before{content:"·";margin-right:8px}
+
+.row-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0}
+
+/* countdown pill */
+.cd-pill{
+  font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:20px;
+  white-space:nowrap;letter-spacing:.02em;
+}
+.cd-pill.today{background:rgba(255,255,255,.13);color:#fff}
+.cd-pill.past {background:rgba(255,255,255,.04);color:var(--text-muted)}
+.ufc  .cd-pill:not(.today):not(.past){background:var(--d-ufc);color:var(--c-ufc)}
+.bjj  .cd-pill:not(.today):not(.past){background:var(--d-bjj);color:var(--c-bjj)}
+.moto .cd-pill:not(.today):not(.past){background:var(--d-moto);color:var(--c-moto)}
+.golf .cd-pill:not(.today):not(.past){background:var(--d-golf);color:var(--c-golf)}
+
+/* status badge */
+.status-badge{
+  font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:10px;
+  letter-spacing:.06em;text-transform:uppercase;
+}
+.status-scheduled{display:none} /* default — don't show clutter */
+.status-delayed   {background:var(--s-delayed);  color:var(--c-moto)}
+.status-shortened {background:var(--s-shortened);color:var(--c-bjj)}
+.status-cancelled {background:var(--s-cancelled);color:var(--c-ufc)}
+
+.expand-icon{font-size:11px;color:var(--text-muted);transition:transform .22s}
+.event-row.expanded .expand-icon{transform:rotate(180deg);color:var(--text-soft)}
+
+/* ── STANDALONE CARD (no championship wrapper) ── */
+.standalone-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);margin-bottom:10px;overflow:hidden;
+  cursor:pointer;transition:border-color .2s,transform .15s;
+}
+.standalone-card:hover{transform:translateY(-1px)}
+.standalone-card.ufc:hover {border-color:rgba(232,49,42,.35)}
+.standalone-card.bjj:hover {border-color:rgba(155,77,202,.35)}
+.standalone-card.moto:hover{border-color:rgba(245,166,35,.35)}
+.standalone-card.golf:hover{border-color:rgba(46,204,113,.35)}
+.standalone-card.is-next{background:linear-gradient(135deg,#1e2130 0%,#191c28 100%)}
+.standalone-card.ufc.is-next {border-color:rgba(232,49,42,.45)}
+.standalone-card.bjj.is-next {border-color:rgba(155,77,202,.45)}
+.standalone-card.moto.is-next{border-color:rgba(245,166,35,.45)}
+.standalone-card.golf.is-next{border-color:rgba(46,204,113,.45)}
+
+.sc-header{display:flex;align-items:flex-start;gap:12px;padding:14px 14px 12px}
+.sc-badge{
+  flex-shrink:0;width:38px;height:38px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;font-size:17px;
+}
+.ufc  .sc-badge{background:var(--d-ufc)}
+.bjj  .sc-badge{background:var(--d-bjj)}
+.moto .sc-badge{background:var(--d-moto)}
+.golf .sc-badge{background:var(--d-golf)}
+
+.sc-meta{flex:1;min-width:0}
+.sc-sport-tag{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:2px}
+.ufc  .sc-sport-tag{color:var(--c-ufc)}
+.bjj  .sc-sport-tag{color:var(--c-bjj)}
+.moto .sc-sport-tag{color:var(--c-moto)}
+.golf .sc-sport-tag{color:var(--c-golf)}
+.sc-title{font-family:"Fraunces",serif;font-size:16px;font-weight:600;line-height:1.25;margin-bottom:4px;font-variation-settings:"opsz" 144;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sc-details{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sc-date{font-size:11.5px;color:var(--text-soft);font-weight:500}
+.sc-loc{font-size:11.5px;color:var(--text-muted)}
+.sc-loc::before{content:"·";margin-right:8px}
+.sc-right{flex-shrink:0;display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+
+/* ── COMMENTARY ── */
+.commentary{max-height:0;overflow:hidden;transition:max-height .35s cubic-bezier(.4,0,.2,1)}
+.expanded .commentary,.event-row.expanded .commentary{max-height:600px}
+
+.commentary-inner{
+  padding:14px 14px 16px;border-top:1px solid var(--border);
+}
+.talking-point{display:flex;gap:10px;margin-bottom:12px}
+.talking-point:last-child{margin-bottom:0}
+.tp-num{
+  flex-shrink:0;width:20px;height:20px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:10px;font-weight:700;margin-top:2px;
+}
+.ufc  .tp-num{background:var(--d-ufc);color:var(--c-ufc)}
+.bjj  .tp-num{background:var(--d-bjj);color:var(--c-bjj)}
+.moto .tp-num{background:var(--d-moto);color:var(--c-moto)}
+.golf .tp-num{background:var(--d-golf);color:var(--c-golf)}
+.tp-text{font-size:13px;line-height:1.55;color:var(--text-soft)}
+.tp-text strong{color:var(--text);font-weight:600}
+
+/* ── NEXT-UP LABEL ── */
+.next-label{font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);margin-bottom:9px;padding-left:2px}
+
+/* ── EMPTY ── */
+.empty-state{text-align:center;padding:48px 20px;color:var(--text-muted);font-size:14px}
+
+/* ── REFRESH OVERLAY ── */
+.refresh-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(13,15,20,.72);backdrop-filter:blur(4px);
+  z-index:200;align-items:center;justify-content:center;flex-direction:column;gap:14px;
+}
+.refresh-overlay.active{display:flex}
+.refresh-overlay .spinner{
+  width:34px;height:34px;border:3px solid var(--border);
+  border-top-color:var(--c-moto);border-radius:50%;animation:spin .7s linear infinite;
+}
+.refresh-overlay p{font-size:13px;color:var(--text-soft);letter-spacing:.04em}
+
+/* ── TOAST ── */
+.toast{
+  position:fixed;bottom:calc(22px + env(safe-area-inset-bottom));left:50%;
+  transform:translateX(-50%) translateY(16px);
+  background:#252836;border:1px solid var(--border);border-radius:24px;
+  padding:9px 18px;font-size:12.5px;color:var(--text);
+  opacity:0;transition:all .28s;pointer-events:none;white-space:nowrap;z-index:300;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div class="wordmark">Arena<span>.</span></div>
+    <div class="freshness">
+      <div class="freshness-label">Data as of <strong id="data-date">—</strong></div>
+      <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">
+        <svg id="refresh-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+          <path d="M10.5 6A4.5 4.5 0 1 1 6 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M6 1.5L8 3.5M6 1.5L8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Refresh
+      </button>
+    </div>
+  </div>
+  <div class="filters">
+    <button class="filter-btn active" data-f="all"  onclick="setFilter('all')"><span class="dot" style="background:#7a7890"></span>All</button>
+    <button class="filter-btn"        data-f="ufc"  onclick="setFilter('ufc')"><span class="dot" style="background:var(--c-ufc)"></span>UFC</button>
+    <button class="filter-btn"        data-f="bjj"  onclick="setFilter('bjj')"><span class="dot" style="background:var(--c-bjj)"></span>UFC BJJ</button>
+    <button class="filter-btn"        data-f="moto" onclick="setFilter('moto')"><span class="dot" style="background:var(--c-moto)"></span>Motorsport</button>
+    <button class="filter-btn"        data-f="golf" onclick="setFilter('golf')"><span class="dot" style="background:var(--c-golf)"></span>Golf</button>
+  </div>
+</div>
+
+<main class="main" id="main-content"></main>
+
+<div class="refresh-overlay" id="refresh-overlay">
+  <div class="spinner"></div>
+  <p>Refreshing event data…</p>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  DATA MODEL
+//
+//  entityType: "championship" | "standalone"
+//
+//  championship  — has a season-long points standings context
+//    .series      string   — e.g. "MotoGP", "WorldSBK"
+//    .classes     string[] — sub-classes run at each round
+//    .rounds[]    — each round is an event with status
+//
+//  standalone    — single event, no championship context
+//    (Isle of Man TT, Presidents Cup, etc.)
+//
+//  status (per round/event):
+//    "scheduled" | "delayed" | "shortened" | "cancelled"
+// ═══════════════════════════════════════════════════════
+
+const DATA = [
+
+  // ══════════════════════════════
+  //  UFC — championship
+  // ══════════════════════════════
+  {
+    id: "ufc-main",
+    entityType: "championship",
+    sport: "ufc",
+    icon: "🥊",
+    series: "UFC",
+    classes: ["Main Card", "Prelims", "Early Prelims"],
+    rounds: [
+      {
+        id: "ufc-medic-rodriguez",
+        title: "UFC Fight Night: Medic vs. Rodriguez",
+        date: "2026-08-01",
+        location: "Belgrade Arena, Serbia",
+        status: "scheduled",
+        points: [
+          { head: "European showcase", body: "<strong>Andjela Ždero Medic</strong> headlines on home soil in Belgrade — the UFC's first card in Serbia, a landmark moment for the region's growing MMA fanbase." },
+          { head: "Strawweight implications", body: "A win for Medic keeps her firmly in the <strong>strawweight title conversation</strong>, while Rodriguez needs a statement performance to stay relevant in a stacked division." },
+          { head: "Undercard depth", body: "The card is loaded with <strong>European prospects</strong> looking to break through, giving scouts and fans a rare look at the continent's depth across multiple weight classes." }
+        ]
+      },
+      {
+        id: "ufc-gamrot-salkilld",
+        title: "UFC Fight Night: Gamrot vs. Salkilld",
+        date: "2026-08-08",
+        location: "UFC APEX, Las Vegas, NV",
+        status: "scheduled",
+        points: [
+          { head: "Lightweight gatekeeping", body: "<strong>Mateusz Gamrot</strong> has been knocking on the top-5 door for years. A dominant win would almost certainly earn him a ranked opponent next — potentially a title eliminator." },
+          { head: "Salkilld's power threat", body: "The Swede <strong>Joel Salkilld</strong> carries serious knockout power and has finished every pro win. Gamrot's chin and wrestling will be tested early and often." },
+          { head: "APEX atmosphere", body: "APEX cards tend to produce <strong>technical, grinding fights</strong> — the intimate venue suits Gamrot's pressure-based style and could work against Salkilld if the fight goes to the mat." }
+        ]
+      },
+      {
+        id: "ufc-330",
+        title: "UFC 330: Makhachev vs. Machado Garry",
+        date: "2026-08-22",
+        location: "T-Mobile Arena, Las Vegas, NV",
+        status: "scheduled",
+        points: [
+          { head: "Lightweight title on the line", body: "<strong>Islam Makhachev</strong> defends his lightweight championship against the undefeated <strong>Ian Machado Garry</strong>, who has been calling for this shot since his dominant welterweight run." },
+          { head: "Styles make fights", body: "Makhachev's Dagestani grappling vs. Garry's slick striking is a <strong>classic wrestling vs. boxing matchup</strong> — can Garry keep it standing long enough to hurt Islam?" },
+          { head: "P4P ramifications", body: "A Garry upset would <strong>shake up the pound-for-pound rankings</strong> dramatically and signal a generational shift at the top of the UFC's most prestigious division." }
+        ]
+      },
+      {
+        id: "ufc-ankalaev-pereira2",
+        title: "UFC: Ankalaev vs. Pereira 2",
+        date: "2026-10-04",
+        location: "T-Mobile Arena, Las Vegas, NV",
+        status: "scheduled",
+        points: [
+          { head: "Light heavyweight rematch", body: "The first fight ended in <strong>controversial fashion</strong> — Ankalaev believes he won, Pereira's fans disagree. This rematch is one of the most anticipated in recent UFC history." },
+          { head: "Pereira's knockout power", body: "<strong>Alex Pereira</strong> has finished every UFC opponent he's faced. If Ankalaev lets him land clean, the fight is over — but Magomed's wrestling and reach advantage could neutralize the striking." },
+          { head: "Title implications", body: "The winner cements themselves as the <strong>undisputed light heavyweight king</strong> and likely sets up a massive superfight with whoever holds the heavyweight belt." }
+        ]
+      },
+      {
+        id: "ufc-aspinall-gane",
+        title: "UFC: Aspinall vs. Gane",
+        date: "2026-10-25",
+        location: "Etihad Arena, Abu Dhabi, UAE",
+        status: "scheduled",
+        points: [
+          { head: "Heavyweight unification", body: "<strong>Tom Aspinall</strong> has been interim champion for over a year. This fight against <strong>Ciryl Gane</strong> is widely seen as the real heavyweight title fight — the winner is undisputed." },
+          { head: "European heavyweight war", body: "Two of the most technically gifted heavyweights ever — Aspinall's explosive grappling vs. Gane's fluid kickboxing. <strong>Skill, not just power, decides this one.</strong>" },
+          { head: "Abu Dhabi spectacle", body: "The UAE card always draws big international names and a packed arena. Expect a <strong>blockbuster undercard</strong> and a main event that could be a heavyweight classic." }
+        ]
+      },
+      {
+        id: "ufc-della-makhachev",
+        title: "UFC: Della Maddalena vs. Makhachev",
+        date: "2026-11-15",
+        location: "Madison Square Garden, New York, NY",
+        status: "scheduled",
+        points: [
+          { head: "MSG prestige", body: "<strong>Madison Square Garden</strong> is the most iconic venue in combat sports. This card always draws massive attention and the atmosphere is unmatched in North America." },
+          { head: "Cross-divisional superfight", body: "<strong>Jack Della Maddalena</strong>, welterweight champion, moves up to challenge Islam Makhachev — a rare weight-class crossover that has the MMA world buzzing." },
+          { head: "Power vs. wrestling", body: "JDM's one-punch knockout power is a legitimate threat to anyone, but Makhachev's grappling is arguably the best in the sport. <strong>Can Jack survive the takedowns long enough to land the right hand?</strong>" }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  UFC BJJ — championship
+  // ══════════════════════════════
+  {
+    id: "ufc-bjj",
+    entityType: "championship",
+    sport: "bjj",
+    icon: "🥋",
+    series: "UFC BJJ",
+    classes: ["Bantamweight", "Lightweight", "Middleweight", "Featherweight"],
+    rounds: [
+      {
+        id: "bjj-10",
+        title: "UFC BJJ 10",
+        date: "2026-08-20",
+        location: "UFC APEX, Las Vegas, NV",
+        status: "scheduled",
+        points: [
+          { head: "Milestone event", body: "UFC BJJ 10 marks a milestone for the promotion — <strong>free live streams on YouTube</strong> have driven hundreds of thousands of viewers per event, making it the most-watched grappling series in the world." },
+          { head: "Title fights expected", body: "The card is expected to feature at least one <strong>championship match</strong>. The promotion has been building toward a stacked card to mark the occasion." },
+          { head: "Star power", body: "Previous events have featured <strong>Mikey Musumeci, Andrew Tackett, and Gilbert Burns</strong>. BJJ 10 is expected to continue bringing in both elite grapplers and MMA crossover names." }
+        ]
+      },
+      {
+        id: "bjj-11",
+        title: "UFC BJJ 11",
+        date: "2026-09-18",
+        location: "UFC APEX, Las Vegas, NV",
+        status: "scheduled",
+        points: [
+          { head: "Monthly cadence", body: "UFC BJJ has settled into a <strong>monthly event schedule</strong>, giving the sport unprecedented mainstream exposure and building a loyal fanbase outside the traditional grappling community." },
+          { head: "Tackett dynasty watch", body: "<strong>Andrew Tackett</strong> has been dominant at 170lbs — every event is a chance to see if a challenger can finally dethrone the reigning champion." },
+          { head: "Musumeci's bantamweight reign", body: "<strong>Mikey Musumeci</strong> remains the face of the promotion at bantamweight. His technical brilliance and charisma have made him the sport's biggest crossover star." }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  MotoGP — championship
+  // ══════════════════════════════
+  {
+    id: "motogp-2025",
+    entityType: "championship",
+    sport: "moto",
+    icon: "🏍️",
+    series: "MotoGP World Championship",
+    classes: ["MotoGP (Sprint + Race)", "Moto2", "Moto3", "MotoE"],
+    rounds: [
+      {
+        id: "moto-austria",
+        title: "Austrian Grand Prix",
+        date: "2025-08-17",
+        location: "Red Bull Ring, Spielberg, Austria",
+        status: "scheduled",
+        points: [
+          { head: "Power circuit", body: "The Red Bull Ring is a <strong>high-speed, power-dependent circuit</strong> that historically favours Ducati machinery. Expect the Bologna factory to be dominant unless weather intervenes." },
+          { head: "Championship battle", body: "The 2025 title fight is entering its decisive phase. <strong>Every point matters</strong> as the top riders are separated by a margin that could swing dramatically over a single weekend." },
+          { head: "Sprint race stakes", body: "The Saturday Sprint at Austria has historically produced <strong>drama and crashes</strong> — riders push hard for half-points knowing the full race is still to come on Sunday." }
+        ]
+      },
+      {
+        id: "moto-hungary",
+        title: "Hungarian Grand Prix",
+        date: "2025-08-24",
+        location: "Balaton Park Circuit, Hungary",
+        status: "scheduled",
+        points: [
+          { head: "New circuit", body: "The Balaton Park Circuit is one of the <strong>newest venues on the calendar</strong>, bringing MotoGP to Hungary for the first time. Unknown quantities make for unpredictable racing." },
+          { head: "Setup challenges", body: "Teams will have <strong>limited historical data</strong>, meaning Friday practice is crucial. The teams that adapt fastest will have a significant advantage come Sunday." },
+          { head: "Fan festival", body: "Hungary's first MotoGP race is expected to draw <strong>massive crowds from across Central Europe</strong>, creating a festival atmosphere similar to the early days of the Czech GP." }
+        ]
+      },
+      {
+        id: "moto-catalan",
+        title: "Catalan Grand Prix",
+        date: "2025-09-07",
+        location: "Circuit de Barcelona-Catalunya, Spain",
+        status: "scheduled",
+        points: [
+          { head: "Marquez home race", body: "Barcelona is practically a home race for <strong>Marc Marquez</strong>, who has dominated this circuit throughout his career. The crowd will be electric and he'll be desperate for a victory." },
+          { head: "Technical demands", body: "Catalunya demands a <strong>perfect balance between corner speed and braking stability</strong> — a true all-rounder's track that rewards setup precision over raw power." },
+          { head: "Title decider potential", body: "With the championship entering its final third, <strong>a win or a crash here could define the season</strong> for the top contenders." }
+        ]
+      },
+      {
+        id: "moto-sanmarino",
+        title: "San Marino Grand Prix",
+        date: "2025-09-14",
+        location: "Misano World Circuit, Italy",
+        status: "scheduled",
+        points: [
+          { head: "Misano magic", body: "Misano in Rimini is one of the most beloved circuits on the calendar — <strong>Valentino Rossi's home race</strong> for years, it still draws enormous Italian crowds and passionate atmosphere." },
+          { head: "Ducati heartland", body: "Racing in Italy means <strong>Ducati's home support</strong> is at its peak. The tifosi will be roaring for the Italian factory, adding pressure and motivation to the Ducati riders." },
+          { head: "Back-to-back rounds", body: "Misano follows Barcelona closely, meaning teams have <strong>minimal time to adjust setups</strong>. Riders who struggled in Catalunya may find redemption — or compound their problems." }
+        ]
+      },
+      {
+        id: "moto-japan",
+        title: "Japanese Grand Prix",
+        date: "2025-09-28",
+        location: "Twin Ring Motegi, Japan",
+        status: "scheduled",
+        points: [
+          { head: "Honda's home race", body: "Motegi is <strong>Honda's spiritual home</strong> — the Japanese manufacturer will be desperate for a strong result in front of their home fans, especially given their recent championship struggles." },
+          { head: "Japanese factory pressure", body: "Both Honda and Yamaha face <strong>enormous pressure</strong> to perform at Motegi. The race often produces surprising results as home-factory motivation reaches its peak." },
+          { head: "Championship math", body: "By late September, the <strong>title fight will be in its final stages</strong>. Motegi could be where the championship is effectively decided, or where a comeback begins." }
+        ]
+      },
+      {
+        id: "moto-indonesia",
+        title: "Indonesian Grand Prix",
+        date: "2025-10-05",
+        location: "Pertamina Mandalika Circuit, Indonesia",
+        status: "scheduled",
+        points: [
+          { head: "Mandalika atmosphere", body: "The Mandalika circuit delivers one of the most <strong>electric atmospheres on the calendar</strong> — passionate Indonesian fans create an unforgettable backdrop for the racing." },
+          { head: "Weather wildcard", body: "The Indonesian climate means <strong>sudden tropical downpours</strong> are a real possibility, making tyre choice and weather reading critical skills for the race weekend." },
+          { head: "Penultimate stretch", body: "With the season winding down, <strong>every point is magnified</strong>. Riders on the bubble of the top 10 in the championship will be taking calculated risks." }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  WorldSBK — championship
+  // ══════════════════════════════
+  {
+    id: "wsbk-2025",
+    entityType: "championship",
+    sport: "moto",
+    icon: "🏍️",
+    series: "World Superbike Championship (WSBK)",
+    classes: ["WorldSBK", "WorldSSP", "WorldSSP300"],
+    rounds: [
+      {
+        id: "wsbk-france",
+        title: "French Round",
+        date: "2025-09-04",
+        location: "Circuit de Nevers Magny-Cours, France",
+        status: "scheduled",
+        points: [
+          { head: "Magny-Cours character", body: "Magny-Cours is a <strong>technical, flowing circuit</strong> that rewards smooth riding and chassis balance over outright power — often producing close, strategic racing across all three classes." },
+          { head: "Championship battle", body: "The 2025 WorldSBK title fight has been tight all season. <strong>Toprak Razgatlioglu and Nicolò Bulega</strong> have been the dominant forces, with every round a potential turning point." },
+          { head: "WorldSSP intrigue", body: "The Supersport class has been producing <strong>some of the closest racing of the year</strong>, with multiple manufacturers in contention and a title fight that could go to the final round." }
+        ]
+      },
+      {
+        id: "wsbk-italy",
+        title: "Italian Round",
+        date: "2025-09-25",
+        location: "Cremona Circuit, Italy",
+        status: "scheduled",
+        points: [
+          { head: "Cremona's character", body: "The Cremona Circuit is a <strong>relatively new addition to the WorldSBK calendar</strong>, offering a mix of long straights and technical sections that produce varied racing." },
+          { head: "Italian passion", body: "Racing in Italy always elevates the stakes for the Italian manufacturers. <strong>Ducati and Aprilia</strong> will be under enormous pressure to deliver in front of the tifosi." },
+          { head: "WorldSSP300 title race", body: "The WorldSSP300 class often produces its <strong>most dramatic moments in the final rounds</strong> — the entry-level class is known for unpredictable, pack-racing finishes." }
+        ]
+      },
+      {
+        id: "wsbk-estoril",
+        title: "Estoril Round",
+        date: "2025-10-09",
+        location: "Autódromo do Estoril, Portugal",
+        status: "scheduled",
+        points: [
+          { head: "Estoril returns", body: "Estoril's return to the WorldSBK calendar was welcomed by riders and fans alike. The <strong>classic Portuguese circuit</strong> has a rich motorsport history and a unique character." },
+          { head: "Penultimate round pressure", body: "With only two rounds remaining, <strong>every mistake is amplified</strong>. Riders who have been consistent all season will be looking to close out the title, while challengers will be swinging for the fences." },
+          { head: "Weather factor", body: "Estoril in October can bring <strong>unpredictable Atlantic weather</strong> — wet conditions here have historically shuffled the order and produced unexpected results." }
+        ]
+      },
+      {
+        id: "wsbk-jerez",
+        title: "Spanish Round",
+        date: "2025-10-16",
+        location: "Circuito de Jerez, Spain",
+        status: "scheduled",
+        points: [
+          { head: "Season finale", body: "Jerez hosts the <strong>final round of the 2025 WorldSBK season</strong> — the championship could be decided here, or it could come down to the last race of the year." },
+          { head: "Jerez's technical demands", body: "The Jerez circuit is one of the most <strong>technically demanding on the calendar</strong>, with a mix of slow, tight corners and fast sweeping sections that test every aspect of a superbike." },
+          { head: "All three titles on the line", body: "WorldSBK, WorldSSP, and WorldSSP300 could all be <strong>decided at Jerez</strong>, making this one of the most important weekends in the road-racing calendar." }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  BSB — championship
+  // ══════════════════════════════
+  {
+    id: "bsb-2025",
+    entityType: "championship",
+    sport: "moto",
+    icon: "🏍️",
+    series: "British Superbike Championship (BSB)",
+    classes: ["Superbike", "Supersport", "Superstock 1000", "Pirelli National Superstock"],
+    rounds: [
+      {
+        id: "bsb-oulton-aug",
+        title: "Oulton Park — Round 8",
+        date: "2025-08-08",
+        location: "Oulton Park, Cheshire, UK",
+        status: "scheduled",
+        points: [
+          { head: "Oulton Park character", body: "Oulton Park is one of the most <strong>picturesque and challenging circuits</strong> in the BSB calendar — its undulating layout and blind crests make it a true rider's circuit." },
+          { head: "Showdown qualification", body: "The BSB Showdown system means riders are fighting hard to secure their <strong>top-six Showdown spots</strong>. Every point at Oulton could be the difference between making the cut or missing out." },
+          { head: "Weather risk", body: "August in Cheshire can bring <strong>unpredictable British weather</strong> — wet conditions at Oulton have historically produced dramatic results and unexpected podium finishers." }
+        ]
+      },
+      {
+        id: "bsb-thruxton",
+        title: "Thruxton — Round 9",
+        date: "2025-08-23",
+        location: "Thruxton Circuit, Hampshire, UK",
+        status: "scheduled",
+        points: [
+          { head: "Fastest circuit in BSB", body: "Thruxton is the <strong>fastest circuit on the BSB calendar</strong> — average speeds are exceptional, and the lack of run-off in places makes bravery as important as skill." },
+          { head: "Power advantage", body: "Thruxton's high-speed nature means <strong>engine power and top-end speed</strong> are at a premium. Teams will be pushing their engines to the limit for maximum straight-line performance." },
+          { head: "Showdown picture clarifies", body: "With the Showdown approaching, <strong>the top-six picture will become clearer</strong> at Thruxton — expect desperate racing from riders on the bubble of qualification." }
+        ]
+      },
+      {
+        id: "bsb-donington-sep",
+        title: "Donington Park — Round 10",
+        date: "2025-09-05",
+        location: "Donington Park, Leicestershire, UK",
+        status: "scheduled",
+        points: [
+          { head: "Main season finale", body: "Donington Park hosts the <strong>final round of the BSB main season</strong> before the Showdown begins — the last chance to lock in a top-six spot and set your championship points reset." },
+          { head: "Donington's history", body: "Donington Park has hosted some of the <strong>most dramatic BSB moments</strong> in the championship's history. The circuit's mix of fast and slow corners rewards versatile setups." },
+          { head: "Showdown stakes", body: "The <strong>Showdown reset means riders enter with equal points</strong> — but finishing higher in the main season earns bonus points that could prove decisive in the title fight." }
+        ]
+      },
+      {
+        id: "bsb-showdown-oulton",
+        title: "Showdown — Oulton Park",
+        date: "2025-09-19",
+        location: "Oulton Park, Cheshire, UK",
+        status: "scheduled",
+        points: [
+          { head: "Showdown begins", body: "The <strong>BSB Showdown is the most exciting format in domestic motorcycle racing</strong> — six riders, equal points, and three rounds to decide the champion. The pressure is immense." },
+          { head: "Psychological battle", body: "The Showdown is as much a <strong>mental battle as a physical one</strong>. Riders who have been consistent all season must now switch to a more aggressive, risk-taking mindset." },
+          { head: "Oulton's importance", body: "Opening the Showdown at Oulton Park sets the tone for the title fight. <strong>An early lead in the Showdown can be psychologically devastating</strong> for the chasing pack." }
+        ]
+      },
+      {
+        id: "bsb-showdown-assen",
+        title: "Showdown — Assen",
+        date: "2025-10-03",
+        location: "TT Circuit Assen, Netherlands",
+        status: "scheduled",
+        points: [
+          { head: "Cathedral of Speed", body: "Assen is known as the <strong>Cathedral of Speed</strong> — one of the most iconic circuits in the world, with a rich history in motorcycle racing dating back to the 1920s." },
+          { head: "International prestige", body: "The BSB Showdown at Assen gives the championship <strong>international visibility</strong> — racing at one of Europe's most famous circuits elevates the profile of British Superbike." },
+          { head: "Penultimate Showdown round", body: "With one round remaining after Assen, <strong>the title picture will be almost completely clear</strong> — riders trailing at this point will need a miracle at Brands Hatch." }
+        ]
+      },
+      {
+        id: "bsb-showdown-brands",
+        title: "Showdown — Brands Hatch GP",
+        date: "2025-10-17",
+        location: "Brands Hatch GP Circuit, Kent, UK",
+        status: "scheduled",
+        points: [
+          { head: "Season finale", body: "Brands Hatch GP hosts the <strong>BSB season finale</strong> — one of the most dramatic settings in British motorsport. The GP circuit's sweeping layout and passionate crowds create an unforgettable atmosphere." },
+          { head: "Champion crowned", body: "The BSB champion will be crowned here. <strong>The final race of the season</strong> often produces the most dramatic moments in the championship's history." },
+          { head: "Paddock Hill Bend drama", body: "Brands Hatch's iconic <strong>Paddock Hill Bend</strong> has been the scene of championship-deciding moments. Riders will be pushing to the absolute limit in pursuit of the title." }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  MotoAmerica — championship
+  // ══════════════════════════════
+  {
+    id: "motoamerica-2025",
+    entityType: "championship",
+    sport: "moto",
+    icon: "🏍️",
+    series: "MotoAmerica Superbike Championship",
+    classes: ["Superbike", "Supersport", "Stock 1000", "Twins Cup", "King of the Baggers"],
+    rounds: [
+      {
+        id: "ma-mid-ohio",
+        title: "Mid-Ohio — Round 7",
+        date: "2025-08-01",
+        location: "Mid-Ohio Sports Car Course, Lexington, OH",
+        status: "scheduled",
+        points: [
+          { head: "Mid-Ohio character", body: "Mid-Ohio is a <strong>technical, flowing circuit</strong> that rewards smooth riding and precise braking. The track's undulating nature makes setup a critical factor across the weekend." },
+          { head: "Championship battle", body: "The 2025 MotoAmerica Superbike title fight has been competitive all season. <strong>The top riders are separated by a narrow margin</strong>, making every round a potential turning point." },
+          { head: "King of the Baggers spectacle", body: "MotoAmerica's <strong>King of the Baggers class</strong> continues to draw huge crowds — watching full-dresser touring bikes race at speed is one of the most unique spectacles in motorsport." }
+        ]
+      },
+      {
+        id: "ma-vir",
+        title: "VIRginia International Raceway — Round 8",
+        date: "2025-08-22",
+        location: "VIRginia International Raceway, Alton, VA",
+        status: "scheduled",
+        points: [
+          { head: "VIR's flowing layout", body: "VIR is one of the most <strong>beautiful and challenging circuits</strong> in North American motorsport — its flowing, undulating layout through the Virginia countryside is beloved by riders." },
+          { head: "Title race intensifies", body: "With only two rounds remaining, <strong>the championship math becomes critical</strong>. Riders will be calculating exactly what they need to do to secure or retain the title." },
+          { head: "Supersport battle", body: "The MotoAmerica Supersport class has been producing <strong>some of the closest racing of the season</strong> — multiple manufacturers are in contention and the title could go to the final round." }
+        ]
+      },
+      {
+        id: "ma-njmp",
+        title: "New Jersey Motorsports Park — Season Finale",
+        date: "2025-09-26",
+        location: "New Jersey Motorsports Park, Millville, NJ",
+        status: "scheduled",
+        points: [
+          { head: "Season finale", body: "NJMP hosts the <strong>MotoAmerica season finale</strong> — the championship will be decided here. The pressure on every rider in the title fight will be immense." },
+          { head: "NJMP's character", body: "New Jersey Motorsports Park offers a <strong>challenging mix of fast and technical sections</strong> that rewards versatile setups and brave riding — the perfect venue for a championship decider." },
+          { head: "Champions crowned", body: "Multiple class champions will be <strong>crowned at NJMP</strong> — the season finale is always an emotional occasion as riders celebrate or commiserate the results of a full season's work." }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  Isle of Man TT — STANDALONE
+  // ══════════════════════════════
+  {
+    id: "iom-tt-2027",
+    entityType: "standalone",
+    sport: "moto",
+    icon: "🏝️",
+    title: "Isle of Man TT 2027",
+    dateStart: "2027-05-24",
+    dateEnd: "2027-06-05",
+    location: "TT Mountain Course, Isle of Man",
+    status: "scheduled",
+    note: "Standalone event — no championship points awarded. Weather delays and race cancellations are common; status updated per-race.",
+    points: [
+      { head: "The world's most dangerous race", body: "The Isle of Man TT is the <strong>pinnacle of road racing</strong> — 37.73 miles of public roads, stone walls, and hedges at average speeds exceeding 135mph. There is nothing else like it in motorsport." },
+      { head: "2026 weather disruption", body: "The 2026 TT was significantly affected by <strong>wet weather</strong> — Supersport Race 1 was cancelled, the Senior TT was brought forward and ultimately classified after just one lap. Weather remains the biggest wildcard." },
+      { head: "Michael Dunlop's dominance", body: "<strong>Michael Dunlop</strong> continued his extraordinary TT record in 2026, winning multiple races. His combination of bravery and technical skill on the Mountain Course is unmatched by any current competitor." },
+      { head: "Safety and sidecar changes", body: "The sidecar class was <strong>suspended mid-event in 2026</strong> following serious incidents. Organisers continue to review safety measures, with restrictor plates already introduced to reduce speeds." }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  PGA Tour — championship
+  // ══════════════════════════════
+  {
+    id: "pga-tour-2025",
+    entityType: "championship",
+    sport: "golf",
+    icon: "⛳",
+    series: "PGA Tour / FedEx Cup",
+    classes: ["Stroke Play", "FedEx Cup Points"],
+    rounds: [
+      {
+        id: "golf-wyndham",
+        title: "Wyndham Championship",
+        date: "2025-07-31",
+        location: "Sedgefield CC, Greensboro, NC",
+        status: "scheduled",
+        points: [
+          { head: "Last regular season event", body: "The Wyndham is the <strong>final regular season event</strong> before the FedEx Cup Playoffs. Players on the bubble will be fighting desperately to secure their playoff spot." },
+          { head: "Sedgefield tradition", body: "<strong>Sedgefield Country Club</strong> is a classic Donald Ross design that rewards ball-striking and course management over power. It consistently produces quality champions." },
+          { head: "Cameron Young defending", body: "<strong>Cameron Young</strong> won here last year in dominant fashion. Defending champions at Sedgefield have historically had a strong record, making him a player to watch." }
+        ]
+      },
+      {
+        id: "golf-fedex-stjude",
+        title: "FedEx St. Jude Championship",
+        date: "2025-08-07",
+        location: "TPC Southwind, Memphis, TN",
+        status: "scheduled",
+        points: [
+          { head: "Playoffs begin", body: "The <strong>FedEx Cup Playoffs kick off</strong> in Memphis — only the top 70 in the FedEx Cup standings are eligible, making every shot count for those trying to advance." },
+          { head: "TPC Southwind demands", body: "Southwind is a <strong>demanding, tight course</strong> that punishes wayward drives. Accuracy off the tee is paramount, favouring precise ball-strikers over the bombers." },
+          { head: "Justin Rose defending", body: "<strong>Justin Rose</strong> won the 2025 edition in impressive fashion. The Englishman has shown he still has elite game and will be motivated to defend on a course that suits his style." }
+        ]
+      },
+      {
+        id: "golf-bmw",
+        title: "BMW Championship",
+        date: "2025-08-14",
+        location: "Caves Valley Golf Club, Owings Mills, MD",
+        status: "scheduled",
+        points: [
+          { head: "Top 50 only", body: "The BMW Championship cuts the field to the <strong>top 50 in FedEx Cup points</strong> — the stakes are enormous as players fight to be in the top 30 who advance to the Tour Championship." },
+          { head: "Caves Valley challenge", body: "<strong>Caves Valley</strong> is a long, demanding course that rewards power and precision in equal measure. The rough is typically brutal, making driving accuracy critical." },
+          { head: "Scheffler's dominance", body: "<strong>Scottie Scheffler</strong> has been the dominant force in golf for two seasons. Whether he can be caught in the FedEx Cup race or simply runs away with it again is the central storyline." }
+        ]
+      },
+      {
+        id: "golf-tour-championship",
+        title: "TOUR Championship",
+        date: "2025-08-21",
+        location: "East Lake Golf Club, Atlanta, GA",
+        status: "scheduled",
+        points: [
+          { head: "Season finale", body: "The <strong>TOUR Championship at East Lake</strong> is the culmination of the PGA Tour season — the top 30 players compete for the FedEx Cup title and a $25 million prize." },
+          { head: "Staggered start format", body: "The unique <strong>staggered scoring format</strong> means the FedEx Cup leader starts at -10 under par, creating a built-in handicap system that keeps the tournament competitive from the first tee shot." },
+          { head: "Tommy Fleetwood defending", body: "<strong>Tommy Fleetwood</strong> won the 2025 edition in a dramatic final round. The Englishman will be eager to defend his title and cement his status as one of the world's best." }
+        ]
+      }
+    ]
+  },
+
+  // ══════════════════════════════
+  //  Presidents Cup — STANDALONE
+  // ══════════════════════════════
+  {
+    id: "presidents-cup-2025",
+    entityType: "standalone",
+    sport: "golf",
+    icon: "🏆",
+    title: "Presidents Cup 2025",
+    dateStart: "2025-09-25",
+    dateEnd: "2025-09-28",
+    location: "Medinah Country Club, Medinah, IL",
+    status: "scheduled",
+    note: "Standalone team event — no FedEx Cup or world ranking points awarded.",
+    points: [
+      { head: "USA vs. International", body: "The <strong>Presidents Cup</strong> pits the United States against an International team (excluding Europe) in a biennial team competition. The US has dominated recent editions but the Internationals are building momentum." },
+      { head: "Medinah's legacy", body: "<strong>Medinah Country Club</strong> hosted the 2012 Ryder Cup — one of the most dramatic in history. The course has a storied history in team golf and will provide a spectacular backdrop." },
+      { head: "Team chemistry storylines", body: "The <strong>captain's picks and team dynamics</strong> are always a major storyline. Which players will rise to the occasion in the team format, and who will struggle with the pressure?" }
+    ]
+  }
+
+];
+
+// ═══════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════
+let currentFilter = "all";
+let dataDate = localStorage.getItem("arena_data_date") || fmtDate(new Date());
+let expandedItems = new Set();
+let collapsedChamps = new Set();
+
+function fmtDate(d){ return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}) }
+function fmtEventDate(s){ const d=new Date(s+"T00:00:00"); return d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"}) }
+function fmtDateRange(s,e){
+  const ds=new Date(s+"T00:00:00"), de=new Date(e+"T00:00:00");
+  const mo=ds.toLocaleDateString("en-US",{month:"short"});
+  return `${mo} ${ds.getDate()}–${de.getDate()}, ${ds.getFullYear()}`;
+}
+
+function setDataDate(d){ dataDate=d; localStorage.setItem("arena_data_date",d); document.getElementById("data-date").textContent=d }
+
+function getCountdown(dateStr){
+  const today=new Date(); today.setHours(0,0,0,0);
+  const ev=new Date(dateStr+"T00:00:00");
+  const diff=Math.round((ev-today)/86400000);
+  if(diff<0)  return {label:"Completed",cls:"past"};
+  if(diff===0)return {label:"TODAY",cls:"today"};
+  if(diff===1)return {label:"Tomorrow",cls:""};
+  if(diff<7)  return {label:`${diff} days`,cls:""};
+  if(diff<14) return {label:"Next week",cls:""};
+  const w=Math.round(diff/7);
+  if(w<8)     return {label:`${w}w away`,cls:""};
+  return {label:`${Math.round(diff/30.4)}mo away`,cls:""};
+}
+
+function statusBadge(status){
+  if(!status||status==="scheduled") return "";
+  const map={delayed:"delayed",shortened:"shortened",cancelled:"cancelled"};
+  const cls=map[status]||"";
+  return `<span class="status-badge status-${cls}">${status}</span>`;
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDER
+// ═══════════════════════════════════════════════════════
+function talkingPoints(points, sport){
+  return points.map((p,i)=>`
+    <div class="talking-point">
+      <div class="tp-num">${i+1}</div>
+      <div class="tp-text"><strong>${p.head}.</strong> ${p.body}</div>
+    </div>`).join("");
+}
+
+function renderRoundRow(round, sport, isFirst){
+  const cd=getCountdown(round.date);
+  const expanded=expandedItems.has(round.id);
+  return `
+  <div class="event-row ${sport}${expanded?" expanded":""}" id="row-${round.id}" onclick="toggleItem('${round.id}')">
+    <div class="row-main">
+      <div class="row-info">
+        <div class="row-title">${round.title}</div>
+        <div class="row-sub">
+          <span class="row-date">${fmtEventDate(round.date)}</span>
+          <span class="row-loc">${round.location}</span>
+        </div>
+      </div>
+      <div class="row-right">
+        <div class="cd-pill ${cd.cls}">${cd.label}</div>
+        ${statusBadge(round.status)}
+        <div class="expand-icon">▾</div>
+      </div>
+    </div>
+    <div class="commentary">
+      <div class="commentary-inner">
+        ${talkingPoints(round.points, sport)}
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderChampBlock(entity, isNextEntity){
+  const collapsed=collapsedChamps.has(entity.id);
+  const classesStr=entity.classes.join(" · ");
+  // find next upcoming round
+  const today=new Date(); today.setHours(0,0,0,0);
+  const upcoming=entity.rounds.filter(r=>new Date(r.date+"T00:00:00")>=today);
+  const nextRound=upcoming[0];
+  const metaStr=nextRound?`Next: ${fmtEventDate(nextRound.date)}`:"Season complete";
+  const bodyHeight=entity.rounds.length*70+200; // rough estimate
+
+  return `
+  <div class="champ-block ${entity.sport}${collapsed?" collapsed":""}" id="champ-${entity.id}">
+    <div class="champ-header" onclick="toggleChamp('${entity.id}')">
+      <span class="champ-icon">${entity.icon}</span>
+      <div>
+        <div class="champ-name">${entity.series}</div>
+        <div style="font-size:10.5px;color:var(--text-muted);margin-top:1px">${classesStr}</div>
+      </div>
+      <div style="margin-left:auto;display:flex;align-items:center;gap:10px">
+        <div class="champ-meta">${metaStr}</div>
+        <div class="champ-toggle">▾</div>
+      </div>
+    </div>
+    <div class="champ-body" style="max-height:${collapsed?0:bodyHeight+"px"}">
+      ${entity.rounds.map((r,i)=>renderRoundRow(r,entity.sport,i===0)).join("")}
+    </div>
+  </div>`;
+}
+
+function renderStandaloneCard(entity, isNext){
+  const expanded=expandedItems.has(entity.id);
+  const dateStr=entity.dateStart
+    ? fmtDateRange(entity.dateStart, entity.dateEnd||entity.dateStart)
+    : fmtEventDate(entity.date||entity.dateStart);
+  const cdDate=entity.dateStart||entity.date;
+  const cd=getCountdown(cdDate);
+  const sportLabel={ufc:"UFC",bjj:"UFC BJJ",moto:"Motorsport",golf:"Golf"}[entity.sport];
+
+  return `
+  <div class="standalone-card ${entity.sport}${isNext?" is-next":""}${expanded?" expanded":""}" id="sc-${entity.id}" onclick="toggleItem('${entity.id}')">
+    <div class="sc-header">
+      <div class="sc-badge">${entity.icon}</div>
+      <div class="sc-meta">
+        <div class="sc-sport-tag">${sportLabel} · Standalone Event</div>
+        <div class="sc-title">${entity.title}</div>
+        <div class="sc-details">
+          <span class="sc-date">${dateStr}</span>
+          <span class="sc-loc">${entity.location}</span>
+        </div>
+        ${entity.note?`<div style="font-size:10.5px;color:var(--text-muted);margin-top:4px;font-style:italic">${entity.note}</div>`:""}
+      </div>
+      <div class="sc-right">
+        <div class="cd-pill ${cd.cls}">${cd.label}</div>
+        ${statusBadge(entity.status)}
+        <div class="expand-icon">▾</div>
+      </div>
+    </div>
+    <div class="commentary">
+      <div class="commentary-inner">
+        ${talkingPoints(entity.points, entity.sport)}
+      </div>
+    </div>
+  </div>`;
+}
+
+function getNextDate(entity){
+  if(entity.entityType==="standalone") return entity.dateStart||entity.date;
+  const today=new Date(); today.setHours(0,0,0,0);
+  const upcoming=entity.rounds.filter(r=>new Date(r.date+"T00:00:00")>=today);
+  if(upcoming.length) return upcoming[0].date;
+  // all past — return last round date
+  return entity.rounds[entity.rounds.length-1].date;
+}
+
+function render(){
+  const today=new Date(); today.setHours(0,0,0,0);
+  let entities=DATA;
+  if(currentFilter!=="all") entities=DATA.filter(e=>e.sport===currentFilter);
+
+  // sort by next upcoming date
+  const sorted=[...entities].sort((a,b)=>{
+    const da=new Date(getNextDate(a)+"T00:00:00");
+    const db=new Date(getNextDate(b)+"T00:00:00");
+    return da-db;
+  });
+
+  if(sorted.length===0){
+    document.getElementById("main-content").innerHTML=`<div class="empty-state">No events found.</div>`;
+    return;
+  }
+
+  let html="";
+  let firstUpcoming=true;
+  let shownSectionLabel=false;
+
+  sorted.forEach((entity,idx)=>{
+    const nextDate=new Date(getNextDate(entity)+"T00:00:00");
+    const isUpcoming=nextDate>=today;
+    const isNext=isUpcoming&&firstUpcoming;
+
+    if(isNext){
+      html+=`<div class="next-label">Next Up</div>`;
+      firstUpcoming=false;
+    } else if(isUpcoming&&!shownSectionLabel){
+      html+=`<div class="section-label">Upcoming</div>`;
+      shownSectionLabel=true;
+    }
+
+    if(entity.entityType==="championship"){
+      html+=renderChampBlock(entity, isNext);
+    } else {
+      html+=renderStandaloneCard(entity, isNext);
+    }
+  });
+
+  document.getElementById("main-content").innerHTML=html;
+}
+
+// ═══════════════════════════════════════════════════════
+//  INTERACTIONS
+// ═══════════════════════════════════════════════════════
+function toggleItem(id){
+  if(expandedItems.has(id)) expandedItems.delete(id);
+  else expandedItems.add(id);
+  render();
+  // scroll the toggled item into view gently
+  setTimeout(()=>{
+    const el=document.getElementById("row-"+id)||document.getElementById("sc-"+id);
+    if(el) el.scrollIntoView({behavior:"smooth",block:"nearest"});
+  },50);
+}
+
+function toggleChamp(id){
+  if(collapsedChamps.has(id)) collapsedChamps.delete(id);
+  else collapsedChamps.add(id);
+  const block=document.getElementById("champ-"+id);
+  if(!block) return;
+  const body=block.querySelector(".champ-body");
+  const collapsed=collapsedChamps.has(id);
+  block.classList.toggle("collapsed",collapsed);
+  body.style.maxHeight=collapsed?"0":"2000px";
+}
+
+function setFilter(f){
+  currentFilter=f;
+  document.querySelectorAll(".filter-btn").forEach(b=>b.classList.toggle("active",b.dataset.f===f));
+  render();
+}
+
+function showToast(msg){
+  const t=document.getElementById("toast");
+  t.textContent=msg; t.classList.add("show");
+  setTimeout(()=>t.classList.remove("show"),2600);
+}
+
+function refreshData(){
+  const btn=document.getElementById("refresh-btn");
+  const overlay=document.getElementById("refresh-overlay");
+  btn.classList.add("spinning");
+  overlay.classList.add("active");
+  setTimeout(()=>{
+    const now=new Date();
+    setDataDate(fmtDate(now));
+    btn.classList.remove("spinning");
+    overlay.classList.remove("active");
+    render();
+    showToast("✓ Data refreshed — "+fmtDate(now));
+  },1800);
+}
+
+// ═══════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════
+document.addEventListener("DOMContentLoaded",()=>{
+  setDataDate(dataDate);
+  render();
+});
+</script>
+</body>
+</html>
