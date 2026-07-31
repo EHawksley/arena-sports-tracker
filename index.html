@@ -562,12 +562,19 @@ const EVENTS = [
 ];
 
 // ═══════════════════════════════════════════════════════════════
+//  LIVE DATA CONFIG
+// ═══════════════════════════════════════════════════════════════
+const REFRESH_ENDPOINT = "https://arena-sports-backend.vercel.app/api/refresh";
+const EVENTS_JSON_URL  = "https://raw.githubusercontent.com/EHawksley/arena-sports-tracker/main/events.json";
+
+// ═══════════════════════════════════════════════════════════════
 //  STATE
 // ═══════════════════════════════════════════════════════════════
 let filter = "all";
 let tab = "upcoming";
 let openCards = new Set();
 let dataDate = localStorage.getItem("arena_dd") || fmt(new Date());
+let EVENTS_LIVE = null; // populated from events.json or fallback to EVENTS
 
 function fmt(d){ return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}) }
 function fmtEvent(s){ const d=new Date(s+"T00:00:00"); return d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"}) }
@@ -643,7 +650,8 @@ function renderCard(ev, isNext){
 
 function render(){
   const today = new Date(); today.setHours(0,0,0,0);
-  let evs = EVENTS.filter(e => filter==="all" || e.sport===filter);
+  const source = EVENTS_LIVE || EVENTS;
+  let evs = source.filter(e => filter==="all" || e.sport===filter);
 
   // Split upcoming vs past
   const upcoming = evs.filter(e => new Date(getDate(e)+"T00:00:00") >= today)
@@ -717,27 +725,80 @@ function showToast(msg){
   setTimeout(()=>t.classList.remove("on"),2600);
 }
 
-function doRefresh(){
+async function doRefresh(){
   const btn=document.querySelector(".refresh-btn");
   const ov=document.getElementById("overlay");
+  const ovp=ov.querySelector("p");
   btn.classList.add("spinning");
   ov.classList.add("on");
-  setTimeout(()=>{
-    const now=new Date();
-    setDataDate(fmt(now));
+  if(ovp) ovp.textContent="Checking for new events…";
+  try {
+    // Call the Vercel backend — it scrapes, extracts, and pushes to GitHub
+    const res = await fetch(REFRESH_ENDPOINT, {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      signal: AbortSignal.timeout(55000),
+    });
+    if (!res.ok) throw new Error(`Backend error: ${res.status}`);
+    const data = await res.json();
+    if (data.events && data.events.length > 0) {
+      EVENTS_LIVE = data.events;
+      const now = new Date();
+      setDataDate(fmt(now));
+      render();
+      const msg = data.new > 0
+        ? `✓ ${data.new} new event${data.new>1?"s":""} found!`
+        : data.updated > 0
+          ? `✓ ${data.updated} event${data.updated>1?"s":""} updated`
+          : "✓ All up to date";
+      showToast(msg);
+    } else {
+      showToast("✓ All up to date");
+    }
+  } catch(err) {
+    console.error("Refresh error:", err);
+    // Fallback: just reload events.json from GitHub
+    try {
+      if(ovp) ovp.textContent="Loading latest data…";
+      const r2 = await fetch(EVENTS_JSON_URL+"?t="+Date.now());
+      if (r2.ok) {
+        EVENTS_LIVE = await r2.json();
+        setDataDate(fmt(new Date()));
+        render();
+        showToast("✓ Data refreshed");
+      } else {
+        showToast("⚠ Refresh failed — showing cached data");
+      }
+    } catch {
+      showToast("⚠ Refresh failed — showing cached data");
+    }
+  } finally {
     btn.classList.remove("spinning");
     ov.classList.remove("on");
-    render();
-    showToast("✓ Refreshed — "+fmt(now));
-  },1600);
+    if(ovp) ovp.textContent="Refreshing…";
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════
-//  INIT
+//  INIT — try to load live events.json first, fallback to EVENTS
 // ═══════════════════════════════════════════════════════════════
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded", async ()=>{
   setDataDate(dataDate);
-  render();
+  render(); // show hardcoded data immediately while we fetch
+  try {
+    const res = await fetch(EVENTS_JSON_URL+"?t="+Date.now(), {
+      signal: AbortSignal.timeout(8000),
+    });
+    if (res.ok) {
+      const live = await res.json();
+      if (live && live.length > 0) {
+        EVENTS_LIVE = live;
+        render(); // re-render with live data
+      }
+    }
+  } catch {
+    // silently fall back to hardcoded EVENTS
+  }
 });
 </script>
 </body>
