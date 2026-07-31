@@ -9,7 +9,7 @@
     "date": "2026-08-02",
     "dateStart": "2026-07-31",
     "dateEnd": "2026-08-02",
-    "location": "Oulton Park, Cheshire, United Kingdom",
+    "location": "Oulton Park International, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -97,6 +97,57 @@
     ]
   },
   {
+    "id": "motoa-superbike-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-02",
+    "dateStart": "2026-08-01",
+    "dateEnd": "2026-08-02",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Attrition Test",
+        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+      },
+      {
+        "h": "Chicane Mastery Separates Championship Contenders",
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+      },
+      {
+        "h": "Weather Wildcard Could Shake Up Grid",
+        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
+      }
+    ]
+  },
+  {
+    "id": "ufc-fn-medic-rodriguez-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Medic vs. Rodriguez",
+    "date": "2026-08-01",
+    "dateStart": "2026-08-01",
+    "dateEnd": "2026-08-01",
+    "location": "Belgrade, Serbia",
+    "status": "scheduled",
+    "classes": [
+      "Main Card",
+      "Prelims"
+    ]
+  },
+  {
     "id": "pga-wyndham-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -161,7 +212,7 @@
     ]
   },
   {
-    "id": "motoa-superbike-r7-road-america-2026",
+    "id": "motoamerica-sbk-r7-803-2026",
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoAmerica Superbike Championship",
@@ -181,37 +232,17 @@
     ],
     "points": [
       {
-        "h": "Road America's High-Speed Attrition Test",
-        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+        "h": "Road America's High-Speed Demands",
+        "b": "With four of the fastest straights in North American racing, Road America will punish any setup deficiencies and expose which teams have optimized their power delivery and aerodynamics. <strong>Top speed and traction management</strong> become decisive factors here more than anywhere else on the MotoAmerica calendar."
       },
       {
-        "h": "Chicane Mastery Separates Championship Contenders",
-        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+        "h": "Championship Points Battle Intensifies",
+        "b": "Round 7 marks the halfway point where inconsistent performers get mathematically eliminated and title contenders separate from pretenders. <strong>This is where championship dreams live or die</strong> as gaps in the standings become either insurmountable or still competitive."
       },
       {
-        "h": "Weather Wildcard Could Shake Up Grid",
-        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
+        "h": "Wet Weather Variable at Elkhart",
+        "b": "August in Wisconsin brings unpredictable conditions, and Road America's elevation changes and run-off areas make wet-weather riding particularly treacherous and skill-dependent. <strong>Rain would completely reshuffle the competitive order</strong> and favor riders with superior bike control over raw horsepower."
       }
-    ]
-  },
-  {
-    "id": "motoamerica-sbk-r7-803-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
-    "date": "2026-08-09",
-    "dateStart": "2026-08-07",
-    "dateEnd": "2026-08-09",
-    "location": "Road America, Elkhart Lake, Wisconsin, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
     ]
   },
   {
@@ -245,6 +276,22 @@
     ]
   },
   {
+    "id": "ufc-fn-gamrot-salkilld-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Gamrot vs. Salkilld",
+    "date": "2026-08-08",
+    "dateStart": "2026-08-08",
+    "dateEnd": "2026-08-08",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
     "id": "dwcs-10-1-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -272,6 +319,22 @@
         "h": "Mid-Summer Momentum Shifts Weight Classes",
         "b": "<strong>August timing positions rising stars for late-year UFC integration</strong>, meaning standout performers from DWCS 10.1 could realistically compete on premium fall fight cards. This proximity to major events makes individual performances significantly more consequential than earlier Contender Series installments."
       }
+    ]
+  },
+  {
+    "id": "ufc-dwcs-10-1-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.1",
+    "date": "2026-08-11",
+    "dateStart": "2026-08-11",
+    "dateEnd": "2026-08-11",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
     ]
   },
   {
@@ -346,7 +409,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Full, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -429,6 +492,22 @@
     ]
   },
   {
+    "id": "ufc-dwcs-10-2-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.2",
+    "date": "2026-08-18",
+    "dateStart": "2026-08-18",
+    "dateEnd": "2026-08-18",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
     "id": "pga-bmw-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -467,7 +546,7 @@
     "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship Round 8 - New Jersey Motorsports Park",
     "date": "2026-08-23",
-    "dateStart": "2026-08-21",
+    "dateStart": "2026-08-22",
     "dateEnd": "2026-08-23",
     "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
     "status": "scheduled",
@@ -524,6 +603,22 @@
     ]
   },
   {
+    "id": "ufc-fn-hernandez-rodrigues-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Hernandez vs. Rodrigues",
+    "date": "2026-08-22",
+    "dateStart": "2026-08-22",
+    "dateEnd": "2026-08-22",
+    "location": "Sacramento, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
     "id": "dwcs-10-3-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -551,6 +646,22 @@
         "h": "Weight Class Imbalances Create Opportunities",
         "b": "With middleweight and light heavyweight experiencing notable UFC roster gaps, <strong>undersized heavyweights and overgrown middleweights have outsized leverage</strong> to negotiate favorable contracts if they perform decisively in Vegas. Strategic weight-cutting decisions could define contract negotiations post-event."
       }
+    ]
+  },
+  {
+    "id": "ufc-dwcs-10-3-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.3",
+    "date": "2026-08-25",
+    "dateStart": "2026-08-25",
+    "dateEnd": "2026-08-25",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
     ]
   },
   {
@@ -598,6 +709,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "China's UFC Market Reaches Inflection Point",
+        "b": "Shanghai hosting Road To UFC marks a critical moment for the organization's Asian expansion, as <strong>Chinese fighter development has accelerated dramatically</strong> with multiple homegrown talents now competing at elite levels rather than serving as regional attractions."
+      },
+      {
+        "h": "August 2026 Summer Heat Factor",
+        "b": "The late August Shanghai timing presents unique conditioning challenges, as fighters must <strong>battle oppressive humidity alongside opponents</strong> in one of Asia's most densely populated cities, potentially favoring cardio-conditioned grapplers over striking-heavy competitors."
+      },
+      {
+        "h": "Road To UFC's Talent Pipeline Proven",
+        "b": "By 2026, Road To UFC has become <strong>a verified pathway to major roster spots</strong>, meaning this Shanghai event carries genuine stakes—winners aren't just getting visibility but realistic opportunities to jump directly into competitive UFC matchups within months."
+      }
     ]
   },
   {
@@ -617,6 +742,36 @@
       "Moto2",
       "Moto3",
       "MotoE"
+    ],
+    "points": [
+      {
+        "h": "High-speed corner mastery test",
+        "b": "Aragon's technical sector 3 with its rapid direction changes and tight chicanes will separate precision riders from aggressive ones. <strong>Tire management through these flowing corners</strong> could determine whether front-runners can extend their leads or face unexpected challenges."
+      },
+      {
+        "h": "Drafting tactics at 350km/h",
+        "b": "The long straights at MotorLand Aragon historically produce thrilling slipstream battles that can shuffle the podium in the final lap. <strong>Fuel consumption and engine braking strategy</strong> will be critical when positioning for overtakes on the Motorland's fastest sections."
+      },
+      {
+        "h": "Mid-season championship momentum shift",
+        "b": "By late August 2026, title contenders will face their last genuine opportunities to gain points on rivals before the summer break effect wears off. <strong>Consistency over qualifying performance</strong> typically rewards the riders who've developed the best setup adaptability across the season."
+      }
+    ]
+  },
+  {
+    "id": "ufc-rtufc-5-3-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "Road To UFC 5.3",
+    "date": "2026-08-28",
+    "dateStart": "2026-08-28",
+    "dateEnd": "2026-08-28",
+    "location": "Shanghai, China",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
     ]
   },
   {
@@ -633,6 +788,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Nurmagomedov's Striking Evolution Tested",
+        "b": "Khabib's cousin continues to develop his stand-up game after relying heavily on wrestling dominance, and Song represents a <strong>significant technical striking threat</strong> that could expose any remaining gaps in his boxing fundamentals at this critical point in his career."
+      },
+      {
+        "h": "Shanghai Crowd Factor Heavily Favors Song",
+        "b": "Fighting in China gives Song an enormous home-crowd advantage, and <strong>wrestling-heavy fighters typically struggle most with hostile crowd energy</strong> that can disrupt their rhythm and complicate corner communication during grueling ground exchanges."
+      },
+      {
+        "h": "Title Implications for Lightweight Division",
+        "b": "This bout serves as a crucial stepping stone for either fighter to crack the lightweight elite, with <strong>the winner earning significant negotiating power</strong> for a top-5 ranked opponent within the next two fight cycles."
+      }
     ]
   },
   {
@@ -645,12 +814,42 @@
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park, Lincolnshire, United Kingdom",
+    "location": "Cadwell Park Full Circuit, Lincolnshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
       "Supersport",
       "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Cadwell's Esses Test Championship Contenders",
+        "b": "The technical nature of Cadwell Park's famous Esses section will ruthlessly expose any setup weaknesses, making this round <strong>a true test of bike balance and rider precision</strong> rather than raw horsepower. Teams that have struggled with mid-corner stability will face particular difficulty navigating this demanding circuit."
+      },
+      {
+        "h": "Late Summer Pressure Point Emerging",
+        "b": "With Round 8 marking the final stretch before the season's decisive phase, <strong>championship contenders must accumulate points now or risk being mathematically eliminated</strong> from title contention. This urgency typically produces aggressive racing and increased collision risk among the frontrunners."
+      },
+      {
+        "h": "Lincolnshire's Notoriously Variable Weather",
+        "b": "<strong>Cadwell Park's unpredictable weather patterns can shift conditions dramatically within a single race day</strong>, forcing teams to make critical tyre and setup gambles. Strategic pit decisions and rider adaptability will likely prove more valuable than qualifying performance in determining race outcomes."
+      }
+    ]
+  },
+  {
+    "id": "ufc-fn-nurmagomedov-song-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Nurmagomedov vs. Song",
+    "date": "2026-08-29",
+    "dateStart": "2026-08-29",
+    "dateEnd": "2026-08-29",
+    "location": "Shanghai, China",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
     ]
   },
   {
@@ -663,16 +862,46 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
+    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "French home track advantage intensifies",
+        "b": "Magny-Cours presents a technical, high-speed challenge where European manufacturers traditionally excel, making this round <strong>critical for Ducati and BMW to consolidate championship momentum</strong> against Japanese competitors who struggle with the circuit's demanding layout."
+      },
+      {
+        "h": "Tire degradation tests consistency",
+        "b": "The fast-flowing nature of Nevers Magny-Cours with its multiple direction changes means <strong>rear tire management will determine race outcomes</strong>, favoring riders who can pace themselves early and attack in the final laps rather than those who burn rubber chasing positions."
+      },
+      {
+        "h": "Weather unpredictability threatens qualification",
+        "b": "September conditions at Magny-Cours are notoriously volatile with sudden rain showers, meaning <strong>grid position becomes a lottery dependent on timing</strong> rather than pure pace, creating opportunities for strategic teams to exploit mid-field chaos and championship contenders to suffer unexpected penalties."
+      }
     ]
   },
   {
     "id": "ufc-fight-night-hooker-parnasse-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Hooker vs. Parnasse",
+    "date": "2026-09-05",
+    "dateStart": "2026-09-05",
+    "dateEnd": "2026-09-05",
+    "location": "Paris, France",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "ufc-fn-hooker-parnasse-2026",
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
@@ -767,6 +996,26 @@
     ]
   },
   {
+    "id": "motoa-superbike-r9-miller-motorsports-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-12",
+    "location": "Miller Motorsports Park, Tooele, Utah, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -808,6 +1057,22 @@
     "series": "UFC",
     "icon": "🥊",
     "title": "UFC Fight Night: Blaydes vs. Cortes Acosta",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Glendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "ufc-fn-cortes-acosta-blaydes-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night",
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
     "dateEnd": "2026-09-12",
@@ -879,7 +1144,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen, Netherlands",
+    "location": "Assen GP, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -966,7 +1231,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park GP, Derbyshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1035,6 +1300,26 @@
     ]
   },
   {
+    "id": "motoa-superbike-r10-sonoma-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - Sonoma Raceway",
+    "date": "2026-10-03",
+    "dateStart": "2026-10-02",
+    "dateEnd": "2026-10-03",
+    "location": "Sonoma Raceway, Sonoma, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-baycurrent-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1060,7 +1345,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Pertamina Mandalika Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1115,7 +1400,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch GP, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1197,6 +1482,42 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ]
+  },
+  {
+    "id": "ufc-fn-buckley-malott-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Buckley vs. Malott",
+    "date": "2026-10-17",
+    "dateStart": "2026-10-17",
+    "dateEnd": "2026-10-17",
+    "location": "Edmonton, Canada",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
+    "id": "motoa-superbike-r11-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 11 - Barber Motorsports Park",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-17",
+    "dateEnd": "2026-10-18",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -1465,6 +1786,26 @@
       "Moto2",
       "Moto3",
       "MotoE"
+    ]
+  },
+  {
+    "id": "motoa-superbike-r12-memphis-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 12 - Memphis Motorsports Park",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-20",
+    "dateEnd": "2026-11-21",
+    "location": "Memphis Motorsports Park, Memphis, Tennessee, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
