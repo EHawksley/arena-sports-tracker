@@ -202,7 +202,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Silverstone, Great Britain",
+    "location": "Silverstone Circuit, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -270,6 +270,40 @@
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
     "location": "New Jersey Motorsports Park, Millville, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Roadrace Racers Face Technical Challenge",
+        "b": "New Jersey Motorsports Park's tight, technical layout demands precision over raw power, making this round a <strong>complete departure from high-speed track domination</strong> that favors different skill sets and bike setups than recent rounds."
+      },
+      {
+        "h": "Mid-Season Points Battle Intensifies",
+        "b": "With Round 7 marking the series' midpoint, <strong>championship contenders cannot afford mistakes</strong> as the field remains remarkably competitive, and a bad result here could derail entire season momentum heading into the final stretch."
+      },
+      {
+        "h": "Setup Changes Could Shuffle Grid Order",
+        "b": "The demanding left-hand turns and elevation changes at NJMP will <strong>expose any weaknesses in bike geometry and suspension tuning</strong>, potentially allowing previously mid-pack riders to vault forward if their teams nail the technical adjustments."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r7-new-jersey-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - New Jersey Motorsports Park",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "New Jersey Motorsports Park, Allendale, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -471,7 +505,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton Circuit, Hampshire, United Kingdom",
+    "location": "Thruxton, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -612,6 +646,26 @@
         "h": "Short Game Becomes Championship Differentiator",
         "b": "Bellerive's greens are notoriously difficult to access in regulation, forcing players into delicate wedge play and demanding scrambling skills. <strong>The best short-game operators</strong> will capitalize on mistakes others make, turning missed greens into birdie opportunities."
       }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r8-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 8 - Road America",
+    "date": "2026-08-23",
+    "dateStart": "2026-08-21",
+    "dateEnd": "2026-08-23",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -839,7 +893,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragon, Alcañiz, Spain",
+    "location": "MotorLand Aragón, Alcaniz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -876,6 +930,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Shanghai's Rising Combat Hub",
+        "b": "China's push to become a major MMA destination reaches a critical inflection point with this Road to UFC event. <strong>Shanghai's growing fanbase and state-of-the-art venues</strong> signal UFC's long-term commitment to Asian expansion beyond traditional markets like Singapore and Japan."
+      },
+      {
+        "h": "Talent Pipeline to August Card",
+        "b": "Road to UFC events serve as <strong>direct qualification tournaments</strong> for fighters seeking spots on major UFC cards, making this Shanghai installment crucial for regional athletes to earn international recognition. Winners here could realistically headline or co-headline UFC 5.3 itself, creating genuine stakes."
+      },
+      {
+        "h": "Asian Fighter Development Accelerates",
+        "b": "With multiple homegrown Chinese and regional Southeast Asian competitors likely competing, this event represents <strong>the most concentrated Asian talent showcase</strong> in the Road to UFC series to date. Success stories from Shanghai could reshape fighter recruitment across Asia for years to come."
+      }
     ]
   },
   {
@@ -896,6 +964,20 @@
       "Stock 1000",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "VIR's Technical Layout Tests Consistency",
+        "b": "Virginia International Raceway's demanding 3.27-mile circuit with 17 corners will separate riders who can maintain <strong>precision through high-speed direction changes</strong> from those relying on raw power, making this round critical for championship contenders seeking to prove well-rounded talent."
+      },
+      {
+        "h": "August Heat Amplifies Tire Management Battle",
+        "b": "Summer conditions at VIR in late August mean <strong>tire degradation becomes a strategic weapon</strong>, forcing teams to balance aggressive pace with fuel consumption while managing grip loss over race distance—expect late-race drama from riders gambling on fuel strategy."
+      },
+      {
+        "h": "Championship Pressure Peaks at Mid-Season Mark",
+        "b": "Round 8 occurs at the critical inflection point where <strong>gap closers must capitalize or fall behind permanently</strong>, giving underdogs their final realistic window to inject themselves into the title fight before the series' second half solidifies the pecking order."
+      }
     ]
   },
   {
@@ -974,6 +1056,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Nurmagomedov's Striking Evolution",
+        "b": "After years of dominant wrestling, Khabib's cousin Umar has been methodically developing his striking arsenal, and facing Song—a technical striker with solid footwork—provides the perfect barometer for <strong>whether his stand-up game has genuinely improved or remains a liability</strong> against well-rounded competition."
+      },
+      {
+        "h": "Song's Comeback Against Elite Grappling",
+        "b": "Giga Chikadze's loss derailed Song's momentum, but this matchup against Nurmagomedov tests <strong>whether Song can implement a defensive wrestling gameplan effectively</strong> or if he'll be forced into a striking battle where his precision boxing becomes irrelevant."
+      },
+      {
+        "h": "Shanghai's Lightweight Title Implications",
+        "b": "With the UFC pushing harder into Asian markets and lightweight being desperately thin at the elite level, <strong>a dominant win here could fast-track the victor into title contention</strong> faster than their ranking might suggest, especially if Islam Makhachev remains sidelined."
+      }
     ]
   },
   {
@@ -986,7 +1082,7 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1022,6 +1118,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Hooker's Redemption Arc in Paris",
+        "b": "Dan Hooker returns to Europe seeking to rebuild momentum after recent setbacks, and a Paris venue could provide the psychological edge needed against a hungry Parnasse. <strong>This fight represents a critical juncture</strong> in determining whether Hooker can still compete at lightweight's elite level or faces a slide down the rankings."
+      },
+      {
+        "h": "Parnasse's Chance to Announce Himself",
+        "b": "Fighting a former title contender on the main stage in France gives Parnasse a rare opportunity to make a statement performance that could catapult him into genuine title consideration. <strong>A win here legitimizes his credentials</strong> far more than victories against mid-tier competition ever could."
+      },
+      {
+        "h": "Striking Exchanges in Octagon Center",
+        "b": "Both fighters prefer standing exchanges over wrestling dominance, setting up a technical striking battle where precision and timing trump volume and aggression. <strong>Cardio management will be decisive</strong> in determining who maintains composure during the championship rounds of what figures to be a tactical, back-and-forth affair."
+      }
     ]
   },
   {
@@ -1038,6 +1148,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Hooker's Comeback Against Rising Star",
+        "b": "Dan Hooker returns to the octagon seeking to reassert himself in a stacked lightweight division, but faces a <strong>dangerous up-and-comer in Parnasse</strong> who's been building momentum with impressive recent performances. This matchup will reveal whether Hooker still has the tools to compete at elite level or if his time at the top has passed."
+      },
+      {
+        "h": "Paris Crowd Advantage for Home Fighter",
+        "b": "Fighting in Paris gives Parnasse a <strong>significant home-field advantage</strong> with crowd support that could provide crucial energy in tight exchanges and championship rounds. Hooker will need to establish dominance early to overcome the atmospheric disadvantage and the boost that comes with fighting in front of thousands of passionate local fans."
+      },
+      {
+        "h": "Striking Styles Clash in Main Event",
+        "b": "This bout shapes up as a fascinating striking battle between Hooker's <strong>proven volume boxing and leg kick arsenal</strong> against Parnasse's technical stand-up game, where precision and timing could trump output. The fighter who controls distance and executes their gameplan most efficiently will likely dictate the fight's tempo and secure rounds against a competitive opponent."
+      }
     ]
   },
   {
@@ -1050,7 +1174,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
+    "location": "Misano World Circuit, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1140,6 +1264,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r9-bremerton-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Bremerton",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "Bremerton Raceway, Bremerton, Washington, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1165,7 +1309,7 @@
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
     "dateEnd": "2026-09-12",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -1372,7 +1516,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi Twin Ring, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1391,7 +1535,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Derbyshire, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1505,7 +1649,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Lombok International Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1530,6 +1674,26 @@
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-11",
+    "dateStart": "2026-10-09",
+    "dateEnd": "2026-10-11",
+    "location": "WeatherTech Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -1791,6 +1955,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r11-austin-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 11 - Circuit of The Americas",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-30",
+    "dateEnd": "2026-11-01",
+    "location": "Circuit of The Americas, Austin, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "pga-world-wide-technology-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1869,7 +2053,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1908,7 +2092,7 @@
     "date": "2026-11-07",
     "dateStart": "2026-11-07",
     "dateEnd": "2026-11-07",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -2053,7 +2237,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
