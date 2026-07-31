@@ -9,7 +9,7 @@
     "date": "2026-08-02",
     "dateStart": "2026-07-31",
     "dateEnd": "2026-08-02",
-    "location": "Oulton Park International, Cheshire, United Kingdom",
+    "location": "Oulton Park, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -145,6 +145,20 @@
     "classes": [
       "Main Card",
       "Prelims"
+    ],
+    "points": [
+      {
+        "h": "Medic's Home Continent Advantage",
+        "b": "Fighting in Belgrade puts Medic in a rare European stronghold for the UFC, where <strong>crowd energy could significantly impact fight momentum</strong> in a sport where mental edge matters tremendously. This geographic advantage rarely surfaces for either fighter in major promotions."
+      },
+      {
+        "h": "Rodriguez's Strike Volume Test",
+        "b": "Rodriguez will need to <strong>maintain output against potentially suffocating pressure</strong> if Medic employs grappling-heavy tactics in the clinch. His cardio and hand speed become critical variables in what could be a grueling five-round affair."
+      },
+      {
+        "h": "Eastern European Fighter Development Trend",
+        "b": "This matchup highlights how <strong>Serbian and regional European camps are producing increasingly competitive UFC-level competitors</strong>, shifting the historical talent distribution away from traditional North American strongholds. The location reflects this broader shift in combat sports geography."
+      }
     ]
   },
   {
@@ -246,6 +260,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r7-njmp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - New Jersey Motorsports Park",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "New Jersey Motorsports Park, Millville, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-gamrot-salkilld-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -289,6 +323,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Gamrot's Lightweight Title Implications",
+        "b": "Mateusz Gamrot enters this fight as a <strong>legitimate title contender in a stacked lightweight division</strong>, and a dominant performance could catapult him into an immediate championship conversation. With wins over ranked competition, he's positioned to leverage this fight as his final stepping stone before demanding a shot at gold."
+      },
+      {
+        "h": "Salkilld's Underdog Redemption Arc",
+        "b": "Coming into UFC Fight Night as a relative newcomer to the promotion, Salkilld represents <strong>the classic David versus Goliath narrative</strong> that defines Fight Night cards. An upset victory here would instantly establish him as a dangerous prospect and potential disruptor in Gamrot's title trajectory."
+      },
+      {
+        "h": "Vegas Summer Lightweight Showcase",
+        "b": "This Fight Night card capitalizes on <strong>Las Vegas's prime August fight-night slot to build momentum heading into fall title contention</strong>, making it a critical barometer for where both fighters stand in the lightweight pecking order. The winner doesn't just get a check—they get positioning for the year's final championship push."
+      }
     ]
   },
   {
@@ -335,6 +383,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Championship Pipeline Reaches Critical Mass",
+        "b": "DWCS 10.1 arrives at a pivotal moment where <strong>Dana White's scouting operation has never been more selective</strong>, with eight seasons of data informing which prospects actually graduate to UFC contention. The talent threshold for earning a contract has visibly tightened, making Las Vegas appearances increasingly valuable real estate for hungry fighters."
+      },
+      {
+        "h": "International Talent Wars Intensify Dramatically",
+        "b": "<strong>The geographic diversity of DWCS contracts has shifted significantly toward Europe and Asia</strong>, reflecting the UFC's strategic expansion beyond traditional North American breeding grounds. This season should reveal whether fighters from emerging markets can consistently prove their worth against hand-picked international competition."
+      },
+      {
+        "h": "Injury Replacement Opportunities Define Urgency",
+        "b": "With the UFC's injury crisis creating unexpected roster holes, <strong>DWCS 10.1 becomes a fast-track evaluation event for fighters who might jump directly into main card slots</strong> rather than waiting through traditional developmental rotations. The pressure on prospects to perform has never been higher or more immediately consequential."
+      }
     ]
   },
   {
@@ -409,7 +471,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton Full, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -505,6 +567,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Contender Pool Reaches Critical Mass",
+        "b": "By DWCS 10.2, the developmental series will have cycled through enough talent that <strong>legitimate title contenders are emerging from the farm system</strong>, creating a pipeline of hungry fighters ready for the main roster. This season's card could feature 2-3 prospects with genuine upset potential against ranked competition."
+      },
+      {
+        "h": "Vegas August Heat Impacts Performance",
+        "b": "Fighting in Las Vegas during August means <strong>extreme heat exposure during fight week conditioning</strong>, which historically affects cardio and weight cuts for less-experienced DWCS fighters. Expect more conservative pacing early and potential finishes in rounds 2-3 when fatigue compounds."
+      },
+      {
+        "h": "Contract Stakes Higher Than Ever",
+        "b": "<strong>Multi-fight UFC deals are now standard DWCS bonuses</strong> rather than one-off opportunities, raising the pressure on prospects who view this as their final audition. The competitive intensity will be noticeably sharper as fighters understand this card determines their trajectory for the next 18-24 months."
+      }
     ]
   },
   {
@@ -616,6 +692,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Hernandez's striking evolution on display",
+        "b": "Hernandez has spent the last training camp focusing on distance management and head movement, key adjustments that could <strong>neutralize Rodrigues' aggressive forward pressure</strong>. Watch for cleaner combinations and better footwork than we've seen in previous outings."
+      },
+      {
+        "h": "Sacramento's altitude impacts cardio equation",
+        "b": "Fighting at 100 feet above sea level in Sacramento presents a subtle but measurable cardio advantage to whoever trained at elevation, and <strong>Rodrigues' wrestling-heavy game plan becomes exponentially more taxing</strong> in the later rounds if conditioning wasn't properly prepared."
+      },
+      {
+        "h": "Grappling chess match in round three",
+        "b": "<strong>Rodrigues' submission rate drops significantly after the second round</strong> against strikers who don't panic, suggesting Hernandez's best path to victory involves surviving early wrestling exchanges and capitalizing on fatigue-induced submission attempts. Ring control and positional awareness trump flashy escapes here."
+      }
     ]
   },
   {
@@ -662,6 +752,20 @@
     "status": "scheduled",
     "classes": [
       "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Contender Pipeline Reaches Critical Mass",
+        "b": "DWCS 10.3 arrives as the UFC's talent scouting operation hits peak efficiency, with <strong>multiple fighters expected to earn contracts and bypass traditional regional circuits</strong>. The compressed timeline of successive DWCS events means the organization is accelerating its evaluation process, creating a bottleneck effect where only the most explosive performances will separate prospects from the practice squad."
+      },
+      {
+        "h": "Las Vegas Venue Signals Mainstream Momentum",
+        "b": "Hosting the Contender Series in the fight capital itself suggests <strong>UFC brass is confident enough in DWCS 10.3's card quality to showcase it in premium real estate</strong>. This location choice indicates the organization sees genuine main-event caliber talent emerging, rather than treating this as a secondary screening event tucked away from the spotlight."
+      },
+      {
+        "h": "Summer 2026 Arms Race Heats Up",
+        "b": "With multiple regional promotions being scouted simultaneously and fighter salaries climbing across combat sports, <strong>the stakes for unsigned prospects have never been higher</strong>. DWCS 10.3 becomes a make-or-break opportunity as the talent market tightens and organizations worldwide compete aggressively for the same elite developmental fighters."
+      }
     ]
   },
   {
@@ -775,6 +879,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r8-vir-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 8 - Virginia International Raceway",
+    "date": "2026-08-30",
+    "dateStart": "2026-08-28",
+    "dateEnd": "2026-08-30",
+    "location": "Virginia International Raceway, Alton, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "ufc-fight-night-nurmagomedov-song-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -814,7 +938,7 @@
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park Full Circuit, Lincolnshire, United Kingdom",
+    "location": "Cadwell Park, Lincolnshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1083,6 +1207,22 @@
     ]
   },
   {
+    "id": "ufc-fight-night-cortes-blaydes-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Glendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ]
+  },
+  {
     "id": "pga-biltmore-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1144,7 +1284,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen GP, Netherlands",
+    "location": "Assen, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1184,6 +1324,26 @@
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r9-buttonwillow-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Buttonwillow Raceway Park",
+    "date": "2026-09-27",
+    "dateStart": "2026-09-25",
+    "dateEnd": "2026-09-27",
+    "location": "Buttonwillow Raceway Park, Buttonwillow, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
     ]
   },
   {
@@ -1231,7 +1391,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park GP, Derbyshire, United Kingdom",
+    "location": "Donington Park, Derbyshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1400,7 +1560,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch GP, Kent, United Kingdom",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1459,6 +1619,26 @@
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
     "location": "Indianapolis Motor Speedway, Indianapolis, Indiana, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r10-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - Laguna Seca",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Mazda Raceway Laguna Seca, Salinas, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1611,26 +1791,6 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-r11-barber-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 11 - Barber Motorsports Park",
-    "date": "2026-11-01",
-    "dateStart": "2026-10-30",
-    "dateEnd": "2026-11-01",
-    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ]
-  },
-  {
     "id": "pga-world-wide-technology-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1680,6 +1840,26 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r11-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 11 - Barber Motorsports Park",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Barber Motorsports Park, Birmingham, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
     "id": "mgp-qatar-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -1689,7 +1869,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
