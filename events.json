@@ -161,7 +161,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Available on UFC Fight Pass early access"
         },
         {
           "name": "Prelims",
@@ -170,7 +170,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -179,10 +179,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Medic vs. Rodriguez headliner"
+          "note": "Main card featuring Medic vs. Rodriguez"
         }
       ],
-      "watch_note": "The main card featuring Medic vs. Rodriguez is available exclusively on Paramount+ in the United States."
+      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -222,18 +222,20 @@
           "day": "Thursday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel"
+            "Golf Channel",
+            "Peacock"
           ],
-          "note": "Featured groups available on Peacock"
+          "note": "Early coverage on Golf Channel"
         },
         {
           "name": "Round 2",
           "day": "Friday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel"
+            "Golf Channel",
+            "Peacock"
           ],
-          "note": "Featured groups available on Peacock"
+          "note": "Continued coverage on Golf Channel"
         },
         {
           "name": "Round 3",
@@ -241,22 +243,22 @@
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "Peacock"
+            "Paramount+"
           ],
-          "note": "CBS broadcast begins at 2 PM ET"
+          "note": "CBS takes over for weekend coverage"
         },
         {
-          "name": "Round 4 (Final Round)",
+          "name": "Round 4 (Final)",
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
             "CBS",
-            "Peacock"
+            "Paramount+"
           ],
-          "note": "CBS broadcast begins at 1 PM ET"
+          "note": "Championship conclusion on CBS"
         }
       ],
-      "watch_note": "Watch on Golf Channel for early rounds, then CBS on Saturday and Sunday, with Peacock streaming available throughout the week."
+      "watch_note": "Stream on Peacock or Paramount+ with cable login, or watch on Golf Channel, CBS, and their streaming platforms throughout the week."
     }
   },
   {
@@ -269,7 +271,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Silverstone, Great Britain",
+    "location": "Silverstone Circuit, Northamptonshire, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -294,34 +296,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Practice sessions and qualifying rounds"
-        },
-        {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS2"
+            "FS1",
+            "Fox Sports app"
           ],
-          "note": "Short sprint format race"
+          "note": "12-lap sprint race"
         },
         {
           "name": "MotoGP Main Race",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS1"
+            "FS1",
+            "Fox Sports app"
           ],
-          "note": "Full distance Grand Prix"
+          "note": "Full distance Grand Prix race"
         }
       ],
-      "watch_note": "The British Grand Prix is best watched on FS1/FS2 early Sunday morning or through cable provider streaming with a valid login."
+      "watch_note": "MotoGP races at Silverstone are broadcast live on FS1 early Sunday morning in the US; Fox Sports app provides streaming access with cable login."
     }
   },
   {
@@ -362,7 +357,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Preliminary fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -371,7 +366,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary fights"
         },
         {
           "name": "Main Card",
@@ -380,10 +375,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card featuring Gamrot vs. Salkilld"
+          "note": "Main event featuring Gamrot vs. Salkilld"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is exclusive to Paramount+, while prelims stream on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -580,7 +575,7 @@
     "date": "2026-08-23",
     "dateStart": "2026-08-21",
     "dateEnd": "2026-08-23",
-    "location": "New Jersey Motorsports Park, Millville, New Jersey, United States",
+    "location": "New Jersey Motorsports Park, Millville, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -892,7 +887,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -912,40 +907,6 @@
       {
         "h": "Championship Implications Peak Here",
         "b": "With only five rounds remaining after Misano, this mid-September clash becomes a critical turning point where title contenders must capitalize or risk falling behind in the championship hunt. <strong>Points finishes here directly determine playoff positioning</strong> for the season's final decisive races."
-      }
-    ]
-  },
-  {
-    "id": "motoa-superbike-r9-miller-motorsports-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
-    "date": "2026-09-13",
-    "dateStart": "2026-09-11",
-    "dateEnd": "2026-09-13",
-    "location": "Barber Motorsports Park, Birmingham, Alabama, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship Battle Hits Desert Territory",
-        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
-      },
-      {
-        "h": "Tire Management Becomes Critical Factor",
-        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
-      },
-      {
-        "h": "Home Track Advantage Shifts Balance",
-        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
       }
     ]
   },
@@ -1100,6 +1061,40 @@
       {
         "h": "FedEx Cup momentum shifts here",
         "b": "This event lands at a critical playoff juncture where players ranked 50-125 make their final push for relevance, meaning <strong>hungry mid-tier competitors facing elimination will attack more aggressively than usual</strong>, creating volatile leaderboard movement that favors those who thrive under pressure."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-r9-miller-motorsports-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-18",
+    "dateEnd": "2026-09-20",
+    "location": "Barber Motorsports Park, Birmingham, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship Battle Hits Desert Territory",
+        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
+      },
+      {
+        "h": "Tire Management Becomes Critical Factor",
+        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
+      },
+      {
+        "h": "Home Track Advantage Shifts Balance",
+        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
       }
     ]
   },
@@ -1365,7 +1360,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1517,40 +1512,6 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-18",
-    "dateStart": "2026-10-16",
-    "dateEnd": "2026-10-18",
-    "location": "Laguna Seca Raceway, Salinas, California, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
-      }
-    ]
-  },
-  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1644,6 +1605,40 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-23",
+    "dateEnd": "2026-10-25",
+    "location": "Buttonwillow Speedway, Buttonwillow, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
+      }
+    ]
+  },
+  {
     "id": "pga-vidantaworld-mexico-open-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -1653,7 +1648,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Puerto Vallarta, Mexico",
+    "location": "VidantaWorld, Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1683,7 +1678,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
+    "location": "Sepang International Circuit, Sepang, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1779,7 +1774,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Circuit of The Americas, Austin, Texas, United States",
+    "location": "Laguna Seca Raceway, Monterey, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1906,7 +1901,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Estoril, Estoril, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
