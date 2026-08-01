@@ -716,28 +716,78 @@ function render(){
   }
 
   let html = "";
-  let lastMonth = null;
-  let isFirst = true;
 
-  list.forEach((ev, idx) => {
-    const d = new Date(getDate(ev)+"T00:00:00");
-    const monthKey = `${d.getFullYear()}-${d.getMonth()}`;
-    const monthLabel = d.toLocaleDateString("en-US",{month:"long",year:"numeric"});
+  if(tab==="upcoming"){
+    // ── Upcoming tab: "Today" group first, then month groups ──
+    const tomorrow = new Date(today.getTime() + 86400000);
 
-    if(monthKey !== lastMonth){
-      if(lastMonth !== null) html += `</div>`;
-      html += `<div class="date-group"><div class="date-heading${isFirst?" first":""}">${monthLabel}</div>`;
-      lastMonth = monthKey;
-      isFirst = false;
+    // Today = events that are in-progress OR start today
+    const todayEvs = list.filter(e => {
+      const start = new Date((e.dateStart||e.date)+"T00:00:00");
+      const end   = new Date((e.dateEnd||e.dateStart||e.date)+"T00:00:00");
+      // In-progress (started before today, ends today or later) OR starts today
+      return start <= today && end >= today;
+    });
+
+    // Future = everything else
+    const futureEvs = list.filter(e => {
+      const start = new Date((e.dateStart||e.date)+"T00:00:00");
+      return start >= tomorrow;
+    });
+
+    // Render Today group
+    if(todayEvs.length > 0){
+      html += `<div class="date-group"><div class="date-heading first">Today</div>`;
+      todayEvs.forEach(ev => { html += renderCard(ev, false); });
+      html += `</div>`;
     }
 
-    // "Next Up" = first event that is today, in-progress, or in the future
-    const isNext = tab==="upcoming" && idx===0;
-    if(isNext) html += `<div class="next-label">Next Up</div>`;
-    html += renderCard(ev, isNext);
-  });
+    // Render future events grouped by month, with "Next Up" label on first
+    if(futureEvs.length > 0){
+      let lastMonth = null;
+      let isFirstFuture = true;
+      futureEvs.forEach((ev, idx) => {
+        const d = new Date(getDate(ev)+"T00:00:00");
+        const monthKey = `${d.getFullYear()}-${d.getMonth()}`;
+        const monthLabel = d.toLocaleDateString("en-US",{month:"long",year:"numeric"});
+        if(monthKey !== lastMonth){
+          if(lastMonth !== null) html += `</div>`;
+          html += `<div class="date-group"><div class="date-heading${todayEvs.length===0&&isFirstFuture?" first":""}}">${monthLabel}</div>`;
+          lastMonth = monthKey;
+        }
+        if(isFirstFuture){
+          html += `<div class="next-label">Next Up</div>`;
+          isFirstFuture = false;
+        }
+        html += renderCard(ev, idx===0 && todayEvs.length===0);
+      });
+      html += `</div>`;
+    }
 
-  html += `</div>`;
+    if(todayEvs.length===0 && futureEvs.length===0){
+      html = `<div class="empty">No upcoming events${filter!=="all"?" in this category":""}.</div>`;
+    }
+
+  } else {
+    // ── Past tab: group by month ──
+    let lastMonth = null;
+    let isFirst = true;
+    list.forEach((ev) => {
+      const d = new Date(getDate(ev)+"T00:00:00");
+      const monthKey = `${d.getFullYear()}-${d.getMonth()}`;
+      const monthLabel = d.toLocaleDateString("en-US",{month:"long",year:"numeric"});
+      if(monthKey !== lastMonth){
+        if(lastMonth !== null) html += `</div>`;
+        html += `<div class="date-group"><div class="date-heading${isFirst?" first":""}}">${monthLabel}</div>`;
+        lastMonth = monthKey;
+        isFirst = false;
+      }
+      html += renderCard(ev, false);
+    });
+    if(lastMonth !== null) html += `</div>`;
+    if(!html) html = `<div class="empty">No past events${filter!=="all"?" in this category":""}.</div>`;
+  }
+
   document.getElementById("main").innerHTML = html;
 }
 
