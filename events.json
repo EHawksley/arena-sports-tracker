@@ -157,32 +157,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
-          "name": "Prelims",
+          "name": "Preliminary Card",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Prelim fights before main card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "2:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Medic vs. Rodriguez headliner"
+          "note": "Medic vs. Rodriguez headline bout"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass in the US."
+      "watch_note": "The main card featuring Medic vs. Rodriguez streams exclusively on Paramount+ in the US starting at 1:00 PM MT on Saturday."
     }
   },
   {
@@ -222,43 +222,42 @@
           "day": "Thursday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "Peacock"
+            "Golf Channel"
           ],
-          "note": "Early coverage on Golf Channel"
+          "note": "Live coverage begins in afternoon"
         },
         {
           "name": "Round 2",
           "day": "Friday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "Peacock"
+            "Golf Channel"
           ],
-          "note": "Continued coverage on Golf Channel"
+          "note": "Live coverage begins in afternoon"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "CBS",
-            "Paramount+"
+            "Golf Channel"
           ],
-          "note": "Network television coverage begins"
+          "note": "Early morning start for weekend coverage"
         },
         {
           "name": "Round 4 (Final Round)",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "CBS",
-            "Paramount+"
+            "Golf Channel",
+            "Peacock"
           ],
-          "note": "Championship conclusion on CBS"
+          "note": "Concluding round with multiple broadcast options"
         }
       ],
-      "watch_note": "The Wyndham Championship is broadcast across Golf Channel, CBS, and Paramount+ throughout the week, with the final rounds on CBS for national audience reach."
+      "watch_note": "The Wyndham Championship broadcasts across Golf Channel, CBS, and streaming on Peacock, with early rounds on Golf Channel and weekend rounds moving to CBS for prime coverage."
     }
   },
   {
@@ -271,7 +270,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Great Britain",
+    "location": "Silverstone Circuit, Northamptonshire, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -300,8 +299,8 @@
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS2",
-            "ESPN+"
+            "FS1",
+            "Fox Sports app"
           ],
           "note": "12-lap sprint race"
         },
@@ -311,12 +310,12 @@
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "ESPN+"
+            "Fox Sports app"
           ],
-          "note": "Full-distance race"
+          "note": "25-lap main race at Silverstone"
         }
       ],
-      "watch_note": "MotoGP races at Silverstone are best watched via FS1 or ESPN+ early Sunday morning MT, with Saturday's sprint race available on FS2."
+      "watch_note": "MotoGP's British Grand Prix is best watched on FS1 or the Fox Sports app with early Sunday morning start times in Mountain Time."
     }
   },
   {
@@ -347,7 +346,39 @@
         "h": "Vegas August Card Stakes Rising",
         "b": "UFC Fight Night events in August traditionally feature fighters on significant winning or losing streaks, and <strong>this main event has main card implications</strong> for the lightweight division's playoff picture. Expect the winner to jump several spots in the rankings and potentially leapfrog stalled contenders ahead of them."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Early preliminary fights"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event card featuring Gamrot vs. Salkilld"
+        }
+      ],
+      "watch_note": "The main card is exclusive to Paramount+, while prelims are on ESPN+ and early prelims on UFC Fight Pass."
+    }
   },
   {
     "id": "ufc-dwcs-10-1-2026",
@@ -543,7 +574,7 @@
     "date": "2026-08-23",
     "dateStart": "2026-08-21",
     "dateEnd": "2026-08-23",
-    "location": "Road America, Elkhart Lake, USA",
+    "location": "Mid-Ohio Sports Car Course, Lexington, Ohio, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -793,7 +824,7 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -855,7 +886,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano Adriatico Circuit, Rimini, Italy",
+    "location": "Misano Adriatico Circuit, Misano, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -888,7 +919,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Virginia International Raceway, Alton, USA",
+    "location": "Virginia International Raceway, Alton, Virginia, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1002,6 +1033,36 @@
       {
         "h": "Glendale crowd energizes underdog narrative",
         "b": "Fighting in Arizona provides a unique energy that historically favors fighters willing to engage in explosive exchanges over methodical gameplan execution. <strong>This venue could inspire Cortes Acosta to take calculated risks that exploit Blaydes' sometimes-conservative wrestling approach</strong>."
+      }
+    ]
+  },
+  {
+    "id": "ufc-fight-night-cortes-blaydes-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Cortes Acosta vs. Blaydes",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Glendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Blaydes seeks redemption against rising talent",
+        "b": "Curtis Blaydes enters this matchup looking to solidify his heavyweight credentials after recent setbacks, but <strong>Cortes Acosta represents exactly the type of dynamic striker that can exploit Blaydes' wrestling-heavy approach</strong>. This fight will reveal whether Blaydes has refined his striking defense or remains vulnerable to mobile opponents."
+      },
+      {
+        "h": "Acosta's momentum against heavyweight grappling test",
+        "b": "<strong>Cortes Acosta's striking prowess becomes irrelevant if Blaydes successfully implements his ground game early</strong>, making this a critical test of whether the rising heavyweight can defend takedowns and maintain his distance. Acosta's cardio and footwork will be essential to avoid spending rounds on his back."
+      },
+      {
+        "h": "Heavyweight division contention on the line",
+        "b": "The winner of this UFC Fight Night main event positions themselves squarely in heavyweight title conversations, as <strong>a victory here provides legitimate resume building in a division desperately searching for fresh contenders</strong>. Both fighters have the tools to make a statement, but execution under pressure will determine who advances."
       }
     ]
   },
@@ -1203,7 +1264,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi Circuit, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1395,7 +1456,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1459,7 +1520,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Barber Motorsports Park, Birmingham, USA",
+    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1523,7 +1584,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1556,7 +1617,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal Golf Club, Southampton, Bermuda",
+    "location": "Port Royal GC, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1712,7 +1773,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Charleston Motor Speedway, Summerville, USA",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1733,39 +1794,6 @@
       {
         "h": "Tire Management on Abrasive Surface",
         "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-11-07",
-    "dateStart": "2026-11-07",
-    "dateEnd": "2026-11-07",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -1796,6 +1824,39 @@
       {
         "h": "FedEx Cup Finale Stakes Peak",
         "b": "As the culminating event of the FedEx Cup race, this championship will determine the season's ultimate winner with maximum financial incentives, making <strong>consistency under pressure</strong> the defining factor between contenders and champions."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
