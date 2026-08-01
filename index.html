@@ -429,7 +429,7 @@ const EVENTS = [
   //  British Superbike Championship (BSB) 2026
   // ──────────────────────────────────────────────
   { id:"bsb-r1",  sport:"moto", entityType:"championship", series:"British Superbike Championship (BSB)", icon:"🏍️", classes:["Superbike","Supersport","Superstock","National Superstock"],
-    date:"2026-08-02", title:"Round 6 — Oulton Park", location:"Oulton Park, Cheshire, UK", status:"scheduled",
+    date:"2026-08-02", dateStart:"2026-07-31", dateEnd:"2026-08-02", title:"Round 6 — Oulton Park", location:"Oulton Park, Cheshire, UK", status:"scheduled",
     points:[
       {h:"Oulton Park character",b:"Oulton Park is one of the most <strong>picturesque and challenging circuits</strong> in the BSB calendar — its undulating layout and blind crests make it a true rider's circuit."},
       {h:"Showdown qualification",b:"The BSB Showdown system means riders are fighting hard to secure their <strong>top-six Showdown spots</strong>. Every point at Oulton could be the difference between making the cut or missing out."},
@@ -521,7 +521,7 @@ const EVENTS = [
   //  PGA Tour / FedEx Cup 2026
   // ──────────────────────────────────────────────
   { id:"golf-rocket",   sport:"golf", entityType:"championship", series:"PGA Tour / FedEx Cup", icon:"⛳", classes:["Stroke Play","FedEx Cup Points"],
-    date:"2026-07-31", title:"Rocket Classic", location:"Detroit Golf Club, Detroit, MI", status:"scheduled",
+    date:"2026-08-02", dateStart:"2026-07-31", dateEnd:"2026-08-02", title:"Rocket Classic", location:"Detroit Golf Club, Detroit, MI", status:"scheduled",
     points:[
       {h:"Detroit Golf Club",b:"The Detroit Golf Club is a <strong>classic Donald Ross design</strong> that rewards ball-striking and course management. The tree-lined fairways demand accuracy off the tee."},
       {h:"FedEx Cup bubble",b:"With the playoffs approaching, players on the <strong>FedEx Cup bubble</strong> will be fighting hard to secure their playoff spot. Every stroke counts at this stage of the season."},
@@ -731,6 +731,7 @@ function render(){
       isFirst = false;
     }
 
+    // "Next Up" = first event that is today, in-progress, or in the future
     const isNext = tab==="upcoming" && idx===0;
     if(isNext) html += `<div class="next-label">Next Up</div>`;
     html += renderCard(ev, isNext);
