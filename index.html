@@ -696,9 +696,12 @@ function render(){
   let evs = source.filter(e => filter==="all" || e.sport===filter);
 
   // Split upcoming vs past
-  const upcoming = evs.filter(e => new Date(getDate(e)+"T00:00:00") >= today)
+  // For multi-day events, use dateEnd so the event stays on Upcoming
+  // while it's still running (e.g. a Fri-Sun weekend shows as Upcoming through Sunday)
+  function getEndDate(ev){ return ev.dateEnd || ev.dateStart || ev.date; }
+  const upcoming = evs.filter(e => new Date(getEndDate(e)+"T00:00:00") >= today)
                       .sort((a,b) => new Date(getDate(a)) - new Date(getDate(b)));
-  const past     = evs.filter(e => new Date(getDate(e)+"T00:00:00") < today)
+  const past     = evs.filter(e => new Date(getEndDate(e)+"T00:00:00") < today)
                       .sort((a,b) => new Date(getDate(b)) - new Date(getDate(a)));
 
   const list = tab==="upcoming" ? upcoming : past;
