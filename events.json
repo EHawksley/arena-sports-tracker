@@ -4,12 +4,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "British Superbike Championship Round 6 - Oulton Park",
     "date": "2026-08-02",
     "dateStart": "2026-07-31",
     "dateEnd": "2026-08-02",
-    "location": "Oulton Park, Cheshire, United Kingdom",
+    "location": "Oulton Park, Cheshire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -19,7 +19,7 @@
     "points": [
       {
         "h": "Oulton's Technical Layout Demands Precision",
-        "b": "With its tight corners and elevation changes, Oulton Park punishes inconsistency\u2014riders who nail the tricky Cascades section and maintain momentum through Druids will gain decisive advantages over those relying purely on top speed. <strong>Setup and rider confidence become paramount</strong> on this 2.19-mile circuit where track position is worth more than raw horsepower."
+        "b": "With its tight corners and elevation changes, Oulton Park punishes inconsistency—riders who nail the tricky Cascades section and maintain momentum through Druids will gain decisive advantages over those relying purely on top speed. <strong>Setup and rider confidence become paramount</strong> on this 2.19-mile circuit where track position is worth more than raw horsepower."
       },
       {
         "h": "Mid-Season Title Race Intensifies",
@@ -51,7 +51,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Rocket Classic",
     "date": "2026-08-02",
     "dateStart": "2026-07-31",
@@ -127,7 +127,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Medic vs. Rodriguez",
     "date": "2026-08-01",
     "dateStart": "2026-08-01",
@@ -157,32 +157,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Available on UFC Fight Pass early access"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "2:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card featuring Medic vs. Rodriguez"
+          "note": "Medic vs. Rodriguez main event"
         }
       ],
-      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "Stream the main card live on Paramount+ starting at 1:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -190,7 +190,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Wyndham Championship",
     "date": "2026-08-09",
     "dateStart": "2026-08-06",
@@ -225,7 +225,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early coverage on Golf Channel"
+          "note": "Early coverage begins at 1:00 PM MT"
         },
         {
           "name": "Round 2",
@@ -235,30 +235,30 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Continued coverage on Golf Channel"
+          "note": "Early coverage begins at 1:00 PM MT"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
-            "CBS",
-            "Paramount+"
+            "Golf Channel",
+            "Peacock"
           ],
-          "note": "CBS takes over for weekend coverage"
+          "note": "Featured groups coverage"
         },
         {
-          "name": "Round 4 (Final)",
+          "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "CBS",
-            "Paramount+"
+            "Peacock"
           ],
-          "note": "Championship conclusion on CBS"
+          "note": "Final round conclusion"
         }
       ],
-      "watch_note": "Stream on Peacock or Paramount+ with cable login, or watch on Golf Channel, CBS, and their streaming platforms throughout the week."
+      "watch_note": "The Wyndham Championship airs primarily on Golf Channel with Peacock streaming, with CBS covering the final round on Sunday morning."
     }
   },
   {
@@ -266,12 +266,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "British Grand Prix",
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Northamptonshire, Great Britain",
+    "location": "Silverstone Circuit, Northampton, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -301,22 +301,22 @@
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "Fox Sports 2"
           ],
           "note": "12-lap sprint race"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "Fox Sports 2"
           ],
-          "note": "Full distance Grand Prix race"
+          "note": "25-lap main race"
         }
       ],
-      "watch_note": "MotoGP races at Silverstone are broadcast live on FS1 early Sunday morning in the US; Fox Sports app provides streaming access with cable login."
+      "watch_note": "MotoGP races at Silverstone are broadcast on FS1 and Fox Sports 2 early Sunday morning in Mountain Time; streaming available through Fox Sports app with cable login."
     }
   },
   {
@@ -324,7 +324,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Gamrot vs. Salkilld",
     "date": "2026-08-08",
     "dateStart": "2026-08-08",
@@ -357,7 +357,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass"
+          "note": "Early prelims exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -366,7 +366,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights"
+          "note": "Preliminary bouts on ESPN+"
         },
         {
           "name": "Main Card",
@@ -375,10 +375,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Gamrot vs. Salkilld"
+          "note": "Main card featuring Gamrot vs. Salkilld"
         }
       ],
-      "watch_note": "The main card is exclusive to Paramount+, while prelims stream on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is exclusive to Paramount+ in the US, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -386,7 +386,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "DWCS 10.1",
     "date": "2026-08-11",
     "dateStart": "2026-08-11",
@@ -416,7 +416,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "FedEx St. Jude Championship",
     "date": "2026-08-16",
     "dateStart": "2026-08-13",
@@ -447,12 +447,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "British Superbike Championship Round 7 - Thruxton",
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -479,7 +479,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC 330: Makhachev vs. Machado Garry",
     "date": "2026-08-15",
     "dateStart": "2026-08-15",
@@ -500,7 +500,7 @@
       },
       {
         "h": "Machado Garry's Title Shot Stakes",
-        "b": "For Machado Garry, this represents his <strong>final audition for title contention</strong>\u2014a loss likely sends him back into the rankings queue, while a victory over the top-ranked Makhachev catapults him directly into championship conversation."
+        "b": "For Machado Garry, this represents his <strong>final audition for title contention</strong>—a loss likely sends him back into the rankings queue, while a victory over the top-ranked Makhachev catapults him directly into championship conversation."
       }
     ]
   },
@@ -509,7 +509,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "DWCS 10.2",
     "date": "2026-08-18",
     "dateStart": "2026-08-18",
@@ -539,7 +539,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "BMW Championship",
     "date": "2026-08-23",
     "dateStart": "2026-08-20",
@@ -557,7 +557,7 @@
       },
       {
         "h": "Elite Thirty-Bound for East Lake",
-        "b": "Only the top 30 finishers advance to the Tour Championship finale, making every stroke at Bellerive worth premium points. <strong>This is where playoff positioning crystallizes</strong>\u2014a mediocre week could cost someone millions and a shot at the FedEx Cup trophy."
+        "b": "Only the top 30 finishers advance to the Tour Championship finale, making every stroke at Bellerive worth premium points. <strong>This is where playoff positioning crystallizes</strong>—a mediocre week could cost someone millions and a shot at the FedEx Cup trophy."
       },
       {
         "h": "Short Game Becomes Championship Differentiator",
@@ -570,12 +570,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoAmerica Superbike Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship Round 7 - Road America",
     "date": "2026-08-23",
     "dateStart": "2026-08-21",
     "dateEnd": "2026-08-23",
-    "location": "New Jersey Motorsports Park, Millville, United States",
+    "location": "New Jersey Motorsports Park, Allentown, New Jersey, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -591,7 +591,7 @@
       },
       {
         "h": "Chicane Mastery Separates Championship Contenders",
-        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup\u2014expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
       },
       {
         "h": "Weather Wildcard Could Shake Up Grid",
@@ -604,7 +604,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Hernandez vs. Rodrigues",
     "date": "2026-08-22",
     "dateStart": "2026-08-22",
@@ -634,7 +634,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "DWCS 10.3",
     "date": "2026-08-25",
     "dateStart": "2026-08-25",
@@ -664,7 +664,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "TOUR Championship",
     "date": "2026-08-30",
     "dateStart": "2026-08-27",
@@ -682,7 +682,7 @@
       },
       {
         "h": "Points Reset Creates Wide-Open Race",
-        "b": "The staggered points system means the 30-man field starts with compressed scoring, giving even mid-tier finishers from the previous playoff events a realistic path to victory. <strong>This isn't a coronation\u2014it's genuinely competitive golf</strong> where a hot week beats season-long consistency."
+        "b": "The staggered points system means the 30-man field starts with compressed scoring, giving even mid-tier finishers from the previous playoff events a realistic path to victory. <strong>This isn't a coronation—it's genuinely competitive golf</strong> where a hot week beats season-long consistency."
       },
       {
         "h": "Home Course Advantage for Atlanta Native",
@@ -695,7 +695,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "Road To UFC 5.3",
     "date": "2026-08-28",
     "dateStart": "2026-08-28",
@@ -716,7 +716,7 @@
       },
       {
         "h": "Road To UFC's Talent Pipeline Proven",
-        "b": "By 2026, Road To UFC has become <strong>a verified pathway to major roster spots</strong>, meaning this Shanghai event carries genuine stakes\u2014winners aren't just getting visibility but realistic opportunities to jump directly into competitive UFC matchups within months."
+        "b": "By 2026, Road To UFC has become <strong>a verified pathway to major roster spots</strong>, meaning this Shanghai event carries genuine stakes—winners aren't just getting visibility but realistic opportunities to jump directly into competitive UFC matchups within months."
       }
     ]
   },
@@ -725,12 +725,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Aragon Grand Prix",
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragon, Alca\u00f1iz, Spain",
+    "location": "MotorLand Aragon, Alcaniz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -758,7 +758,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Nurmagomedov vs. Song",
     "date": "2026-08-29",
     "dateStart": "2026-08-29",
@@ -788,12 +788,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "BSB Round 8 - Cadwell Park",
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park, Lincolnshire, United Kingdom",
+    "location": "Cadwell Park, Lincolnshire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -820,7 +820,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "World Superbike Championship (WSBK)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Acerbis French Round",
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
@@ -852,7 +852,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Hooker vs. Parnasse",
     "date": "2026-09-05",
     "dateStart": "2026-09-05",
@@ -882,12 +882,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "San Marino Grand Prix",
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -911,11 +911,45 @@
     ]
   },
   {
+    "id": "motoa-superbike-r9-miller-motorsports-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship Battle Hits Desert Territory",
+        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
+      },
+      {
+        "h": "Tire Management Becomes Critical Factor",
+        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
+      },
+      {
+        "h": "Home Track Advantage Shifts Balance",
+        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night",
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
@@ -945,7 +979,7 @@
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
-    "icon": "\ud83e\udd4b",
+    "icon": "🥋",
     "title": "UFC BJJ 1",
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
@@ -978,7 +1012,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Blaydes vs. Cortes Acosta",
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
@@ -1008,7 +1042,7 @@
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Cortes Acosta vs. Blaydes",
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
@@ -1038,7 +1072,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Biltmore Championship Asheville",
     "date": "2026-09-20",
     "dateStart": "2026-09-17",
@@ -1065,45 +1099,11 @@
     ]
   },
   {
-    "id": "motoa-superbike-r9-miller-motorsports-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
-    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
-    "date": "2026-09-20",
-    "dateStart": "2026-09-18",
-    "dateEnd": "2026-09-20",
-    "location": "Barber Motorsports Park, Birmingham, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship Battle Hits Desert Territory",
-        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
-      },
-      {
-        "h": "Tire Management Becomes Critical Factor",
-        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
-      },
-      {
-        "h": "Home Track Advantage Shifts Balance",
-        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
-      }
-    ]
-  },
-  {
     "id": "mgp-austria-gp-2026",
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Austrian Grand Prix",
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
@@ -1136,12 +1136,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "British Superbike Championship Round 9 Showdown - Assen",
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen, Netherlands",
+    "location": "TT Circuit Assen, Assen, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1168,7 +1168,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Presidents Cup",
     "date": "2026-09-27",
     "dateStart": "2026-09-24",
@@ -1198,7 +1198,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "World Superbike Championship (WSBK)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "EICMA Italian Round",
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
@@ -1230,7 +1230,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Bank of Utah Championship",
     "date": "2026-10-04",
     "dateStart": "2026-10-01",
@@ -1260,12 +1260,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Japanese Grand Prix",
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi Twin Ring, Motegi, Japan",
+    "location": "Motegi International Racing Course, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1293,12 +1293,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "BSB Round 10 Showdown - Donington Park",
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park, Leicestershire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1308,7 +1308,7 @@
     "points": [
       {
         "h": "Title Fight Hits Historic Venue",
-        "b": "Donington Park's demanding layout\u2014particularly the high-speed Craner Curves and Maggotts complex\u2014will <strong>expose any bike setup weaknesses</strong> in what could be a decisive mid-season showdown for the championship battle."
+        "b": "Donington Park's demanding layout—particularly the high-speed Craner Curves and Maggotts complex—will <strong>expose any bike setup weaknesses</strong> in what could be a decisive mid-season showdown for the championship battle."
       },
       {
         "h": "Wet Weather Wildcard At Play",
@@ -1316,7 +1316,7 @@
       },
       {
         "h": "Points Compression Narrows Window",
-        "b": "With the season reaching its climax, <strong>every podium position becomes mathematically crucial</strong> as the BSB title race typically tightens significantly\u2014one costly mistake here could swing momentum dramatically heading into the final rounds."
+        "b": "With the season reaching its climax, <strong>every podium position becomes mathematically crucial</strong> as the BSB title race typically tightens significantly—one costly mistake here could swing momentum dramatically heading into the final rounds."
       }
     ]
   },
@@ -1325,7 +1325,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Baycurrent Classic",
     "date": "2026-10-11",
     "dateStart": "2026-10-08",
@@ -1355,7 +1355,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Indonesian Grand Prix",
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
@@ -1388,7 +1388,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "World Superbike Championship (WSBK)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Tissot Estoril Round",
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
@@ -1420,7 +1420,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "British Superbike Championship Round 11 - Brands Hatch (Showdown Finale)",
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
@@ -1452,12 +1452,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "World Superbike Championship (WSBK)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Pirelli Spanish Round",
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - \u00c1ngel Nieto, Jerez, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1467,7 +1467,7 @@
     "points": [
       {
         "h": "Home advantage fuels Bautista's fire",
-        "b": "\u00c1lvaro Bautista returns to his native Spain where Jerez has historically been a stronghold for Spanish riders, giving him a <strong>crucial psychological and setup advantage</strong> that could prove decisive in the championship battle."
+        "b": "Álvaro Bautista returns to his native Spain where Jerez has historically been a stronghold for Spanish riders, giving him a <strong>crucial psychological and setup advantage</strong> that could prove decisive in the championship battle."
       },
       {
         "h": "Jerez track evolution demands tire strategy",
@@ -1484,12 +1484,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "British Superbike Championship (BSB)",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "BSB Round 11 Showdown Finale - Brands Hatch",
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch Circuit, Kent, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1512,11 +1512,45 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Laguna Seca Raceway, Monterey, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
     "series": "UFC",
-    "icon": "\ud83e\udd4a",
+    "icon": "🥊",
     "title": "UFC Fight Night: Buckley vs. Malott",
     "date": "2026-10-17",
     "dateStart": "2026-10-17",
@@ -1546,7 +1580,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Australian Grand Prix",
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
@@ -1579,7 +1613,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Butterfield Bermuda Championship",
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
@@ -1605,50 +1639,16 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-25",
-    "dateStart": "2026-10-23",
-    "dateEnd": "2026-10-25",
-    "location": "Buttonwillow Speedway, Buttonwillow, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
-      }
-    ]
-  },
-  {
     "id": "pga-vidantaworld-mexico-open-2026",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "VidantaWorld Mexico Open",
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Vallarta, Mexico",
+    "location": "VidantaWorld, Puerto Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1673,12 +1673,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Malaysian Grand Prix",
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang International Circuit, Sepang, Malaysia",
+    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1706,7 +1706,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "World Wide Technology Championship",
     "date": "2026-11-08",
     "dateStart": "2026-11-05",
@@ -1736,7 +1736,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Qatar Grand Prix",
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
@@ -1769,7 +1769,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoAmerica Superbike Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
@@ -1803,12 +1803,12 @@
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
-    "icon": "\ud83e\udd4b",
+    "icon": "🥋",
     "title": "UFC BJJ 2",
     "date": "2026-11-07",
     "dateStart": "2026-11-07",
     "dateEnd": "2026-11-07",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "New York, New York, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -1836,7 +1836,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Good Good Championship",
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
@@ -1866,7 +1866,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "The RSM Classic",
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
@@ -1896,12 +1896,12 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Portuguese Grand Prix",
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Aut\u00f3dromo Internacional do Algarve, Portim\u00e3o, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1911,7 +1911,7 @@
     ],
     "points": [
       {
-        "h": "Portim\u00e3o's High-Speed Demand",
+        "h": "Portimão's High-Speed Demand",
         "b": "The Algarve circuit's fast-flowing layout with minimal technical corners heavily favors <strong>aerodynamic efficiency and raw engine power</strong>, making this a litmus test for which manufacturers have developed the most potent 2026 power units during the off-season."
       },
       {
@@ -1929,7 +1929,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "Valencia Grand Prix",
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
@@ -1962,7 +1962,7 @@
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
-    "icon": "\u26f3",
+    "icon": "⛳",
     "title": "Hero World Challenge",
     "date": "2026-12-06",
     "dateStart": "2026-12-03",
@@ -1992,7 +1992,7 @@
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoAmerica Superbike Championship",
-    "icon": "\ud83c\udfcd\ufe0f",
+    "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship - Atlanta Motor Speedway",
     "date": "2026-12-05",
     "dateStart": "2026-12-04",
@@ -2026,7 +2026,7 @@
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
-    "icon": "\ud83e\udd4b",
+    "icon": "🥋",
     "title": "UFC BJJ 3",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
