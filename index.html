@@ -605,18 +605,22 @@ function fmtRange(s,e){
 function getDate(ev){ return ev.dateStart||ev.date; }
 function setDataDate(d){ dataDate=d; localStorage.setItem("arena_dd",d); document.getElementById("data-date").textContent=d }
 
-function countdown(ds){
+function countdown(ds, de){
   const today=new Date(); today.setHours(0,0,0,0);
-  const ev=new Date(ds+"T00:00:00");
-  const diff=Math.round((ev-today)/86400000);
-  if(diff<0)  return {label:"Completed",cls:"past"};
-  if(diff===0)return {label:"TODAY",cls:"today"};
-  if(diff===1)return {label:"Tomorrow",cls:""};
-  if(diff<7)  return {label:`${diff} days`,cls:""};
-  if(diff<14) return {label:"Next week",cls:""};
-  const w=Math.round(diff/7);
+  const evStart=new Date(ds+"T00:00:00");
+  const evEnd=de ? new Date(de+"T00:00:00") : evStart;
+  const diffStart=Math.round((evStart-today)/86400000);
+  const diffEnd=Math.round((evEnd-today)/86400000);
+  // Event has started but not yet ended — still running
+  if(diffStart<0 && diffEnd>=0) return {label:"In Progress",cls:"today"};
+  if(diffStart<0)  return {label:"Completed",cls:"past"};
+  if(diffStart===0)return {label:"TODAY",cls:"today"};
+  if(diffStart===1)return {label:"Tomorrow",cls:""};
+  if(diffStart<7)  return {label:`${diffStart} days`,cls:""};
+  if(diffStart<14) return {label:"Next week",cls:""};
+  const w=Math.round(diffStart/7);
   if(w<8)     return {label:`${w}w away`,cls:""};
-  return {label:`${Math.round(diff/30.4)}mo away`,cls:""};
+  return {label:`${Math.round(diffStart/30.4)}mo away`,cls:""};
 }
 
 function statusBadge(s){
@@ -628,7 +632,7 @@ function statusBadge(s){
 //  RENDER
 // ═══════════════════════════════════════════════════════════════
 function renderCard(ev, isNext){
-  const cd = countdown(getDate(ev));
+  const cd = countdown(ev.dateStart||ev.date, ev.dateEnd);
   const open = openCards.has(ev.id);
   const isStandalone = ev.entityType==="standalone";
   const dateStr = ev.dateStart ? fmtRange(ev.dateStart, ev.dateEnd||ev.dateStart) : fmtEvent(ev.date);
