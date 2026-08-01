@@ -157,32 +157,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
-          "name": "Preliminary Card",
+          "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "2:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Medic vs. Rodriguez headline bout"
+          "note": "Medic vs. Rodriguez headliner"
         }
       ],
-      "watch_note": "The main card featuring Medic vs. Rodriguez streams exclusively on Paramount+ in the US starting at 1:00 PM MT on Saturday."
+      "watch_note": "The main card featuring Medic vs. Rodriguez is available exclusively on Paramount+ in the United States."
     }
   },
   {
@@ -224,7 +224,7 @@
           "channels": [
             "Golf Channel"
           ],
-          "note": "Live coverage begins in afternoon"
+          "note": "Featured groups available on Peacock"
         },
         {
           "name": "Round 2",
@@ -233,31 +233,30 @@
           "channels": [
             "Golf Channel"
           ],
-          "note": "Live coverage begins in afternoon"
+          "note": "Featured groups available on Peacock"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "Golf Channel"
+            "Peacock"
           ],
-          "note": "Early morning start for weekend coverage"
+          "note": "CBS broadcast begins at 2 PM ET"
         },
         {
           "name": "Round 4 (Final Round)",
           "day": "Sunday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "CBS",
-            "Golf Channel",
             "Peacock"
           ],
-          "note": "Concluding round with multiple broadcast options"
+          "note": "CBS broadcast begins at 1 PM ET"
         }
       ],
-      "watch_note": "The Wyndham Championship broadcasts across Golf Channel, CBS, and streaming on Peacock, with early rounds on Golf Channel and weekend rounds moving to CBS for prime coverage."
+      "watch_note": "Watch on Golf Channel for early rounds, then CBS on Saturday and Sunday, with Peacock streaming available throughout the week."
     }
   },
   {
@@ -270,7 +269,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Northamptonshire, Great Britain",
+    "location": "Silverstone Circuit, Silverstone, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -295,27 +294,34 @@
     "watch": {
       "sessions": [
         {
+          "name": "MotoGP Practice & Qualifying",
+          "day": "Friday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Practice sessions and qualifying rounds"
+        },
+        {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "12-lap sprint race"
+          "note": "Short sprint format race"
         },
         {
           "name": "MotoGP Main Race",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS1"
           ],
-          "note": "25-lap main race at Silverstone"
+          "note": "Full distance Grand Prix"
         }
       ],
-      "watch_note": "MotoGP's British Grand Prix is best watched on FS1 or the Fox Sports app with early Sunday morning start times in Mountain Time."
+      "watch_note": "The British Grand Prix is best watched on FS1/FS2 early Sunday morning or through cable provider streaming with a valid login."
     }
   },
   {
@@ -356,7 +362,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Preliminary fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -365,7 +371,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -377,7 +383,7 @@
           "note": "Main event card featuring Gamrot vs. Salkilld"
         }
       ],
-      "watch_note": "The main card is exclusive to Paramount+, while prelims are on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -574,7 +580,7 @@
     "date": "2026-08-23",
     "dateStart": "2026-08-21",
     "dateEnd": "2026-08-23",
-    "location": "Mid-Ohio Sports Car Course, Lexington, Ohio, USA",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -886,7 +892,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano Adriatico Circuit, Misano, Italy",
+    "location": "Misano World Circuit, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -919,7 +925,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Virginia International Raceway, Alton, Virginia, USA",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1264,7 +1270,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi Circuit, Motegi, Japan",
+    "location": "Motegi Twin Ring, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1359,7 +1365,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1520,7 +1526,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "location": "Laguna Seca Raceway, Salinas, California, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1584,7 +1590,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Circuit, Phillip Island, Australia",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1647,7 +1653,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Vallarta, Mexico",
+    "location": "VidantaWorld, Puerto Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1773,7 +1779,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
+    "location": "Circuit of The Americas, Austin, Texas, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1794,6 +1800,39 @@
       {
         "h": "Tire Management on Abrasive Surface",
         "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-11-07",
+    "dateStart": "2026-11-07",
+    "dateEnd": "2026-11-07",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -1824,39 +1863,6 @@
       {
         "h": "FedEx Cup Finale Stakes Peak",
         "b": "As the culminating event of the FedEx Cup race, this championship will determine the season's ultimate winner with maximum financial incentives, making <strong>consistency under pressure</strong> the defining factor between contenders and champions."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-11-14",
-    "dateStart": "2026-11-14",
-    "dateEnd": "2026-11-14",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -1900,7 +1906,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo do Estoril, Estoril, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
