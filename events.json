@@ -225,7 +225,7 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Early coverage begins at 1:00 PM MT"
+          "note": "Early coverage on Golf Channel"
         },
         {
           "name": "Round 2",
@@ -235,32 +235,32 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Early coverage begins at 1:00 PM MT"
+          "note": "Early coverage on Golf Channel"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "Golf Channel",
             "NBC",
             "Peacock"
           ],
-          "note": "Primetime coverage on NBC in the evening"
+          "note": "Golf Channel morning coverage, NBC afternoon"
         },
         {
-          "name": "Round 4 (Final)",
+          "name": "Round 4 (Final Round)",
           "day": "Sunday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "Golf Channel",
             "NBC",
             "Peacock"
           ],
-          "note": "Primetime coverage on NBC in the evening"
+          "note": "Golf Channel morning coverage, NBC afternoon"
         }
       ],
-      "watch_note": "The Wyndham Championship is best watched via Golf Channel for early rounds or NBC for weekend coverage, both available on Peacock for streaming."
+      "watch_note": "The Wyndham Championship is best watched on NBC's Sunday broadcast or streamed via Peacock for the final round action."
     }
   },
   {
@@ -273,7 +273,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Great Britain",
+    "location": "Silverstone Circuit, Silverstone, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -300,7 +300,7 @@
         {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
@@ -310,15 +310,15 @@
         {
           "name": "MotoGP Main Race",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "25-lap feature race"
+          "note": "20-lap main race"
         }
       ],
-      "watch_note": "MotoGP races at Silverstone are broadcast live on FS1 early Sunday and Saturday mornings; FS1 and the Fox Sports app provide the official US coverage."
+      "watch_note": "MotoGP's British Grand Prix airs live on FS1 early Sunday morning; FS1 also carries Saturday's sprint race."
     }
   },
   {
@@ -355,7 +355,7 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "4:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
@@ -364,7 +364,7 @@
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "ESPN+"
           ],
@@ -373,14 +373,14 @@
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "9:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Gamrot vs. Salkilld headline bout"
+          "note": "Main event featuring Gamrot vs. Salkilld"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with prelims on ESPN+ one hour earlier."
+      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -477,40 +477,6 @@
     ]
   },
   {
-    "id": "motoa-superbike-r7-road-america-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
-    "date": "2026-08-16",
-    "dateStart": "2026-08-14",
-    "dateEnd": "2026-08-16",
-    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Road America's High-Speed Attrition Test",
-        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
-      },
-      {
-        "h": "Chicane Mastery Separates Championship Contenders",
-        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
-      },
-      {
-        "h": "Weather Wildcard Could Shake Up Grid",
-        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
-      }
-    ]
-  },
-  {
     "id": "ufc-330-makhachev-machado-garry-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -598,6 +564,40 @@
       {
         "h": "Short Game Becomes Championship Differentiator",
         "b": "Bellerive's greens are notoriously difficult to access in regulation, forcing players into delicate wedge play and demanding scrambling skills. <strong>The best short-game operators</strong> will capitalize on mistakes others make, turning missed greens into birdie opportunities."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-23",
+    "dateStart": "2026-08-21",
+    "dateEnd": "2026-08-23",
+    "location": "Virginia International Raceway, Alton, Virginia, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Attrition Test",
+        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+      },
+      {
+        "h": "Chicane Mastery Separates Championship Contenders",
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+      },
+      {
+        "h": "Weather Wildcard Could Shake Up Grid",
+        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
       }
     ]
   },
@@ -922,7 +922,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Road Atlanta, Braselton, Georgia, USA",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -986,7 +986,7 @@
     "date": "2026-09-12",
     "dateStart": "2026-09-12",
     "dateEnd": "2026-09-12",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -1267,7 +1267,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi Twin Ring, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1362,7 +1362,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Lombok International Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1459,7 +1459,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1514,40 +1514,6 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-18",
-    "dateStart": "2026-10-16",
-    "dateEnd": "2026-10-18",
-    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
-      }
-    ]
-  },
-  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1587,7 +1553,7 @@
     "date": "2026-10-17",
     "dateStart": "2026-10-17",
     "dateEnd": "2026-10-17",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -1670,6 +1636,40 @@
       {
         "h": "Champions Return to Defend Status",
         "b": "Defending champions often gain massive confidence advantages in return trips to familiar terrain, and <strong>back-to-back winners at Port Royal</strong> historically show significantly improved scoring patterns the second year around."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-23",
+    "dateEnd": "2026-10-25",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
       }
     ]
   },
@@ -1776,7 +1776,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1796,40 +1796,6 @@
       {
         "h": "High-Speed Overtaking Theater Beckons",
         "b": "Lusail's smooth asphalt and flowing corners create <strong>extended DRS-style slipstreaming opportunities</strong> where riders can actually gain meaningful advantages down the main straight, rewarding daring passes and producing the kind of wheel-to-wheel racing that defines memorable Grand Prix finishes."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-superbike-r11-las-vegas-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
-    "date": "2026-11-08",
-    "dateStart": "2026-11-06",
-    "dateEnd": "2026-11-08",
-    "location": "Mazda Raceway Laguna Seca, Monterey, California, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Charlotte's High-Speed Layout Tests Setup",
-        "b": "The 1.5-mile D-shaped oval at Charlotte Motor Speedway demands aggressive cornering speeds that expose suspension vulnerabilities in ways road courses cannot. Riders who nail the banking through turns 1 and 2 will gain <strong>crucial momentum advantages</strong> that compound over 40 laps."
-      },
-      {
-        "h": "Championship Implications at Round 11",
-        "b": "With only one round remaining after Vegas, this event represents the final opportunity for title contenders to make meaningful points. <strong>A podium finish here could shift the championship math dramatically</strong> for the season finale, making aggressive riding a necessity rather than a strategy."
-      },
-      {
-        "h": "Tire Management on Abrasive Surface",
-        "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
       }
     ]
   },
@@ -1860,6 +1826,40 @@
       {
         "h": "FedEx Cup Finale Stakes Peak",
         "b": "As the culminating event of the FedEx Cup race, this championship will determine the season's ultimate winner with maximum financial incentives, making <strong>consistency under pressure</strong> the defining factor between contenders and champions."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-r11-las-vegas-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
+    "date": "2026-11-15",
+    "dateStart": "2026-11-13",
+    "dateEnd": "2026-11-15",
+    "location": "Circuit of the Americas, Austin, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Charlotte's High-Speed Layout Tests Setup",
+        "b": "The 1.5-mile D-shaped oval at Charlotte Motor Speedway demands aggressive cornering speeds that expose suspension vulnerabilities in ways road courses cannot. Riders who nail the banking through turns 1 and 2 will gain <strong>crucial momentum advantages</strong> that compound over 40 laps."
+      },
+      {
+        "h": "Championship Implications at Round 11",
+        "b": "With only one round remaining after Vegas, this event represents the final opportunity for title contenders to make meaningful points. <strong>A podium finish here could shift the championship math dramatically</strong> for the season finale, making aggressive riding a necessity rather than a strategy."
+      },
+      {
+        "h": "Tire Management on Abrasive Surface",
+        "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
       }
     ]
   },
@@ -1936,7 +1936,7 @@
     "date": "2026-11-21",
     "dateStart": "2026-11-21",
     "dateEnd": "2026-11-21",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -2029,10 +2029,10 @@
     "series": "MotoAmerica Superbike Championship",
     "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship - Atlanta Motor Speedway",
-    "date": "2026-12-05",
+    "date": "2026-12-06",
     "dateStart": "2026-12-04",
-    "dateEnd": "2026-12-05",
-    "location": "Atlanta Motor Speedway, Hampton, Georgia, USA",
+    "dateEnd": "2026-12-06",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2066,7 +2066,7 @@
     "date": "2026-12-19",
     "dateStart": "2026-12-19",
     "dateEnd": "2026-12-19",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -2099,7 +2099,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
