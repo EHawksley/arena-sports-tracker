@@ -235,32 +235,30 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Early coverage on Golf Channel"
+          "note": "Continuing coverage on Golf Channel"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "NBC",
-            "Peacock"
+            "CBS",
+            "ESPN+"
           ],
-          "note": "Golf Channel morning coverage, NBC afternoon"
+          "note": "CBS takes over for weekend coverage"
         },
         {
-          "name": "Round 4 (Final Round)",
+          "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "NBC",
-            "Peacock"
+            "CBS",
+            "ESPN+"
           ],
-          "note": "Golf Channel morning coverage, NBC afternoon"
+          "note": "CBS primetime finish"
         }
       ],
-      "watch_note": "The Wyndham Championship is best watched on NBC's Sunday broadcast or streamed via Peacock for the final round action."
+      "watch_note": "The Wyndham Championship is best watched on CBS for weekend rounds or Golf Channel for weekday coverage, with ESPN+ streaming available throughout the event."
     }
   },
   {
@@ -273,7 +271,7 @@
     "date": "2026-08-09",
     "dateStart": "2026-08-07",
     "dateEnd": "2026-08-09",
-    "location": "Silverstone Circuit, Silverstone, Great Britain",
+    "location": "Silverstone Circuit, Great Britain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -300,7 +298,7 @@
         {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "8:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
@@ -310,15 +308,74 @@
         {
           "name": "MotoGP Main Race",
           "day": "Sunday",
-          "time_mt": "8:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "20-lap main race"
+          "note": "Full distance Grand Prix race"
         }
       ],
-      "watch_note": "MotoGP's British Grand Prix airs live on FS1 early Sunday morning; FS1 also carries Saturday's sprint race."
+      "watch_note": "MotoGP's British Grand Prix broadcasts live on FS1 early Sunday and Saturday mornings; FS1 is the primary US broadcaster for MotoGP races."
+    }
+  },
+  {
+    "id": "motoa-superbike-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-09",
+    "dateStart": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Road America, Elkhart Lake, Wisconsin, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Attrition Test",
+        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+      },
+      {
+        "h": "Chicane Mastery Separates Championship Contenders",
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+      },
+      {
+        "h": "Weather Wildcard Could Shake Up Grid",
+        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "10:30 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike Championship Round 7 is best watched free on Samsung TV Plus or via FS2 cable."
     }
   },
   {
@@ -355,32 +412,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "4:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Prelim fights before main card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Gamrot vs. Salkilld"
+          "note": "Gamrot vs. Salkilld headliner"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT on Saturday, August 8th, with prelims available on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -568,40 +625,6 @@
     ]
   },
   {
-    "id": "motoa-superbike-r7-road-america-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
-    "date": "2026-08-23",
-    "dateStart": "2026-08-21",
-    "dateEnd": "2026-08-23",
-    "location": "Virginia International Raceway, Alton, Virginia, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Road America's High-Speed Attrition Test",
-        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
-      },
-      {
-        "h": "Chicane Mastery Separates Championship Contenders",
-        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
-      },
-      {
-        "h": "Weather Wildcard Could Shake Up Grid",
-        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
-      }
-    ]
-  },
-  {
     "id": "ufc-fight-night-hernandez-rodrigues-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -732,7 +755,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragon, Alcañiz, Spain",
+    "location": "Motorland Aragon, Alcañiz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -792,7 +815,7 @@
     "series": "British Superbike Championship (BSB)",
     "icon": "🏍️",
     "title": "BSB Round 8 - Cadwell Park",
-    "date": "2026-08-31",
+    "date": "2026-08-30",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
     "location": "Cadwell Park, Lincolnshire, United Kingdom",
@@ -827,7 +850,7 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -889,7 +912,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
+    "location": "Misano World Circuit, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -922,7 +945,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
+    "location": "New Jersey Motorsports Park, Allentown, New Jersey, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1267,7 +1290,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi Twin Ring, Motegi, Japan",
+    "location": "Twin Ring Motegi, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1683,7 +1706,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Vallarta, Mexico",
+    "location": "VidantaWorld, Puerto Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1839,7 +1862,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-13",
     "dateEnd": "2026-11-15",
-    "location": "Circuit of the Americas, Austin, Texas, USA",
+    "location": "Circuit of The Americas, Austin, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2057,15 +2080,49 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-daytona-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 13 - Daytona International Speedway",
+    "date": "2027-01-11",
+    "dateStart": "2027-01-09",
+    "dateEnd": "2027-01-11",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Daytona's High-Speed Attrition Factor",
+        "b": "The 3.56-mile tri-oval demands perfect bike setup and racecraft, where <strong>even slight mechanical failures become catastrophic at 180+ mph</strong>. Expect aggressive early-race positioning as riders jockey for track position before engine wear and tire degradation intensify over the distance."
+      },
+      {
+        "h": "Championship Points Desperation Mode",
+        "b": "Round 13 likely carries massive implications for title contention, meaning <strong>calculated risks will transform into reckless moves</strong> through Daytona's notorious Turn 1 and the high-speed banking where passing becomes a chess match of slipstream strategy."
+      },
+      {
+        "h": "January Weather and Track Evolution",
+        "b": "Florida's winter conditions create unpredictable grip levels and cooler air that <strong>significantly alters tire performance windows compared to summer rounds</strong>, forcing teams to completely recalibrate their setups and creating opportunities for underdogs who nail the weather-dependent setup lottery."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-4",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 4",
-    "date": "2026-12-19",
-    "dateStart": "2026-12-19",
-    "dateEnd": "2026-12-19",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-16",
+    "dateEnd": "2027-01-16",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
