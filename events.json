@@ -322,65 +322,6 @@
     }
   },
   {
-    "id": "motoa-superbike-r7-road-america-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
-    "date": "2026-08-09",
-    "dateStart": "2026-08-07",
-    "dateEnd": "2026-08-09",
-    "location": "Laguna Seca Raceway, Monterey, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Road America's High-Speed Attrition Test",
-        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
-      },
-      {
-        "h": "Chicane Mastery Separates Championship Contenders",
-        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
-      },
-      {
-        "h": "Weather Wildcard Could Shake Up Grid",
-        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
-      }
-    ],
-    "watch": {
-      "sessions": [
-        {
-          "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "12:00 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Live coverage of first Superbike race"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "11:00 AM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Live coverage of second Superbike race"
-        }
-      ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
-    }
-  },
-  {
     "id": "ufc-fight-night-gamrot-salkilld-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -480,7 +421,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "First fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -498,10 +439,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card"
+          "note": "Main card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "The main card streams exclusively on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "Stream the main card on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ beginning at 7:30 PM MT."
     }
   },
   {
@@ -542,9 +483,9 @@
           "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "ESPN+"
+            "Peacock"
           ],
-          "note": "Early coverage begins at 1:00 PM MT"
+          "note": "Featured groups available on ESPN+"
         },
         {
           "name": "Round 2",
@@ -552,9 +493,9 @@
           "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "ESPN+"
+            "Peacock"
           ],
-          "note": "Early coverage begins at 1:00 PM MT"
+          "note": "Featured groups available on ESPN+"
         },
         {
           "name": "Round 3",
@@ -562,9 +503,9 @@
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "ESPN+"
+            "Peacock"
           ],
-          "note": "CBS takes over coverage on weekend"
+          "note": "Primetime coverage begins at 6:00 PM MT on Golf Channel"
         },
         {
           "name": "Final Round",
@@ -572,12 +513,71 @@
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "ESPN+"
+            "Peacock"
           ],
-          "note": "Championship conclusion on CBS"
+          "note": "Primetime coverage begins at 6:00 PM MT on Golf Channel"
         }
       ],
-      "watch_note": "The FedEx St. Jude Championship can be watched on Golf Channel and ESPN+ weekdays, then CBS and ESPN+ for the weekend rounds."
+      "watch_note": "CBS and Golf Channel provide the primary US broadcast coverage, with Peacock streaming available for all rounds of the FedEx St. Jude Championship."
+    }
+  },
+  {
+    "id": "motoa-superbike-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-16",
+    "dateStart": "2026-08-14",
+    "dateEnd": "2026-08-16",
+    "location": "Road America, Elkhart Lake, Wisconsin",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Attrition Test",
+        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+      },
+      {
+        "h": "Chicane Mastery Separates Championship Contenders",
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+      },
+      {
+        "h": "Weather Wildcard Could Shake Up Grid",
+        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Final race of the round"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or live on FS2 for cable subscribers."
     }
   },
   {
@@ -590,7 +590,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -614,17 +614,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "British Superbike Championship Round 7 - Race Day",
-          "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "name": "British Superbike Championship - Qualifying",
+          "day": "Saturday",
+          "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of all BSB races from Thruxton"
+          "note": "Live qualifying session"
+        },
+        {
+          "name": "British Superbike Championship - Race 1",
+          "day": "Saturday",
+          "time_mt": "9:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "First race of the round"
+        },
+        {
+          "name": "British Superbike Championship - Race 2",
+          "day": "Sunday",
+          "time_mt": "8:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Main race of the round"
         }
       ],
-      "watch_note": "The British Superbike Championship Round 7 from Thruxton is best watched on Peacock or beIN Sports, with early morning start times for US viewers due to the UK time difference."
+      "watch_note": "British Superbike Championship Round 7 from Thruxton is best watched on Peacock or beIN Sports, with early morning start times due to the UK time difference."
     }
   },
   {
@@ -661,34 +681,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "4:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights available on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
-            "ESPN+",
-            "UFC Fight Pass"
+            "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+ and UFC Fight Pass"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+",
-            "ESPN+"
+            "Paramount+"
           ],
-          "note": "Main card featuring Makhachev vs. Machado Garry"
+          "note": "Makhachev vs. Machado Garry headline bout"
         }
       ],
-      "watch_note": "The main card is available on Paramount+ and ESPN+, with prelims on ESPN+ and early prelims on UFC Fight Pass starting in the afternoon MT."
+      "watch_note": "UFC 330 is best watched on Paramount+ for the main card, with prelims available on ESPN+ for US viewers."
     }
   },
   {
@@ -1100,7 +1118,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1348,7 +1366,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Road Atlanta, Braselton, USA",
+    "location": "Laguna Seca Raceway, Monterey, California",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1415,7 +1433,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen, Netherlands",
+    "location": "TT Circuit Assen, Assen, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1569,7 +1587,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi Twin Ring, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1602,7 +1620,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park, Castle Donington, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1664,7 +1682,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1761,7 +1779,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1793,7 +1811,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch Circuit, Fawkham, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1812,40 +1830,6 @@
       {
         "h": "Tire Strategy Becomes Championship Wildcard",
         "b": "Teams must gamble on whether to prioritize grid position in qualifying or preserve rubber for the main race, knowing fuel consumption varies dramatically through Brands Hatch's demanding sequence. <strong>Premature tire degradation could cost a title contender their entire season</strong> in the final laps."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-18",
-    "dateStart": "2026-10-16",
-    "dateEnd": "2026-10-18",
-    "location": "Barber Motorsports Park, Birmingham, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
       }
     ]
   },
@@ -1985,7 +1969,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Puerto Vallarta, Mexico",
+    "location": "VidantaWorld, Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2002,6 +1986,40 @@
       {
         "h": "VidantaWorld's resort course advantage",
         "b": "The resort setting will attract <strong>spectator-friendly galleries and hospitality packages</strong>, potentially creating an electric atmosphere that rewards players comfortable with gallery noise and could neutralize the advantage of traditionally quieter tournament environments."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-30",
+    "dateEnd": "2026-11-01",
+    "location": "The Ridge Motorsports Park, Shelton, Washington",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
       }
     ]
   },
@@ -2078,7 +2096,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2098,6 +2116,40 @@
       {
         "h": "High-Speed Overtaking Theater Beckons",
         "b": "Lusail's smooth asphalt and flowing corners create <strong>extended DRS-style slipstreaming opportunities</strong> where riders can actually gain meaningful advantages down the main straight, rewarding daring passes and producing the kind of wheel-to-wheel racing that defines memorable Grand Prix finishes."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-r11-las-vegas-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Las Vegas Motor Speedway, Las Vegas, Nevada",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Charlotte's High-Speed Layout Tests Setup",
+        "b": "The 1.5-mile D-shaped oval at Charlotte Motor Speedway demands aggressive cornering speeds that expose suspension vulnerabilities in ways road courses cannot. Riders who nail the banking through turns 1 and 2 will gain <strong>crucial momentum advantages</strong> that compound over 40 laps."
+      },
+      {
+        "h": "Championship Implications at Round 11",
+        "b": "With only one round remaining after Vegas, this event represents the final opportunity for title contenders to make meaningful points. <strong>A podium finish here could shift the championship math dramatically</strong> for the season finale, making aggressive riding a necessity rather than a strategy."
+      },
+      {
+        "h": "Tire Management on Abrasive Surface",
+        "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
       }
     ]
   },
@@ -2162,40 +2214,6 @@
     ]
   },
   {
-    "id": "motoamerica-superbike-r11-las-vegas-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
-    "date": "2026-11-22",
-    "dateStart": "2026-11-20",
-    "dateEnd": "2026-11-22",
-    "location": "Las Vegas Motor Speedway, Las Vegas, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Charlotte's High-Speed Layout Tests Setup",
-        "b": "The 1.5-mile D-shaped oval at Charlotte Motor Speedway demands aggressive cornering speeds that expose suspension vulnerabilities in ways road courses cannot. Riders who nail the banking through turns 1 and 2 will gain <strong>crucial momentum advantages</strong> that compound over 40 laps."
-      },
-      {
-        "h": "Championship Implications at Round 11",
-        "b": "With only one round remaining after Vegas, this event represents the final opportunity for title contenders to make meaningful points. <strong>A podium finish here could shift the championship math dramatically</strong> for the season finale, making aggressive riding a necessity rather than a strategy."
-      },
-      {
-        "h": "Tire Management on Abrasive Surface",
-        "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
-      }
-    ]
-  },
-  {
     "id": "mgp-portugal-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -2205,7 +2223,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Estoril, Cascais, Portugal",
+    "location": "Autodromo Internacional do Algarve, Portimao, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
