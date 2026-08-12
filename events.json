@@ -455,7 +455,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-13",
     "dateEnd": "2026-08-16",
-    "location": "TPC Southwind, Memphis, TN, USA",
+    "location": "TPC Southwind, Memphis, Tennessee, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -485,7 +485,7 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Featured groups coverage available on ESPN+"
+          "note": "Featured groups available on ESPN+"
         },
         {
           "name": "Round 2",
@@ -495,7 +495,7 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Featured groups coverage available on ESPN+"
+          "note": "Featured groups available on ESPN+"
         },
         {
           "name": "Round 3",
@@ -504,23 +504,23 @@
           "channels": [
             "Golf Channel",
             "CBS",
-            "Peacock"
+            "ESPN+"
           ],
-          "note": "CBS primetime coverage begins at 3:00 PM MT"
+          "note": "CBS coverage in afternoon window"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
             "NBC",
+            "Golf Channel",
             "Peacock"
           ],
           "note": "NBC primetime coverage"
         }
       ],
-      "watch_note": "The FedEx St. Jude Championship is best watched on Golf Channel for full coverage, with weekend rounds also available on CBS (Saturday) and NBC (Sunday) via cable or Peacock."
+      "watch_note": "The FedEx St. Jude Championship is best watched on Golf Channel for early rounds, with NBC providing Sunday's final round coverage; Peacock and ESPN+ offer streaming options throughout the tournament."
     }
   },
   {
@@ -533,7 +533,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Road America, Elkhart Lake, Wisconsin",
+    "location": "Laguna Seca Raceway, Salinas, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -559,27 +559,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Championship Round 7 - Race 1",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Championship Round 7 - Race 2",
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via FS2 cable subscription."
+      "watch_note": "MotoAmerica races are broadcast live on FS1 with free streaming available on Samsung TV Plus in the US."
     }
   },
   {
@@ -592,7 +592,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -616,27 +616,17 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Live coverage of first race of the weekend"
-        },
-        {
-          "name": "Superbike Race 2",
+          "name": "British Superbike Championship Round 7 - Race Day",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main race of the round"
+          "note": "Live coverage of races from Thruxton Circuit"
         }
       ],
-      "watch_note": "British Superbike Championship rounds are best watched via Peacock or beIN Sports in the US, with early morning start times due to the UK time difference."
+      "watch_note": "The British Superbike Championship Round 7 at Thruxton can be watched live on Peacock or beIN Sports in the United States."
     }
   },
   {
@@ -673,32 +663,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "4:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Streaming only"
+          "note": "Preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "5:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Makhachev vs. Machado Garry headliner"
+          "note": "Main event featuring Makhachev vs. Machado Garry"
         }
       ],
-      "watch_note": "The main card is available on Paramount+ with prelims on ESPN+, making it easiest to watch on streaming services in the US."
+      "watch_note": "The best way to watch UFC 330 in the US is via Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -739,16 +729,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "First fights of the card"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card fights"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -757,10 +747,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event fights"
+          "note": "Main card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "The entire DWCS 10.2 event is best watched on Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+      "watch_note": "The best way to watch DWCS 10.2 in the US is through Paramount+ for the main card at 9:00 PM MT, with prelims available on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -773,7 +763,7 @@
     "date": "2026-08-23",
     "dateStart": "2026-08-20",
     "dateEnd": "2026-08-23",
-    "location": "Bellerive Country Club, St. Louis, MO, USA",
+    "location": "Bellerive Country Club, St. Louis, Missouri, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -864,7 +854,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-27",
     "dateEnd": "2026-08-30",
-    "location": "East Lake Golf Club, Atlanta, GA, USA",
+    "location": "East Lake Golf Club, Atlanta, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -925,7 +915,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragon, Alcañiz, Spain",
+    "location": "MotorLand Aragon, Alcaniz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -985,7 +975,7 @@
     "series": "British Superbike Championship (BSB)",
     "icon": "🏍️",
     "title": "BSB Round 8 - Cadwell Park",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
     "location": "Cadwell Park, Lincolnshire, United Kingdom",
@@ -1162,40 +1152,6 @@
       {
         "h": "Championship Implications Peak Here",
         "b": "With only five rounds remaining after Misano, this mid-September clash becomes a critical turning point where title contenders must capitalize or risk falling behind in the championship hunt. <strong>Points finishes here directly determine playoff positioning</strong> for the season's final decisive races."
-      }
-    ]
-  },
-  {
-    "id": "motoa-superbike-r9-miller-motorsports-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
-    "date": "2026-09-13",
-    "dateStart": "2026-09-11",
-    "dateEnd": "2026-09-13",
-    "location": "Buttonwillow Raceway Park, Buttonwillow, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship Battle Hits Desert Territory",
-        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
-      },
-      {
-        "h": "Tire Management Becomes Critical Factor",
-        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
-      },
-      {
-        "h": "Home Track Advantage Shifts Balance",
-        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
       }
     ]
   },
@@ -1393,7 +1349,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-17",
     "dateEnd": "2026-09-20",
-    "location": "The Cliffs at Walnut Cove, Arden, NC, USA",
+    "location": "The Cliffs at Walnut Cove, Arden, North Carolina, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -1411,6 +1367,40 @@
       {
         "h": "FedEx Cup momentum shifts here",
         "b": "This event lands at a critical playoff juncture where players ranked 50-125 make their final push for relevance, meaning <strong>hungry mid-tier competitors facing elimination will attack more aggressively than usual</strong>, creating volatile leaderboard movement that favors those who thrive under pressure."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-r9-miller-motorsports-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-18",
+    "dateEnd": "2026-09-20",
+    "location": "Portland International Raceway, Portland, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship Battle Hits Desert Territory",
+        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
+      },
+      {
+        "h": "Tire Management Becomes Critical Factor",
+        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
+      },
+      {
+        "h": "Home Track Advantage Shifts Balance",
+        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
       }
     ]
   },
@@ -1457,7 +1447,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen, Netherlands",
+    "location": "TT Circuit Assen, Assen, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1519,7 +1509,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-24",
     "dateEnd": "2026-09-27",
-    "location": "Medinah Country Club, Medinah, IL, USA",
+    "location": "Medinah Country Club, Medinah, Illinois, USA",
     "status": "scheduled",
     "classes": [
       "Match Play"
@@ -1581,7 +1571,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-01",
     "dateEnd": "2026-10-04",
-    "location": "Black Desert Golf Course, Ivins, UT, USA",
+    "location": "Black Desert Golf Course, Ivins, Utah, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1611,7 +1601,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi Twin Ring, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1706,7 +1696,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1858,6 +1848,40 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Buttonwillow Motorsports Park, Buttonwillow, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1884,39 +1908,6 @@
       {
         "h": "Edmonton's elevation impacts cardio endurance",
         "b": "Fighting at 3,600 feet above sea level in Edmonton means <strong>both fighters must recalibrate their conditioning strategies</strong>, potentially favoring whoever maintains better oxygen efficiency in the third round when fatigue becomes the deciding factor."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-10-17",
-    "dateStart": "2026-10-17",
-    "dateEnd": "2026-10-17",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -1963,7 +1954,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal GC, Southampton, Bermuda",
+    "location": "Port Royal Golf Club, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -1980,40 +1971,6 @@
       {
         "h": "Champions Return to Defend Status",
         "b": "Defending champions often gain massive confidence advantages in return trips to familiar terrain, and <strong>back-to-back winners at Port Royal</strong> historically show significantly improved scoring patterns the second year around."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-25",
-    "dateStart": "2026-10-23",
-    "dateEnd": "2026-10-25",
-    "location": "Mazda Raceway Laguna Seca, Salinas, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
       }
     ]
   },
@@ -2144,6 +2101,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-11-07",
+    "dateStart": "2026-11-07",
+    "dateEnd": "2026-11-07",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "pga-good-good-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -2153,7 +2143,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, USA",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2183,7 +2173,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-13",
     "dateEnd": "2026-11-15",
-    "location": "Phoenix International Raceway, Avondale, USA",
+    "location": "Circuit of The Americas, Austin, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2217,7 +2207,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, USA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2267,39 +2257,6 @@
       {
         "h": "Portuguese Rider Home Advantage",
         "b": "If any Portuguese riders are in contention for points or podiums, <strong>home crowd support and intimate circuit knowledge</strong> provide genuine psychological and tactical advantages that shouldn't be underestimated in a championship battle."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2026-11-21",
-    "dateStart": "2026-11-21",
-    "dateEnd": "2026-11-21",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -2376,7 +2333,7 @@
     "date": "2026-12-13",
     "dateStart": "2026-12-11",
     "dateEnd": "2026-12-13",
-    "location": "Las Vegas Motor Speedway, Las Vegas, USA",
+    "location": "Indianapolis Motor Speedway, Indianapolis, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2494,36 +2451,35 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-daytona-2026",
-    "sport": "moto",
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
     "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 13 - Daytona International Speedway",
-    "date": "2027-01-11",
-    "dateStart": "2027-01-09",
-    "dateEnd": "2027-01-11",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-16",
+    "dateEnd": "2027-01-16",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
     ],
     "points": [
       {
-        "h": "Daytona's High-Speed Attrition Factor",
-        "b": "The 3.56-mile tri-oval demands perfect bike setup and racecraft, where <strong>even slight mechanical failures become catastrophic at 180+ mph</strong>. Expect aggressive early-race positioning as riders jockey for track position before engine wear and tire degradation intensify over the distance."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Championship Points Desperation Mode",
-        "b": "Round 13 likely carries massive implications for title contention, meaning <strong>calculated risks will transform into reckless moves</strong> through Daytona's notorious Turn 1 and the high-speed banking where passing becomes a chess match of slipstream strategy."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "January Weather and Track Evolution",
-        "b": "Florida's winter conditions create unpredictable grip levels and cooler air that <strong>significantly alters tire performance windows compared to summer rounds</strong>, forcing teams to completely recalibrate their setups and creating opportunities for underdogs who nail the weather-dependent setup lottery."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -2587,6 +2543,40 @@
       {
         "h": "FedEx Cup race early momentum matters",
         "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-sbk-daytona-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 13 - Daytona International Speedway",
+    "date": "2027-01-24",
+    "dateStart": "2027-01-22",
+    "dateEnd": "2027-01-24",
+    "location": "Daytona International Speedway, Daytona Beach, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Daytona's High-Speed Attrition Factor",
+        "b": "The 3.56-mile tri-oval demands perfect bike setup and racecraft, where <strong>even slight mechanical failures become catastrophic at 180+ mph</strong>. Expect aggressive early-race positioning as riders jockey for track position before engine wear and tire degradation intensify over the distance."
+      },
+      {
+        "h": "Championship Points Desperation Mode",
+        "b": "Round 13 likely carries massive implications for title contention, meaning <strong>calculated risks will transform into reckless moves</strong> through Daytona's notorious Turn 1 and the high-speed banking where passing becomes a chess match of slipstream strategy."
+      },
+      {
+        "h": "January Weather and Track Evolution",
+        "b": "Florida's winter conditions create unpredictable grip levels and cooler air that <strong>significantly alters tire performance windows compared to summer rounds</strong>, forcing teams to completely recalibrate their setups and creating opportunities for underdogs who nail the weather-dependent setup lottery."
       }
     ]
   },
@@ -2660,7 +2650,7 @@
     "date": "2027-02-07",
     "dateStart": "2027-02-05",
     "dateEnd": "2027-02-07",
-    "location": "Daytona International Speedway, Daytona Beach, USA",
+    "location": "Sebring International Raceway, Sebring, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
