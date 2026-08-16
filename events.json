@@ -531,7 +531,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -705,65 +705,6 @@
     }
   },
   {
-    "id": "motoa-superbike-r7-road-america-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
-    "date": "2026-08-16",
-    "dateStart": "2026-08-14",
-    "dateEnd": "2026-08-16",
-    "location": "Laguna Seca Raceway, Salinas, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Road America's High-Speed Attrition Test",
-        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
-      },
-      {
-        "h": "Chicane Mastery Separates Championship Contenders",
-        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
-      },
-      {
-        "h": "Weather Wildcard Could Shake Up Grid",
-        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
-      }
-    ],
-    "watch": {
-      "sessions": [
-        {
-          "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "6:00 AM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Live coverage of first Superbike race"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "6:00 AM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Live coverage of second Superbike race"
-        }
-      ],
-      "watch_note": "MotoAmerica Superbike races are best watched on FS1 or free via Samsung TV Plus in the US."
-    }
-  },
-  {
     "id": "ufc-330-makhachev-machado-garry-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -863,7 +804,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -872,7 +813,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary fights on ESPN+"
         },
         {
           "name": "Main Card",
@@ -884,7 +825,7 @@
           "note": "Main card exclusive to Paramount+"
         }
       ],
-      "watch_note": "Stream the main card on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ from 7:00 PM MT."
+      "watch_note": "Stream the entire DWCS 10.2 event on Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -897,7 +838,7 @@
     "date": "2026-08-23",
     "dateStart": "2026-08-20",
     "dateEnd": "2026-08-23",
-    "location": "Bellerive Country Club, St. Louis, MO, USA",
+    "location": "Bellerive Country Club, St. Louis, Missouri, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -927,7 +868,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early coverage begins at 1:00 PM MT"
+          "note": "Featured groups available on Peacock"
         },
         {
           "name": "Round 2",
@@ -937,32 +878,89 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Friday play"
+          "note": "Featured groups available on Peacock"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Weekend coverage begins"
+          "note": "Primetime coverage begins at 3:00 PM MT on CBS"
         },
         {
           "name": "Round 4 (Final Round)",
           "day": "Sunday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion"
+          "note": "Primetime coverage begins at 3:00 PM MT on CBS"
         }
       ],
-      "watch_note": "The BMW Championship is best watched on Golf Channel and NBC with streaming available on Peacock; Sunday's final round will have the largest broadcast presence on NBC."
+      "watch_note": "The BMW Championship broadcasts are available on Golf Channel and Peacock for early rounds, with CBS taking over for weekend coverage with primetime slots."
+    }
+  },
+  {
+    "id": "motoa-superbike-r7-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 7 - Road America",
+    "date": "2026-08-23",
+    "dateStart": "2026-08-21",
+    "dateEnd": "2026-08-23",
+    "location": "Laguna Seca Raceway, Salinas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Attrition Test",
+        "b": "With four of the fastest corners in American motorsport and nearly 2 miles of straightaway, Road America consistently produces <strong>mechanical failures and aggressive passing attempts</strong> that can shuffle championship standings in a single weekend. Whoever survives the brutal pace without drama gains crucial points in August's final push toward a title."
+      },
+      {
+        "h": "Chicane Mastery Separates Championship Contenders",
+        "b": "The technical carousel section in Turn 5 demands <strong>precise mid-corner speed and exit drive</strong> that separates elite riders from competitors struggling with setup—expect qualifying to be won and lost here. Teams perfecting their bike balance through this sequence will have the confidence to attack throughout the 20-lap distance."
+      },
+      {
+        "h": "Weather Wildcard Could Shake Up Grid",
+        "b": "August in Wisconsin brings unpredictable afternoon thunderstorms that can transform dry practice into wet-weather racing, and <strong>pit strategy and tire choice become instant game-changers</strong> for teams unprepared with contingency setups. Riders and crews who've tested the full envelope of conditions hold a decisive advantage if rain strikes during the race window."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -999,32 +997,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "4:00 PM MT",
+          "time_mt": "4:30 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Streaming only"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "5:30 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Prelim fights before main card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Hernandez vs. Rodrigues main event"
+          "note": "Hernandez vs. Rodrigues headliner"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "UFC Fight Night is best watched on Paramount+ for the main card, with preliminary fights available on ESPN+."
     }
   },
   {
@@ -1067,7 +1065,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-27",
     "dateEnd": "2026-08-30",
-    "location": "East Lake Golf Club, Atlanta, GA, USA",
+    "location": "East Lake Golf Club, Atlanta, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -1188,7 +1186,7 @@
     "series": "British Superbike Championship (BSB)",
     "icon": "🏍️",
     "title": "BSB Round 8 - Cadwell Park",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
     "location": "Cadwell Park, Lincolnshire, United Kingdom",
@@ -1345,7 +1343,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1412,7 +1410,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Road America, Elkhart Lake, USA",
+    "location": "Miller Motorsports Park, Tooele, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1630,7 +1628,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-17",
     "dateEnd": "2026-09-20",
-    "location": "The Cliffs at Walnut Cove, Arden, NC, USA",
+    "location": "The Cliffs at Walnut Cove, Arden, North Carolina, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -1694,7 +1692,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen, Netherlands",
+    "location": "TT Circuit Assen, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1788,7 +1786,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-24",
     "dateEnd": "2026-09-27",
-    "location": "Medinah Country Club, Medinah, IL, USA",
+    "location": "Medinah Country Club, Medinah, Illinois, USA",
     "status": "scheduled",
     "classes": [
       "Match Play"
@@ -1850,7 +1848,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-01",
     "dateEnd": "2026-10-04",
-    "location": "Black Desert Golf Course, Ivins, UT, USA",
+    "location": "Black Desert Golf Course, Ivins, Utah, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2138,7 +2136,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2385,6 +2383,40 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-23",
+    "dateEnd": "2026-10-25",
+    "location": "New Jersey Motorsports Park, Allendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
+      }
+    ]
+  },
+  {
     "id": "pga-vidantaworld-mexico-open-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -2482,40 +2514,6 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-11-01",
-    "dateStart": "2026-10-30",
-    "dateEnd": "2026-11-01",
-    "location": "Barber Motorsports Park, Birmingham, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
-      }
-    ]
-  },
-  {
     "id": "pga-world-wide-technology-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -2555,7 +2553,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2588,7 +2586,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, USA",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2686,7 +2684,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, St. Simons Island, GA, USA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2912,7 +2910,7 @@
     "date": "2027-01-04",
     "dateStart": "2027-01-01",
     "dateEnd": "2027-01-04",
-    "location": "Plantation Course at Kapalua Resort, Kapalua, HI, USA",
+    "location": "Kapalua Resort - Plantation Course, Kapalua, Hawaii, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2939,10 +2937,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-11",
-    "dateStart": "2027-01-08",
-    "dateEnd": "2027-01-11",
-    "location": "Waialae Country Club, Honolulu, HI, USA",
+    "date": "2027-01-10",
+    "dateStart": "2027-01-07",
+    "dateEnd": "2027-01-10",
+    "location": "Waialae Country Club, Honolulu, Hawaii, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2959,39 +2957,6 @@
       {
         "h": "Par-70 Setup Favors Experienced Veterans",
         "b": "Waialae's par-70 format and tricky greens with limited birdie opportunities have consistently rewarded <strong>older, patient competitors who thrive in grinding, low-scoring battles</strong> over young bombers seeking quick wins. Look for players with previous Sony Open success to outperform their current world rankings."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-01-16",
-    "dateStart": "2027-01-16",
-    "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
@@ -3061,6 +3026,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-01-23",
+    "dateStart": "2027-01-23",
+    "dateEnd": "2027-01-23",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+      },
+      {
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+      },
+      {
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
+      }
+    ]
+  },
+  {
     "id": "pga-farmers-insurance-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -3070,7 +3068,7 @@
     "date": "2027-01-31",
     "dateStart": "2027-01-28",
     "dateEnd": "2027-01-31",
-    "location": "Torrey Pines Golf Course, San Diego, CA, USA",
+    "location": "Torrey Pines Golf Course, San Diego, California, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3127,10 +3125,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Waste Management Phoenix Open",
-    "date": "2027-02-06",
+    "date": "2027-02-07",
     "dateStart": "2027-02-04",
-    "dateEnd": "2027-02-06",
-    "location": "TPC Scottsdale, Scottsdale, AZ, USA",
+    "dateEnd": "2027-02-07",
+    "location": "TPC Scottsdale - Stadium Course, Scottsdale, Arizona, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3194,7 +3192,7 @@
     "date": "2027-02-14",
     "dateStart": "2027-02-11",
     "dateEnd": "2027-02-14",
-    "location": "Pebble Beach Golf Links, Pebble Beach, CA, USA",
+    "location": "Pebble Beach Golf Links, Pebble Beach, California, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
