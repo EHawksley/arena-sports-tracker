@@ -916,7 +916,7 @@
     "date": "2026-08-23",
     "dateStart": "2026-08-21",
     "dateEnd": "2026-08-23",
-    "location": "Virginia International Raceway, Alton, United States",
+    "location": "Indianapolis Motor Speedway, Indianapolis, Indiana, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -949,27 +949,17 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
-        },
-        {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "2:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Supporting class race"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the round"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         }
       ],
       "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
@@ -1009,32 +999,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "4:00 PM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscribers"
+          "note": "Streamed exclusively on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "5:30 PM MT",
+          "time_mt": "6:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Available to ESPN+ subscribers"
+          "note": "Prelim fights air on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Hernandez vs. Rodrigues"
+          "note": "Hernandez vs. Rodrigues main event"
         }
       ],
-      "watch_note": "The easiest way to watch in the US is via Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The main card featuring Hernandez vs. Rodrigues streams on Paramount+ at 8:00 PM MT on Saturday, August 22, 2026."
     }
   },
   {
@@ -1075,7 +1065,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -1084,7 +1074,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main card"
+          "note": "Preliminary card exclusive to ESPN+"
         },
         {
           "name": "Main Card",
@@ -1093,10 +1083,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card"
+          "note": "Main card exclusive to Paramount+"
         }
       ],
-      "watch_note": "The easiest way to watch DWCS 10.3 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The DWCS 10.3 main card streams exclusively on Paramount+ at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -1109,7 +1099,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-27",
     "dateEnd": "2026-08-30",
-    "location": "East Lake Golf Club, Atlanta, Georgia, USA",
+    "location": "East Lake Golf Club, Atlanta, GA, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -1137,9 +1127,9 @@
           "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "ESPN+"
+            "Peacock"
           ],
-          "note": "Featured groups available on ESPN+"
+          "note": "Featured groups available on Golf Channel+"
         },
         {
           "name": "Round 2",
@@ -1147,9 +1137,9 @@
           "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "ESPN+"
+            "Peacock"
           ],
-          "note": "Featured groups available on ESPN+"
+          "note": "Featured groups available on Golf Channel+"
         },
         {
           "name": "Round 3",
@@ -1157,9 +1147,9 @@
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "ESPN+"
+            "Paramount+"
           ],
-          "note": "Primetime coverage begins at 3:00 PM MT on CBS"
+          "note": "CBS begins coverage"
         },
         {
           "name": "Final Round",
@@ -1167,12 +1157,12 @@
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "ESPN+"
+            "Paramount+"
           ],
-          "note": "Primetime coverage begins at 3:00 PM MT on CBS"
+          "note": "Coverage concludes on CBS"
         }
       ],
-      "watch_note": "The TOUR Championship concludes the FedEx Cup playoffs and is best watched on CBS for the weekend rounds or through ESPN+ for complete coverage all week."
+      "watch_note": "Watch the Tour Championship on Golf Channel for early rounds and CBS for the weekend on cable or stream via Peacock and Paramount+."
     }
   },
   {
@@ -1203,7 +1193,39 @@
         "h": "Road To UFC's Talent Pipeline Proven",
         "b": "By 2026, Road To UFC has become <strong>a verified pathway to major roster spots</strong>, meaning this Shanghai event carries genuine stakes—winners aren't just getting visibility but realistic opportunities to jump directly into competitive UFC matchups within months."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Friday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Earliest fights on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Friday",
+          "time_mt": "8:00 AM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card on ESPN+"
+        },
+        {
+          "name": "Main Card",
+          "day": "Friday",
+          "time_mt": "10:00 AM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event card"
+        }
+      ],
+      "watch_note": "The best way to watch Road To UFC 5.3 in the US is on Paramount+ for the main card, with prelims available on ESPN+ starting earlier in the morning."
+    }
   },
   {
     "id": "mgp-aragon-gp-2026",
@@ -1215,7 +1237,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragón, Alcañiz, Spain",
+    "location": "MotorLand Aragon, Alcaniz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1236,7 +1258,32 @@
         "h": "Mid-season championship momentum shift",
         "b": "By late August 2026, title contenders will face their last genuine opportunities to gain points on rivals before the summer break effect wears off. <strong>Consistency over qualifying performance</strong> typically rewards the riders who've developed the best setup adaptability across the season."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "FS2",
+            "Fox Sports app"
+          ],
+          "note": "12 km sprint race"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "25 lap race at MotorLand Aragon"
+        }
+      ],
+      "watch_note": "MotoGP Aragon Grand Prix races are broadcast on FS1 and FS2 in the United States, with early morning times due to the Spanish location."
+    }
   },
   {
     "id": "ufc-fight-night-nurmagomedov-song-2026",
@@ -1340,7 +1387,7 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1432,7 +1479,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1486,6 +1533,40 @@
       {
         "h": "Wet Weather Wildcard Factor",
         "b": "September in Portland brings unpredictable conditions, and <strong>rain transforms the tight technical sections into a lottery</strong> where confidence, tire management, and mental toughness separate champions from also-rans. Expect the weather forecast to dominate pre-race strategy sessions."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-r9-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "Round 9 - Laguna Seca",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Corkscrew Claims Another Victim",
+        "b": "Laguna Seca's infamous Corkscrew turn will separate the pretenders from the champions this weekend, as <strong>one mistake through that 200-foot elevation drop</strong> can cost riders multiple positions and potentially end their podium hopes before Turn 12."
+      },
+      {
+        "h": "Late-Season Title Implications Intensify",
+        "b": "With Round 9 landing in early October, <strong>championship contenders face their final opportunity to build crucial points</strong> before the season's closing rounds, making aggressive riding strategy essential despite Laguna Seca's technical demands."
+      },
+      {
+        "h": "Brake Performance Defines Grid Hierarchy",
+        "b": "The circuit's multiple hard-braking zones and tight technical sections mean <strong>superior brake feel and consistency will be the differentiator</strong> more than pure horsepower, favoring riders with meticulous setup and smooth throttle control."
       }
     ]
   },
@@ -1683,7 +1764,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-17",
     "dateEnd": "2026-09-20",
-    "location": "The Cliffs at Walnut Cove, Arden, North Carolina, USA",
+    "location": "The Cliffs at Walnut Cove, Arden, NC, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -1875,7 +1956,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-24",
     "dateEnd": "2026-09-27",
-    "location": "Medinah Country Club, Medinah, Illinois, USA",
+    "location": "Medinah Country Club, Medinah, IL, USA",
     "status": "scheduled",
     "classes": [
       "Match Play"
@@ -1967,7 +2048,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-01",
     "dateEnd": "2026-10-04",
-    "location": "Black Desert Golf Course, Ivins, Utah, USA",
+    "location": "Black Desert Golf Course, Ivins, UT, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2049,40 +2130,6 @@
       {
         "h": "Points Compression Narrows Window",
         "b": "With the season reaching its climax, <strong>every podium position becomes mathematically crucial</strong> as the BSB title race typically tightens significantly—one costly mistake here could swing momentum dramatically heading into the final rounds."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-superbike-r9-laguna-seca-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "Round 9 - Laguna Seca",
-    "date": "2026-10-04",
-    "dateStart": "2026-10-02",
-    "dateEnd": "2026-10-04",
-    "location": "Mazda Raceway Laguna Seca, Salinas, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Corkscrew Claims Another Victim",
-        "b": "Laguna Seca's infamous Corkscrew turn will separate the pretenders from the champions this weekend, as <strong>one mistake through that 200-foot elevation drop</strong> can cost riders multiple positions and potentially end their podium hopes before Turn 12."
-      },
-      {
-        "h": "Late-Season Title Implications Intensify",
-        "b": "With Round 9 landing in early October, <strong>championship contenders face their final opportunity to build crucial points</strong> before the season's closing rounds, making aggressive riding strategy essential despite Laguna Seca's technical demands."
-      },
-      {
-        "h": "Brake Performance Defines Grid Hierarchy",
-        "b": "The circuit's multiple hard-braking zones and tight technical sections mean <strong>superior brake feel and consistency will be the differentiator</strong> more than pure horsepower, favoring riders with meticulous setup and smooth throttle control."
       }
     ]
   },
@@ -2188,7 +2235,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2221,7 +2268,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Circuito Estoril, Cascais, Portugal",
+    "location": "Circuito Estoril, Estoril, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2285,7 +2332,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2436,6 +2483,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-10-17",
+    "dateStart": "2026-10-17",
+    "dateEnd": "2026-10-17",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "mgp-australia-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -2508,7 +2588,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-23",
     "dateEnd": "2026-10-25",
-    "location": "New Jersey Motorsports Park, Allentown, United States",
+    "location": "Road Atlanta, Braselton, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2573,7 +2653,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Puerto Vallarta, Mexico",
+    "location": "VidantaWorld, Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2700,7 +2780,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Lusail, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2724,79 +2804,16 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-11-07",
-    "dateStart": "2026-11-07",
-    "dateEnd": "2026-11-07",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
-      }
-    ]
-  },
-  {
-    "id": "pga-good-good-championship-2026",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Good Good Championship",
-    "date": "2026-11-15",
-    "dateStart": "2026-11-12",
-    "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas, USA",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play"
-    ],
-    "points": [
-      {
-        "h": "Austin's Layout Demands Precision",
-        "b": "Fazio Canyons features elevated greens and dramatic elevation changes that will punish wayward shots, making <strong>course management and iron play</strong> far more critical than raw driving distance in this championship setting."
-      },
-      {
-        "h": "November Weather Shifts Competitive Edge",
-        "b": "Playing in late fall means softer greens and potentially unpredictable Texas weather patterns, which could <strong>neutralize equipment advantages</strong> and favor players with superior mental toughness and adaptability over those relying on pure athleticism."
-      },
-      {
-        "h": "FedEx Cup Finale Stakes Peak",
-        "b": "As the culminating event of the FedEx Cup race, this championship will determine the season's ultimate winner with maximum financial incentives, making <strong>consistency under pressure</strong> the defining factor between contenders and champions."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-superbike-r11-las-vegas-2026",
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoAmerica Superbike Championship",
     "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship - Round 11 Las Vegas",
-    "date": "2026-11-15",
-    "dateStart": "2026-11-13",
-    "dateEnd": "2026-11-15",
-    "location": "Laguna Seca, Salinas, United States",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2817,6 +2834,36 @@
       {
         "h": "Tire Management on Abrasive Surface",
         "b": "Charlotte's asphalt is notoriously abrasive and will punish both front and rear compounds through extended braking zones and high-speed transitions. Teams that master <strong>tire preservation while maintaining pace</strong> will have a decisive edge, especially in the final ten laps when degradation peaks."
+      }
+    ]
+  },
+  {
+    "id": "pga-good-good-championship-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Good Good Championship",
+    "date": "2026-11-15",
+    "dateStart": "2026-11-12",
+    "dateEnd": "2026-11-15",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ],
+    "points": [
+      {
+        "h": "Austin's Layout Demands Precision",
+        "b": "Fazio Canyons features elevated greens and dramatic elevation changes that will punish wayward shots, making <strong>course management and iron play</strong> far more critical than raw driving distance in this championship setting."
+      },
+      {
+        "h": "November Weather Shifts Competitive Edge",
+        "b": "Playing in late fall means softer greens and potentially unpredictable Texas weather patterns, which could <strong>neutralize equipment advantages</strong> and favor players with superior mental toughness and adaptability over those relying on pure athleticism."
+      },
+      {
+        "h": "FedEx Cup Finale Stakes Peak",
+        "b": "As the culminating event of the FedEx Cup race, this championship will determine the season's ultimate winner with maximum financial incentives, making <strong>consistency under pressure</strong> the defining factor between contenders and champions."
       }
     ]
   },
@@ -2864,7 +2911,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia, USA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2894,7 +2941,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2914,6 +2961,39 @@
       {
         "h": "Portuguese Rider Home Advantage",
         "b": "If any Portuguese riders are in contention for points or podiums, <strong>home crowd support and intimate circuit knowledge</strong> provide genuine psychological and tactical advantages that shouldn't be underestimated in a championship battle."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-21",
+    "dateEnd": "2026-11-21",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -3021,9 +3101,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 4",
-    "date": "2026-12-12",
-    "dateStart": "2026-12-12",
-    "dateEnd": "2026-12-12",
+    "date": "2026-12-19",
+    "dateStart": "2026-12-19",
+    "dateEnd": "2026-12-19",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -3054,10 +3134,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sentry Tournament of Champions",
-    "date": "2027-01-10",
-    "dateStart": "2027-01-07",
-    "dateEnd": "2027-01-10",
-    "location": "Plantation Course at Kapalua, Kapalua, HI, USA",
+    "date": "2027-01-07",
+    "dateStart": "2027-01-04",
+    "dateEnd": "2027-01-07",
+    "location": "Plantation Course at Kapalua, Maui, HI, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3084,9 +3164,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-17",
-    "dateStart": "2027-01-14",
-    "dateEnd": "2027-01-17",
+    "date": "2027-01-14",
+    "dateStart": "2027-01-11",
+    "dateEnd": "2027-01-14",
     "location": "Waialae Country Club, Honolulu, HI, USA",
     "status": "scheduled",
     "classes": [
@@ -3104,39 +3184,6 @@
       {
         "h": "Par-70 Setup Favors Experienced Veterans",
         "b": "Waialae's par-70 format and tricky greens with limited birdie opportunities have consistently rewarded <strong>older, patient competitors who thrive in grinding, low-scoring battles</strong> over young bombers seeking quick wins. Look for players with previous Sony Open success to outperform their current world rankings."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-01-16",
-    "dateStart": "2027-01-16",
-    "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -3183,7 +3230,7 @@
     "date": "2027-01-24",
     "dateStart": "2027-01-21",
     "dateEnd": "2027-01-24",
-    "location": "PGA West, La Quinta, CA, USA",
+    "location": "Pete Dye Stadium Course at PGA West, La Quinta, CA, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -3390,6 +3437,37 @@
       {
         "h": "FedEx Cup Race Reshuffled Early",
         "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
+      }
+    ]
+  },
+  {
+    "id": "pga-fia-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "FIA Championship",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
+    "location": "Riviera Country Club, Los Angeles, CA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Rough Tests Accuracy",
+        "b": "The notoriously punishing rough at Riviera will separate ball-strikers from pretenders in February's thin Southern California rough conditions. <strong>Approach shot precision becomes currency</strong> on a course where missing fairways by just a few yards can cost multiple strokes."
+      },
+      {
+        "h": "FedEx Cup Points Race Intensifies",
+        "b": "With the season winding down toward playoffs, every point at this prestigious coastal venue carries significant weight in the final FedEx Cup standings. <strong>Winners here gain momentum and ranking position</strong> heading into the season's most lucrative tournaments."
+      },
+      {
+        "h": "Winter Wind Patterns Shift Play",
+        "b": "February's unpredictable Pacific coastal winds will make club selection and trajectory management critical variables that typical summer conditions don't demand. <strong>Course management and mental toughness</strong> separate those who adapt quickly from those who fight the elements all week."
       }
     ]
   },
