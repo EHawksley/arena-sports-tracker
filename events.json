@@ -914,9 +914,9 @@
     "icon": "🏍️",
     "title": "MotoAmerica Superbike Championship Round 7 - Road America",
     "date": "2026-08-23",
-    "dateStart": "2026-08-21",
+    "dateStart": "2026-08-22",
     "dateEnd": "2026-08-23",
-    "location": "Indianapolis Motor Speedway, Indianapolis, Indiana, USA",
+    "location": "Brainerd International Raceway, Brainerd, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -946,23 +946,23 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage on cable and free streaming"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage on cable and free streaming"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1/FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -999,20 +999,20 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "5:00 PM MT",
+          "time_mt": "4:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Streamed exclusively on UFC Fight Pass"
+          "note": "Preliminary fights begin on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:30 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights air on ESPN+"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -1021,10 +1021,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Hernandez vs. Rodrigues main event"
+          "note": "Main card featuring Hernandez vs. Rodrigues"
         }
       ],
-      "watch_note": "The main card featuring Hernandez vs. Rodrigues streams on Paramount+ at 8:00 PM MT on Saturday, August 22, 2026."
+      "watch_note": "The main card is exclusively on Paramount+, while prelims are available on ESPN+ in the United States."
     }
   },
   {
@@ -1065,16 +1065,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights available on UFC Fight Pass"
+          "note": "Streaming only on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card exclusive to ESPN+"
+          "note": "ESPN+ streaming exclusive"
         },
         {
           "name": "Main Card",
@@ -1083,10 +1083,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card exclusive to Paramount+"
+          "note": "Paramount+ pay-per-view"
         }
       ],
-      "watch_note": "The DWCS 10.3 main card streams exclusively on Paramount+ at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is available on Paramount+ PPV at 9:00 PM MT, with prelims on ESPN+ starting at 7:30 PM MT."
     }
   },
   {
@@ -1127,9 +1127,9 @@
           "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "Peacock"
+            "ESPN+"
           ],
-          "note": "Featured groups available on Golf Channel+"
+          "note": "Featured groups available on ESPN+"
         },
         {
           "name": "Round 2",
@@ -1137,9 +1137,9 @@
           "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "Peacock"
+            "ESPN+"
           ],
-          "note": "Featured groups available on Golf Channel+"
+          "note": "Featured groups available on ESPN+"
         },
         {
           "name": "Round 3",
@@ -1147,22 +1147,22 @@
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
-            "Paramount+"
+            "ESPN+"
           ],
-          "note": "CBS begins coverage"
+          "note": "CBS primetime coverage begins at 3:00 PM MT"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "CBS",
-            "Paramount+"
+            "NBC",
+            "Peacock"
           ],
-          "note": "Coverage concludes on CBS"
+          "note": "NBC primetime coverage begins at 6:00 PM MT"
         }
       ],
-      "watch_note": "Watch the Tour Championship on Golf Channel for early rounds and CBS for the weekend on cable or stream via Peacock and Paramount+."
+      "watch_note": "The TOUR Championship concludes the FedEx Cup playoffs and is best watched on NBC on Sunday afternoon/evening, with Golf Channel and CBS providing earlier round coverage throughout the week."
     }
   },
   {
@@ -1199,32 +1199,32 @@
         {
           "name": "Early Prelims",
           "day": "Friday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Friday",
-          "time_mt": "8:00 AM MT",
+          "time_mt": "7:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Friday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "Paramount+"
           ],
           "note": "Main event card"
         }
       ],
-      "watch_note": "The best way to watch Road To UFC 5.3 in the US is on Paramount+ for the main card, with prelims available on ESPN+ starting earlier in the morning."
+      "watch_note": "The Road To UFC 5.3 main card airs Friday morning on Paramount+ with preliminary fights available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -1237,7 +1237,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "MotorLand Aragon, Alcaniz, Spain",
+    "location": "Motorland Aragón, Alcañiz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1266,7 +1266,7 @@
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Fox Sports app"
           ],
           "note": "12 km sprint race"
@@ -1279,10 +1279,10 @@
             "FS1",
             "Fox Sports app"
           ],
-          "note": "25 lap race at MotorLand Aragon"
+          "note": "25 lap race distance"
         }
       ],
-      "watch_note": "MotoGP Aragon Grand Prix races are broadcast on FS1 and FS2 in the United States, with early morning times due to the Spanish location."
+      "watch_note": "MotoGP races at Aragon are broadcast live on FS1 early Sunday morning MT, with coverage also available via the Fox Sports app with cable authentication."
     }
   },
   {
@@ -1313,7 +1313,39 @@
         "h": "Title Implications for Lightweight Division",
         "b": "This bout serves as a crucial stepping stone for either fighter to crack the lightweight elite, with <strong>the winner earning significant negotiating power</strong> for a top-5 ranked opponent within the next two fight cycles."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "3:00 AM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Earliest fights on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card before main event"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Nurmagomedov vs. Song main event"
+        }
+      ],
+      "watch_note": "Subscribe to Paramount+ to watch the main card live on Saturday morning, with preliminary fights available on ESPN+ starting earlier."
+    }
   },
   {
     "id": "bsb-r8-cadwell-2026",
@@ -1345,7 +1377,32 @@
         "h": "Summer Heat Amplifies Brake Fade Battles",
         "b": "Late August heat at Cadwell will test brake durability through the demanding Hairpin and chicane sections, where <strong>thermal management failures can decide crucial positions</strong> in a race where defensive riding and braking zones become prime battlegrounds."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "WorldSBK app"
+          ],
+          "note": "Live from Cadwell Park"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "WorldSBK app"
+          ],
+          "note": "Main race of the round"
+        }
+      ],
+      "watch_note": "BSB Round 8 at Cadwell Park is best watched via Peacock or the official WorldSBK app, with early morning start times due to the UK time zone difference."
+    }
   },
   {
     "id": "dwcs-10-4-2026",
@@ -1479,7 +1536,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1786,40 +1843,6 @@
     ]
   },
   {
-    "id": "motoa-superbike-r9-miller-motorsports-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
-    "date": "2026-09-20",
-    "dateStart": "2026-09-18",
-    "dateEnd": "2026-09-20",
-    "location": "Road America, Elkhart Lake, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship Battle Hits Desert Territory",
-        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
-      },
-      {
-        "h": "Tire Management Becomes Critical Factor",
-        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
-      },
-      {
-        "h": "Home Track Advantage Shifts Balance",
-        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
-      }
-    ]
-  },
-  {
     "id": "mgp-austria-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -1913,6 +1936,40 @@
       {
         "h": "Showdown format amplifies consistency over heroics",
         "b": "The double-header format means <strong>steady point accumulation matters more than single-race heroics</strong>, potentially shifting advantage toward riders with balanced setups rather than those hunting one perfect qualifying lap. Tire degradation across two races becomes the real battle."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-r9-miller-motorsports-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 9 - Miller Motorsports Park",
+    "date": "2026-09-20",
+    "dateStart": "2026-09-19",
+    "dateEnd": "2026-09-20",
+    "location": "Laguna Seca Raceway, Salinas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship Battle Hits Desert Territory",
+        "b": "Miller's high-altitude, fast-flowing layout rewards riders who can maintain momentum through the technical sections, making this a <strong>crucial momentum-shifter</strong> for title contenders heading into the final rounds of the season."
+      },
+      {
+        "h": "Tire Management Becomes Critical Factor",
+        "b": "The Utah heat and abrasive track surface at Miller demand precision tire strategy, as <strong>managing tire degradation over race distance</strong> could determine whether front-runners can maintain their qualifying pace or fade in the closing laps."
+      },
+      {
+        "h": "Home Track Advantage Shifts Balance",
+        "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
       }
     ]
   },
@@ -2235,7 +2292,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2579,40 +2636,6 @@
     ]
   },
   {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-25",
-    "dateStart": "2026-10-23",
-    "dateEnd": "2026-10-25",
-    "location": "Road Atlanta, Braselton, Georgia, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
-      }
-    ]
-  },
-  {
     "id": "ufc-333-volkanovski-evloev-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -2741,6 +2764,40 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-31",
+    "dateEnd": "2026-11-01",
+    "location": "New Jersey Motorsports Park, Allendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
+      }
+    ]
+  },
+  {
     "id": "pga-world-wide-technology-championship-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -2780,7 +2837,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2941,7 +2998,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3134,10 +3191,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sentry Tournament of Champions",
-    "date": "2027-01-07",
-    "dateStart": "2027-01-04",
-    "dateEnd": "2027-01-07",
-    "location": "Plantation Course at Kapalua, Maui, HI, USA",
+    "date": "2027-01-09",
+    "dateStart": "2027-01-07",
+    "dateEnd": "2027-01-09",
+    "location": "Plantation Course at Kapalua, Lahaina, HI, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3164,9 +3221,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-14",
-    "dateStart": "2027-01-11",
-    "dateEnd": "2027-01-14",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-14",
+    "dateEnd": "2027-01-16",
     "location": "Waialae Country Club, Honolulu, HI, USA",
     "status": "scheduled",
     "classes": [
@@ -3230,7 +3287,7 @@
     "date": "2027-01-24",
     "dateStart": "2027-01-21",
     "dateEnd": "2027-01-24",
-    "location": "Pete Dye Stadium Course at PGA West, La Quinta, CA, USA",
+    "location": "PGA West, La Quinta, CA, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -3346,32 +3403,33 @@
     ]
   },
   {
-    "id": "pga-waste-management-phoenix-open-2027",
+    "id": "pga-pebble-beach-pro-am-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Waste Management Phoenix Open",
+    "title": "AT&T Pebble Beach Pro-Am",
     "date": "2027-02-07",
     "dateStart": "2027-02-04",
     "dateEnd": "2027-02-07",
-    "location": "TPC Scottsdale, Scottsdale, AZ, USA",
+    "location": "Pebble Beach Golf Links, Pebble Beach, CA, USA",
     "status": "scheduled",
     "classes": [
-      "Stroke Play"
+      "Stroke Play",
+      "FedEx Cup Points"
     ],
     "points": [
       {
-        "h": "Stadium Course Rewards Aggressive Golf",
-        "b": "TPC Scottsdale's narrow fairways and strategic bunkering punish conservative play, making this event a showcase for <strong>elite ball-striking and course management</strong> rather than pure distance off the tee."
+        "h": "Valentine's Day Chaos at Pebble",
+        "b": "Playing one of golf's most iconic and unforgiving layouts on February 14th adds psychological pressure beyond the typical Pro-Am dynamics. <strong>Wind patterns off the Pacific on Valentine's Day historically create unpredictable conditions</strong> that can separate emotionally locked-in players from those struggling with focus."
       },
       {
-        "h": "Phoenix's February Window Matters",
-        "b": "Playing in early February means <strong>firm, fast greens and minimal moisture</strong>, creating dramatically different conditions than summer events and favoring players with exceptional touch around the greens."
+        "h": "Celebrity Partner Impact Intensifies",
+        "b": "The Pro-Am format at Pebble Beach means amateurs with varying skill levels play alongside PGA Tour pros, and <strong>managing partner chemistry and pace-of-play becomes unexpectedly crucial</strong> when split focus could cost strokes on one of the world's most demanding courses."
       },
       {
-        "h": "16th Hole Drama Defines Legacy",
-        "b": "The iconic par-3 with its island green and raucous gallery <strong>separates clutch performers from the rest</strong>, and recent winners have almost universally made their move by converting scoring opportunities on this stage."
+        "h": "FedEx Cup Race Reshuffled Early",
+        "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
       }
     ]
   },
@@ -3410,33 +3468,32 @@
     ]
   },
   {
-    "id": "pga-pebble-beach-pro-am-2027",
+    "id": "pga-waste-management-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "AT&T Pebble Beach Pro-Am",
+    "title": "Waste Management Phoenix Open",
     "date": "2027-02-14",
     "dateStart": "2027-02-11",
     "dateEnd": "2027-02-14",
-    "location": "Pebble Beach Golf Links, Pebble Beach, CA, USA",
+    "location": "TPC Scottsdale, Scottsdale, AZ, USA",
     "status": "scheduled",
     "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
+      "Stroke Play"
     ],
     "points": [
       {
-        "h": "Valentine's Day Chaos at Pebble",
-        "b": "Playing one of golf's most iconic and unforgiving layouts on February 14th adds psychological pressure beyond the typical Pro-Am dynamics. <strong>Wind patterns off the Pacific on Valentine's Day historically create unpredictable conditions</strong> that can separate emotionally locked-in players from those struggling with focus."
+        "h": "Stadium Course Rewards Aggressive Golf",
+        "b": "TPC Scottsdale's narrow fairways and strategic bunkering punish conservative play, making this event a showcase for <strong>elite ball-striking and course management</strong> rather than pure distance off the tee."
       },
       {
-        "h": "Celebrity Partner Impact Intensifies",
-        "b": "The Pro-Am format at Pebble Beach means amateurs with varying skill levels play alongside PGA Tour pros, and <strong>managing partner chemistry and pace-of-play becomes unexpectedly crucial</strong> when split focus could cost strokes on one of the world's most demanding courses."
+        "h": "Phoenix's February Window Matters",
+        "b": "Playing in early February means <strong>firm, fast greens and minimal moisture</strong>, creating dramatically different conditions than summer events and favoring players with exceptional touch around the greens."
       },
       {
-        "h": "FedEx Cup Race Reshuffled Early",
-        "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
+        "h": "16th Hole Drama Defines Legacy",
+        "b": "The iconic par-3 with its island green and raucous gallery <strong>separates clutch performers from the rest</strong>, and recent winners have almost universally made their move by converting scoring opportunities on this stage."
       }
     ]
   },
@@ -3478,9 +3535,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 6",
-    "date": "2027-02-13",
-    "dateStart": "2027-02-13",
-    "dateEnd": "2027-02-13",
+    "date": "2027-02-20",
+    "dateStart": "2027-02-20",
+    "dateEnd": "2027-02-20",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
