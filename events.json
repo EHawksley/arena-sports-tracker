@@ -1040,7 +1040,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-27",
     "dateEnd": "2026-08-30",
-    "location": "East Lake Golf Club, Atlanta, GA, United States",
+    "location": "East Lake Golf Club, Atlanta, GA, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -1070,7 +1070,7 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Featured groups coverage begins at 12:00 PM MT"
+          "note": "Early coverage on Golf Channel"
         },
         {
           "name": "Round 2",
@@ -1080,7 +1080,7 @@
             "Golf Channel",
             "ESPN+"
           ],
-          "note": "Featured groups coverage begins at 12:00 PM MT"
+          "note": "Early coverage on Golf Channel"
         },
         {
           "name": "Round 3",
@@ -1090,20 +1090,20 @@
             "CBS",
             "ESPN+"
           ],
-          "note": "Prime time coverage on CBS"
+          "note": "CBS primetime coverage begins at 3:00 PM MT"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "CBS",
-            "ESPN+"
+            "NBC",
+            "Peacock"
           ],
-          "note": "Championship conclusion with full CBS coverage"
+          "note": "NBC primetime coverage begins at 3:00 PM MT"
         }
       ],
-      "watch_note": "The TOUR Championship finale is best watched on CBS for the weekend rounds, with early-week coverage on Golf Channel and full coverage available via ESPN+ streaming."
+      "watch_note": "The TOUR Championship is best watched through NBC on Sunday for the final round, or via ESPN+ and Golf Channel for all four rounds with comprehensive coverage."
     }
   },
   {
@@ -1144,7 +1144,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "International preliminary fights"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -1153,7 +1153,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -1165,7 +1165,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The Road To UFC 5.3 main card from Shanghai airs Friday morning on Paramount+ in Mountain Time, with prelims available on ESPN+ starting earlier."
+      "watch_note": "The Road To UFC 5.3 from Shanghai airs early Friday morning in the US, with the main card on Paramount+ starting at 10:00 AM MT."
     }
   },
   {
@@ -1178,7 +1178,7 @@
     "date": "2026-08-30",
     "dateStart": "2026-08-28",
     "dateEnd": "2026-08-30",
-    "location": "Motorland Aragon, Alcañiz, Spain",
+    "location": "Motorland Aragon, Alcaniz, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1203,37 +1203,35 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Race",
+          "name": "Moto3 Race",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports Go"
+            "FS2"
           ],
-          "note": "Live coverage of the main MotoGP race from Aragon"
+          "note": "Early morning broadcast"
         },
         {
           "name": "Moto2 Race",
           "day": "Sunday",
-          "time_mt": "4:20 AM MT",
+          "time_mt": "6:15 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports Go"
+            "FS2"
           ],
-          "note": "Intermediate class race"
+          "note": "Early morning broadcast"
         },
         {
-          "name": "Moto3 Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
-          "time_mt": "3:00 AM MT",
+          "time_mt": "7:30 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports Go"
+            "FS1",
+            "Fox Sports app"
           ],
-          "note": "Lightweight class race"
+          "note": "Main event"
         }
       ],
-      "watch_note": "MotoGP Aragon can be streamed via Fox Sports Go or watched on FS1/FS2 with a cable subscription in the United States."
+      "watch_note": "All MotoGP Aragon Grand Prix sessions are broadcast on Fox Sports (FS1/FS2) with early morning start times in MT; subscribe to Fox Sports app or cable provider for streaming access."
     }
   },
   {
@@ -1270,32 +1268,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "4:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card featuring Nurmagomedov vs. Song"
+          "note": "Nurmagomedov vs. Song headliner"
         }
       ],
-      "watch_note": "UFC Fight Night: Nurmagomedov vs. Song streams on Paramount+ for the main card starting at 9:00 AM MT on Saturday, with preliminary bouts available earlier on ESPN+."
+      "watch_note": "Subscribe to Paramount+ to watch the main card featuring Nurmagomedov vs. Song, with preliminary fights available on ESPN+ earlier in the morning (all times MT)."
     }
   },
   {
@@ -1337,9 +1335,9 @@
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "WorldSBK App"
           ],
-          "note": "Live coverage of first superbike race"
+          "note": "Live coverage of opening race"
         },
         {
           "name": "Superbike Race 2",
@@ -1347,12 +1345,12 @@
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "WorldSBK App"
           ],
-          "note": "Live coverage of second superbike race"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "BSB Round 8 from Cadwell Park is best watched on Peacock or the WorldSBK app with early morning starts in Mountain Time on Saturday and Sunday."
+      "watch_note": "BSB Round 8 at Cadwell Park is best watched via Peacock or the WorldSBK App for US viewers, with early morning start times in Mountain Time."
     }
   },
   {
@@ -1393,28 +1391,28 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights of the card"
+          "note": "UFC Fight Pass exclusive"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary bouts before main card"
+          "note": "Prelim fights on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Tuesday",
-          "time_mt": "10:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Championship fights and headliners"
+          "note": "Main card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ starting at 10:00 PM MT on Tuesday, September 1st, 2026."
+      "watch_note": "The easiest way to watch DWCS 10.4 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -1578,7 +1576,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano World Circuit Marco Simoncelli, Misano Adriatico, Italy",
+    "location": "Misano World Circuit Marco Simoncelli, Misano, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1679,7 +1677,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Portland International Raceway, Portland, Oregon, USA",
+    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1888,6 +1886,37 @@
     ]
   },
   {
+    "id": "ufc-noche-silva-vs-delgado-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "Noche UFC: Silva vs. Delgado",
+    "date": "2026-09-12",
+    "dateStart": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Glendale, USA",
+    "status": "scheduled",
+    "classes": [
+      "Prelims",
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Silva's Redemption Arc Continues",
+        "b": "At this stage of his career, Silva enters with <strong>veteran savvy and calculated striking</strong> that could exploit any hesitation from Delgado. This fight represents a crucial opportunity to cement a late-career resurgence before facing legitimate title contenders."
+      },
+      {
+        "h": "Delgado's Pressure Test in Spotlight",
+        "b": "Delgado must prove he belongs in <strong>elite company against a future Hall of Famer</strong> while the eyes of Mexican fight fans are watching on Noche UFC. His wrestling and cardio will be tested against Silva's ring intelligence over five potential rounds."
+      },
+      {
+        "h": "Striking Masterclass or Youth Movement",
+        "b": "This matchup hinges on whether <strong>Silva's technical precision can neutralize Delgado's volume and aggression</strong>, creating a fascinating stylistic chess match that could define both fighters' trajectories heading into 2027."
+      }
+    ]
+  },
+  {
     "id": "ufc-dwcs-10-6-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -1927,7 +1956,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-17",
     "dateEnd": "2026-09-20",
-    "location": "The Cliffs at Walnut Cove, Arden, NC, United States",
+    "location": "The Cliffs at Walnut Cove, Arden, NC, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -2115,7 +2144,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-24",
     "dateEnd": "2026-09-27",
-    "location": "Medinah Country Club, Medinah, IL, United States",
+    "location": "Medinah Country Club, Medinah, IL, USA",
     "status": "scheduled",
     "classes": [
       "Match Play"
@@ -2237,7 +2266,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-01",
     "dateEnd": "2026-10-04",
-    "location": "Black Desert Golf Course, Ivins, UT, United States",
+    "location": "Black Desert Golf Course, Ivins, UT, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -2267,7 +2296,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Mobility Resort Motegi, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2424,7 +2453,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Mandalika, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2457,7 +2486,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Circuito Estoril, Estoril, Portugal",
+    "location": "Circuito Estoril, Cascais, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2642,6 +2671,40 @@
     ]
   },
   {
+    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Mazda Raceway Laguna Seca, Monterey, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Stock 1000",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Championship implications at stakes",
+        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
+      },
+      {
+        "h": "Laguna Seca's technical demands",
+        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
+      },
+      {
+        "h": "Factory support and tire strategy",
+        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -2764,40 +2827,6 @@
       {
         "h": "Champions Return to Defend Status",
         "b": "Defending champions often gain massive confidence advantages in return trips to familiar terrain, and <strong>back-to-back winners at Port Royal</strong> historically show significantly improved scoring patterns the second year around."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Championship Round 10 - WeatherTech Raceway Laguna Seca",
-    "date": "2026-10-25",
-    "dateStart": "2026-10-23",
-    "dateEnd": "2026-10-25",
-    "location": "Mazda Raceway Laguna Seca, Salinas, California, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Stock 1000",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Championship implications at stakes",
-        "b": "With only two rounds remaining after this event, every point becomes critical as contenders fight for positioning in the title chase. <strong>A strong performance here could shift the entire championship trajectory</strong> for riders still within striking distance of the crown."
-      },
-      {
-        "h": "Laguna Seca's technical demands",
-        "b": "The Corkscrew and elevation changes at this iconic track require precision braking and mid-corner speed that separates elite superbike riders from the rest. <strong>Bike setup and rider confidence through the technical sections</strong> will be the deciding factor between winners and also-rans this weekend."
-      },
-      {
-        "h": "Factory support and tire strategy",
-        "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
       }
     ]
   },
@@ -2999,7 +3028,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3032,7 +3061,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Barber Motorsports Park, Birmingham, Alabama, USA",
+    "location": "Utah Motorsports Campus, Tooele, Utah, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3096,7 +3125,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, United States",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3160,7 +3189,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, United States",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3190,7 +3219,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimao, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
