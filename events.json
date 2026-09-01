@@ -1373,16 +1373,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -1391,10 +1391,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card exclusive to Paramount+"
+          "note": "Main event card"
         }
       ],
-      "watch_note": "Stream the main card on Paramount+ starting at 9:00 PM MT, with prelims available earlier on ESPN+."
+      "watch_note": "The main card is available exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -1407,7 +1407,7 @@
     "date": "2026-09-06",
     "dateStart": "2026-09-04",
     "dateEnd": "2026-09-06",
-    "location": "Circuit de Nevers Magny-Cours, Magny-Cours, France",
+    "location": "Circuit de Nevers Magny-Cours, Nevers, France",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -1433,7 +1433,7 @@
         {
           "name": "Superpole",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "WorldSBK app"
@@ -1443,22 +1443,22 @@
         {
           "name": "Race 1",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
             "WorldSBK app"
           ],
-          "note": "First race of the round"
+          "note": "Main race"
         },
         {
-          "name": "Warm Up",
+          "name": "Warm-up",
           "day": "Sunday",
           "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
             "WorldSBK app"
           ],
-          "note": "Morning warm-up session"
+          "note": "Pre-race session"
         },
         {
           "name": "Race 2",
@@ -1468,10 +1468,10 @@
             "Peacock",
             "WorldSBK app"
           ],
-          "note": "Main race of the round"
+          "note": "Second race"
         }
       ],
-      "watch_note": "Peacock and the WorldSBK app are the primary ways to watch the Acerbis French Round in the United States."
+      "watch_note": "Peacock provides the easiest streaming access for World Superbike Championship races in the United States."
     }
   },
   {
@@ -1508,11 +1508,11 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass subscribers"
         },
         {
           "name": "Prelims",
@@ -1521,7 +1521,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -1530,10 +1530,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Hooker vs. Parnasse headliner"
+          "note": "Paramount+ subscription required; Hooker vs. Parnasse is the main event"
         }
       ],
-      "watch_note": "The main card featuring Hooker vs. Parnasse airs on Paramount+ at 1:00 PM MT on Saturday, September 5th, 2026."
+      "watch_note": "The main card airs on Paramount+ at 1:00 PM MT on Saturday, September 5th, with prelims available on ESPN+ starting at 11:00 AM MT."
     }
   },
   {
@@ -1564,7 +1564,39 @@
         "h": "September 2026 Consolidates Fighting Calendar",
         "b": "DWCS 10.5 landing in September places it perfectly between summer and fall UFC pay-per-view cycles, meaning <strong>winning prospects can realistically debut within 60-90 days on televised events</strong>. This compressed timeline accelerates the path from development to roster status."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Tuesday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Early preliminary fights available on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Tuesday",
+          "time_mt": "7:30 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card exclusive to ESPN+"
+        },
+        {
+          "name": "Main Card",
+          "day": "Tuesday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main card exclusive to Paramount+"
+        }
+      ],
+      "watch_note": "The UFC Dana White's Contender Series 10.5 main card airs on Paramount+ at 9:00 PM MT on Tuesday, September 8th."
+    }
   },
   {
     "id": "motoa-superbike-r7-road-america-2026",
@@ -1635,7 +1667,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano Adriatico Circuit, Rimini, Italy",
+    "location": "Misano Adriatico, San Marino",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1790,6 +1822,41 @@
       {
         "h": "Championship Points Within Striking Distance",
         "b": "With the season reaching its critical stretch, every podium finish at a flagship venue like COTA carries massive title implications for the front-runners. <strong>Expect calculated aggression and no-holds-barred racing</strong> as competitors fight for season momentum heading into the final rounds."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-cota-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Circuit of the Americas",
+    "date": "2026-09-13",
+    "dateStart": "2026-09-11",
+    "dateEnd": "2026-09-13",
+    "location": "Circuit of The Americas, Austin, TX, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "King of the Baggers",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "COTA's High-Speed Demand Tests Bike Setup",
+        "b": "Circuit of the Americas' 3.4-mile layout with its sweeping turns and DRS-style straight will <strong>separate precision setup from raw horsepower</strong>, forcing teams to balance aggressive aerodynamics with mid-corner stability that most traditional superbike tracks don't require."
+      },
+      {
+        "h": "Summer Heat Compounds Tire Management Strategy",
+        "b": "September in Austin means ambient temps potentially reaching 95°F+ which <strong>dramatically reduces tire degradation windows</strong>, forcing riders to attack early and pit crews to nail fuel and tire pressure calculations on lap one rather than waiting for late-race adjustments."
+      },
+      {
+        "h": "Technical Track Favors European Rider Pedigree",
+        "b": "COTA's European-influenced design with its Turns 1 and 15 resembling World Superbike circuits means <strong>riders with WSB or MotoGP experience hold a structural advantage</strong> in reading the track's rhythm compared to pure American talent bred on flatter, less technical courses."
       }
     ]
   },
@@ -2164,6 +2231,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-1",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 1",
+    "date": "2026-09-19",
+    "dateStart": "2026-09-19",
+    "dateEnd": "2026-09-19",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "UFC's Bold BJJ Expansion Move",
+        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
+      },
+      {
+        "h": "Vegas Venue Attracts Elite Grapplers",
+        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
+      },
+      {
+        "h": "Bridging MMA and Pure Grappling Worlds",
+        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
+      }
+    ]
+  },
+  {
     "id": "ufc-dwcs-10-7-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -2390,7 +2490,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi Circuit, Motegi, Japan",
+    "location": "Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2478,39 +2578,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-1",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 1",
-    "date": "2026-10-03",
-    "dateStart": "2026-10-03",
-    "dateEnd": "2026-10-03",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "UFC's Bold BJJ Expansion Move",
-        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
-      },
-      {
-        "h": "Vegas Venue Attracts Elite Grapplers",
-        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
-      },
-      {
-        "h": "Bridging MMA and Pure Grappling Worlds",
-        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
-      }
-    ]
-  },
-  {
     "id": "ufc-332-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -2580,7 +2647,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika Circuit, Lombok, Indonesia",
+    "location": "Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -2710,7 +2777,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -2893,6 +2960,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-10-17",
+    "dateStart": "2026-10-17",
+    "dateEnd": "2026-10-17",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "mgp-australia-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -2902,7 +3002,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Circuit, Phillip Island, Australia",
+    "location": "Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3060,7 +3160,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
+    "location": "Sepang, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3220,7 +3320,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3442,7 +3542,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3466,12 +3566,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
+    "id": "ufc-bjj-3",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 2",
+    "title": "UFC BJJ 3",
     "date": "2026-11-21",
     "dateStart": "2026-11-21",
     "dateEnd": "2026-11-21",
@@ -3485,16 +3585,16 @@
     ],
     "points": [
       {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -3508,7 +3608,7 @@
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
     "dateEnd": "2026-11-29",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "location": "Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3596,6 +3696,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2026-12-19",
+    "dateStart": "2026-12-19",
+    "dateEnd": "2026-12-19",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+      }
+    ]
+  },
+  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -3656,12 +3789,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
+    "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 3",
+    "title": "UFC BJJ 5",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -3669,22 +3802,22 @@
     "status": "scheduled",
     "classes": [
       "Bantamweight",
+      "Featherweight",
       "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Middleweight"
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
@@ -3936,72 +4069,6 @@
       {
         "h": "Superbike Grid Battles Intensify Hard",
         "b": "Daytona's unique banking and 3.56-mile layout creates passing opportunities that reward aggressive throttle control and late braking, so <strong>risk-taking behavior will spike dramatically</strong> as competitors jockey for position on the high-speed oval sections. Expect several multi-bike battles and potential contact as riders push the limits of grip and machinery."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-4",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 4",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
-      },
-      {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
-      },
-      {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, United States",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
