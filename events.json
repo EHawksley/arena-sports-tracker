@@ -1431,47 +1431,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "Superpole",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Qualifying session"
         },
         {
-          "name": "Supersport Race",
+          "name": "Race 1",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Supersport class race"
+          "note": "Main race"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "Warm-Up",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Morning warm-up session"
         },
         {
-          "name": "Supersport Race 2",
+          "name": "Race 2",
           "day": "Sunday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Second Supersport race"
+          "note": "Final race"
         }
       ],
-      "watch_note": "Stream all WSBK Acerbis French Round races on Peacock or beIN Sports early Sunday and Saturday mornings in Mountain Time."
+      "watch_note": "Peacock and beIN Sports are the primary streaming options for WSBK in the United States, with Peacock offering the most accessible coverage."
     }
   },
   {
@@ -1508,32 +1508,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights of the card"
+          "note": "Early prelims exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card fights"
+          "note": "Prelim fights on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "2:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Hooker vs. Parnasse headliner"
+          "note": "Hooker vs. Parnasse main event"
         }
       ],
-      "watch_note": "The main card featuring Hooker vs. Parnasse is exclusively on Paramount+ at 1:00 PM MT on Saturday."
+      "watch_note": "The main card featuring Hooker vs. Parnasse streams exclusively on Paramount+ at 2:00 PM MT on Saturday, September 5th."
     }
   },
   {
@@ -1595,7 +1595,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.5 in the US is via Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The entire DWCS 10.5 event streams on Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
     }
   },
   {
@@ -1638,23 +1638,23 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on cable and free streaming"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on cable and free streaming"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1/FS2 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Road America are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -1667,7 +1667,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Misano Adriatico, San Marino",
+    "location": "Misano World Circuit, Misano Adriatico, Italy",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -1688,7 +1688,52 @@
         "h": "Championship Implications Peak Here",
         "b": "With only five rounds remaining after Misano, this mid-September clash becomes a critical turning point where title contenders must capitalize or risk falling behind in the championship hunt. <strong>Points finishes here directly determine playoff positioning</strong> for the season's final decisive races."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Moto3 Race",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "FS2",
+            "Fox Sports app"
+          ],
+          "note": "Early morning broadcast"
+        },
+        {
+          "name": "Moto2 Race",
+          "day": "Saturday",
+          "time_mt": "6:20 AM MT",
+          "channels": [
+            "FS2",
+            "Fox Sports app"
+          ],
+          "note": "Follows Moto3"
+        },
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "7:40 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Main coverage on FS1"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Main event"
+        }
+      ],
+      "watch_note": "The San Marino Grand Prix airs live on FS1 and Fox Sports app early Sunday morning in Mountain Time, with sprint and support races on Saturday."
+    }
   },
   {
     "id": "motoamerica-superbike-r8-portland-2026",
@@ -1722,7 +1767,32 @@
         "h": "Wet Weather Wildcard Factor",
         "b": "September in Portland brings unpredictable conditions, and <strong>rain transforms the tight technical sections into a lottery</strong> where confidence, tire management, and mental toughness separate champions from also-rans. Expect the weather forecast to dominate pre-race strategy sessions."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1; free streaming on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1; free streaming on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races at Portland are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+    }
   },
   {
     "id": "motoamerica-superbike-r9-laguna-seca-2026",
@@ -1756,7 +1826,32 @@
         "h": "Brake Performance Defines Grid Hierarchy",
         "b": "The circuit's multiple hard-braking zones and tight technical sections mean <strong>superior brake feel and consistency will be the differentiator</strong> more than pure horsepower, favoring riders with meticulous setup and smooth throttle control."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoAmerica Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free streaming on Samsung TV Plus"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free streaming on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races at Laguna Seca are available free on Samsung TV Plus with FS1 cable option for US viewers."
+    }
   },
   {
     "id": "motoa-superbike-r9-miller-motorsports-2026",
@@ -1790,7 +1885,32 @@
         "h": "Home Track Advantage Shifts Balance",
         "b": "Riders familiar with Miller's unique characteristics and elevation gains will have a <strong>significant setup and confidence edge</strong> over competitors tackling the circuit for the first time this season, potentially reshuffling podium expectations."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via FS2 cable subscription."
+    }
   },
   {
     "id": "motoa-superbike-texas-2026",
@@ -1823,7 +1943,32 @@
         "h": "Championship Points Within Striking Distance",
         "b": "With the season reaching its critical stretch, every podium finish at a flagship venue like COTA carries massive title implications for the front-runners. <strong>Expect calculated aggression and no-holds-barred racing</strong> as competitors fight for season momentum heading into the final rounds."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races at COTA are broadcast on FS1 with free streaming available on Samsung TV Plus in the US."
+    }
   },
   {
     "id": "motoa-superbike-cota-2026",
@@ -1858,7 +2003,32 @@
         "h": "Technical Track Favors European Rider Pedigree",
         "b": "COTA's European-influenced design with its Turns 1 and 15 resembling World Superbike circuits means <strong>riders with WSB or MotoGP experience hold a structural advantage</strong> in reading the track's rhythm compared to pure American talent bred on flatter, less technical courses."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1; free stream on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1; free stream on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races at Circuit of the Americas are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+    }
   },
   {
     "id": "ufc-fight-night-cortes-acosta-blaydes-2026",
@@ -2332,7 +2502,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, NJ, United States",
+    "location": "New Jersey Motorsports Park, Millville, NJ, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2490,7 +2660,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Castle Donington, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2614,7 +2784,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika Street Circuit, Lombok, Indonesia",
+    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3317,7 +3487,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Losail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
