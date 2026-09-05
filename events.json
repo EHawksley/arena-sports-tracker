@@ -1508,32 +1508,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early prelims exclusive to UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "2:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Hooker vs. Parnasse main event"
+          "note": "Hooker vs. Parnasse headliner"
         }
       ],
-      "watch_note": "The main card featuring Hooker vs. Parnasse streams exclusively on Paramount+ at 2:00 PM MT on Saturday, September 5th."
+      "watch_note": "The main card is available exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -1574,16 +1574,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Preliminary fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -1592,10 +1592,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card"
+          "note": "Main card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "The entire DWCS 10.5 event streams on Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+      "watch_note": "Stream the main card on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ one hour earlier."
     }
   },
   {
@@ -1641,7 +1641,7 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live coverage of the first Superbike race"
         },
         {
           "name": "Superbike Race 2",
@@ -1651,10 +1651,10 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Live coverage of the second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Road America are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available for free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -1692,47 +1692,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Moto3 Race",
-          "day": "Saturday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "FS2",
-            "Fox Sports app"
-          ],
-          "note": "Early morning broadcast"
-        },
-        {
-          "name": "Moto2 Race",
-          "day": "Saturday",
-          "time_mt": "6:20 AM MT",
-          "channels": [
-            "FS2",
-            "Fox Sports app"
-          ],
-          "note": "Follows Moto3"
-        },
-        {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "7:40 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Main coverage on FS1"
+          "note": "13-lap sprint race"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Main event"
+          "note": "Full-distance Grand Prix race"
         }
       ],
-      "watch_note": "The San Marino Grand Prix airs live on FS1 and Fox Sports app early Sunday morning in Mountain Time, with sprint and support races on Saturday."
+      "watch_note": "MotoGP San Marino Grand Prix is broadcast live on FS1 and the Fox Sports app, with early morning start times in Mountain Time due to the Italy location."
     }
   },
   {
@@ -1778,20 +1758,30 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1; free streaming on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "2:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1; free streaming on Samsung TV Plus"
+          "note": "Supersport class support race"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Final Superbike race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Portland are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike Championship races at Portland are broadcast live on FS1 and available free on Samsung TV Plus."
     }
   },
   {
@@ -1830,27 +1820,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "1:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free streaming on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "MotoAmerica Superbike Race 2",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "2:30 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Supersport class race"
+        },
+        {
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free streaming on Samsung TV Plus"
+          "note": "Second Superbike race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Laguna Seca are available free on Samsung TV Plus with FS1 cable option for US viewers."
+      "watch_note": "MotoAmerica Superbike Championship races at Laguna Seca are broadcast live on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -1891,25 +1891,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+          "note": "Final Superbike race of Round 9"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via FS2 cable subscription."
+      "watch_note": "MotoAmerica Superbike races are available on FS1 and free on Samsung TV Plus, making it easy to watch the action from Road America."
     }
   },
   {
@@ -1954,20 +1954,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Final Superbike race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at COTA are broadcast on FS1 with free streaming available on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbikes at Texas can be watched live on FS1 or for free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -1980,7 +1980,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Circuit of The Americas, Austin, TX, United States",
+    "location": "Circuit of the Americas, Austin, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2009,25 +2009,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1; free stream on Samsung TV Plus"
+          "note": "Free with cable login on FS1; also available free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1; free stream on Samsung TV Plus"
+          "note": "Free with cable login on FS1; also available free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Circuit of the Americas are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are best watched on FS1 with cable login or completely free on Samsung TV Plus."
     }
   },
   {
@@ -2058,7 +2058,39 @@
         "h": "West Coast Contender Development Stage",
         "b": "Fight Night cards serve as <strong>crucial stepping stones for rising West Coast talent</strong> to gain mainstream visibility before title-shot trajectories accelerate. Watch for up-and-coming fighters using this platform to secure highlight-reel finishes that translate into bigger UFC main card opportunities."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Earliest fights on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card before main event"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event fights"
+        }
+      ],
+      "watch_note": "The main card is available exclusively on Paramount+ at 9:00 PM MT, with preliminary fights starting earlier on ESPN+."
+    }
   },
   {
     "id": "ufc-fight-night-blaydes-cortes-acosta-2026",
@@ -2088,7 +2120,39 @@
         "h": "Glendale crowd energizes underdog narrative",
         "b": "Fighting in Arizona provides a unique energy that historically favors fighters willing to engage in explosive exchanges over methodical gameplan execution. <strong>This venue could inspire Cortes Acosta to take calculated risks that exploit Blaydes' sometimes-conservative wrestling approach</strong>."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Preliminary fights start first"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event featuring Blaydes vs. Cortes Acosta"
+        }
+      ],
+      "watch_note": "Stream the main card on Paramount+ at 9:00 PM MT on Saturday, September 12th, with prelims available on ESPN+ starting at 7:00 PM MT."
+    }
   },
   {
     "id": "ufc-fight-night-cortes-blaydes-2026",
@@ -2118,7 +2182,39 @@
         "h": "Heavyweight division contention on the line",
         "b": "The winner of this UFC Fight Night main event positions themselves squarely in heavyweight title conversations, as <strong>a victory here provides legitimate resume building in a division desperately searching for fresh contenders</strong>. Both fighters have the tools to make a statement, but execution under pressure will determine who advances."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Preliminary fights available on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card exclusive to ESPN+"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event featuring Cortes Acosta vs. Blaydes"
+        }
+      ],
+      "watch_note": "Subscribe to Paramount+ for the main card and ESPN+ for prelims to catch all the action from UFC Fight Night in Glendale."
+    }
   },
   {
     "id": "ufc-fight-night-rodriguez-silva-2026",
@@ -2148,7 +2244,39 @@
         "h": "Cardio Demands Favor Younger Challenger",
         "b": "Rodriguez's youth and conditioning should allow him to <strong>maintain relentless pressure through all five rounds</strong>, potentially grinding down Silva in the later rounds if the fight remains competitive. Silva's gas tank has been a question mark in recent years, making a high-tempo approach Rodriguez's best path to victory."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Exclusive to UFC Fight Pass subscribers"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Requires ESPN+ subscription"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Rodriguez vs. Silva headliner"
+        }
+      ],
+      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT on Saturday, with prelims available on ESPN+ starting at 7:00 PM MT."
+    }
   },
   {
     "id": "noche-ufc-rodriguez-vs-silva-2026",
@@ -2179,7 +2307,39 @@
         "h": "Glendale Crowd Factor Overlooked",
         "b": "The Arizona venue traditionally favors aggressive, forward-moving fighters, which <strong>heavily advantages Rodriguez's relentless pressure style</strong> over Silva's counter-striking preferences that typically thrive in neutral or hostile environments."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Preliminary fights begin on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:30 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card on ESPN+"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Rodriguez vs. Silva main event"
+        }
+      ],
+      "watch_note": "The best way to watch Noche UFC in the US is on Paramount+ for the main card at 9:00 PM MT, with prelims available on ESPN+ starting at 7:30 PM MT."
+    }
   },
   {
     "id": "ufc-noche-silva-vs-delgado-2026",
@@ -2210,7 +2370,39 @@
         "h": "Striking Masterclass or Youth Movement",
         "b": "This matchup hinges on whether <strong>Silva's technical precision can neutralize Delgado's volume and aggression</strong>, creating a fascinating stylistic chess match that could define both fighters' trajectories heading into 2027."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Preliminary fights before main card"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary fights continue"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Silva vs. Delgado headline bout"
+        }
+      ],
+      "watch_note": "The main card featuring Silva vs. Delgado airs on Paramount+ at 9:00 PM MT on Saturday, September 12th."
+    }
   },
   {
     "id": "ufc-dwcs-10-6-2026",
@@ -2502,7 +2694,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, NJ, USA",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2784,7 +2976,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Pertamina Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3107,7 +3299,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Fawkham, United Kingdom",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3487,7 +3679,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Lusail, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3926,6 +4118,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2027-01-09",
+    "dateStart": "2027-01-09",
+    "dateEnd": "2027-01-09",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+      }
+    ]
+  },
+  {
     "id": "pga-sony-open-in-hawaii-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -3952,39 +4177,6 @@
       {
         "h": "Par-70 Setup Favors Experienced Veterans",
         "b": "Waialae's par-70 format and tricky greens with limited birdie opportunities have consistently rewarded <strong>older, patient competitors who thrive in grinding, low-scoring battles</strong> over young bombers seeking quick wins. Look for players with previous Sony Open success to outperform their current world rankings."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-4",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 4",
-    "date": "2027-01-16",
-    "dateStart": "2027-01-16",
-    "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
-      },
-      {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
-      },
-      {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
@@ -4206,6 +4398,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-02-13",
+    "dateStart": "2027-02-13",
+    "dateEnd": "2027-02-13",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+      },
+      {
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+      },
+      {
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
+      }
+    ]
+  },
+  {
     "id": "motoa-superbike-r13-daytona-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -4236,39 +4461,6 @@
       {
         "h": "Superbike Grid Battles Intensify Hard",
         "b": "Daytona's unique banking and 3.56-mile layout creates passing opportunities that reward aggressive throttle control and late braking, so <strong>risk-taking behavior will spike dramatically</strong> as competitors jockey for position on the high-speed oval sections. Expect several multi-bike battles and potential contact as riders push the limits of grip and machinery."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
