@@ -1638,23 +1638,33 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "1:45 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Support series race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike Championship is best watched on FS2 with cable login or free via Samsung TV Plus in the United States."
     }
   },
   {
@@ -1696,23 +1706,23 @@
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports app"
+            "FS1",
+            "ESPN+"
           ],
-          "note": "12-lap sprint race"
+          "note": "13-lap sprint race"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "ESPN+"
           ],
-          "note": "26-lap main race"
+          "note": "Full race distance"
         }
       ],
-      "watch_note": "MotoGP San Marino Grand Prix broadcasts live on FS1 and FS2 in the United States, with early morning start times due to the European location."
+      "watch_note": "MotoGP San Marino Grand Prix is broadcast on FS1 and ESPN+ in the United States with early morning start times due to the European location."
     }
   },
   {
@@ -1753,35 +1763,35 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus with cable option on FS1"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "3:15 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Supporting class race"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
-        },
-        {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "2:00 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Supersport class race"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "11:00 AM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Final Superbike race of the round"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via cable on FS1 for the best viewing experience."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via cable on FS1 in the US."
     }
   },
   {
@@ -1820,37 +1830,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "name": "MotoAmerica Superbike Practice & Qualifying",
+          "day": "Friday",
+          "time_mt": "9:00 AM MT",
           "channels": [
-            "FS1",
-            "Samsung TV Plus"
+            "Samsung TV Plus",
+            "FS2"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Practice sessions and qualifying rounds"
         },
         {
-          "name": "Supersport Race",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Supersport class racing"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
-            "Samsung TV Plus"
+            "Samsung TV Plus",
+            "FS1"
           ],
-          "note": "Final Superbike race of the round"
+          "note": "Main race coverage"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "10:30 AM MT",
+          "channels": [
+            "Samsung TV Plus",
+            "FS1"
+          ],
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbike Championship races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via FS1/FS2 cable subscription for US viewers."
     }
   },
   {
@@ -1893,33 +1903,23 @@
           "day": "Saturday",
           "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
-        },
-        {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "1:15 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "10:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike Championship races are broadcast on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are broadcast free on Samsung TV Plus or on FS2 with cable login in the United States."
     }
   },
   {
@@ -1957,37 +1957,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "9:00 AM MT",
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Samsung TV Plus",
-            "FS2"
+            "FS2",
+            "Samsung TV Plus"
           ],
-          "note": "Practice sessions and qualifying rounds"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         },
         {
-          "name": "MotoAmerica Superbike Race 1",
+          "name": "Supersport Race 1",
           "day": "Saturday",
+          "time_mt": "1:30 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus with cable login on FS2"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
-            "Samsung TV Plus",
-            "FS1"
+            "FS1",
+            "Samsung TV Plus"
           ],
-          "note": "First race of the weekend"
+          "note": "Free on Samsung TV Plus with cable login on FS1"
         },
         {
-          "name": "MotoAmerica Superbike Race 2",
+          "name": "Supersport Race 2",
           "day": "Sunday",
-          "time_mt": "10:30 AM MT",
+          "time_mt": "12:30 PM MT",
           "channels": [
-            "Samsung TV Plus",
-            "FS1"
+            "FS1",
+            "Samsung TV Plus"
           ],
-          "note": "Final race at Circuit of The Americas"
+          "note": "Free on Samsung TV Plus with cable login on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Texas are best watched on FS1 or free via Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbikes at Texas can be watched free on Samsung TV Plus or via cable login on FS1/FS2."
     }
   },
   {
@@ -2031,23 +2041,32 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Main championship race"
+        },
+        {
+          "name": "Stock 1000 Race",
+          "day": "Sunday",
+          "time_mt": "1:30 PM MT",
+          "channels": [
+            "Samsung TV Plus"
+          ],
+          "note": "Support class"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes can be watched live on FS1 or for free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica races are available on Samsung TV Plus (free) or FS2 for cable subscribers."
     }
   },
   {
@@ -2088,7 +2107,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscription"
+          "note": "Preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -2097,7 +2116,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card exclusive to ESPN+"
         },
         {
           "name": "Main Card",
@@ -2106,10 +2125,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "PPV event on Paramount+"
+          "note": "Main event exclusive to Paramount+ subscribers"
         }
       ],
-      "watch_note": "Subscribe to Paramount+ to watch the UFC Fight Night main card live on Saturday night, with prelims available on ESPN+."
+      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -2150,7 +2169,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Available on UFC Fight Pass subscription"
         },
         {
           "name": "Prelims",
@@ -2159,7 +2178,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -2168,10 +2187,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Blaydes vs. Cortes Acosta headliner"
+          "note": "Requires Paramount+ subscription"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with prelims streaming on ESPN+ at 7:00 PM MT."
+      "watch_note": "The main card is available exclusively on Paramount+ at 9:00 PM MT, with preliminary fights starting earlier on ESPN+ and UFC Fight Pass."
     }
   },
   {
@@ -2212,7 +2231,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights available on UFC Fight Pass"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -2221,7 +2240,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -2230,10 +2249,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Cortes Acosta vs. Blaydes main event"
+          "note": "Cortes Acosta vs. Blaydes headline fight"
         }
       ],
-      "watch_note": "The main card featuring Cortes Acosta vs. Blaydes airs on Paramount+ at 9:00 PM MT on Saturday, with prelims available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card is exclusively on Paramount+, while prelims stream on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -2283,7 +2302,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card exclusive to ESPN+"
         },
         {
           "name": "Main Card",
@@ -2295,7 +2314,7 @@
           "note": "Rodriguez vs. Silva main event"
         }
       ],
-      "watch_note": "The UFC Fight Night main card airs Saturday night on Paramount+, with prelims available on ESPN+ starting earlier in the evening."
+      "watch_note": "UFC Fight Night Rodriguez vs. Silva is best watched on Paramount+ for the main card with a subscription."
     }
   },
   {
@@ -2337,7 +2356,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC's streaming platform"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -2346,7 +2365,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card fights"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -2358,7 +2377,7 @@
           "note": "Rodriguez vs. Silva headliner"
         }
       ],
-      "watch_note": "The main card featuring Rodriguez vs. Silva airs on Paramount+ at 9:00 PM MT on Saturday, September 12th."
+      "watch_note": "The main card is exclusively on Paramount+ at 9:00 PM MT, with prelims on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -2400,16 +2419,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Preliminary fights begin on UFC Fight Pass"
+          "note": "Early preliminary bouts"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -2418,10 +2437,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card featuring Silva vs. Delgado"
+          "note": "Silva vs. Delgado headliner"
         }
       ],
-      "watch_note": "Watch the main card on Paramount+ at 9:00 PM MT Saturday, with prelims available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card featuring Silva vs. Delgado airs exclusively on Paramount+ at 9:00 PM MT on Saturday, September 12th."
     }
   },
   {
@@ -2462,16 +2481,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -2483,7 +2502,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.6 in the US is through Paramount+ for the main card, with preliminary fights available on ESPN+."
+      "watch_note": "Stream the main card on Paramount+ starting at 9:00 PM MT, with preliminary fights available on ESPN+ an hour earlier."
     }
   },
   {
@@ -2871,7 +2890,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3058,7 +3077,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3443,7 +3462,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3537,7 +3556,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Puerto Vallarta, Mexico",
+    "location": "VidantaWorld, Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -3601,7 +3620,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
+    "location": "Sepang, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3761,7 +3780,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4016,7 +4035,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4049,7 +4068,7 @@
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
     "dateEnd": "2026-11-29",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "location": "Ricardo Tormo, Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
