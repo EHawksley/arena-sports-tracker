@@ -2058,7 +2058,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Available to UFC Fight Pass subscribers"
+          "note": "Exclusive to UFC Fight Pass subscribers"
         },
         {
           "name": "Prelims",
@@ -2067,7 +2067,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Available to ESPN+ subscribers"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -2076,10 +2076,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Pay-per-view available on Paramount+"
+          "note": "Main event typically starts around 10:15 PM MT"
         }
       ],
-      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with preliminary fights available on ESPN+."
+      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with ESPN+ offering the prelims."
     }
   },
   {
@@ -2116,32 +2116,33 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "4:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Preliminary bouts begin on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass streaming service"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+"
+            "Paramount+",
+            "ESPN+"
           ],
-          "note": "Main card featuring Blaydes vs. Cortes Acosta"
+          "note": "Requires Paramount+ subscription or ESPN+ for some regions"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ at 8:00 PM MT on Saturday, September 12, 2026."
+      "watch_note": "The main card is available on Paramount+ in the US, with prelims streaming on ESPN+."
     }
   },
   {
@@ -2178,32 +2179,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Streamed exclusively on UFC Fight Pass"
+          "note": "Early preliminary bouts"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "6:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "9:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Cortes Acosta vs. Blaydes"
+          "note": "Cortes Acosta vs. Blaydes main event"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT on Saturday, September 12th, with prelims on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card is exclusively on Paramount+ at 8:00 PM MT, with preliminary bouts available on ESPN+ starting at 6:30 PM MT."
     }
   },
   {
@@ -2244,7 +2245,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Available to UFC Fight Pass subscribers"
+          "note": "Early prelims exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -2253,7 +2254,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -2262,10 +2263,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Requires Paramount+ subscription or cable PPV"
+          "note": "Rodriguez vs. Silva main event"
         }
       ],
-      "watch_note": "The main card featuring Rodriguez vs. Silva airs on Paramount+ at 9:00 PM MT on Saturday, with prelims on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card featuring Rodriguez vs. Silva airs on Paramount+ at 9:00 PM MT on Saturday, September 12, 2026."
     }
   },
   {
@@ -2303,32 +2304,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "5:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Preliminary fights begin on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Rodriguez vs. Silva headliner"
+          "note": "Main event Rodriguez vs. Silva"
         }
       ],
-      "watch_note": "The main card featuring Rodriguez vs. Silva will stream exclusively on Paramount+ at 8:00 PM MT on Saturday, September 12th."
+      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -2391,7 +2392,7 @@
           "note": "Silva vs. Delgado headliner"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card featuring Silva vs. Delgado airs on Paramount+ at 9:00 PM MT on Saturday, September 12, 2026."
     }
   },
   {
@@ -2432,16 +2433,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights of the card"
+          "note": "Early preliminary fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card fights"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -2450,10 +2451,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card"
+          "note": "Main card exclusive to Paramount+"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.6 in the US is via Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+      "watch_note": "The best way to watch DWCS 10.6 in the US is through Paramount+ for the main card starting at 9:00 PM MT on Tuesday, September 15th."
     }
   },
   {
@@ -2493,30 +2494,28 @@
           "day": "Thursday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "Peacock"
+            "Golf Channel"
           ],
-          "note": "Early coverage of first round"
+          "note": "Tournament coverage begins"
         },
         {
           "name": "Round 2",
           "day": "Friday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "Peacock"
+            "Golf Channel"
           ],
-          "note": "Mid-tournament coverage"
+          "note": "Continued first-round coverage"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
+            "CBS",
             "Peacock"
           ],
-          "note": "Saturday featured groups"
+          "note": "Weekend coverage begins"
         },
         {
           "name": "Final Round",
@@ -2529,7 +2528,7 @@
           "note": "Championship conclusion"
         }
       ],
-      "watch_note": "The Biltmore Championship final round airs on CBS Sunday afternoon, with all rounds available on Peacock for streaming."
+      "watch_note": "The Biltmore Championship can be watched on Golf Channel throughout the week, with CBS and Peacock carrying Saturday and Sunday coverage."
     }
   },
   {
@@ -2572,9 +2571,9 @@
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "12-lap sprint race"
+          "note": "12 km sprint race"
         },
         {
           "name": "MotoGP Main Race",
@@ -2582,12 +2581,12 @@
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Full-distance race"
+          "note": "28 lap main event"
         }
       ],
-      "watch_note": "MotoGP races at the Red Bull Ring are broadcast live on FS1 early Sunday morning MT; FS1 also carries Saturday's sprint race."
+      "watch_note": "MotoGP Austrian Grand Prix races are broadcast live on FS1/FS2 early Sunday morning in the US, with the sprint race Saturday morning."
     }
   },
   {
@@ -2600,7 +2599,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen Circuit, Assen, Netherlands",
+    "location": "Assen, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2624,17 +2623,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "British Superbike Championship Round 9 - Race Day",
-          "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "name": "British Superbike Championship Round 9 - Race 1",
+          "day": "Saturday",
+          "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of all BSB races from Assen"
+          "note": "Live coverage of opening race"
+        },
+        {
+          "name": "British Superbike Championship Round 9 - Race 2",
+          "day": "Sunday",
+          "time_mt": "5:30 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Final race of the showdown round"
         }
       ],
-      "watch_note": "British Superbike Championship Round 9 is best watched on Peacock or beIN Sports, with early morning coverage starting at 6:00 AM MT on Sunday."
+      "watch_note": "Peacock provides the most accessible coverage for US viewers, with early morning broadcast times due to the European location."
     }
   },
   {
@@ -2676,9 +2685,9 @@
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "beIN Sports"
+            "WorldSBK App"
           ],
-          "note": "Live coverage of the first race of the round"
+          "note": "Live coverage of opening race"
         },
         {
           "name": "Superbike Race 2",
@@ -2686,12 +2695,12 @@
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "beIN Sports"
+            "WorldSBK App"
           ],
-          "note": "Main race and championship decider for Round 9"
+          "note": "Final round race"
         }
       ],
-      "watch_note": "BSB Round 9 from Assen is best watched live on Peacock or beIN Sports early Sunday morning MT, with both races available on streaming platforms."
+      "watch_note": "BSB Round 9 at Assen is best watched via Peacock or the WorldSBK app for early morning US coverage on Saturday and Sunday."
     }
   },
   {
@@ -2732,29 +2741,29 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "UFC Fight Pass subscribers only"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
           "time_mt": "7:00 PM MT",
           "channels": [
-            "ESPN+",
-            "UFC Fight Pass"
+            "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
           "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+"
+            "Paramount+",
+            "ESPN+"
           ],
-          "note": "Van vs. Pantoja 2 headliner"
+          "note": "PPV on Paramount+ and ESPN+"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ an hour earlier."
+      "watch_note": "The main card is available exclusively on Paramount+ and ESPN+ as a pay-per-view event starting at 9:00 PM MT."
     }
   },
   {
@@ -2984,7 +2993,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3017,7 +3026,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Castle Donington, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3171,7 +3180,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Lombok International Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3204,7 +3213,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Circuito Estoril, Cascais, Portugal",
+    "location": "Circuito Estoril, Estoril, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -3590,7 +3599,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island, Victoria, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4064,6 +4073,39 @@
       {
         "h": "Ridge's Technical Grip Demands Precision",
         "b": "The 12-turn layout requires <strong>exceptional mid-corner speed and throttle control through flowing transitions</strong> that separate truly elite riders from mid-pack competitors. Superbike riders who can carry momentum through sections three through five while maintaining tire temperature will dominate race day."
+      }
+    ]
+  },
+  {
+    "id": "mgp-qatari-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Qatari Grand Prix",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Losail International Circuit, Doha, Qatar",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Night Racing Demands Peak Precision",
+        "b": "Losail's floodlit nocturnal setting creates unique visibility challenges that reward riders with exceptional throttle control and braking consistency. <strong>Temperature swings between day and night sessions</strong> force teams into aggressive tire strategy gambles that often separate championship contenders from mid-field runners."
+      },
+      {
+        "h": "Desert Heat Tests Machine Durability",
+        "b": "Qatar's abrasive surface and extreme ambient temperatures push engine cooling systems and tire compounds to their absolute limits over the grueling 22-lap distance. <strong>Rear tire degradation in the final laps</strong> has historically produced dramatic last-corner overtakes that define this circuit's unpredictable outcome potential."
+      },
+      {
+        "h": "Seamless Track Layout Favors Aggression",
+        "b": "The Losail circuit's flowing corners and minimal run-off areas eliminate margin for error, making late-braking passes risky yet rewarding for championship-hungry riders. <strong>Entry-speed precision into Turn 1</strong> becomes the decisive factor that determines who controls the race from lights-out through the opening lap chaos."
       }
     ]
   },
