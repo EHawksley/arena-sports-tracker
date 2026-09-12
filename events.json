@@ -1960,7 +1960,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Circuit of the Americas, Austin, TX, United States",
+    "location": "Circuit of the Americas, Austin, TX, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2058,7 +2058,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscribers"
+          "note": "Available to UFC Fight Pass subscribers"
         },
         {
           "name": "Prelims",
@@ -2067,7 +2067,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Available to ESPN+ subscribers"
         },
         {
           "name": "Main Card",
@@ -2076,10 +2076,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Requires Paramount+ subscription or PPV purchase"
+          "note": "Pay-per-view available on Paramount+"
         }
       ],
-      "watch_note": "The main card airs exclusively on Paramount+ at 9:00 PM MT, with preliminary fights available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with preliminary fights available on ESPN+."
     }
   },
   {
@@ -2116,20 +2116,20 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "5:00 PM MT",
+          "time_mt": "4:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Available on UFC Fight Pass subscription"
+          "note": "Preliminary bouts begin on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:30 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -2138,10 +2138,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Headlined by Blaydes vs. Cortes Acosta"
+          "note": "Main card featuring Blaydes vs. Cortes Acosta"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ at 8:00 PM MT on Saturday, with prelims available on ESPN+ starting at 6:30 PM MT."
+      "watch_note": "The main card is available exclusively on Paramount+ at 8:00 PM MT on Saturday, September 12, 2026."
     }
   },
   {
@@ -2182,7 +2182,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary bouts"
+          "note": "Streamed exclusively on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -2191,7 +2191,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -2203,7 +2203,7 @@
           "note": "Main event featuring Cortes Acosta vs. Blaydes"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT on Saturday, September 12th, with prelims on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -2244,7 +2244,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Available to UFC Fight Pass subscribers"
         },
         {
           "name": "Prelims",
@@ -2253,7 +2253,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -2262,10 +2262,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Rodriguez vs. Silva headliner"
+          "note": "Requires Paramount+ subscription or cable PPV"
         }
       ],
-      "watch_note": "The main card featuring Rodriguez vs. Silva airs on Paramount+ at 9:00 PM MT on Saturday, with prelims available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card featuring Rodriguez vs. Silva airs on Paramount+ at 9:00 PM MT on Saturday, with prelims on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -2303,7 +2303,7 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
@@ -2312,7 +2312,7 @@
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "ESPN+"
           ],
@@ -2321,14 +2321,14 @@
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "9:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
           "note": "Rodriguez vs. Silva headliner"
         }
       ],
-      "watch_note": "The main card featuring Rodriguez vs. Silva airs on Paramount+ at 9:00 PM MT on Saturday, September 12, 2026."
+      "watch_note": "The main card featuring Rodriguez vs. Silva will stream exclusively on Paramount+ at 8:00 PM MT on Saturday, September 12th."
     }
   },
   {
@@ -2370,7 +2370,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary bouts"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -2388,10 +2388,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Silva vs. Delgado"
+          "note": "Silva vs. Delgado headliner"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+, with prelims available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card is exclusively on Paramount+, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -2432,7 +2432,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Earliest fights of the card"
         },
         {
           "name": "Prelims",
@@ -2441,7 +2441,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main card"
+          "note": "Preliminary card fights"
         },
         {
           "name": "Main Card",
@@ -2450,10 +2450,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card requires Paramount+ subscription"
+          "note": "Main event card"
         }
       ],
-      "watch_note": "Stream the full event on Paramount+ (main card) with prelims available on ESPN+ in the US."
+      "watch_note": "The best way to watch DWCS 10.6 in the US is via Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
     }
   },
   {
@@ -2496,7 +2496,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early coverage begins at 1:00 PM MT"
+          "note": "Early coverage of first round"
         },
         {
           "name": "Round 2",
@@ -2506,17 +2506,17 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups coverage available"
+          "note": "Mid-tournament coverage"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "CBS",
+            "Golf Channel",
             "Peacock"
           ],
-          "note": "Afternoon coverage on CBS"
+          "note": "Saturday featured groups"
         },
         {
           "name": "Final Round",
@@ -2526,10 +2526,10 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion live on CBS"
+          "note": "Championship conclusion"
         }
       ],
-      "watch_note": "Stream all rounds on Peacock or watch weekend rounds on CBS for the best coverage of the Biltmore Championship."
+      "watch_note": "The Biltmore Championship final round airs on CBS Sunday afternoon, with all rounds available on Peacock for streaming."
     }
   },
   {
@@ -2571,23 +2571,23 @@
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Fox Sports app"
           ],
-          "note": "12-lap sprint race on Saturday morning"
+          "note": "12-lap sprint race"
         },
         {
-          "name": "MotoGP Race",
+          "name": "MotoGP Main Race",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "25-lap main race at Red Bull Ring"
+          "note": "Full-distance race"
         }
       ],
-      "watch_note": "MotoGP's Austrian Grand Prix races air early Sunday morning on FS1, with Saturday's sprint available on FS2; Fox Sports app provides streaming access with cable login."
+      "watch_note": "MotoGP races at the Red Bull Ring are broadcast live on FS1 early Sunday morning MT; FS1 also carries Saturday's sprint race."
     }
   },
   {
@@ -2626,15 +2626,15 @@
         {
           "name": "British Superbike Championship Round 9 - Race Day",
           "day": "Sunday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of BSB races from Assen Circuit"
+          "note": "Live coverage of all BSB races from Assen"
         }
       ],
-      "watch_note": "The British Superbike Championship Round 9 at Assen is best watched on Peacock or beIN Sports, with early morning coverage on Sunday in Mountain Time."
+      "watch_note": "British Superbike Championship Round 9 is best watched on Peacock or beIN Sports, with early morning coverage starting at 6:00 AM MT on Sunday."
     }
   },
   {
@@ -2671,17 +2671,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "BSB Round 9 - Showdown Race Day",
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live coverage of the first race of the round"
+        },
+        {
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of all BSB races from Assen"
+          "note": "Main race and championship decider for Round 9"
         }
       ],
-      "watch_note": "BSB Round 9 from Assen is best watched on Peacock or beIN Sports, with early morning coverage starting at 5:00 AM MT on Sunday."
+      "watch_note": "BSB Round 9 from Assen is best watched live on Peacock or beIN Sports early Sunday morning MT, with both races available on streaming platforms."
     }
   },
   {
@@ -2712,7 +2722,40 @@
         "h": "LA crowd energy favors the challenger",
         "b": "Fighting in Los Angeles typically draws a pro-Van audience, given his strong West Coast fanbase and association with the California combat sports scene. <strong>The home-crowd advantage could prove pivotal in close rounds</strong>, especially if the fight remains competitive into the championship rounds where mental fortitude becomes equally important as technique."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Early preliminary fights"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+",
+            "UFC Fight Pass"
+          ],
+          "note": "Preliminary card"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Van vs. Pantoja 2 headliner"
+        }
+      ],
+      "watch_note": "The main card is exclusively on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ an hour earlier."
+    }
   },
   {
     "id": "ufc-dwcs-10-7-2026",
@@ -2816,7 +2859,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, NJ, United States",
+    "location": "New Jersey Motorsports Park, Millville, NJ, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2941,7 +2984,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi International Racing Course, Motegi, Japan",
+    "location": "Twin Ring Motegi, Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3089,39 +3132,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-1",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 1",
-    "date": "2026-10-03",
-    "dateStart": "2026-10-03",
-    "dateEnd": "2026-10-03",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "UFC's Bold BJJ Expansion Move",
-        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
-      },
-      {
-        "h": "Vegas Venue Attracts Elite Grapplers",
-        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
-      },
-      {
-        "h": "Bridging MMA and Pure Grappling Worlds",
-        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
-      }
-    ]
-  },
-  {
     "id": "pga-baycurrent-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -3250,6 +3260,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-1",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 1",
+    "date": "2026-10-10",
+    "dateStart": "2026-10-10",
+    "dateEnd": "2026-10-10",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "UFC's Bold BJJ Expansion Move",
+        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
+      },
+      {
+        "h": "Vegas Venue Attracts Elite Grapplers",
+        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
+      },
+      {
+        "h": "Bridging MMA and Pure Grappling Worlds",
+        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-allen-vs-duncan-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -3289,7 +3332,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Fawkham, United Kingdom",
+    "location": "Brands Hatch, Sevenoaks, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3321,7 +3364,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez de la Frontera, Spain",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -3474,6 +3517,40 @@
     ]
   },
   {
+    "id": "motoa-superbike-vir-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Virginia International Raceway",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Virginia International Raceway, Alton, VA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup"
+    ],
+    "points": [
+      {
+        "h": "VIR's Technical Layout Rewards Consistency",
+        "b": "Virginia International Raceway's demanding 3.27-mile circuit with 17 turns punishes mistakes and favors riders who can maintain <strong>smooth throttle control through the esses</strong>, making it a pivotal test for championship contenders in October's cooler conditions."
+      },
+      {
+        "h": "Late Season Title Implications Intensify",
+        "b": "With the championship heading into its final stretch, <strong>points leaders cannot afford unforced errors</strong> at a track known for high attrition rates, meaning aggressive riding could either seal titles or hand momentum to hungry challengers closing from behind."
+      },
+      {
+        "h": "Weather Variable Could Shake Predictions",
+        "b": "Mid-October Virginia conditions bring unpredictable temperature swings and potential rain, which <strong>dramatically shifts tire strategy and setup philosophy</strong> compared to earlier season rounds and could level the playing field between well-funded factory teams and nimble privateers."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -3563,6 +3640,40 @@
       {
         "h": "Champions Return to Defend Status",
         "b": "Defending champions often gain massive confidence advantages in return trips to familiar terrain, and <strong>back-to-back winners at Port Royal</strong> historically show significantly improved scoring patterns the second year around."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-laguna-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Speedfest at Monterey",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-23",
+    "dateEnd": "2026-10-25",
+    "location": "WeatherTech Raceway Laguna Seca, Monterey, CA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "King of the Baggers",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Laguna Seca's Corkscrew Decides Championships",
+        "b": "The iconic downhill left-hander at turn 11 will be the ultimate decider for title contenders, as <strong>aggressive braking zones and elevation changes</strong> separate championship-caliber riders from pretenders. Expect multiple position swaps through this signature corner as riders push the absolute limit."
+      },
+      {
+        "h": "October Monterey Weather Creates Variables",
+        "b": "<strong>Marine layer fog and cool morning temperatures</strong> at this late-season race could significantly impact tire degradation and grip levels throughout the weekend. Smart pit strategists who adapt setups for these conditions will have a crucial advantage over teams gambling on traditional summer setups."
+      },
+      {
+        "h": "Title Implications in Final Stretch",
+        "b": "With the championship potentially on the line at this penultimate round, <strong>risk-reward calculations will shift dramatically</strong> as contenders balance aggressive overtakes against catastrophic crash consequences. Points leaders may play it safe while challengers attack ruthlessly, creating unpredictable race dynamics."
       }
     ]
   },
@@ -3831,7 +3942,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Lusail, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3919,6 +4030,40 @@
       {
         "h": "Late-Season Championship Stakes Intensify",
         "b": "With the championship stretch run underway in November, Buttonwillow's unforgiving layout will expose any mechanical vulnerabilities or setup imbalances teams failed to address. <strong>One mistake cascades into points losses</strong> that become mathematically devastating this deep into the season, making conservative riding strategy potentially more valuable than heroic passing attempts."
+      }
+    ]
+  },
+  {
+    "id": "motoa-superbike-ridge-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Ridge Motorsports Park",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Ridge Motorsports Park, Shelton, WA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "Super Hooligan",
+      "Build.Train.Race."
+    ],
+    "points": [
+      {
+        "h": "Pacific Northwest's Wet Weather Wildcard",
+        "b": "Ridge Motorsports Park in November means riders will face <strong>cold, wet conditions that punish setup mistakes</strong> more than any other round. Teams that master rain tire strategy and brake modulation in slippery corners could steal the championship from summer-form favorites."
+      },
+      {
+        "h": "Championship Contenders' Final Exam",
+        "b": "This late-season finale typically features <strong>high-stakes pressure racing where points leaders become targets</strong> for hungry challengers. Expect aggressive defensive riding and tactical positioning as riders fight for championship positioning on a 2.24-mile circuit with limited passing zones."
+      },
+      {
+        "h": "Ridge's Technical Grip Demands Precision",
+        "b": "The 12-turn layout requires <strong>exceptional mid-corner speed and throttle control through flowing transitions</strong> that separate truly elite riders from mid-pack competitors. Superbike riders who can carry momentum through sections three through five while maintaining tire temperature will dominate race day."
       }
     ]
   },
@@ -4120,7 +4265,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4619,6 +4764,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-02-13",
+    "dateStart": "2027-02-13",
+    "dateEnd": "2027-02-13",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+      },
+      {
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+      },
+      {
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
+      }
+    ]
+  },
+  {
     "id": "motoa-superbike-r13-daytona-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -4649,39 +4827,6 @@
       {
         "h": "Superbike Grid Battles Intensify Hard",
         "b": "Daytona's unique banking and 3.56-mile layout creates passing opportunities that reward aggressive throttle control and late braking, so <strong>risk-taking behavior will spike dramatically</strong> as competitors jockey for position on the high-speed oval sections. Expect several multi-bike battles and potential contact as riders push the limits of grip and machinery."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
