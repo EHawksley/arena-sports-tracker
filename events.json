@@ -2802,20 +2802,20 @@
         {
           "name": "Early Prelims",
           "day": "Tuesday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "5:30 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscribers"
+          "note": "Streaming only"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Lead-in to main card"
         },
         {
           "name": "Main Card",
@@ -2824,10 +2824,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "PPV event on Paramount+"
+          "note": "Premium subscription required"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ with PPV, while prelims stream on ESPN+ and early prelims are available on UFC Fight Pass."
+      "watch_note": "The best way to watch DWCS 10.7 in the US is on Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -2862,73 +2862,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 1 - Morning Foursome",
+          "name": "Thursday Round 1",
           "day": "Thursday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
           ],
-          "note": "International team vs. United States team"
+          "note": "First day of four-ball matches"
         },
         {
-          "name": "Round 1 - Afternoon Fourball",
-          "day": "Thursday",
-          "time_mt": "12:30 PM MT",
-          "channels": [
-            "Golf Channel",
-            "Peacock"
-          ]
-        },
-        {
-          "name": "Round 2 - Morning Foursome",
+          "name": "Friday Round 2",
           "day": "Friday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
-          ]
+          ],
+          "note": "Foursomes matches"
         },
         {
-          "name": "Round 2 - Afternoon Fourball",
-          "day": "Friday",
-          "time_mt": "12:30 PM MT",
-          "channels": [
-            "Golf Channel",
-            "Peacock"
-          ]
-        },
-        {
-          "name": "Round 3 - Morning Foursomes",
+          "name": "Saturday Round 3",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "Peacock"
-          ]
-        },
-        {
-          "name": "Round 3 - Afternoon Fourballs",
-          "day": "Saturday",
-          "time_mt": "12:30 PM MT",
-          "channels": [
-            "Golf Channel",
-            "Peacock"
-          ]
-        },
-        {
-          "name": "Round 4 - Singles Matches",
-          "day": "Sunday",
-          "time_mt": "7:00 AM MT",
-          "channels": [
-            "Golf Channel",
             "CBS",
             "Peacock"
           ],
-          "note": "Final round with 12 singles matches"
+          "note": "Four-ball matches continue"
+        },
+        {
+          "name": "Sunday Singles",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Final day singles competition"
         }
       ],
-      "watch_note": "The Presidents Cup will be broadcast across Golf Channel, CBS, and Peacock throughout the week, with early morning start times due to the Chicago location."
+      "watch_note": "The Presidents Cup broadcasts primarily on Golf Channel and CBS with streaming on Peacock throughout the week."
     }
   },
   {
@@ -2965,47 +2939,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 1 - Superbike Race",
+          "name": "Superpole",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Qualifying session for race positions"
         },
         {
-          "name": "Round 1 - Supersport 300 Race",
+          "name": "Race 1",
           "day": "Saturday",
-          "time_mt": "6:15 AM MT",
+          "time_mt": "8:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Supersport 300 category race"
+          "note": "First 25-lap race of the round"
         },
         {
-          "name": "Round 2 - Superbike Race",
+          "name": "Warm-Up",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main Superbike race Sunday"
+          "note": "Pre-race warm-up session"
         },
         {
-          "name": "Round 2 - Supersport Race",
+          "name": "Race 2",
           "day": "Sunday",
-          "time_mt": "6:30 AM MT",
+          "time_mt": "7:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Supersport class final race"
+          "note": "Second 25-lap race of the round"
         }
       ],
-      "watch_note": "WSBK racing from Italy is best watched on Peacock or beIN Sports in the US, with early morning start times on Saturday and Sunday."
+      "watch_note": "Peacock and beIN Sports are the primary US broadcast partners for World Superbike Championship events; early morning start times apply due to European location."
     }
   },
   {
@@ -3018,7 +2992,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, United States",
+    "location": "New Jersey Motorsports Park, Millville, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3057,15 +3031,25 @@
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Second Superbike race of the weekend"
+          "note": "Final Superbike race of the weekend"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Sunday",
+          "time_mt": "9:30 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Supporting Supersport class race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbikes at New Jersey can be watched on FS1/FS2 or streamed free on Samsung TV Plus in the US."
     }
   },
   {
@@ -3106,7 +3090,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Preliminary fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -3115,7 +3099,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -3124,10 +3108,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Featured bout: Rosas Jr. vs. Barcelos"
+          "note": "Main event card featuring Rosas Jr. vs. Barcelos"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with prelims on ESPN+ one hour earlier."
+      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -3200,7 +3184,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3233,7 +3217,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Derby, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3387,7 +3371,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Mandalika, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3515,7 +3499,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Sevenoaks, United Kingdom",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3876,7 +3860,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4068,7 +4052,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
+    "location": "Sepang, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4258,7 +4242,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4612,6 +4596,36 @@
     ]
   },
   {
+    "id": "ufc-334-gane-vs-hokit-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 334: Gane vs. Hokit",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
+    "location": "New York City, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Gane's Heavyweight Redemption Arc",
+        "b": "After back-to-back losses to Jones and Ngannou, Ciryl Gane faces Hokit as a critical career inflection point where <strong>a dominant performance is essential to remain in title contention</strong>. The Parisian's technical striking and movement have never been in question—it's his ability to close fights against elite competition that needs validation."
+      },
+      {
+        "h": "Hokit's Unexpected Shot at Stardom",
+        "b": "This represents <strong>a massive step up in competition for Hokit</strong>, jumping from relative obscurity into the main event of a flagship UFC card in MSG. If the challenger can execute defensive wrestling and weather Gane's striking volume, an upset victory would instantly catapult him into heavyweight title discussions."
+      },
+      {
+        "h": "Madison Square Garden's Heavyweight Spectacle",
+        "b": "New York City's iconic venue demands a statement performance, and <strong>Gane's striking prowess is tailor-made for the fast-paced, technical showcase</strong> MSG crowds typically reward. Expect both fighters to bring enhanced offensive output knowing they're performing on one of combat sports' most prestigious stages."
+      }
+    ]
+  },
+  {
     "id": "pga-rsm-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -4651,7 +4665,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4752,7 +4766,7 @@
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
     "dateEnd": "2026-11-29",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "location": "Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
