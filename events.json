@@ -2806,16 +2806,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscription"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -2824,10 +2824,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Premium pay-per-view event"
+          "note": "Main event card"
         }
       ],
-      "watch_note": "DWCS 10.7 streams exclusively on Paramount+ for the main card on Tuesday evening, with preliminary fights available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -2862,75 +2862,80 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 1 - Morning Foursomes",
+          "name": "Thursday - Four-Ball/Better-Ball",
           "day": "Thursday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
           ],
-          "note": "International Team tees off first"
+          "note": "Morning matches"
         },
         {
-          "name": "Round 1 - Afternoon Fourballs",
+          "name": "Thursday - Four-Ball/Better-Ball",
           "day": "Thursday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
-          ]
+          ],
+          "note": "Afternoon matches"
         },
         {
-          "name": "Round 2 - Morning Fourballs",
+          "name": "Friday - Foursomes",
           "day": "Friday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
-          ]
+          ],
+          "note": "Morning matches"
         },
         {
-          "name": "Round 2 - Afternoon Foursomes",
+          "name": "Friday - Four-Ball/Better-Ball",
           "day": "Friday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
-          ]
+          ],
+          "note": "Afternoon matches"
         },
         {
-          "name": "Round 3 - Morning Foursomes",
+          "name": "Saturday - Foursomes",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Golf Channel",
             "CBS",
             "Peacock"
-          ]
+          ],
+          "note": "Morning matches"
         },
         {
-          "name": "Round 3 - Afternoon Fourballs",
+          "name": "Saturday - Four-Ball/Better-Ball",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
             "CBS",
             "Peacock"
-          ]
+          ],
+          "note": "Afternoon matches"
         },
         {
-          "name": "Round 4 - Singles",
+          "name": "Sunday - Singles",
           "day": "Sunday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
-            "Golf Channel",
             "NBC",
+            "Golf Channel",
             "Peacock"
           ],
-          "note": "Final day, all 12 matches play simultaneously"
+          "note": "Final round singles matches"
         }
       ],
-      "watch_note": "The Presidents Cup is best watched on Golf Channel for all rounds, with CBS and NBC handling weekend coverage, all available on Peacock with cable login."
+      "watch_note": "The Presidents Cup is broadcast across Golf Channel, CBS, and NBC with streaming on Peacock and Golf Channel apps throughout the week."
     }
   },
   {
@@ -2967,47 +2972,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "WorldSBK Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
-            "beIN Sports",
-            "Peacock"
+            "Peacock",
+            "beIN Sports"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live from Cremona Circuit"
         },
         {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "7:15 AM MT",
-          "channels": [
-            "beIN Sports",
-            "Peacock"
-          ],
-          "note": "Supersport class race"
-        },
-        {
-          "name": "Superbike Race 2",
+          "name": "WorldSBK Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
-            "beIN Sports",
-            "Peacock"
+            "Peacock",
+            "beIN Sports"
           ],
-          "note": "Live coverage of second Superbike race"
-        },
-        {
-          "name": "Supersport Race 2",
-          "day": "Sunday",
-          "time_mt": "7:15 AM MT",
-          "channels": [
-            "beIN Sports",
-            "Peacock"
-          ],
-          "note": "Second Supersport class race"
+          "note": "Final race of the Italian round"
         }
       ],
-      "watch_note": "The best way to watch WSBK in the US is through Peacock or beIN Sports, with early morning start times due to the Italian time zone."
+      "watch_note": "The best way to watch World Superbike Championship in the US is through Peacock or beIN Sports, with early morning start times on Saturday and Sunday due to the Italy time difference."
     }
   },
   {
@@ -3054,20 +3039,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbikes at New Jersey can be watched on FS1 or free via Samsung TV Plus in the US."
     }
   },
   {
@@ -3108,7 +3093,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early prelims exclusive to UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -3117,7 +3102,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -3129,7 +3114,7 @@
           "note": "Main card featuring Rosas Jr. vs. Barcelos"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -3160,7 +3145,39 @@
         "h": "International Talent Pipeline Peak",
         "b": "DWCS 10.8 is expected to feature <strong>the deepest roster of European and Asian prospects in series history</strong>, reflecting Dana White's strategic global scouting efforts and signaling where the UFC sees untapped talent markets for the next decade. This card could launch multiple international fighters into mainstream UFC consciousness."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Tuesday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Exclusive to UFC Fight Pass subscribers"
+        },
+        {
+          "name": "Prelims",
+          "day": "Tuesday",
+          "time_mt": "7:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Requires ESPN+ subscription"
+        },
+        {
+          "name": "Main Card",
+          "day": "Tuesday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "PPV event requiring Paramount+ subscription"
+        }
+      ],
+      "watch_note": "The entire DWCS 10.8 event is available through Paramount+ (main card), ESPN+ (prelims), and UFC Fight Pass (early prelims) in the US."
+    }
   },
   {
     "id": "pga-bank-of-utah-championship-2026",
@@ -3202,7 +3219,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Twin Ring Motegi, Motegi, Japan",
+    "location": "Motegi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3235,7 +3252,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Derby, United Kingdom",
+    "location": "Donington Park, Castle Donington, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3389,7 +3406,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
+    "location": "Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3679,7 +3696,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch, Fawkham, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3878,7 +3895,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3911,7 +3928,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal GC, Southampton, Bermuda",
+    "location": "Port Royal Golf Club, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -4006,7 +4023,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Vallarta, Mexico",
+    "location": "VidantaWorld, Puerto Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -4070,7 +4087,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
+    "location": "Sepang, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4260,7 +4277,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4683,7 +4700,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4784,7 +4801,7 @@
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
     "dateEnd": "2026-11-29",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "location": "Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5249,39 +5266,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-superbike-phoenix-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -5313,6 +5297,39 @@
       {
         "h": "Springtime Grip and Weather Variables",
         "b": "Phoenix's unpredictable March weather—fluctuating track temperatures and occasional wind—creates <strong>qualifying and setup volatility</strong> that can neutralize pre-season favorites and hand unexpected advantages to teams with superior adaptability."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-03-20",
+    "dateStart": "2027-03-20",
+    "dateEnd": "2027-03-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+      },
+      {
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+      },
+      {
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
