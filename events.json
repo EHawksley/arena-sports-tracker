@@ -2862,47 +2862,28 @@
     "watch": {
       "sessions": [
         {
-          "name": "Thursday Opening Matches",
+          "name": "Thursday Practice & Qualifiers",
           "day": "Thursday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Foursomes matches"
+          "note": "Opening day practice and team assignments"
         },
         {
-          "name": "Thursday Afternoon Matches",
-          "day": "Thursday",
-          "time_mt": "1:00 PM MT",
-          "channels": [
-            "Golf Channel",
-            "Peacock"
-          ],
-          "note": "Four-ball matches"
-        },
-        {
-          "name": "Friday Morning Matches",
+          "name": "Friday Fourballs & Foursomes",
           "day": "Friday",
           "time_mt": "7:00 AM MT",
           "channels": [
             "Golf Channel",
+            "NBC",
             "Peacock"
           ],
-          "note": "Foursomes matches"
+          "note": "Two sessions of team competition"
         },
         {
-          "name": "Friday Afternoon Matches",
-          "day": "Friday",
-          "time_mt": "1:00 PM MT",
-          "channels": [
-            "Golf Channel",
-            "Peacock"
-          ],
-          "note": "Four-ball matches"
-        },
-        {
-          "name": "Saturday Morning Matches",
+          "name": "Saturday Fourballs & Foursomes",
           "day": "Saturday",
           "time_mt": "7:00 AM MT",
           "channels": [
@@ -2910,31 +2891,21 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Foursomes matches"
+          "note": "Two sessions of team competition"
         },
         {
-          "name": "Saturday Afternoon Matches",
-          "day": "Saturday",
-          "time_mt": "1:00 PM MT",
-          "channels": [
-            "CBS",
-            "Peacock"
-          ],
-          "note": "Four-ball matches"
-        },
-        {
-          "name": "Sunday Singles Matches",
+          "name": "Sunday Singles",
           "day": "Sunday",
           "time_mt": "7:00 AM MT",
           "channels": [
-            "NBC",
             "Golf Channel",
+            "NBC",
             "Peacock"
           ],
-          "note": "Final 12 singles matches"
+          "note": "Final 12 singles matches determine champion"
         }
       ],
-      "watch_note": "The Presidents Cup will be broadcast across Golf Channel, CBS, and NBC with full streaming coverage on Peacock for the most comprehensive viewing experience in the US."
+      "watch_note": "The Presidents Cup will be broadcast across Golf Channel, NBC, and CBS with streaming available on Peacock and Golf Channel's app throughout the week."
     }
   },
   {
@@ -2944,7 +2915,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "EICMA Italian Round",
-    "date": "2026-09-27",
+    "date": "2026-09-26",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
     "location": "Cremona Circuit, Cremona, Italy",
@@ -2971,47 +2942,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "WorldSBK Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live coverage of first race of the weekend"
         },
         {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "6:30 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Supersport class race"
-        },
-        {
-          "name": "Superbike Race 2",
+          "name": "WorldSBK Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main Superbike race - second outing of the weekend"
-        },
-        {
-          "name": "Supersport Superpole Race",
-          "day": "Sunday",
-          "time_mt": "6:30 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Supersport Superpole race"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "The EICMA Italian Round broadcasts live on Peacock and beIN Sports with early morning start times in Mountain Time due to the European location."
+      "watch_note": "The best way to watch WSBK in the US is through Peacock or beIN Sports, with early morning start times due to the European location."
     }
   },
   {
@@ -3024,7 +2975,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, United States",
+    "location": "New Jersey Motorsports Park, Millville, New Jersey, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3055,7 +3006,7 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
           "note": "Live coverage of first Superbike race"
@@ -3065,13 +3016,23 @@
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of second Superbike race"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Sunday",
+          "time_mt": "9:30 AM MT",
+          "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Support class race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at New Jersey are best watched on FS2 or streamed free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbikes at New Jersey is best watched on FS1/FS2 or the free Samsung TV Plus app."
     }
   },
   {
@@ -3112,7 +3073,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Available on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -3121,7 +3082,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -3130,10 +3091,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "PPV on Paramount+"
+          "note": "Main event card featuring Rosas Jr. vs. Barcelos"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ PPV at 9:00 PM MT Saturday, with prelims on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card is available exclusively on Paramount+ in the US, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -3174,7 +3135,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscribers"
+          "note": "Early preliminary fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -3183,7 +3144,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "ESPN+ subscription required"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -3192,10 +3153,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Pay-per-view event on Paramount+"
+          "note": "Main card exclusive to Paramount+"
         }
       ],
-      "watch_note": "The easiest way to watch DWCS 10.8 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The best way to watch DWCS 10.8 in the US is on Paramount+ for the main card starting at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -3226,7 +3187,52 @@
         "h": "Utah's Growing Tournament Profile Tested",
         "b": "This championship marks another major PGA Tour event hosted in Utah, putting Black Desert under intense scrutiny to prove it belongs among elite tour venues. <strong>Course setup and weather variables will be absolutely critical</strong> to determining whether Utah can maintain its ascending trajectory on the professional golf calendar."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early coverage of first round"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Second round coverage"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Third round coverage"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Championship conclusion"
+        }
+      ],
+      "watch_note": "Watch the Bank of Utah Championship on Golf Channel and Peacock throughout the week, with the final round moving to CBS on Sunday."
+    }
   },
   {
     "id": "mgp-japan-gp-2026",
@@ -3271,7 +3277,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Castle Donington, United Kingdom",
+    "location": "Donington Park, Derby, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3421,6 +3427,36 @@
     ]
   },
   {
+    "id": "ufc-dwcs-10-9-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.9",
+    "date": "2026-10-06",
+    "dateStart": "2026-10-06",
+    "dateEnd": "2026-10-06",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Contender Pipeline Reaches Critical Mass",
+        "b": "DWCS 10.9 represents a pivotal moment for UFC's talent development, as <strong>the developmental league now consistently produces fighters capable of winning at the main roster level</strong>. With over a decade of data, the promotion can finally measure whether this experiment has created a sustainable pipeline of elite talent."
+      },
+      {
+        "h": "Las Vegas Venue Signals High Expectations",
+        "b": "Hosting DWCS in Las Vegas rather than smaller markets indicates <strong>the UFC is prioritizing marquee matchups and higher production value for this season</strong>. This upgrade suggests the card features prospects with legitimate championship trajectory rather than fringe developmental talent."
+      },
+      {
+        "h": "October Timing Aligns Contract Push",
+        "b": "DWCS 10.9's placement in October 2026 strategically positions winning prospects for <strong>immediate integration into the year-end and Q1 UFC calendar</strong>. Fighters earning contracts here have a compressed window to impress before major year-end tournaments and seasonal stacking of title fights."
+      }
+    ]
+  },
+  {
     "id": "pga-baycurrent-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -3460,7 +3496,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Lombok, Indonesia",
+    "location": "Mandalika, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3490,7 +3526,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Tissot Estoril Round",
-    "date": "2026-10-11",
+    "date": "2026-10-10",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
     "location": "Circuito Estoril, Estoril, Portugal",
@@ -3579,35 +3615,32 @@
     ]
   },
   {
-    "id": "ufc-bjj-1",
-    "sport": "bjj",
+    "id": "ufc-dwcs-10-10-2026",
+    "sport": "ufc",
     "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 1",
-    "date": "2026-10-10",
-    "dateStart": "2026-10-10",
-    "dateEnd": "2026-10-10",
-    "location": "Las Vegas, Nevada, USA",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "DWCS 10.10",
+    "date": "2026-10-13",
+    "dateStart": "2026-10-13",
+    "dateEnd": "2026-10-13",
+    "location": "Las Vegas, USA",
     "status": "scheduled",
     "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Main Card"
     ],
     "points": [
       {
-        "h": "UFC's Bold BJJ Expansion Move",
-        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
+        "h": "Contender Pipeline Gets Tested",
+        "b": "DWCS 10.10 continues the UFC's critical mission of identifying elite talent for the main roster, with <strong>each fighter representing a potential future title contender</strong>. The developmental league has proven remarkably effective at sourcing diamonds in the rough who can compete immediately at UFC caliber."
       },
       {
-        "h": "Vegas Venue Attracts Elite Grapplers",
-        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
+        "h": "Vegas Crowd Brings Raw Energy",
+        "b": "The Las Vegas venue transforms DWCS from a typical talent showcase into <strong>a high-stakes audition with fight-day intensity</strong>, where prospects must handle crowd pressure and elevated stakes simultaneously. This is where mental toughness separates the prospects who thrive in the UFC from those who flame out."
       },
       {
-        "h": "Bridging MMA and Pure Grappling Worlds",
-        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
+        "h": "October Timing Fuels Title Chase",
+        "b": "Positioned late in the calendar year, DWCS 10.10 offers <strong>the last realistic pathway for fighters to build resume momentum before year-end UFC cards</strong>. A dominant performance here could fast-track an unsigned fighter directly into main card opportunities within weeks."
       }
     ]
   },
@@ -3621,7 +3654,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch, Kent, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3650,7 +3683,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Pirelli Spanish Round",
-    "date": "2026-10-18",
+    "date": "2026-10-17",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -4017,7 +4050,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal Golf Club, Southampton, Bermuda",
+    "location": "Port Royal GC, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -4072,6 +4105,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-1",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 1",
+    "date": "2026-10-24",
+    "dateStart": "2026-10-24",
+    "dateEnd": "2026-10-24",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "UFC's Bold BJJ Expansion Move",
+        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
+      },
+      {
+        "h": "Vegas Venue Attracts Elite Grapplers",
+        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
+      },
+      {
+        "h": "Bridging MMA and Pure Grappling Worlds",
+        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
+      }
+    ]
+  },
+  {
     "id": "ufc-333-volkanovski-evloev-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -4112,7 +4178,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-29",
     "dateEnd": "2026-11-01",
-    "location": "VidantaWorld, Puerto Vallarta, Mexico",
+    "location": "VidantaWorld, Vallarta, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -4785,39 +4851,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-11-14",
-    "dateStart": "2026-11-14",
-    "dateEnd": "2026-11-14",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
-      }
-    ]
-  },
-  {
     "id": "pga-rsm-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -4877,6 +4910,39 @@
       {
         "h": "Portuguese Rider Home Advantage",
         "b": "If any Portuguese riders are in contention for points or podiums, <strong>home crowd support and intimate circuit knowledge</strong> provide genuine psychological and tactical advantages that shouldn't be underestimated in a championship battle."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-21",
+    "dateEnd": "2026-11-21",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -4978,39 +5044,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2026-12-12",
-    "dateStart": "2026-12-12",
-    "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -5071,12 +5104,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-4",
+    "id": "ufc-bjj-3",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 4",
+    "title": "UFC BJJ 3",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -5084,22 +5117,22 @@
     "status": "scheduled",
     "classes": [
       "Bantamweight",
-      "Featherweight",
       "Lightweight",
-      "Middleweight"
+      "Middleweight",
+      "Featherweight"
     ],
     "points": [
       {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -5351,6 +5384,39 @@
       {
         "h": "Superbike Grid Battles Intensify Hard",
         "b": "Daytona's unique banking and 3.56-mile layout creates passing opportunities that reward aggressive throttle control and late braking, so <strong>risk-taking behavior will spike dramatically</strong> as competitors jockey for position on the high-speed oval sections. Expect several multi-bike battles and potential contact as riders push the limits of grip and machinery."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2027-02-20",
+    "dateStart": "2027-02-20",
+    "dateEnd": "2027-02-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
