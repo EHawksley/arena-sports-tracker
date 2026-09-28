@@ -3155,7 +3155,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary card before main card"
         },
         {
           "name": "Main Card",
@@ -3164,10 +3164,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card"
+          "note": "Main event card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.8 in the US is through Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The best way to watch DWCS 10.8 in the US is through Paramount+ for the main card starting at 9:00 PM MT on Tuesday, September 29, 2026."
     }
   },
   {
@@ -3209,7 +3209,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups streaming on Peacock"
+          "note": "Early coverage on Golf Channel"
         },
         {
           "name": "Round 2",
@@ -3219,7 +3219,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups streaming on Peacock"
+          "note": "Continuing coverage on Golf Channel"
         },
         {
           "name": "Round 3",
@@ -3229,7 +3229,7 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Main broadcast on CBS with streaming on Peacock"
+          "note": "CBS takes over weekend coverage"
         },
         {
           "name": "Final Round",
@@ -3239,10 +3239,10 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Main broadcast on CBS with streaming on Peacock"
+          "note": "Championship conclusion on CBS"
         }
       ],
-      "watch_note": "The Bank of Utah Championship is best watched on CBS for weekend finals coverage or Golf Channel/Peacock for early rounds, with full streaming available on Peacock for cord-cutters."
+      "watch_note": "Stream on Peacock or watch on Golf Channel (Rounds 1-2) and CBS (Rounds 3-4) for complete coverage of the Bank of Utah Championship."
     }
   },
   {
@@ -3287,7 +3287,7 @@
             "FS1",
             "FS2"
           ],
-          "note": "Early morning broadcast; also available on Fox Sports app with cable login"
+          "note": "Early morning broadcast; Saturday in Japan is Friday night in US"
         },
         {
           "name": "MotoGP Main Race",
@@ -3297,10 +3297,10 @@
             "FS1",
             "FS2"
           ],
-          "note": "Early morning broadcast; also available on Fox Sports app with cable login"
+          "note": "Early morning broadcast; Sunday in Japan is Saturday night in US"
         }
       ],
-      "watch_note": "MotoGP races at Motegi are broadcast on FS1/FS2 in the early morning hours MT; ESPN+ also carries select MotoGP events as a backup option."
+      "watch_note": "MotoGP races from Japan are broadcast live on FS1/FS2 in the early morning hours via cable or streaming with a valid TV provider login."
     }
   },
   {
@@ -3337,27 +3337,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "BSB Round 10 - Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "beIN Sports"
           ],
-          "note": "Live coverage of first race of the weekend"
+          "note": "Live from Donington Park"
         },
         {
-          "name": "BSB Round 10 - Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "beIN Sports"
           ],
-          "note": "Final race of Round 10 at Donington Park"
+          "note": "Final round of BSB season"
         }
       ],
-      "watch_note": "BSB Round 10 at Donington Park can be streamed on Peacock or the WorldSBK app with early morning start times in Mountain Time."
+      "watch_note": "BSB Round 10 from Donington Park is best watched on Peacock or beIN Sports, with early morning start times on both Saturday and Sunday due to the UK time difference."
     }
   },
   {
@@ -3396,25 +3396,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "WorldSBK App"
           ],
-          "note": "Live coverage of opening race"
+          "note": "Live from Donington Park"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "WorldSBK App"
           ],
-          "note": "Final race of the round"
+          "note": "Showdown finale at Donington Park"
         }
       ],
-      "watch_note": "Peacock and the WorldSBK app provide the primary US coverage for British Superbike Championship rounds, with early morning Mountain Time start times due to the UK timezone difference."
+      "watch_note": "BSB Round 10 is best watched on Peacock or the WorldSBK App with early morning start times for US viewers."
     }
   },
   {
@@ -3458,25 +3458,26 @@
           "note": "Exclusive to UFC Fight Pass"
         },
         {
-          "name": "Preliminary Card",
+          "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "ESPN+ subscription required"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "10:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+"
+            "Paramount+",
+            "ESPN+"
           ],
-          "note": "Also available on ESPN+ with PPV"
+          "note": "PPV event"
         }
       ],
-      "watch_note": "The easiest way to watch UFC 332 in the US is through Paramount+ for the main card starting at 10:00 PM MT on Saturday, October 3rd."
+      "watch_note": "The UFC 332 main card is available via Paramount+ PPV and ESPN+ PPV starting at 9:00 PM MT on Saturday, October 3rd."
     }
   },
   {
@@ -3517,12 +3518,12 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Preliminary fights begin on UFC Fight Pass"
+          "note": "Preliminary fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
@@ -3531,7 +3532,7 @@
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "10:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
             "Paramount+",
             "ESPN+"
@@ -3539,7 +3540,7 @@
           "note": "Main card featuring Silva vs. Wang"
         }
       ],
-      "watch_note": "The easiest way to watch UFC 332 in the US is via Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The main card is best watched on Paramount+ or ESPN+ starting at 9:00 PM MT on Saturday, October 3rd, 2026."
     }
   },
   {
@@ -3894,7 +3895,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch, Fawkham, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4150,6 +4151,41 @@
       {
         "h": "Championship Momentum Shifts in Title Fight",
         "b": "Sonoma's location on the schedule means championship contenders arrive with varying pressure based on point gaps, making aggressive passing attempts and calculated risk-taking critical variables. <strong>Points leaders may play it safe while chasers attack,</strong> creating tactical racing that could reshape the title race heading into the final rounds."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-las-vegas-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Las Vegas Motor Speedway",
+    "date": "2026-10-18",
+    "dateStart": "2026-10-16",
+    "dateEnd": "2026-10-18",
+    "location": "Las Vegas Motor Speedway, Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Desert Heat Tests Championship Contenders",
+        "b": "Las Vegas in November presents a unique challenge with cooler temperatures that could shift tire strategies compared to summer rounds, but the abrasive track surface remains <strong>notoriously punishing on both machinery and rider endurance</strong>. Expect aggressive racing as title contenders make calculated risks on a circuit that doesn't forgive mistakes."
+      },
+      {
+        "h": "High-Speed Oval Demands Distinct Setup",
+        "b": "The Motor Speedway's banking and extended straightaways reward bikes configured for top-end acceleration and stability rather than corner-carving agility, creating <strong>a potential upset opportunity for teams that excel at high-velocity performance</strong>. This technical divergence could shuffle the usual grid hierarchy heading into the season finale."
+      },
+      {
+        "h": "Championship Points Still Very Much Live",
+        "b": "With MotoAmerica Superbike's competitive depth, late-season rounds at Vegas typically feature <strong>multiple riders mathematically capable of clinching the title</strong>, intensifying the pressure and desperation that fuels spectacular racing. The proximity to season's end means every lap position carries maximum significance."
       }
     ]
   },
@@ -4776,7 +4812,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Phoenix International Raceway, Avondale, Arizona, USA",
+    "location": "Phoenix International Raceway, Phoenix, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4833,41 +4869,6 @@
       {
         "h": "Championship Points Still in Play",
         "b": "With November placement suggesting this isn't the season finale, aggressive racing tactics will likely dominate as contenders fight for crucial championship position. <strong>Risk-reward calculations favor bold passes early in the race</strong> before attrition separates genuine contenders from those merely protecting points."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-superbike-las-vegas-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbikes at Las Vegas Motor Speedway",
-    "date": "2026-11-08",
-    "dateStart": "2026-11-06",
-    "dateEnd": "2026-11-08",
-    "location": "Las Vegas Motor Speedway, Las Vegas, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Superbike Cup",
-      "Supersport",
-      "Talent Cup",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Desert Heat Tests Championship Contenders",
-        "b": "Las Vegas in November presents a unique challenge with cooler temperatures that could shift tire strategies compared to summer rounds, but the abrasive track surface remains <strong>notoriously punishing on both machinery and rider endurance</strong>. Expect aggressive racing as title contenders make calculated risks on a circuit that doesn't forgive mistakes."
-      },
-      {
-        "h": "High-Speed Oval Demands Distinct Setup",
-        "b": "The Motor Speedway's banking and extended straightaways reward bikes configured for top-end acceleration and stability rather than corner-carving agility, creating <strong>a potential upset opportunity for teams that excel at high-velocity performance</strong>. This technical divergence could shuffle the usual grid hierarchy heading into the season finale."
-      },
-      {
-        "h": "Championship Points Still Very Much Live",
-        "b": "With MotoAmerica Superbike's competitive depth, late-season rounds at Vegas typically feature <strong>multiple riders mathematically capable of clinching the title</strong>, intensifying the pressure and desperation that fuels spectacular racing. The proximity to season's end means every lap position carries maximum significance."
       }
     ]
   },
@@ -5261,9 +5262,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 3",
-    "date": "2026-12-19",
-    "dateStart": "2026-12-19",
-    "dateEnd": "2026-12-19",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -5594,6 +5595,39 @@
       {
         "h": "Winter Wind Patterns Shift Play",
         "b": "February's unpredictable Pacific coastal winds will make club selection and trajectory management critical variables that typical summer conditions don't demand. <strong>Course management and mental toughness</strong> separate those who adapt quickly from those who fight the elements all week."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-jerez-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Jerez",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-12",
+    "dateEnd": "2027-02-14",
+    "location": "Circuito de Jerez, Jerez de la Frontera, Spain",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Spanish Track Favors European Machinery",
+        "b": "Jerez's high-speed sweepers and technical corners traditionally suit the agile European superbikes over American-built machines, giving riders like Gerloff and Scholtz a potential disadvantage despite their recent form. <strong>Expect the setup battle to define podium positions</strong> as teams scramble to find downforce without sacrificing corner speed."
+      },
+      {
+        "h": "Weather Wildcard in Winter Racing",
+        "b": "Mid-February at Jerez brings unpredictable Atlantic conditions that could shuffle the competitive order between dry and wet sessions, particularly affecting tire strategy and chassis balance for teams accustomed to American racing conditions. <strong>Wet-weather experience becomes a hidden advantage</strong> that separates prepared outfits from those caught off-guard."
+      },
+      {
+        "h": "Defending Champions Face International Pressure",
+        "b": "MotoAmerica's top guns must contend with the legitimacy test of racing on a circuit that hosts World Superbike events, where European regulars have already proven their mettle this season. <strong>Victory here carries credibility</strong> that domestic dominance simply cannot match, making podium finishes crucial for championship narratives."
       }
     ]
   },
