@@ -1,5 +1,159 @@
 [
   {
+    "id": "motoamerica-superbike-road-atlanta-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Road Atlanta",
+    "date": "2026-04-19",
+    "dateStart": "2026-04-17",
+    "dateEnd": "2026-04-19",
+    "location": "Michelin Raceway Road Atlanta, Braselton, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-barber-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Barber",
+    "date": "2026-05-17",
+    "dateStart": "2026-05-15",
+    "dateEnd": "2026-05-17",
+    "location": "Barber Motorsports Park, Birmingham, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Barber's Technical Precision Demands",
+        "b": "With 17 turns crammed into 2.38 miles, Barber is the ultimate test of <strong>rider consistency and throttle control</strong> rather than raw speed, making it a leveling ground where smooth operators can upset the grid's established order."
+      },
+      {
+        "h": "Spring Momentum Shapes Championships",
+        "b": "May racing at Barber sits at a critical juncture where <strong>early season points still carry championship weight</strong>, forcing aggressive strategies that could result in decisive gaps or dramatic crashes that reshape playoff contention."
+      },
+      {
+        "h": "Tire Management in Alabama Heat",
+        "b": "Barber's tight corners and heavy braking zones create intense tire degradation, and <strong>managing grip over race distance</strong> in May's warming temperatures will separate championship contenders from one-lap wonders on the timing sheets."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-road-america-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Road America",
+    "date": "2026-05-31",
+    "dateStart": "2026-05-29",
+    "dateEnd": "2026-05-31",
+    "location": "Road America, Elkhart Lake, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road America's High-Speed Superiority Test",
+        "b": "With average lap speeds exceeding 130 mph, Road America's 4.048-mile layout rewards <strong>raw engine power and aerodynamic efficiency</strong> more than any other MotoAmerica circuit, making this round a crucial barometer for which manufacturer has truly nailed their package."
+      },
+      {
+        "h": "Midwest Weather Could Shuffle Dynamics",
+        "b": "Late May conditions at Elkhart Lake are notoriously unpredictable, and <strong>tire degradation across multiple warm-up laps</strong> on the demanding Carousel and Turn 5 complex could neutralize advantages built during testing sessions held in ideal conditions."
+      },
+      {
+        "h": "Championship Momentum Shifts at Stake",
+        "b": "Road America's brutal layout punishes consistency lapses and mechanical reliability failures, meaning <strong>championship leaders who've relied on racecraft at tighter circuits</strong> must prove they can sustain focus across 25+ minutes of sustained full-throttle racing or risk significant points losses."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-ridge-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Ridge Motorsports Park",
+    "date": "2026-06-28",
+    "dateStart": "2026-06-26",
+    "dateEnd": "2026-06-28",
+    "location": "Ridge Motorsports Park, Shelton, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Ridge's Technical Challenge Awaits",
+        "b": "Ridge Motorsports Park's tight, technical layout demands precision over pure speed, where <strong>tire management and corner exit grip</strong> will separate championship contenders from mid-pack runners in June's heat."
+      },
+      {
+        "h": "Mid-Season Momentum Shifts Title Race",
+        "b": "By late June, championship patterns solidify as riders hit their stride with bike setup, making this round <strong>crucial for momentum heading into summer's back-to-back scheduling</strong> where consistency matters most."
+      },
+      {
+        "h": "Northwest Track Favors Smooth Operators",
+        "b": "Ridge's flowing sections reward riders who can carry mid-corner speed without aggressive braking zones, giving <strong>technical precision riders an edge over aggressive throttle-dependent competitors</strong> in this Pacific Northwest showdown."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Speedfest at Monterey",
+    "date": "2026-07-12",
+    "dateStart": "2026-07-10",
+    "dateEnd": "2026-07-12",
+    "location": "WeatherTech Raceway Laguna Seca, Monterey, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "King of the Baggers",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Laguna Seca's Corkscrew Claims Victims",
+        "b": "The iconic Corkscrew descent has historically punished aggressive riders and rewarded precision, making this round a <strong>technical masterclass where setup and nerve collide</strong>. Expect multiple crashes as competitors push the limits on one of America's most unforgiving corners."
+      },
+      {
+        "h": "Summer Heat Amplifies Tire Strategy",
+        "b": "July conditions at Monterey bring scorching ambient temperatures that will <strong>compress tire life windows and force earlier pit strategies</strong>, potentially opening the door for mid-field competitors with superior thermal management and fuel efficiency."
+      },
+      {
+        "h": "Championship Momentum Shifts at Speedfest",
+        "b": "With six rounds already contested, this mid-season affair at a high-speed technical circuit often serves as a <strong>reality check that separates championship contenders from pretenders</strong>, as it demands consistency across multiple racing disciplines in one weekend."
+      }
+    ]
+  },
+  {
     "id": "bsb-r6-oulton-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -121,6 +275,40 @@
       ],
       "watch_note": "The Rocket Classic concludes Sunday on CBS and Paramount+ starting at noon MT for the final round."
     }
+  },
+  {
+    "id": "motoamerica-superbike-mid-ohio-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Mid-Ohio",
+    "date": "2026-08-02",
+    "dateStart": "2026-07-31",
+    "dateEnd": "2026-08-02",
+    "location": "Mid-Ohio Sports Car Course, Lexington, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Twins Cup",
+      "King of the Baggers",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Mid-Ohio's Technical Layout Tests Precision",
+        "b": "The tight, twisty nature of Mid-Ohio demands exceptional bike control and consistency, where <strong>smooth corner speed typically trumps raw horsepower</strong> that dominates on faster circuits. This should shift the competitive balance and potentially elevate mid-field contenders who excel at technical tracks."
+      },
+      {
+        "h": "August Heat Amplifies Tire Strategy Stakes",
+        "b": "Summer conditions at Mid-Ohio mean <strong>aggressive tire degradation and thermal management become critical variables</strong> that could determine winners and losers over the race distance. Teams managing heat dissipation and compound selection will gain a decisive advantage over those caught unprepared."
+      },
+      {
+        "h": "Championship Momentum Converges at Pivotal Round",
+        "b": "With the season approaching mid-point, <strong>results here could reshape the title narrative and separate genuine contenders from pretenders</strong> competing for the championship. This is typically where inconsistent performers expose themselves and frontrunners consolidate their advantage."
+      }
+    ]
   },
   {
     "id": "ufc-fight-night-medic-rodriguez-2026",
@@ -703,6 +891,40 @@
       ],
       "watch_note": "BSB Round 7 is best watched via Peacock or the WorldSBK+ app, which offer live streaming of all race day sessions from Thruxton."
     }
+  },
+  {
+    "id": "motoamerica-superbike-virginia-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Virginia",
+    "date": "2026-08-16",
+    "dateStart": "2026-08-14",
+    "dateEnd": "2026-08-16",
+    "location": "Virginia International Raceway, Alton, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup"
+    ],
+    "points": [
+      {
+        "h": "VIR's Technical Layout Rewards Precision",
+        "b": "Virginia International Raceway's high-speed corners and elevation changes demand exceptional bike control and brake modulation, making this a venue where <strong>setup and rider consistency matter more than raw horsepower</strong>. Teams that nail their suspension geometry here gain a decisive advantage over one-dimensional speedsters."
+      },
+      {
+        "h": "Mid-Season Momentum Shift Incoming",
+        "b": "By August, championship contenders have typically revealed their true capabilities and weaknesses, meaning <strong>VIR will separate genuine title contenders from pretenders</strong>. Expect calculated risk-taking from leaders protecting points and aggressive maneuvers from challengers desperate to close the gap."
+      },
+      {
+        "h": "Heat and Tire Degradation Factor",
+        "b": "Summer racing in Virginia brings oppressive heat that accelerates tire wear and increases the physical toll on riders over the race distance. <strong>Fuel management and mid-race tire strategy will be critical differentiators</strong>, as teams must balance pace with the brutal reality of declining grip in the final laps."
+      }
+    ]
   },
   {
     "id": "ufc-330-makhachev-machado-garry-2026",
@@ -1902,7 +2124,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Circuit of The Americas, Austin, TX, USA",
+    "location": "Circuit of The Americas, Austin, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2995,7 +3217,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, United States",
+    "location": "New Jersey Motorsports Park, Millville, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3146,7 +3368,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary bouts"
         },
         {
           "name": "Prelims",
@@ -3155,7 +3377,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -3164,10 +3386,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card requires Paramount+ subscription"
+          "note": "Main card fights"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.8 in the US is through Paramount+ for the main card starting at 9:00 PM MT on Tuesday, September 29, 2026."
+      "watch_note": "Stream the entire DWCS 10.8 event on Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -3209,7 +3431,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early coverage on Golf Channel"
+          "note": "Featured groups coverage begins at 12:00 PM MT on Peacock"
         },
         {
           "name": "Round 2",
@@ -3219,7 +3441,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Continuing coverage on Golf Channel"
+          "note": "Featured groups coverage begins at 12:00 PM MT on Peacock"
         },
         {
           "name": "Round 3",
@@ -3229,20 +3451,20 @@
             "CBS",
             "Peacock"
           ],
-          "note": "CBS takes over weekend coverage"
+          "note": "Broadcast begins at 12:00 PM MT"
         },
         {
-          "name": "Final Round",
+          "name": "Round 4 (Final Round)",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion on CBS"
+          "note": "Final round coverage"
         }
       ],
-      "watch_note": "Stream on Peacock or watch on Golf Channel (Rounds 1-2) and CBS (Rounds 3-4) for complete coverage of the Bank of Utah Championship."
+      "watch_note": "The Bank of Utah Championship can be watched on Golf Channel and Peacock for the first two rounds, with Saturday and Sunday's rounds broadcast on CBS and Peacock."
     }
   },
   {
@@ -3285,22 +3507,22 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "FS2"
+            "Fox Sports app"
           ],
-          "note": "Early morning broadcast; Saturday in Japan is Friday night in US"
+          "note": "Early morning broadcast; Saturday night in Japan"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "FS2"
+            "Fox Sports app"
           ],
-          "note": "Early morning broadcast; Sunday in Japan is Saturday night in US"
+          "note": "Early morning broadcast; Sunday night in Japan"
         }
       ],
-      "watch_note": "MotoGP races from Japan are broadcast live on FS1/FS2 in the early morning hours via cable or streaming with a valid TV provider login."
+      "watch_note": "MotoGP races at Motegi are broadcast live on FS1 in the early morning hours (midnight MT) via Fox Sports' US coverage."
     }
   },
   {
@@ -3337,7 +3559,7 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "Round 10 - Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
@@ -3347,7 +3569,7 @@
           "note": "Live from Donington Park"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "Round 10 - Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
@@ -3357,7 +3579,7 @@
           "note": "Final round of BSB season"
         }
       ],
-      "watch_note": "BSB Round 10 from Donington Park is best watched on Peacock or beIN Sports, with early morning start times on both Saturday and Sunday due to the UK time difference."
+      "watch_note": "BSB Round 10 from Donington Park is best watched via Peacock or beIN Sports, with early morning start times due to the UK time difference."
     }
   },
   {
@@ -3396,25 +3618,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "WorldSBK App"
           ],
-          "note": "Live from Donington Park"
+          "note": "Live coverage of first race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "WorldSBK App"
           ],
-          "note": "Showdown finale at Donington Park"
+          "note": "Championship showdown final race"
         }
       ],
-      "watch_note": "BSB Round 10 is best watched on Peacock or the WorldSBK App with early morning start times for US viewers."
+      "watch_note": "The British Superbike Championship Round 10 at Donington Park is best watched on Peacock or the official WorldSBK app in the US, with early morning broadcast times on Saturday and Sunday."
     }
   },
   {
@@ -3455,29 +3677,28 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "ESPN+ subscription required"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
           "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+",
-            "ESPN+"
+            "Paramount+"
           ],
-          "note": "PPV event"
+          "note": "PPV required"
         }
       ],
-      "watch_note": "The UFC 332 main card is available via Paramount+ PPV and ESPN+ PPV starting at 9:00 PM MT on Saturday, October 3rd."
+      "watch_note": "UFC 332 from Salt Lake City is best watched via Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -3518,7 +3739,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Preliminary fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -3527,7 +3748,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary fights before main card"
         },
         {
           "name": "Main Card",
@@ -3537,10 +3758,10 @@
             "Paramount+",
             "ESPN+"
           ],
-          "note": "Main card featuring Silva vs. Wang"
+          "note": "Silva vs. Wang headliner"
         }
       ],
-      "watch_note": "The main card is best watched on Paramount+ or ESPN+ starting at 9:00 PM MT on Saturday, October 3rd, 2026."
+      "watch_note": "The main card is available on Paramount+ and ESPN+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -3571,7 +3792,39 @@
         "h": "October Timing Aligns Contract Push",
         "b": "DWCS 10.9's placement in October 2026 strategically positions winning prospects for <strong>immediate integration into the year-end and Q1 UFC calendar</strong>. Fighters earning contracts here have a compressed window to impress before major year-end tournaments and seasonal stacking of title fights."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Tuesday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Early preliminary fights"
+        },
+        {
+          "name": "Prelims",
+          "day": "Tuesday",
+          "time_mt": "7:30 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card"
+        },
+        {
+          "name": "Main Card",
+          "day": "Tuesday",
+          "time_mt": "9:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event card"
+        }
+      ],
+      "watch_note": "The easiest way to watch DWCS 10.9 in the US is through Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+    }
   },
   {
     "id": "pga-baycurrent-classic-2026",
@@ -3613,7 +3866,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika, Indonesia",
+    "location": "Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5256,39 +5509,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2026-12-12",
-    "dateStart": "2026-12-12",
-    "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -5349,12 +5569,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-4",
+    "id": "ufc-bjj-3",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 4",
+    "title": "UFC BJJ 3",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -5362,22 +5582,22 @@
     "status": "scheduled",
     "classes": [
       "Bantamweight",
-      "Featherweight",
       "Lightweight",
-      "Middleweight"
+      "Middleweight",
+      "Featherweight"
     ],
     "points": [
       {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -5456,7 +5676,7 @@
     "date": "2027-01-31",
     "dateStart": "2027-01-28",
     "dateEnd": "2027-01-31",
-    "location": "Torrey Pines Golf Course, San Diego, CA, USA",
+    "location": "Torrey Pines Golf Course, San Diego, California, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -5538,6 +5758,23 @@
     ]
   },
   {
+    "id": "pga-sanderson-farms-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Sanderson Farms Championship",
+    "date": "2027-02-07",
+    "dateStart": "2027-02-04",
+    "dateEnd": "2027-02-07",
+    "location": "Country Club of Jackson, Jackson, Mississippi, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
     "id": "pga-waste-management-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -5599,6 +5836,23 @@
     ]
   },
   {
+    "id": "pga-wm-phoenix-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "WM Phoenix Open",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
+    "location": "TPC Scottsdale, Scottsdale, Arizona, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
     "id": "motoamerica-superbike-jerez-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -5629,6 +5883,23 @@
         "h": "Defending Champions Face International Pressure",
         "b": "MotoAmerica's top guns must contend with the legitimacy test of racing on a circuit that hosts World Superbike events, where European regulars have already proven their mettle this season. <strong>Victory here carries credibility</strong> that domestic dominance simply cannot match, making podium finishes crucial for championship narratives."
       }
+    ]
+  },
+  {
+    "id": "pga-genesis-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Genesis Invitational",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-18",
+    "dateEnd": "2027-02-21",
+    "location": "Riviera Country Club, Pacific Palisades, California, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
     ]
   },
   {
@@ -5666,12 +5937,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-5",
+    "id": "ufc-bjj-4",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 5",
+    "title": "UFC BJJ 4",
     "date": "2027-02-20",
     "dateStart": "2027-02-20",
     "dateEnd": "2027-02-20",
@@ -5685,17 +5956,34 @@
     ],
     "points": [
       {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
       },
       {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
       },
       {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
+    ]
+  },
+  {
+    "id": "pga-honda-classic-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Honda Classic",
+    "date": "2027-02-28",
+    "dateStart": "2027-02-25",
+    "dateEnd": "2027-02-28",
+    "location": "PGA National Resort & Spa, Palm Beach Gardens, Florida, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
     ]
   },
   {
@@ -5763,6 +6051,75 @@
       {
         "h": "Weather Window Impacts Qualifying Setup",
         "b": "Early March Florida conditions—variable wind, potential afternoon showers—can dramatically shuffle the grid and force teams to choose between qualifying trim and race-winning setups. <strong>Teams that gamble on race-setup configurations during qualifying risk poor grid position but gain critical data</strong> for a 200-mile war where track position matters less than fuel economy."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-daytona-200-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "The 84th Daytona 200",
+    "date": "2027-03-07",
+    "dateStart": "2027-03-05",
+    "dateEnd": "2027-03-07",
+    "location": "Daytona International Speedway, Daytona Beach, USA",
+    "status": "scheduled",
+    "classes": [
+      "Supersport",
+      "Twins Cup",
+      "King of the Baggers",
+      "Super Hooligan"
+    ]
+  },
+  {
+    "id": "pga-arnold-palmer-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Arnold Palmer Invitational",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-18",
+    "dateEnd": "2027-03-21",
+    "location": "Bay Hill Club & Lodge, Orlando, Florida, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ]
+  },
+  {
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-03-20",
+    "dateStart": "2027-03-20",
+    "dateEnd": "2027-03-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+      },
+      {
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+      },
+      {
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
