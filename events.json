@@ -17,6 +17,20 @@
       "Talent Cup",
       "Twins Cup",
       "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road Atlanta's Technical Layout Tests Setup",
+        "b": "The 2.54-mile circuit's tight corners and elevation changes demand <strong>precision suspension tuning</strong> that separates contenders from pretenders in the Superbike class. Teams arriving unprepared for the track's unique braking zones will hemorrhage time in qualifying."
+      },
+      {
+        "h": "Spring Conditions Create Tire Strategy Gamble",
+        "b": "April weather at Road Atlanta typically fluctuates between cool mornings and warm afternoons, forcing strategists to <strong>choose between tire compound consistency and peak grip windows</strong>. A miscalculation on tire management could cost multiple positions across the two-race format."
+      },
+      {
+        "h": "Championship Momentum Shifts in Georgia",
+        "b": "As only the third round of the season, this event provides <strong>early title-defining separation</strong> before summer consistency becomes decisive. Riders gaining substantial points here establish psychological advantage while others scramble to recover from potential mechanical gremlins on a demanding circuit."
+      }
     ]
   },
   {
@@ -3431,7 +3445,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups coverage begins at 12:00 PM MT on Peacock"
+          "note": "Featured groups coverage available on Golf Channel+"
         },
         {
           "name": "Round 2",
@@ -3441,30 +3455,31 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups coverage begins at 12:00 PM MT on Peacock"
+          "note": "Featured groups coverage available on Golf Channel+"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "CBS",
+            "Golf Channel",
+            "NBC",
             "Peacock"
           ],
-          "note": "Broadcast begins at 12:00 PM MT"
+          "note": "NBC takes over broadcast; featured groups on Golf Channel+"
         },
         {
-          "name": "Round 4 (Final Round)",
+          "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "CBS",
+            "NBC",
             "Peacock"
           ],
-          "note": "Final round coverage"
+          "note": "Network television coverage of championship conclusion"
         }
       ],
-      "watch_note": "The Bank of Utah Championship can be watched on Golf Channel and Peacock for the first two rounds, with Saturday and Sunday's rounds broadcast on CBS and Peacock."
+      "watch_note": "Watch the Bank of Utah Championship on Golf Channel for early rounds, then NBC takes over for weekend coverage, with Peacock streaming available throughout."
     }
   },
   {
@@ -3477,7 +3492,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Motegi, Japan",
+    "location": "Motegi, Tochigi, Japan",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3509,20 +3524,20 @@
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Early morning broadcast; Saturday night in Japan"
+          "note": "Live coverage of 12-lap sprint race"
         },
         {
-          "name": "MotoGP Race",
+          "name": "MotoGP Main Race",
           "day": "Sunday",
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Early morning broadcast; Sunday night in Japan"
+          "note": "Live coverage of full Grand Prix race"
         }
       ],
-      "watch_note": "MotoGP races at Motegi are broadcast live on FS1 in the early morning hours (midnight MT) via Fox Sports' US coverage."
+      "watch_note": "MotoGP races from Japan air very early Sunday/Monday morning MT on FS1 and the Fox Sports app."
     }
   },
   {
@@ -3535,7 +3550,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Castle Donington, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3559,27 +3574,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 10 - Race 1",
+          "name": "British Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Donington Park"
+          "note": "Live coverage of opening race"
         },
         {
-          "name": "Round 10 - Race 2",
+          "name": "British Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final round of BSB season"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "BSB Round 10 from Donington Park is best watched via Peacock or beIN Sports, with early morning start times due to the UK time difference."
+      "watch_note": "BSB Round 10 from Donington Park is best watched on Peacock or beIN Sports, with early morning start times for US viewers due to the UK time difference."
     }
   },
   {
@@ -3616,27 +3631,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "Qualifying",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK App"
+            "beIN Sports"
           ],
-          "note": "Live coverage of first race"
+          "note": "Live qualifying session"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "Race 1",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "4:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK App"
+            "beIN Sports"
           ],
-          "note": "Championship showdown final race"
+          "note": "First race of the showdown round"
+        },
+        {
+          "name": "Race 2",
+          "day": "Sunday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Final race of the championship showdown"
         }
       ],
-      "watch_note": "The British Superbike Championship Round 10 at Donington Park is best watched on Peacock or the official WorldSBK app in the US, with early morning broadcast times on Saturday and Sunday."
+      "watch_note": "BSB Round 10 from Donington Park is available on Peacock and beIN Sports, with early morning coverage required due to the UK time difference."
     }
   },
   {
@@ -3677,16 +3702,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass streaming"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary fights before main card"
         },
         {
           "name": "Main Card",
@@ -3695,10 +3720,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "PPV required"
+          "note": "Pay-per-view main card"
         }
       ],
-      "watch_note": "UFC 332 from Salt Lake City is best watched via Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The easiest way to watch UFC 332 in the US is to subscribe to Paramount+ for the main card at 9:00 PM MT Saturday, with prelims available on ESPN+ an hour earlier."
     }
   },
   {
@@ -3739,7 +3764,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass"
+          "note": "Preliminary fights, UFC Fight Pass exclusive"
         },
         {
           "name": "Prelims",
@@ -3748,20 +3773,19 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
           "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+",
-            "ESPN+"
+            "Paramount+"
           ],
           "note": "Silva vs. Wang headliner"
         }
       ],
-      "watch_note": "The main card is available on Paramount+ and ESPN+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with preliminary fights airing on ESPN+ at 7:00 PM MT."
     }
   },
   {
@@ -3802,16 +3826,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card before main card"
         },
         {
           "name": "Main Card",
@@ -3823,7 +3847,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The easiest way to watch DWCS 10.9 in the US is through Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+      "watch_note": "The best way to watch DWCS 10.9 in the US is on Paramount+ for the main card at 9:00 PM MT, with prelims available on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -3866,7 +3890,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Lombok, Indonesia",
+    "location": "Mandalika, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -3951,6 +3975,41 @@
       {
         "h": "Championship Points Still Wide Open",
         "b": "With October marking the series' final stretch, <strong>every position gained or lost at Laguna Seca compounds the playoff scenarios</strong> heading into the season finale. Expect calculated aggression rather than reckless moves, as contenders balance point accumulation with injury risk on one of America's most technically demanding circuits."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-las-vegas-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Las Vegas Motor Speedway",
+    "date": "2026-10-11",
+    "dateStart": "2026-10-09",
+    "dateEnd": "2026-10-11",
+    "location": "Las Vegas Motor Speedway, Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Desert Heat Tests Championship Contenders",
+        "b": "Las Vegas in November presents a unique challenge with cooler temperatures that could shift tire strategies compared to summer rounds, but the abrasive track surface remains <strong>notoriously punishing on both machinery and rider endurance</strong>. Expect aggressive racing as title contenders make calculated risks on a circuit that doesn't forgive mistakes."
+      },
+      {
+        "h": "High-Speed Oval Demands Distinct Setup",
+        "b": "The Motor Speedway's banking and extended straightaways reward bikes configured for top-end acceleration and stability rather than corner-carving agility, creating <strong>a potential upset opportunity for teams that excel at high-velocity performance</strong>. This technical divergence could shuffle the usual grid hierarchy heading into the season finale."
+      },
+      {
+        "h": "Championship Points Still Very Much Live",
+        "b": "With MotoAmerica Superbike's competitive depth, late-season rounds at Vegas typically feature <strong>multiple riders mathematically capable of clinching the title</strong>, intensifying the pressure and desperation that fuels spectacular racing. The proximity to season's end means every lap position carries maximum significance."
       }
     ]
   },
@@ -4246,7 +4305,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Fawkham, United Kingdom",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4373,76 +4432,6 @@
     ]
   },
   {
-    "id": "motoamerica-superbike-sonoma-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbikes at Sonoma",
-    "date": "2026-10-18",
-    "dateStart": "2026-10-16",
-    "dateEnd": "2026-10-18",
-    "location": "Sonoma Raceway, Sonoma, United States",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Superbike Cup",
-      "Supersport",
-      "Talent Cup",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Sonoma's Technical Corners Test Bike Setup",
-        "b": "The demanding Turn 1 complex and Turn 11 hairpin at Sonoma require precision throttle control that separates elite riders from mid-pack competitors. <strong>Setup aggression in medium-speed corners</strong> will be the key differentiator as riders can't simply power through Sonoma like faster circuits."
-      },
-      {
-        "h": "Fall Weather Variable Creates Unpredictable Grip",
-        "b": "October conditions at Sonoma typically bring morning fog and afternoon sun swings that dramatically shift track temperature and tire grip windows throughout practice and race day. <strong>Riders who adapt quickest to shifting grip levels</strong> in qualifying will hold a crucial advantage in tire strategy and qualifying position."
-      },
-      {
-        "h": "Championship Momentum Shifts in Title Fight",
-        "b": "Sonoma's location on the schedule means championship contenders arrive with varying pressure based on point gaps, making aggressive passing attempts and calculated risk-taking critical variables. <strong>Points leaders may play it safe while chasers attack,</strong> creating tactical racing that could reshape the title race heading into the final rounds."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-superbike-las-vegas-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbikes at Las Vegas Motor Speedway",
-    "date": "2026-10-18",
-    "dateStart": "2026-10-16",
-    "dateEnd": "2026-10-18",
-    "location": "Las Vegas Motor Speedway, Las Vegas, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Superbike Cup",
-      "Supersport",
-      "Talent Cup",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Desert Heat Tests Championship Contenders",
-        "b": "Las Vegas in November presents a unique challenge with cooler temperatures that could shift tire strategies compared to summer rounds, but the abrasive track surface remains <strong>notoriously punishing on both machinery and rider endurance</strong>. Expect aggressive racing as title contenders make calculated risks on a circuit that doesn't forgive mistakes."
-      },
-      {
-        "h": "High-Speed Oval Demands Distinct Setup",
-        "b": "The Motor Speedway's banking and extended straightaways reward bikes configured for top-end acceleration and stability rather than corner-carving agility, creating <strong>a potential upset opportunity for teams that excel at high-velocity performance</strong>. This technical divergence could shuffle the usual grid hierarchy heading into the season finale."
-      },
-      {
-        "h": "Championship Points Still Very Much Live",
-        "b": "With MotoAmerica Superbike's competitive depth, late-season rounds at Vegas typically feature <strong>multiple riders mathematically capable of clinching the title</strong>, intensifying the pressure and desperation that fuels spectacular racing. The proximity to season's end means every lap position carries maximum significance."
-      }
-    ]
-  },
-  {
     "id": "ufc-fight-night-buckley-malott-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -4515,7 +4504,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island, Australia",
+    "location": "Phillip Island, Victoria, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4664,6 +4653,41 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-sonoma-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Sonoma",
+    "date": "2026-11-01",
+    "dateStart": "2026-10-30",
+    "dateEnd": "2026-11-01",
+    "location": "Sonoma Raceway, Sonoma, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Sonoma's Technical Corners Test Bike Setup",
+        "b": "The demanding Turn 1 complex and Turn 11 hairpin at Sonoma require precision throttle control that separates elite riders from mid-pack competitors. <strong>Setup aggression in medium-speed corners</strong> will be the key differentiator as riders can't simply power through Sonoma like faster circuits."
+      },
+      {
+        "h": "Fall Weather Variable Creates Unpredictable Grip",
+        "b": "October conditions at Sonoma typically bring morning fog and afternoon sun swings that dramatically shift track temperature and tire grip windows throughout practice and race day. <strong>Riders who adapt quickest to shifting grip levels</strong> in qualifying will hold a crucial advantage in tire strategy and qualifying position."
+      },
+      {
+        "h": "Championship Momentum Shifts in Title Fight",
+        "b": "Sonoma's location on the schedule means championship contenders arrive with varying pressure based on point gaps, making aggressive passing attempts and calculated risk-taking critical variables. <strong>Points leaders may play it safe while chasers attack,</strong> creating tactical racing that could reshape the title race heading into the final rounds."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-sbk-r10-weathertech-laguna-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -4707,7 +4731,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang, Malaysia",
+    "location": "Sepang, Kuala Lumpur, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4897,7 +4921,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail, Qatar",
+    "location": "Lusail, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5355,7 +5379,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Portimão, Portugal",
+    "location": "Portimão, Algarve, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5412,6 +5436,20 @@
     ]
   },
   {
+    "id": "ufc-fight-night-doha",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-21",
+    "dateEnd": "2026-11-21",
+    "location": "Doha, Qatar",
+    "status": "scheduled",
+    "classes": []
+  },
+  {
     "id": "mgp-valencia-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -5421,7 +5459,7 @@
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
     "dateEnd": "2026-11-29",
-    "location": "Valencia, Spain",
+    "location": "Ricardo Tormo Circuit, Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5509,6 +5547,53 @@
     ]
   },
   {
+    "id": "ufc-335",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 335",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": []
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2026-12-19",
+    "dateStart": "2026-12-19",
+    "dateEnd": "2026-12-19",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+      }
+    ]
+  },
+  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -5569,12 +5654,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
+    "id": "ufc-bjj-4",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 3",
+    "title": "UFC BJJ 4",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -5582,22 +5667,22 @@
     "status": "scheduled",
     "classes": [
       "Bantamweight",
+      "Featherweight",
       "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Middleweight"
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
@@ -5772,6 +5857,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Early Season Positioning Matters Most",
+        "b": "With the FedEx Cup race just starting, players finishing strong at Sanderson Farms will establish critical momentum heading into the elevated events. <strong>A top-10 finish here can mean the difference between playing for $18M or scrambling for invitations</strong> down the stretch."
+      },
+      {
+        "h": "Jackson's Soft Course Rewards Aggression",
+        "b": "Country Club of Jackson plays shorter and softer than typical Tour venues, creating ideal conditions for bombers and sharp iron players to separate themselves. <strong>Expect driving distance and accuracy off the tee to correlate directly with leaderboard position</strong> this week."
+      },
+      {
+        "h": "Proving Ground for Young Strikers",
+        "b": "This traditionally attracts hungry prospects looking to make statements before bigger stages arrive, making it a talent incubator for identifying breakout candidates. <strong>A first PGA Tour win here launches careers in ways mid-tier tournaments simply cannot</strong>."
+      }
     ]
   },
   {
@@ -5850,6 +5949,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Stadium Course Demands Peak Form",
+        "b": "TPC Scottsdale's iconic Stadium Course with its island green 16th hole and rowdy gallery will punish any player lacking precision off the tee. <strong>Accuracy and mental toughness</strong> separate winners from the field here, as the desert rough and water hazards show no mercy to even minor mistakes."
+      },
+      {
+        "h": "FedEx Cup Positioning Stakes Rising",
+        "b": "With the FedEx Cup playoffs just months away, this February event serves as a critical <strong>final opportunity to secure playoff positioning</strong> before the season's decisive stretch, making every stroke count for mid-pack competitors fighting for relevance. Momentum heading into the spring could define which players control their destiny come August."
+      },
+      {
+        "h": "Desert Heat Tests Endurance Hard",
+        "b": "February in Scottsdale brings warm temperatures that can push players to their physical and mental limits across four rounds of intense competition. <strong>Hydration, pacing, and emotional control</strong> often separate champions from burnouts as the thin desert air and bright sun create unique challenges rarely seen on tour courses elsewhere."
+      }
     ]
   },
   {
@@ -5900,6 +6013,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Layout Tests Accuracy",
+        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+      },
+      {
+        "h": "Elite Field Chases Prestige and Points",
+        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+      },
+      {
+        "h": "Short Game Mastery Becomes Championship Currency",
+        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
+      }
     ]
   },
   {
@@ -5937,12 +6064,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-4",
+    "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 4",
+    "title": "UFC BJJ 5",
     "date": "2027-02-20",
     "dateStart": "2027-02-20",
     "dateEnd": "2027-02-20",
@@ -5956,16 +6083,16 @@
     ],
     "points": [
       {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
       },
       {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
       },
       {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
@@ -5984,6 +6111,20 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Bear Trap Claims Another Victim",
+        "b": "PGA National's infamous par-3 15th hole—the Bear Trap—has a brutal history of inflating scores, and 2027 will be no exception with firm greens expected. Players who've mastered short-game finesse around these three treacherous holes will have a significant edge over bombers who rely purely on distance."
+      },
+      {
+        "h": "Florida Winter Form Separates Contenders",
+        "b": "<strong>Late February conditions favor sharp iron players</strong> who've sharpened their games in Florida's warm-up events rather than those arriving fresh from colder climates. The combination of firm fairways and fast greens means precision shot-making trumps raw power at this 7,125-yard layout."
+      },
+      {
+        "h": "FedEx Cup Points Still Very Relevant",
+        "b": "With the season's second major playoff push underway, the Honda Classic serves as a crucial <strong>positioning tournament for FedEx Cup seeding</strong> before the schedule tightens. Winners here don't just claim the trophy—they secure valuable momentum and ranking advantage heading into March's marquee events."
+      }
     ]
   },
   {
@@ -5996,7 +6137,7 @@
     "date": "2027-03-07",
     "dateStart": "2027-03-05",
     "dateEnd": "2027-03-07",
-    "location": "Phoenix International Raceway, Avondale, AZ, United States",
+    "location": "Phoenix International Raceway, Phoenix, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -6071,6 +6212,20 @@
       "Twins Cup",
       "King of the Baggers",
       "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Daytona's High-Speed Attrition Game",
+        "b": "The 3.56-mile oval at Daytona demands relentless speed, but <strong>tire management over 40+ laps separates champions from crash victims</strong>. Riders will battle both competitors and the brutal physics of sustained 160+ mph cornering that punishes any hesitation."
+      },
+      {
+        "h": "Factory Support Determines Title Momentum",
+        "b": "<strong>Works Yamaha and Ducati riders gain crucial early-season points</strong> when manufacturer resources provide bike setup advantages on high-speed circuits. March success here often predicts championship trajectories in the fiercely competitive MotoAmerica grid."
+      },
+      {
+        "h": "Wet Weather Could Reshape Everything",
+        "b": "Daytona Beach's unpredictable spring weather means <strong>rain transforms the fastest straightaways into dangerous gambles</strong>. A sudden downpour would level the playing field and potentially crown an unexpected winner who adapts quickest to changing grip conditions."
+      }
     ]
   },
   {
@@ -6088,39 +6243,6 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
-    ]
-  },
-  {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-03-20",
-    "dateStart": "2027-03-20",
-    "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
-      }
     ]
   },
   {
