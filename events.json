@@ -101,73 +101,6 @@
     ]
   },
   {
-    "id": "motoamerica-superbike-ridge-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbikes at Ridge Motorsports Park",
-    "date": "2026-06-28",
-    "dateStart": "2026-06-26",
-    "dateEnd": "2026-06-28",
-    "location": "Ridge Motorsports Park, Shelton, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Talent Cup",
-      "Super Hooligan"
-    ],
-    "points": [
-      {
-        "h": "Ridge's Technical Challenge Awaits",
-        "b": "Ridge Motorsports Park's tight, technical layout demands precision over pure speed, where <strong>tire management and corner exit grip</strong> will separate championship contenders from mid-pack runners in June's heat."
-      },
-      {
-        "h": "Mid-Season Momentum Shifts Title Race",
-        "b": "By late June, championship patterns solidify as riders hit their stride with bike setup, making this round <strong>crucial for momentum heading into summer's back-to-back scheduling</strong> where consistency matters most."
-      },
-      {
-        "h": "Northwest Track Favors Smooth Operators",
-        "b": "Ridge's flowing sections reward riders who can carry mid-corner speed without aggressive braking zones, giving <strong>technical precision riders an edge over aggressive throttle-dependent competitors</strong> in this Pacific Northwest showdown."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-superbike-laguna-seca-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbike Speedfest at Monterey",
-    "date": "2026-07-12",
-    "dateStart": "2026-07-10",
-    "dateEnd": "2026-07-12",
-    "location": "WeatherTech Raceway Laguna Seca, Monterey, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Supersport",
-      "Talent Cup",
-      "King of the Baggers",
-      "Super Hooligan"
-    ],
-    "points": [
-      {
-        "h": "Laguna Seca's Corkscrew Claims Victims",
-        "b": "The iconic Corkscrew descent has historically punished aggressive riders and rewarded precision, making this round a <strong>technical masterclass where setup and nerve collide</strong>. Expect multiple crashes as competitors push the limits on one of America's most unforgiving corners."
-      },
-      {
-        "h": "Summer Heat Amplifies Tire Strategy",
-        "b": "July conditions at Monterey bring scorching ambient temperatures that will <strong>compress tire life windows and force earlier pit strategies</strong>, potentially opening the door for mid-field competitors with superior thermal management and fuel efficiency."
-      },
-      {
-        "h": "Championship Momentum Shifts at Speedfest",
-        "b": "With six rounds already contested, this mid-season affair at a high-speed technical circuit often serves as a <strong>reality check that separates championship contenders from pretenders</strong>, as it demands consistency across multiple racing disciplines in one weekend."
-      }
-    ]
-  },
-  {
     "id": "bsb-r6-oulton-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -2196,7 +2129,7 @@
     "date": "2026-09-13",
     "dateStart": "2026-09-11",
     "dateEnd": "2026-09-13",
-    "location": "Circuit of the Americas, Austin, TX, USA",
+    "location": "Circuit of the Americas, Austin, TX, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3231,7 +3164,7 @@
     "date": "2026-09-27",
     "dateStart": "2026-09-25",
     "dateEnd": "2026-09-27",
-    "location": "New Jersey Motorsports Park, Millville, USA",
+    "location": "New Jersey Motorsports Park, Millville, NJ, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3445,7 +3378,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups coverage available on Golf Channel+"
+          "note": "Early coverage"
         },
         {
           "name": "Round 2",
@@ -3455,31 +3388,30 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups coverage available on Golf Channel+"
+          "note": "Mid-tournament action"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Golf Channel",
-            "NBC",
             "Peacock"
           ],
-          "note": "NBC takes over broadcast; featured groups on Golf Channel+"
+          "note": "Third round coverage"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Network television coverage of championship conclusion"
+          "note": "Championship finale"
         }
       ],
-      "watch_note": "Watch the Bank of Utah Championship on Golf Channel for early rounds, then NBC takes over for weekend coverage, with Peacock streaming available throughout."
+      "watch_note": "The Bank of Utah Championship can be watched on Golf Channel for the first three rounds and CBS for Sunday's final round, with streaming available on Peacock."
     }
   },
   {
@@ -3522,9 +3454,9 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Live coverage of 12-lap sprint race"
+          "note": "Early morning broadcast; Saturday night in Japan"
         },
         {
           "name": "MotoGP Main Race",
@@ -3532,12 +3464,12 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Live coverage of full Grand Prix race"
+          "note": "Early morning broadcast; Sunday night in Japan"
         }
       ],
-      "watch_note": "MotoGP races from Japan air very early Sunday/Monday morning MT on FS1 and the Fox Sports app."
+      "watch_note": "MotoGP races from Motegi are broadcast live on FS1/FS2 in the early morning hours Mountain Time, with same-day replays typically available on Fox Sports digital platforms."
     }
   },
   {
@@ -3574,27 +3506,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "British Superbike Race 1",
+          "name": "Round 10 - Race 1",
           "day": "Saturday",
-          "time_mt": "6:30 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of opening race"
+          "note": "Live coverage of first race of the weekend"
         },
         {
-          "name": "British Superbike Race 2",
+          "name": "Round 10 - Race 2",
           "day": "Sunday",
-          "time_mt": "6:30 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final race of the round"
+          "note": "Final race of Round 10 at Donington Park"
         }
       ],
-      "watch_note": "BSB Round 10 from Donington Park is best watched on Peacock or beIN Sports, with early morning start times for US viewers due to the UK time difference."
+      "watch_note": "BSB Round 10 from Donington Park is best watched via Peacock or beIN Sports, with early morning start times due to the UK time difference."
     }
   },
   {
@@ -3631,37 +3563,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Qualifying",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "beIN Sports"
+            "WorldSBK app"
           ],
-          "note": "Live qualifying session"
+          "note": "Live coverage of first superbike race"
         },
         {
-          "name": "Race 1",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "beIN Sports"
+            "WorldSBK app"
           ],
-          "note": "First race of the showdown round"
-        },
-        {
-          "name": "Race 2",
-          "day": "Sunday",
-          "time_mt": "7:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Final race of the championship showdown"
+          "note": "Final round showdown race"
         }
       ],
-      "watch_note": "BSB Round 10 from Donington Park is available on Peacock and beIN Sports, with early morning coverage required due to the UK time difference."
+      "watch_note": "The best way to watch BSB Round 10 in the US is through Peacock or the WorldSBK app, with early morning sessions on both Saturday and Sunday due to UK time conversion."
     }
   },
   {
@@ -3702,7 +3624,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass streaming"
+          "note": "Available on UFC Fight Pass only"
         },
         {
           "name": "Prelims",
@@ -3711,19 +3633,20 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights before main card"
+          "note": "ESPN+ subscription required"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
           "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+"
+            "Paramount+",
+            "ESPN+"
           ],
-          "note": "Pay-per-view main card"
+          "note": "Pay-per-view on Paramount+ or ESPN+"
         }
       ],
-      "watch_note": "The easiest way to watch UFC 332 in the US is to subscribe to Paramount+ for the main card at 9:00 PM MT Saturday, with prelims available on ESPN+ an hour earlier."
+      "watch_note": "The main card is available on Paramount+ or ESPN+ as a pay-per-view event on Saturday night at 9:00 PM MT."
     }
   },
   {
@@ -3764,16 +3687,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Preliminary fights, UFC Fight Pass exclusive"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -3785,7 +3708,7 @@
           "note": "Silva vs. Wang headliner"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with preliminary fights airing on ESPN+ at 7:00 PM MT."
+      "watch_note": "The main card featuring Silva vs. Wang airs on Paramount+ at 9:00 PM MT on Saturday, October 3rd, 2026."
     }
   },
   {
@@ -3826,7 +3749,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -3835,7 +3758,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -3847,7 +3770,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.9 in the US is on Paramount+ for the main card at 9:00 PM MT, with prelims available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The easiest way to watch DWCS 10.9 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -3878,7 +3801,54 @@
         "h": "West Course's Tight Technical Setup",
         "b": "Yokohama Country Club's West Course demands <strong>precision over power</strong>, favoring golfers with exceptional iron play and short-game touch, which will neutralize some of the tour's longest hitters and elevate underrated ball-strikers."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "ESPN+"
+          ],
+          "note": "Live coverage begins Thursday evening"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "6:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "ESPN+"
+          ],
+          "note": "Continued live coverage Friday night"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "5:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "CBS",
+            "ESPN+"
+          ],
+          "note": "Saturday evening broadcast"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "5:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "CBS",
+            "ESPN+"
+          ],
+          "note": "Championship final round Sunday evening"
+        }
+      ],
+      "watch_note": "The Baycurrent Classic will be broadcast primarily on Golf Channel and CBS with streaming available on ESPN+ and Peacock for US viewers."
+    }
   },
   {
     "id": "mgp-indonesia-gp-2026",
@@ -3890,7 +3860,7 @@
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Mandalika, Lombok, Indonesia",
+    "location": "Mandalika International Street Circuit, Lombok, Indonesia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4337,7 +4307,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Virginia International Raceway, Alton, VA, USA",
+    "location": "Virginia International Raceway, Alton, VA, United States",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4504,7 +4474,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island, Victoria, Australia",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4731,7 +4701,7 @@
     "date": "2026-11-01",
     "dateStart": "2026-10-30",
     "dateEnd": "2026-11-01",
-    "location": "Sepang, Kuala Lumpur, Malaysia",
+    "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4912,6 +4882,40 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-laguna-seca-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbike Speedfest at Monterey",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "WeatherTech Raceway Laguna Seca, Monterey, CA, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "King of the Baggers",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Laguna Seca's Corkscrew Claims Victims",
+        "b": "The iconic Corkscrew descent has historically punished aggressive riders and rewarded precision, making this round a <strong>technical masterclass where setup and nerve collide</strong>. Expect multiple crashes as competitors push the limits on one of America's most unforgiving corners."
+      },
+      {
+        "h": "Summer Heat Amplifies Tire Strategy",
+        "b": "July conditions at Monterey bring scorching ambient temperatures that will <strong>compress tire life windows and force earlier pit strategies</strong>, potentially opening the door for mid-field competitors with superior thermal management and fuel efficiency."
+      },
+      {
+        "h": "Championship Momentum Shifts at Speedfest",
+        "b": "With six rounds already contested, this mid-season affair at a high-speed technical circuit often serves as a <strong>reality check that separates championship contenders from pretenders</strong>, as it demands consistency across multiple racing disciplines in one weekend."
+      }
+    ]
+  },
+  {
     "id": "mgp-qatar-gp-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -4921,7 +4925,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail, Doha, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5379,7 +5383,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Portimão, Algarve, Portugal",
+    "location": "Autódromo do Estoril, Estoril, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5447,7 +5451,51 @@
     "dateEnd": "2026-11-21",
     "location": "Doha, Qatar",
     "status": "scheduled",
-    "classes": []
+    "classes": [],
+    "points": [
+      {
+        "h": "Desert Heat Impacts Fighter Conditioning",
+        "b": "Doha's climate presents a unique challenge for UFC athletes, as the November heat and humidity can accelerate dehydration and cardio depletion even in late fall. <strong>Fighters who excel in high-altitude or tropical training camps will have a significant advantage</strong> over those accustomed to temperate climates."
+      },
+      {
+        "h": "Middle East's Growing Combat Sports Hub",
+        "b": "Qatar has invested heavily in becoming a premier combat sports destination, hosting major events and offering lucrative purses that attract top-tier talent. <strong>This financial commitment signals a shift in where elite MMA talent gravitates</strong>, potentially making Middle Eastern venues as competitive as traditional UFC strongholds."
+      },
+      {
+        "h": "Timing Creates Undercard Dark Horse Opportunity",
+        "b": "Late November Fight Night cards often feature hungry prospects looking to build momentum before the year's major championship events. <strong>Lesser-known fighters frequently deliver knockout performances to impress decision-makers</strong>, making the undercard particularly volatile and unpredictable for bettors and analysts."
+      }
+    ]
+  },
+  {
+    "id": "ufc-fight-night-prochazka-stirling-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Prochazka vs. Stirling",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-21",
+    "dateEnd": "2026-11-21",
+    "location": "Doha, Qatar",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Prochazka's Comeback Timing Crucial",
+        "b": "After his recent setbacks, Prochazka faces a pivotal moment where <strong>a victory could reignite his title trajectory</strong> in a light heavyweight division that's been in flux. His devastating striking and submission game will be tested against Stirling's technical wrestling in what could determine if he's truly back to championship form."
+      },
+      {
+        "h": "Doha's Elevation Impacts Cardio Wars",
+        "b": "Fighting in Qatar's climate at altitude presents <strong>unique conditioning challenges that favor wrestlers who can control tempo</strong> over strikers who rely on volume. This environmental factor could significantly influence the fight's pacing, especially in championship-caliber rounds where fatigue management becomes critical."
+      },
+      {
+        "h": "Stirling's Rise Meets Elite Test",
+        "b": "<strong>Stirling's momentum against solid competition now faces its most significant moment</strong> fighting a former title contender with vastly more octagon experience. This matchup serves as the clearest barometer yet of whether Stirling belongs in legitimate title discussions or needs more seasoning against elite-level opposition."
+      }
+    ]
   },
   {
     "id": "mgp-valencia-gp-2026",
@@ -5459,7 +5507,7 @@
     "date": "2026-11-29",
     "dateStart": "2026-11-27",
     "dateEnd": "2026-11-29",
-    "location": "Ricardo Tormo Circuit, Valencia, Spain",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5513,6 +5561,39 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-ridge-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Ridge Motorsports Park",
+    "date": "2026-12-06",
+    "dateStart": "2026-12-04",
+    "dateEnd": "2026-12-06",
+    "location": "Ridge Motorsports Park, Shelton, WA, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Talent Cup",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Ridge's Technical Challenge Awaits",
+        "b": "Ridge Motorsports Park's tight, technical layout demands precision over pure speed, where <strong>tire management and corner exit grip</strong> will separate championship contenders from mid-pack runners in June's heat."
+      },
+      {
+        "h": "Mid-Season Momentum Shifts Title Race",
+        "b": "By late June, championship patterns solidify as riders hit their stride with bike setup, making this round <strong>crucial for momentum heading into summer's back-to-back scheduling</strong> where consistency matters most."
+      },
+      {
+        "h": "Northwest Track Favors Smooth Operators",
+        "b": "Ridge's flowing sections reward riders who can carry mid-corner speed without aggressive braking zones, giving <strong>technical precision riders an edge over aggressive throttle-dependent competitors</strong> in this Pacific Northwest showdown."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-sbk-atlanta-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -5558,7 +5639,21 @@
     "dateEnd": "2026-12-12",
     "location": "Las Vegas, USA",
     "status": "scheduled",
-    "classes": []
+    "classes": [],
+    "points": [
+      {
+        "h": "Year-end title implications locked",
+        "b": "UFC 335 arrives as the final major card of 2026, making <strong>championship positioning for 2027</strong> absolutely critical for contenders still jockeying for shots. Fighters on this card will either cement their legacy or miss their window entirely."
+      },
+      {
+        "h": "Las Vegas crowd fuels championship moments",
+        "b": "The <strong>home crowd advantage in Vegas</strong> has historically elevated fighter performances, and with the holiday season drawing massive viewership, this event could produce the signature victory needed to launch a title run. Expect aggression and calculated risk-taking rather than conservative fighting."
+      },
+      {
+        "h": "Veteran killers meet hungry rising prospects",
+        "b": "UFC 335 traditionally balances seasoned contenders protecting their ranking with emerging talent looking to <strong>break into the title picture</strong> with statement wins. This clash of philosophies creates unpredictable matchups where experience meets explosive hunger."
+      }
+    ]
   },
   {
     "id": "ufc-bjj-3",
@@ -5567,9 +5662,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 3",
-    "date": "2026-12-19",
-    "dateStart": "2026-12-19",
-    "dateEnd": "2026-12-19",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -5778,6 +5873,41 @@
       {
         "h": "FedEx Cup race early momentum matters",
         "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-road-america-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Road America",
+    "date": "2027-01-31",
+    "dateStart": "2027-01-29",
+    "dateEnd": "2027-01-31",
+    "location": "Road America, Elkhart Lake, WI, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Twins Cup",
+      "King of the Baggers",
+      "Build.Train.Race."
+    ],
+    "points": [
+      {
+        "h": "Winter Racing Tests Mental Toughness",
+        "b": "Road America in late January presents brutal conditions that separate champions from pretenders, with <strong>cold tire warmup and unpredictable grip</strong> forcing riders to make aggressive early-race decisions that define championship momentum."
+      },
+      {
+        "h": "Four Corners Attack at Elkhart Lake",
+        "b": "Road America's high-speed technical layout rewards aggressive cornering speed and brake control, making <strong>mid-corner stability</strong> the critical differentiator where tenth-of-a-second advantages compound into race-winning margins."
+      },
+      {
+        "h": "Championship Points Get Redistributed Fast",
+        "b": "Winter racing typically produces unpredictable results as smaller teams struggle with setup in cold weather, meaning <strong>tactical pit strategy and tire management</strong> can propel mid-field contenders into podium positions and shake up title standings."
       }
     ]
   },
@@ -6064,6 +6194,41 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-barber-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Barber",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-19",
+    "dateEnd": "2027-02-21",
+    "location": "Barber Motorsports Park, Birmingham, AL, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "Super Hooligan"
+    ],
+    "points": [
+      {
+        "h": "Barber's Technical Layout Tests Setup",
+        "b": "Barber's tight 2.38-mile circuit with 33 turns demands <strong>precision chassis setup over raw horsepower</strong>, making this round a proving ground for teams that excel at handling over speed. Expect aggressive mid-corner battles where tire management becomes the X-factor in February's unpredictable weather conditions."
+      },
+      {
+        "h": "Championship Momentum Shifts in Alabama",
+        "b": "<strong>Early-season results at Barber historically favor consistent, well-prepared teams</strong> rather than those gambling on development changes, giving organized squads a chance to build championship points before spring tracks favor different bike characteristics. This is where season narratives get established."
+      },
+      {
+        "h": "Winter Conditions Cloud Predictability",
+        "b": "February in Birmingham brings variable temperatures and potential moisture that <strong>neutralize pre-season testing data</strong>, giving underdogs a legitimate shot at mixed-condition success if they've prepared contingency setups. Teams with experience in European winter racing hold a subtle but measurable advantage here."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
@@ -6243,6 +6408,42 @@
     "classes": [
       "Stroke Play",
       "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Bay Hill's Demanding Par-4s Test Precision",
+        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
+      },
+      {
+        "h": "March Elite Field Shapes FedEx Cup Narrative",
+        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
+      },
+      {
+        "h": "Palmer's Legacy Attracts Sentimental Contenders",
+        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
+      }
+    ]
+  },
+  {
+    "id": "motoamerica-superbike-road-atlanta-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Road Atlanta",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-19",
+    "dateEnd": "2027-03-21",
+    "location": "Michelin Raceway Road Atlanta, Braselton, GA, United States",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers",
+      "Build.Train.Race."
     ]
   },
   {
