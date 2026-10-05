@@ -3482,7 +3482,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Derby, England",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3758,7 +3758,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Available on UFC Fight Pass only"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -3767,7 +3767,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights before main card"
+          "note": "Streaming only"
         },
         {
           "name": "Main Card",
@@ -3776,10 +3776,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event fights"
+          "note": "Paramount+ exclusive"
         }
       ],
-      "watch_note": "The DWCS 10.9 main card streams exclusively on Paramount+ at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "Stream the main card live on Paramount+ at 9:00 PM MT on Tuesday, October 6th."
     }
   },
   {
@@ -3818,45 +3818,40 @@
           "day": "Thursday",
           "time_mt": "6:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "ESPN+"
+            "Golf Channel"
           ],
-          "note": "Live coverage begins Thursday evening MT"
+          "note": "Live coverage begins Thursday evening"
         },
         {
           "name": "Round 2",
           "day": "Friday",
           "time_mt": "6:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "ESPN+"
+            "Golf Channel"
           ],
-          "note": "Friday evening coverage"
+          "note": "Friday night broadcast"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "CBS",
-            "ESPN+"
+            "Golf Channel"
           ],
-          "note": "Early morning broadcast from Japan"
+          "note": "Saturday evening coverage"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
-            "CBS",
-            "ESPN+",
+            "Golf Channel",
             "Peacock"
           ],
-          "note": "Championship Sunday from Yokohama"
+          "note": "Sunday conclusion with streaming available"
         }
       ],
-      "watch_note": "The Baycurrent Classic will be broadcast on Golf Channel, CBS, and ESPN+ with early morning times in Mountain Time due to the Japan location."
+      "watch_note": "The Baycurrent Classic from Japan airs on Golf Channel in the evenings (MT), with Peacock streaming available for the final round on Sunday."
     }
   },
   {
@@ -3894,24 +3889,14 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "12:00 AM MT",
-          "channels": [
-            "FS2",
-            "Fox Sports app"
-          ],
-          "note": "Practice sessions and qualifying rounds"
-        },
-        {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
           "time_mt": "12:00 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports app"
+            "FS1",
+            "FS2"
           ],
-          "note": "15-lap sprint race"
+          "note": "Live coverage of the 12-lap sprint race"
         },
         {
           "name": "MotoGP Main Race",
@@ -3919,12 +3904,12 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Full distance Grand Prix race"
+          "note": "Live coverage of the full-distance Grand Prix race"
         }
       ],
-      "watch_note": "MotoGP races in the US are primarily broadcast on FS1/FS2 with streaming available through the Fox Sports app and ESPN+."
+      "watch_note": "MotoGP's Indonesian Grand Prix is broadcast live on FS1/FS2 in the United States with early morning start times due to the time zone difference."
     }
   },
   {
@@ -3961,37 +3946,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "WorldSBK Superbike Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first superbike race"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Supersport Race",
+          "name": "WorldSBK Supersport Race",
           "day": "Saturday",
           "time_mt": "7:15 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Supersport 300 and Supersport classes"
+          "note": "Supersport class race on Saturday"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "WorldSBK Superbike Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main superbike race of the weekend"
+          "note": "Final Superbike race of the round"
         }
       ],
-      "watch_note": "WSBK races are best watched on Peacock or beIN Sports in the United States, with early morning start times due to the Portuguese location."
+      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for World Superbike Championship events, with early morning coverage due to the Portuguese timezone."
     }
   },
   {
@@ -4029,61 +4014,60 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Final round of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Laguna Seca are broadcast on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
-    "id": "motoamerica-superbike-las-vegas-2026",
+    "id": "motoamerica-superbike-identities-2026",
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoAmerica Superbike Championship",
     "icon": "🏍️",
-    "title": "MotoAmerica Superbikes at Las Vegas Motor Speedway",
+    "title": "MotoAmerica Superbikes at Indianapolis Motor Speedway",
     "date": "2026-10-11",
     "dateStart": "2026-10-09",
     "dateEnd": "2026-10-11",
-    "location": "Las Vegas Motor Speedway, Las Vegas, USA",
+    "location": "Indianapolis Motor Speedway, Indianapolis, IN, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
       "Superbike Cup",
       "Supersport",
       "Talent Cup",
-      "Twins Cup",
-      "King of the Baggers"
+      "Twins Cup"
     ],
     "points": [
       {
-        "h": "Desert Heat Tests Championship Contenders",
-        "b": "Las Vegas in November presents a unique challenge with cooler temperatures that could shift tire strategies compared to summer rounds, but the abrasive track surface remains <strong>notoriously punishing on both machinery and rider endurance</strong>. Expect aggressive racing as title contenders make calculated risks on a circuit that doesn't forgive mistakes."
+        "h": "Road Course Demands Precision Riding",
+        "b": "Indianapolis Motor Speedway's 2.439-mile road course layout punishes inconsistency with its tight technical sections and demanding braking zones, making <strong>bike setup and tire management</strong> the ultimate differentiator in close competition."
       },
       {
-        "h": "High-Speed Oval Demands Distinct Setup",
-        "b": "The Motor Speedway's banking and extended straightaways reward bikes configured for top-end acceleration and stability rather than corner-carving agility, creating <strong>a potential upset opportunity for teams that excel at high-velocity performance</strong>. This technical divergence could shuffle the usual grid hierarchy heading into the season finale."
+        "h": "Championship Implications in October Showdown",
+        "b": "With this race falling late in the 2026 season, <strong>championship contenders face make-or-break moments</strong> where championship points could shift dramatically based on how riders adapt to IMS's unique high-speed corners and elevation changes."
       },
       {
-        "h": "Championship Points Still Very Much Live",
-        "b": "With MotoAmerica Superbike's competitive depth, late-season rounds at Vegas typically feature <strong>multiple riders mathematically capable of clinching the title</strong>, intensifying the pressure and desperation that fuels spectacular racing. The proximity to season's end means every lap position carries maximum significance."
+        "h": "Historic Venue Elevates Superbike Prestige",
+        "b": "Racing at the legendary Indianapolis Motor Speedway brings <strong>unmatched credibility and visibility</strong> to MotoAmerica's Superbike series, positioning this event as a marquee showdown that attracts both hardcore fans and casual motorsports viewers."
       }
     ],
     "watch": {
@@ -4096,20 +4080,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live on FS1 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live on FS1 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races at Indianapolis are broadcast live on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4150,7 +4134,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -4159,7 +4143,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights exclusive to ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -4168,10 +4152,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card fights including Allen vs. Duncan"
+          "note": "Main event featuring Allen vs. Duncan"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+ starting at 9:00 PM MT, with preliminary fights on ESPN+ at 7:00 PM MT."
+      "watch_note": "UFC Fight Night: Allen vs. Duncan is easiest to watch on Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -4436,7 +4420,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, England",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4656,6 +4640,66 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-las-vegas-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Las Vegas Motor Speedway",
+    "date": "2026-10-25",
+    "dateStart": "2026-10-23",
+    "dateEnd": "2026-10-25",
+    "location": "Las Vegas Motor Speedway, Las Vegas, NV, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Desert Heat Tests Championship Contenders",
+        "b": "Las Vegas in November presents a unique challenge with cooler temperatures that could shift tire strategies compared to summer rounds, but the abrasive track surface remains <strong>notoriously punishing on both machinery and rider endurance</strong>. Expect aggressive racing as title contenders make calculated risks on a circuit that doesn't forgive mistakes."
+      },
+      {
+        "h": "High-Speed Oval Demands Distinct Setup",
+        "b": "The Motor Speedway's banking and extended straightaways reward bikes configured for top-end acceleration and stability rather than corner-carving agility, creating <strong>a potential upset opportunity for teams that excel at high-velocity performance</strong>. This technical divergence could shuffle the usual grid hierarchy heading into the season finale."
+      },
+      {
+        "h": "Championship Points Still Very Much Live",
+        "b": "With MotoAmerica Superbike's competitive depth, late-season rounds at Vegas typically feature <strong>multiple riders mathematically capable of clinching the title</strong>, intensifying the pressure and desperation that fuels spectacular racing. The proximity to season's end means every lap position carries maximum significance."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+    }
+  },
+  {
     "id": "motoa-superbike-laguna-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -4747,41 +4791,6 @@
       {
         "h": "VidantaWorld's resort course advantage",
         "b": "The resort setting will attract <strong>spectator-friendly galleries and hospitality packages</strong>, potentially creating an electric atmosphere that rewards players comfortable with gallery noise and could neutralize the advantage of traditionally quieter tournament environments."
-      }
-    ]
-  },
-  {
-    "id": "motoamerica-superbike-sonoma-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoAmerica Superbike Championship",
-    "icon": "🏍️",
-    "title": "MotoAmerica Superbikes at Sonoma",
-    "date": "2026-11-01",
-    "dateStart": "2026-10-30",
-    "dateEnd": "2026-11-01",
-    "location": "Sonoma Raceway, Sonoma, USA",
-    "status": "scheduled",
-    "classes": [
-      "Superbike",
-      "Superbike Cup",
-      "Supersport",
-      "Talent Cup",
-      "Twins Cup",
-      "King of the Baggers"
-    ],
-    "points": [
-      {
-        "h": "Sonoma's Technical Corners Test Bike Setup",
-        "b": "The demanding Turn 1 complex and Turn 11 hairpin at Sonoma require precision throttle control that separates elite riders from mid-pack competitors. <strong>Setup aggression in medium-speed corners</strong> will be the key differentiator as riders can't simply power through Sonoma like faster circuits."
-      },
-      {
-        "h": "Fall Weather Variable Creates Unpredictable Grip",
-        "b": "October conditions at Sonoma typically bring morning fog and afternoon sun swings that dramatically shift track temperature and tire grip windows throughout practice and race day. <strong>Riders who adapt quickest to shifting grip levels</strong> in qualifying will hold a crucial advantage in tire strategy and qualifying position."
-      },
-      {
-        "h": "Championship Momentum Shifts in Title Fight",
-        "b": "Sonoma's location on the schedule means championship contenders arrive with varying pressure based on point gaps, making aggressive passing attempts and calculated risk-taking critical variables. <strong>Points leaders may play it safe while chasers attack,</strong> creating tactical racing that could reshape the title race heading into the final rounds."
       }
     ]
   },
@@ -5010,6 +5019,41 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-sonoma-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes at Sonoma",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Sonoma Raceway, Sonoma, CA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Sonoma's Technical Corners Test Bike Setup",
+        "b": "The demanding Turn 1 complex and Turn 11 hairpin at Sonoma require precision throttle control that separates elite riders from mid-pack competitors. <strong>Setup aggression in medium-speed corners</strong> will be the key differentiator as riders can't simply power through Sonoma like faster circuits."
+      },
+      {
+        "h": "Fall Weather Variable Creates Unpredictable Grip",
+        "b": "October conditions at Sonoma typically bring morning fog and afternoon sun swings that dramatically shift track temperature and tire grip windows throughout practice and race day. <strong>Riders who adapt quickest to shifting grip levels</strong> in qualifying will hold a crucial advantage in tire strategy and qualifying position."
+      },
+      {
+        "h": "Championship Momentum Shifts in Title Fight",
+        "b": "Sonoma's location on the schedule means championship contenders arrive with varying pressure based on point gaps, making aggressive passing attempts and calculated risk-taking critical variables. <strong>Points leaders may play it safe while chasers attack,</strong> creating tactical racing that could reshape the title race heading into the final rounds."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-laguna-seca-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -5053,7 +5097,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5478,9 +5522,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 1",
-    "date": "2026-11-15",
-    "dateStart": "2026-11-15",
-    "dateEnd": "2026-11-15",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -5817,6 +5861,36 @@
     ]
   },
   {
+    "id": "ufc-335-oliveira-vs-lopes-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 335: Oliveira vs. Lopes",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
+    "location": "Las Vegas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Oliveira's Title Redemption Arc",
+        "b": "Charles Oliveira returns to the octagon seeking to reclaim lightweight supremacy after losing his belt to Islam Makhachev. <strong>A dominant performance here could position him for an immediate rematch</strong> with the champion and silence critics who question his consistency at the highest level."
+      },
+      {
+        "h": "Lopes Hunting The Upset",
+        "b": "Rising contender Lopes arrives in Vegas with momentum and nothing to lose against one of the division's most dangerous strikers. <strong>If Lopes can survive Oliveira's relentless pace early</strong>, his wrestling-heavy approach could create serious problems in the later rounds."
+      },
+      {
+        "h": "Lightweight Division's Critical Juncture",
+        "b": "This main event serves as the final proving ground for which contender truly deserves next in line for Makhachev's throne. <strong>The winner essentially secures a title shot within the next 12 months</strong>, making every exchange critically important for the division's future trajectory."
+      }
+    ]
+  },
+  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -5825,8 +5899,8 @@
     "title": "Sentry Tournament of Champions",
     "date": "2027-01-09",
     "dateStart": "2027-01-07",
-    "dateEnd": "2027-01-09",
-    "location": "Plantation Course at Kapalua, Lahaina, HI, USA",
+    "dateEnd": "2027-01-10",
+    "location": "Kapalua Resort Plantation Course, Maui, Hawaii",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -5847,15 +5921,45 @@
     ]
   },
   {
+    "id": "pga-sony-open-in-hawaii-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Sony Open in Hawaii",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-14",
+    "dateEnd": "2027-01-17",
+    "location": "Waialae Country Club, Honolulu, Hawaii",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ],
+    "points": [
+      {
+        "h": "Waialae's Tight Layout Punishes Mistakes",
+        "b": "At just 7,044 yards, this course demands precision over distance, making <strong>course management and iron play the true differentiators</strong> rather than raw power off the tee. Expect to see scores bunched tightly and dramatic swings based on bogey avoidance rather than eagle-hunting."
+      },
+      {
+        "h": "Hawaii Swing Momentum Carries Weight",
+        "b": "Players who find early-season form in Honolulu historically carry that confidence into the Australian Open and rest of the tour schedule, making <strong>this tournament a crucial confidence-builder for the entire calendar year</strong>. The warm weather and relaxed setting can mask poor fundamentals, so winners here often possess legitimate game."
+      },
+      {
+        "h": "Par-70 Setup Favors Experienced Veterans",
+        "b": "Waialae's par-70 format and tricky greens with limited birdie opportunities have consistently rewarded <strong>older, patient competitors who thrive in grinding, low-scoring battles</strong> over young bombers seeking quick wins. Look for players with previous Sony Open success to outperform their current world rankings."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-2",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 2",
-    "date": "2027-01-10",
-    "dateStart": "2027-01-10",
-    "dateEnd": "2027-01-10",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-16",
+    "dateEnd": "2027-01-16",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -5876,36 +5980,6 @@
       {
         "h": "International talent convergence heats competition",
         "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
-      }
-    ]
-  },
-  {
-    "id": "pga-sony-open-in-hawaii-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Sony Open in Hawaii",
-    "date": "2027-01-16",
-    "dateStart": "2027-01-14",
-    "dateEnd": "2027-01-16",
-    "location": "Waialae Country Club, Honolulu, HI, USA",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play"
-    ],
-    "points": [
-      {
-        "h": "Waialae's Tight Layout Punishes Mistakes",
-        "b": "At just 7,044 yards, this course demands precision over distance, making <strong>course management and iron play the true differentiators</strong> rather than raw power off the tee. Expect to see scores bunched tightly and dramatic swings based on bogey avoidance rather than eagle-hunting."
-      },
-      {
-        "h": "Hawaii Swing Momentum Carries Weight",
-        "b": "Players who find early-season form in Honolulu historically carry that confidence into the Australian Open and rest of the tour schedule, making <strong>this tournament a crucial confidence-builder for the entire calendar year</strong>. The warm weather and relaxed setting can mask poor fundamentals, so winners here often possess legitimate game."
-      },
-      {
-        "h": "Par-70 Setup Favors Experienced Veterans",
-        "b": "Waialae's par-70 format and tricky greens with limited birdie opportunities have consistently rewarded <strong>older, patient competitors who thrive in grinding, low-scoring battles</strong> over young bombers seeking quick wins. Look for players with previous Sony Open success to outperform their current world rankings."
       }
     ]
   },
@@ -5952,7 +6026,7 @@
     "date": "2027-01-24",
     "dateStart": "2027-01-21",
     "dateEnd": "2027-01-24",
-    "location": "PGA West, La Quinta, CA, USA",
+    "location": "PGA West Stadium Course, La Quinta, California",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6134,37 +6208,6 @@
     ]
   },
   {
-    "id": "pga-pebble-beach-pro-am-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "AT&T Pebble Beach Pro-Am",
-    "date": "2027-02-07",
-    "dateStart": "2027-02-04",
-    "dateEnd": "2027-02-07",
-    "location": "Pebble Beach Golf Links, Pebble Beach, CA, USA",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Valentine's Day Chaos at Pebble",
-        "b": "Playing one of golf's most iconic and unforgiving layouts on February 14th adds psychological pressure beyond the typical Pro-Am dynamics. <strong>Wind patterns off the Pacific on Valentine's Day historically create unpredictable conditions</strong> that can separate emotionally locked-in players from those struggling with focus."
-      },
-      {
-        "h": "Celebrity Partner Impact Intensifies",
-        "b": "The Pro-Am format at Pebble Beach means amateurs with varying skill levels play alongside PGA Tour pros, and <strong>managing partner chemistry and pace-of-play becomes unexpectedly crucial</strong> when split focus could cost strokes on one of the world's most demanding courses."
-      },
-      {
-        "h": "FedEx Cup Race Reshuffled Early",
-        "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
-      }
-    ]
-  },
-  {
     "id": "pga-sanderson-farms-championship-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6196,47 +6239,16 @@
     ]
   },
   {
-    "id": "pga-genesis-invitational-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Genesis Invitational",
-    "date": "2027-02-07",
-    "dateStart": "2027-02-04",
-    "dateEnd": "2027-02-07",
-    "location": "Riviera Country Club, Pacific Palisades, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Riviera's Demanding Layout Tests Accuracy",
-        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
-      },
-      {
-        "h": "Elite Field Chases Prestige and Points",
-        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
-      },
-      {
-        "h": "Short Game Mastery Becomes Championship Currency",
-        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
-      }
-    ]
-  },
-  {
     "id": "pga-waste-management-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Waste Management Phoenix Open",
-    "date": "2027-02-14",
-    "dateStart": "2027-02-11",
-    "dateEnd": "2027-02-14",
-    "location": "TPC Scottsdale, Scottsdale, AZ, USA",
+    "date": "2027-02-07",
+    "dateStart": "2027-02-04",
+    "dateEnd": "2027-02-07",
+    "location": "TPC Scottsdale Stadium Course, Scottsdale, Arizona",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6253,6 +6265,37 @@
       {
         "h": "16th Hole Drama Defines Legacy",
         "b": "The iconic par-3 with its island green and raucous gallery <strong>separates clutch performers from the rest</strong>, and recent winners have almost universally made their move by converting scoring opportunities on this stage."
+      }
+    ]
+  },
+  {
+    "id": "pga-pebble-beach-pro-am-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "AT&T Pebble Beach Pro-Am",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
+    "location": "Pebble Beach Golf Links, Pebble Beach, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Valentine's Day Chaos at Pebble",
+        "b": "Playing one of golf's most iconic and unforgiving layouts on February 14th adds psychological pressure beyond the typical Pro-Am dynamics. <strong>Wind patterns off the Pacific on Valentine's Day historically create unpredictable conditions</strong> that can separate emotionally locked-in players from those struggling with focus."
+      },
+      {
+        "h": "Celebrity Partner Impact Intensifies",
+        "b": "The Pro-Am format at Pebble Beach means amateurs with varying skill levels play alongside PGA Tour pros, and <strong>managing partner chemistry and pace-of-play becomes unexpectedly crucial</strong> when split focus could cost strokes on one of the world's most demanding courses."
+      },
+      {
+        "h": "FedEx Cup Race Reshuffled Early",
+        "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
       }
     ]
   },
@@ -6348,6 +6391,37 @@
       {
         "h": "Defending Champions Face International Pressure",
         "b": "MotoAmerica's top guns must contend with the legitimacy test of racing on a circuit that hosts World Superbike events, where European regulars have already proven their mettle this season. <strong>Victory here carries credibility</strong> that domestic dominance simply cannot match, making podium finishes crucial for championship narratives."
+      }
+    ]
+  },
+  {
+    "id": "pga-genesis-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Genesis Invitational",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-18",
+    "dateEnd": "2027-02-21",
+    "location": "Riviera Country Club, Pacific Palisades, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Layout Tests Accuracy",
+        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+      },
+      {
+        "h": "Elite Field Chases Prestige and Points",
+        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+      },
+      {
+        "h": "Short Game Mastery Becomes Championship Currency",
+        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
       }
     ]
   },
@@ -6450,16 +6524,16 @@
     ]
   },
   {
-    "id": "pga-arnold-palmer-invitational-2027",
+    "id": "pga-worlds-championship-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Arnold Palmer Invitational",
-    "date": "2027-03-07",
-    "dateStart": "2027-03-04",
-    "dateEnd": "2027-03-07",
-    "location": "Bay Hill Club & Lodge, Orlando, Florida",
+    "title": "World Golf Championship",
+    "date": "2027-02-28",
+    "dateStart": "2027-02-25",
+    "dateEnd": "2027-02-28",
+    "location": "Club de Golf Chapultepec, Mexico City, Mexico",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6467,16 +6541,16 @@
     ],
     "points": [
       {
-        "h": "Bay Hill's Demanding Par-4s Test Precision",
-        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
+        "h": "High Altitude Advantage Reshapes Game",
+        "b": "At 7,382 feet elevation, Mexico City's thin air will dramatically reduce ball flight distances and demand completely different club selection strategies than tour players typically employ. <strong>Expect scoring to be surprisingly competitive</strong> as even elite bombers lose 10-15 yards off the tee, leveling the playing field for precision players."
       },
       {
-        "h": "March Elite Field Shapes FedEx Cup Narrative",
-        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
+        "h": "Latin American Momentum Building Tour Presence",
+        "b": "This marks a significant commitment to expanding the PGA Tour's footprint in Mexico, following the success of recent events in the region and tapping into a growing golf market with passionate fans. <strong>Home continental advantage for Latin American players</strong> like Abraham Ancer and Carlos Ortiz could prove decisive in front of supportive crowds."
       },
       {
-        "h": "Palmer's Legacy Attracts Sentimental Contenders",
-        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
+        "h": "FedEx Cup Race Intensifies Mid-Season",
+        "b": "With this February event positioned squarely in the middle of the FedEx Cup season, every point becomes magnified as players battle for playoff positioning and year-long earnings dominance. <strong>Risk-reward calculations shift dramatically</strong> for contenders deciding whether to attack aggressively or play conservative golf given the altitude's unpredictable conditions."
       }
     ]
   },
@@ -6582,16 +6656,16 @@
     ]
   },
   {
-    "id": "pga-players-championship-2027",
+    "id": "pga-arnold-palmer-invitational-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "THE PLAYERS Championship",
+    "title": "Arnold Palmer Invitational",
     "date": "2027-03-14",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-14",
-    "location": "TPC Sawgrass (Stadium Course), Ponte Vedra Beach, Florida",
+    "location": "Bay Hill Club & Lodge, Orlando, Florida",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6599,16 +6673,16 @@
     ],
     "points": [
       {
-        "h": "Island Green Pressure Intensifies",
-        "b": "The 17th hole at TPC Sawgrass has claimed countless dreams, but in 2027 expect <strong>even more aggressive short-game strategies</strong> as modern equipment allows players to attack pins from previously impossible angles. Watch for the leaderboard to shift dramatically in final rounds when nerves meet the island."
+        "h": "Bay Hill's Demanding Par-4s Test Precision",
+        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
       },
       {
-        "h": "FedEx Cup Standings Reshape",
-        "b": "With only weeks until the playoffs intensify, <strong>every stroke at THE PLAYERS carries double weight</strong> as players battle both for the tournament itself and crucial ranking points. Expect calculated risk-taking from bubble competitors desperate to secure playoff positioning."
+        "h": "March Elite Field Shapes FedEx Cup Narrative",
+        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
       },
       {
-        "h": "Stadium Course's Brutal Conditioning",
-        "b": "TPC Sawgrass in March traditionally plays firmer and faster than winter events, meaning <strong>ball-striking consistency will punish even small misses</strong> more severely than typical Tour venues. Players who thrive in windy conditions with precise iron play will dominate those struggling with distance control."
+        "h": "Palmer's Legacy Attracts Sentimental Contenders",
+        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
       }
     ]
   },
@@ -6648,35 +6722,33 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
+    "id": "pga-players-championship-2027",
+    "sport": "golf",
     "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-03-14",
-    "dateStart": "2027-03-14",
-    "dateEnd": "2027-03-14",
-    "location": "Las Vegas, Nevada, USA",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "THE PLAYERS Championship",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-18",
+    "dateEnd": "2027-03-21",
+    "location": "TPC Sawgrass Stadium Course, Ponte Vedra Beach, Florida",
     "status": "scheduled",
     "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Stroke Play",
+      "FedEx Cup Points"
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Island Green Pressure Intensifies",
+        "b": "The 17th hole at TPC Sawgrass has claimed countless dreams, but in 2027 expect <strong>even more aggressive short-game strategies</strong> as modern equipment allows players to attack pins from previously impossible angles. Watch for the leaderboard to shift dramatically in final rounds when nerves meet the island."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "FedEx Cup Standings Reshape",
+        "b": "With only weeks until the playoffs intensify, <strong>every stroke at THE PLAYERS carries double weight</strong> as players battle both for the tournament itself and crucial ranking points. Expect calculated risk-taking from bubble competitors desperate to secure playoff positioning."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+        "h": "Stadium Course's Brutal Conditioning",
+        "b": "TPC Sawgrass in March traditionally plays firmer and faster than winter events, meaning <strong>ball-striking consistency will punish even small misses</strong> more severely than typical Tour venues. Players who thrive in windy conditions with precise iron play will dominate those struggling with distance control."
       }
     ]
   },
@@ -6813,6 +6885,74 @@
     ]
   },
   {
+    "id": "motoamerica-superbike-spring-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoAmerica Superbike Championship",
+    "icon": "🏍️",
+    "title": "MotoAmerica Superbikes Spring Round",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-19",
+    "dateEnd": "2027-03-21",
+    "location": "Road Atlanta, Braselton, GA, USA",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Superbike Cup",
+      "Supersport",
+      "Talent Cup",
+      "Twins Cup",
+      "King of the Baggers"
+    ],
+    "points": [
+      {
+        "h": "Road Atlanta's High-Speed Challenge",
+        "b": "Road Atlanta's 2.54-mile technical layout with its notorious Turn 1 Esses and demanding braking zones will <strong>separate tire management strategies</strong> from raw speed, favoring riders with precision over those relying on pure acceleration."
+      },
+      {
+        "h": "Spring Conditions Shake Title Hopes",
+        "b": "Early March weather at Road Atlanta typically brings unpredictable grip levels and temperature swings that will <strong>test setup flexibility and rider adaptability</strong> more than any other factor this weekend."
+      },
+      {
+        "h": "Championship Points Battle Intensifies",
+        "b": "With only the opening round in the books, this spring event becomes <strong>the first true test of championship contenders</strong>, revealing which teams have solved winter development issues and which are still chasing setup consistency."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-03-20",
+    "dateStart": "2027-03-20",
+    "dateEnd": "2027-03-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-6",
     "sport": "bjj",
     "entityType": "championship",
@@ -6908,6 +7048,37 @@
       {
         "h": "Winter Conditions Cloud Predictability",
         "b": "February in Birmingham brings variable temperatures and potential moisture that <strong>neutralize pre-season testing data</strong>, giving underdogs a legitimate shot at mixed-condition success if they've prepared contingency setups. Teams with experience in European winter racing hold a subtle but measurable advantage here."
+      }
+    ]
+  },
+  {
+    "id": "pga-valero-texas-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Valero Texas Open",
+    "date": "2027-04-05",
+    "dateStart": "2027-04-02",
+    "dateEnd": "2027-04-05",
+    "location": "Oaks Course, San Antonio, Texas",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Oaks Course Demands Precision Iron Play",
+        "b": "The Oaks Course's narrow fairways and elevated greens punish wayward approaches, making <strong>iron accuracy and distance control</strong> the true separators this week rather than raw power off the tee."
+      },
+      {
+        "h": "Spring Form Matters for FedEx Cup Seeding",
+        "b": "With the FedEx Cup season in full swing, <strong>late-season momentum into the majors</strong> could be worth more than the $4.1M purse, as players build confidence heading into Augusta in two weeks."
+      },
+      {
+        "h": "Defending Champion's Pressure to Repeat",
+        "b": "Back-to-back wins at San Antonio are exceedingly rare in modern PGA Tour history, so <strong>defending champion motivation and course familiarity</strong> could either fuel a dominant performance or invite psychological pressure."
       }
     ]
   }
