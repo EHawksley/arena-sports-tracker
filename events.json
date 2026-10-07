@@ -3818,41 +3818,43 @@
           "day": "Thursday",
           "time_mt": "6:00 PM MT",
           "channels": [
-            "Golf Channel"
+            "Golf Channel",
+            "ESPN+"
           ],
-          "note": "Live coverage begins Thursday evening"
+          "note": "Early coverage begins Thursday evening"
         },
         {
           "name": "Round 2",
           "day": "Friday",
           "time_mt": "6:00 PM MT",
           "channels": [
-            "Golf Channel"
+            "Golf Channel",
+            "ESPN+"
           ],
-          "note": "Friday night coverage"
+          "note": "Continued live coverage Friday night"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
-            "NBC",
-            "Peacock"
+            "CBS",
+            "ESPN+"
           ],
-          "note": "Saturday evening broadcast"
+          "note": "Weekend coverage shifts to CBS"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "5:00 PM MT",
           "channels": [
-            "NBC",
-            "Peacock"
+            "CBS",
+            "ESPN+"
           ],
-          "note": "Championship Sunday conclusion"
+          "note": "Championship conclusion Sunday evening"
         }
       ],
-      "watch_note": "Watch the Baycurrent Classic on Golf Channel, NBC, and Peacock as PGA Tour action unfolds live from Japan in evening US time slots."
+      "watch_note": "The Baycurrent Classic airs primarily on Golf Channel and ESPN+ with weekend rounds on CBS, all in evening Mountain Time due to the Japan location."
     }
   },
   {
@@ -3895,9 +3897,9 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "FS2"
+            "ESPN+"
           ],
-          "note": "Early morning broadcast; also available on Fox Sports app with cable login"
+          "note": "Early morning broadcast; also available on Fox Sports app"
         },
         {
           "name": "MotoGP Main Race",
@@ -3905,12 +3907,12 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "FS2"
+            "ESPN+"
           ],
-          "note": "Early morning broadcast; also available on Fox Sports app with cable login"
+          "note": "Early morning broadcast; also available on Fox Sports app"
         }
       ],
-      "watch_note": "MotoGP races in Indonesia air very early Sunday/Monday mornings MT on FS1/FS2; cable subscribers can also stream via the Fox Sports app."
+      "watch_note": "MotoGP races in Indonesia air very early Sunday morning on FS1 and ESPN+; set your alarm or use ESPN+ for on-demand replay if you miss the live broadcast."
     }
   },
   {
@@ -3947,47 +3949,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superpole",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
-            "Peacock",
-            "beIN Sports"
+            "beIN Sports",
+            "Peacock"
           ],
-          "note": "Qualifying session"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Race 1",
+          "name": "Supersport Race",
           "day": "Saturday",
-          "time_mt": "8:00 AM MT",
+          "time_mt": "8:15 AM MT",
           "channels": [
-            "Peacock",
-            "beIN Sports"
+            "beIN Sports",
+            "Peacock"
           ],
-          "note": "Main WorldSBK race"
+          "note": "Supersport class race"
         },
         {
-          "name": "Warm Up",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "4:30 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Morning warm-up session"
-        },
-        {
-          "name": "Race 2",
-          "day": "Sunday",
-          "time_mt": "7:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
+            "beIN Sports",
+            "Peacock"
           ],
           "note": "Final race of the round"
+        },
+        {
+          "name": "Supersport Superpole Race",
+          "day": "Sunday",
+          "time_mt": "8:15 AM MT",
+          "channels": [
+            "beIN Sports",
+            "Peacock"
+          ],
+          "note": "Supersport Superpole race"
         }
       ],
-      "watch_note": "Peacock is the primary streaming option for World Superbike Championship coverage in the US, with beIN Sports also carrying select sessions."
+      "watch_note": "World Superbike Championship races from Estoril are best watched on Peacock or beIN Sports in the US, with early morning start times in Mountain Time."
     }
   },
   {
@@ -4025,27 +4027,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Championship - Round 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of Superbike and supporting classes"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "MotoAmerica Superbike Championship - Round 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the Laguna Seca weekend"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica races are best watched on FS1 with free streaming available on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbikes at Laguna Seca can be watched live on FS1 or streamed free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4085,26 +4087,36 @@
       "sessions": [
         {
           "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "day": "Friday",
+          "time_mt": "2:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Opening race of the weekend"
         },
         {
           "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Main Saturday race"
+        },
+        {
+          "name": "Superbike Race 3",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Indianapolis are best watched on FS1 or free via Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Indianapolis are available free on Samsung TV Plus or on FS1/FS2 with cable subscription."
     }
   },
   {
@@ -4145,7 +4157,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Early preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -4154,7 +4166,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -4163,10 +4175,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Allen vs. Duncan headliner"
+          "note": "Main card featuring Allen vs. Duncan"
         }
       ],
-      "watch_note": "The main card is available exclusively on Paramount+, with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The easiest way to watch UFC Fight Night: Allen vs. Duncan in the US is through Paramount+ for the main card at 9:00 PM MT on Saturday."
     }
   },
   {
@@ -4207,16 +4219,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card before main card"
         },
         {
           "name": "Main Card",
@@ -4228,7 +4240,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.10 in the US is via Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+      "watch_note": "The easiest way to watch DWCS 10.10 in the US is on Paramount+ for the main card starting at 9:00 PM MT, with prelims available on ESPN+."
     }
   },
   {
@@ -4463,7 +4475,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch, England, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4662,7 +4674,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal GC, Southampton, Bermuda",
+    "location": "Port Royal Golf Club, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
