@@ -3894,25 +3894,25 @@
         {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "12:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "FS1",
             "ESPN+"
           ],
-          "note": "Early morning broadcast; also available on ESPN+ for streaming"
+          "note": "13-lap sprint race"
         },
         {
           "name": "MotoGP Main Race",
           "day": "Sunday",
-          "time_mt": "12:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "FS1",
             "ESPN+"
           ],
-          "note": "Main event; tape-delayed or live depending on ESPN+ subscription"
+          "note": "Full-distance Grand Prix"
         }
       ],
-      "watch_note": "MotoGP races are broadcast live on FS1 and streamed on ESPN+, with early morning start times in Mountain Time due to the Indonesian time zone."
+      "watch_note": "MotoGP races at Mandalika are broadcast on FS1 and ESPN+, with early morning start times on the US East Coast due to the Indonesia time zone."
     }
   },
   {
@@ -3949,9 +3949,19 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superpole",
+          "name": "WorldSBK Race 1",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live from Estoril"
+        },
+        {
+          "name": "WorldSBK Superpole",
+          "day": "Sunday",
+          "time_mt": "4:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
@@ -3959,37 +3969,17 @@
           "note": "Qualifying session"
         },
         {
-          "name": "Race 1",
-          "day": "Saturday",
-          "time_mt": "8:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "First race of the round"
-        },
-        {
-          "name": "Warm Up",
+          "name": "WorldSBK Race 2",
           "day": "Sunday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Pre-race warm up session"
-        },
-        {
-          "name": "Race 2",
-          "day": "Sunday",
-          "time_mt": "8:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Main race of the round"
+          "note": "Main race"
         }
       ],
-      "watch_note": "WSBK races at Estoril are best watched on Peacock or beIN Sports, with the WorldSBK app also offering live coverage for US viewers."
+      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for WSBK; the WorldSBK app also offers streaming options with appropriate subscription."
     }
   },
   {
@@ -4027,27 +4017,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Free with Samsung TV Plus"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Delayed broadcast also available on FS2"
+          "note": "Free with Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Laguna Seca are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Laguna Seca are available free on Samsung TV Plus, with cable TV coverage on FS2."
     }
   },
   {
@@ -4093,20 +4083,20 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage on FS2 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage on FS2 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via FS2 cable subscription."
+      "watch_note": "MotoAmerica Superbike races at Indianapolis are broadcast on FS2 with free streaming available on Samsung TV Plus."
     }
   },
   {
@@ -4147,7 +4137,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -4156,7 +4146,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -4165,10 +4155,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card headlined by Allen vs. Duncan"
+          "note": "Allen vs. Duncan headliner"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+ at 9:00 PM MT, with preliminary fights available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card is exclusively on Paramount+, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -4209,16 +4199,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights available on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Tuesday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card on ESPN+"
+          "note": "Prelim fights on ESPN+"
         },
         {
           "name": "Main Card",
@@ -4230,7 +4220,7 @@
           "note": "Main card exclusive to Paramount+"
         }
       ],
-      "watch_note": "Stream the entire DWCS 10.10 event on Paramount+ with the main card starting at 9:00 PM MT on Tuesday, October 13th."
+      "watch_note": "The easiest way to watch DWCS 10.10 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -4272,25 +4262,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Free streaming on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Free streaming on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica races are available for free on Samsung TV Plus or on FS2 cable channel."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or on FS1 with cable."
     }
   },
   {
@@ -4323,7 +4313,32 @@
         "h": "Weather Could Shuffle Championship Contenders",
         "b": "October rain at Brands Hatch is notoriously unpredictable, and wet conditions will neutralize horsepower advantages while exposing rider bravery and tire management skills. <strong>The pilot who adapts fastest to track evolution</strong> across wet-to-dry transitions could claim the showdown momentum heading into the season finale."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live coverage of first Superbike race at Brands Hatch"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Showdown Finale - decisive second race of the championship"
+        }
+      ],
+      "watch_note": "Peacock offers the most convenient US streaming access for British Superbike Championship coverage, with beIN Sports as an alternative cable option."
+    }
   },
   {
     "id": "wsbk-pirelli-spanish-round-2026",
@@ -4355,7 +4370,32 @@
         "h": "Weather volatility shapes qualifying chaos",
         "b": "October conditions at Jerez are notoriously unpredictable with potential rain affecting grip levels throughout the weekend, meaning <strong>adaptive setup flexibility will separate grid-position winners from those caught unprepared</strong> in qualifying scrambles."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live coverage of first 25-lap race"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live coverage of second 25-lap race"
+        }
+      ],
+      "watch_note": "The Pirelli Spanish Round is best watched on Peacock or beIN Sports, with early morning start times in Mountain Time due to the European location."
+    }
   },
   {
     "id": "bsb-r11-brands-2026",
@@ -4387,7 +4427,32 @@
         "h": "Tire Strategy Becomes Championship Wildcard",
         "b": "Teams must gamble on whether to prioritize grid position in qualifying or preserve rubber for the main race, knowing fuel consumption varies dramatically through Brands Hatch's demanding sequence. <strong>Premature tire degradation could cost a title contender their entire season</strong> in the final laps."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 11 - Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live from Brands Hatch"
+        },
+        {
+          "name": "Round 11 - Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Showdown Finale concludes championship battle"
+        }
+      ],
+      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for British Superbike Championship events, with live streaming available on the WorldSBK app."
+    }
   },
   {
     "id": "motoamerica-superbike-r10-barber-2026",
@@ -4421,7 +4486,32 @@
         "h": "Championship Momentum Reaches Critical Point",
         "b": "With Round 10 approaching mid-season, this is <strong>the last chance for title challengers to make decisive moves</strong> before the campaign's defining stretch. Points gaps will become nearly insurmountable after Barber, intensifying the pressure on every qualifying lap and race decision."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoAmerica Superbike Championship Round 10 - Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of first race"
+        },
+        {
+          "name": "MotoAmerica Superbike Championship Round 10 - Race 2",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Final race of the round"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races at Barber are broadcast on FS1 and available free on Samsung TV Plus in the US."
+    }
   },
   {
     "id": "bsb-round-11-brands-hatch-2026",
@@ -4453,7 +4543,32 @@
         "h": "Podium Pressure Separates Contenders",
         "b": "With everything on the line at Brands Hatch's demanding corners and elevation changes, <strong>mental composure becomes as critical as mechanical setup</strong> for frontrunners fighting for every championship point in the finale."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Opening race of the Showdown Finale"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Championship-deciding final race"
+        }
+      ],
+      "watch_note": "BSB Round 11 from Brands Hatch is best watched via Peacock or beIN Sports, with early morning start times on both Saturday and Sunday in Mountain Time."
+    }
   },
   {
     "id": "bsb-r11-brands-hatch-2026",
@@ -4465,7 +4580,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch GP, Fawkham, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4485,7 +4600,32 @@
         "h": "Last-Lap Drama Etiquette Tested",
         "b": "The showdown format means <strong>collateral contact between title contenders becomes inevitable</strong>, setting up a high-stakes poker game where calculated aggression and defensive racecraft will determine whether someone takes the crown or crashes out of glory."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 11 - Race 1",
+          "day": "Saturday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live from Brands Hatch GP"
+        },
+        {
+          "name": "Round 11 - Race 2",
+          "day": "Sunday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Showdown Finale - Championship decider"
+        }
+      ],
+      "watch_note": "The British Superbike Championship Showdown Finale at Brands Hatch is best watched on Peacock or beIN Sports with early morning start times in Mountain Time."
+    }
   },
   {
     "id": "motoa-superbike-vir-2026",
@@ -4519,7 +4659,32 @@
         "h": "Weather Variable Could Shake Predictions",
         "b": "Mid-October Virginia conditions bring unpredictable temperature swings and potential rain, which <strong>dramatically shifts tire strategy and setup philosophy</strong> compared to earlier season rounds and could level the playing field between well-funded factory teams and nimble privateers."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free with Samsung TV Plus; FS1 also available with cable login"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:30 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free with Samsung TV Plus; FS1 also available with cable login"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are available for free on Samsung TV Plus or on FS1 for cable subscribers."
+    }
   },
   {
     "id": "motoamerica-superbike-okland-2026",
@@ -4554,7 +4719,32 @@
         "h": "Championship Momentum Entering Final Stretch",
         "b": "With only weeks separating Sonoma from the season finale, <strong>every point becomes critical for title contention</strong>, forcing aggressive strategy calls from competing teams. This intensity typically produces bold overtake attempts and potential championship-deciding incidents on Sonoma's narrow passing zones."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1 - Superbike Race",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of first race"
+        },
+        {
+          "name": "Round 2 - Superbike Race",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of second race"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+    }
   },
   {
     "id": "motoa-superbike-utah-2026",
@@ -4589,7 +4779,32 @@
         "h": "Championship Contenders Face Pressure Peak",
         "b": "With the season winding down at this high-altitude venue, leading riders have nowhere to hide as rivals mount their final pushes for the crown. <strong>Mental resilience and consistent lap execution</strong> will determine whether frontrunners consolidate their advantages or falter under intense competition."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus with cable login on FS1"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus with cable login on FS1"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbikes at Utah is best watched free on Samsung TV Plus or via FS1 cable channel."
+    }
   },
   {
     "id": "ufc-fight-night-buckley-malott-2026",
@@ -4631,7 +4846,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "location": "Phillip Island, Melbourne, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4664,7 +4879,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Port Royal Golf Club, Southampton, Bermuda",
+    "location": "Port Royal GC, Southampton, Bermuda",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -5142,7 +5357,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5972,9 +6187,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-16",
-    "dateStart": "2027-01-14",
-    "dateEnd": "2027-01-17",
+    "date": "2027-01-10",
+    "dateStart": "2027-01-07",
+    "dateEnd": "2027-01-10",
     "location": "Waialae Country Club, Honolulu, Hawaii",
     "status": "scheduled",
     "classes": [
@@ -6091,6 +6306,36 @@
     ]
   },
   {
+    "id": "pga-farmers-insurance-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Farmers Insurance Open",
+    "date": "2027-01-24",
+    "dateStart": "2027-01-21",
+    "dateEnd": "2027-01-24",
+    "location": "Torrey Pines Golf Course, San Diego, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ],
+    "points": [
+      {
+        "h": "Torrey Pines rewards precision ball-striking",
+        "b": "This San Diego layout's narrow fairways and dense rough demand <strong>exceptional accuracy off the tee</strong>, making it nearly impossible for bombers to overpower the course—expect to see shorter hitters and precise ball-strikers dominate the leaderboard."
+      },
+      {
+        "h": "Winter conditions favor aggressive play",
+        "b": "January's softer greens and calmer winds at Torrey Pines typically allow <strong>low scoring and attacking golf</strong>, setting up an early-season offensive showcase before the tour heads into tougher spring conditions."
+      },
+      {
+        "h": "FedEx Cup race early momentum matters",
+        "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-sbk-daytona-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -6125,46 +6370,16 @@
     ]
   },
   {
-    "id": "pga-farmers-insurance-open-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Farmers Insurance Open",
-    "date": "2027-01-31",
-    "dateStart": "2027-01-28",
-    "dateEnd": "2027-01-31",
-    "location": "Torrey Pines Golf Course, San Diego, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play"
-    ],
-    "points": [
-      {
-        "h": "Torrey Pines rewards precision ball-striking",
-        "b": "This San Diego layout's narrow fairways and dense rough demand <strong>exceptional accuracy off the tee</strong>, making it nearly impossible for bombers to overpower the course—expect to see shorter hitters and precise ball-strikers dominate the leaderboard."
-      },
-      {
-        "h": "Winter conditions favor aggressive play",
-        "b": "January's softer greens and calmer winds at Torrey Pines typically allow <strong>low scoring and attacking golf</strong>, setting up an early-season offensive showcase before the tour heads into tougher spring conditions."
-      },
-      {
-        "h": "FedEx Cup race early momentum matters",
-        "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
-      }
-    ]
-  },
-  {
     "id": "pga-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Phoenix Open",
-    "date": "2027-02-07",
-    "dateStart": "2027-02-04",
-    "dateEnd": "2027-02-07",
-    "location": "TPC Scottsdale, Scottsdale, AZ, USA",
+    "date": "2027-01-31",
+    "dateStart": "2027-01-28",
+    "dateEnd": "2027-01-31",
+    "location": "TPC Scottsdale, Scottsdale, Arizona",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6252,9 +6467,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "AT&T Pebble Beach Pro-Am",
-    "date": "2027-02-14",
-    "dateStart": "2027-02-11",
-    "dateEnd": "2027-02-14",
+    "date": "2027-02-07",
+    "dateStart": "2027-02-04",
+    "dateEnd": "2027-02-07",
     "location": "Pebble Beach Golf Links, Pebble Beach, California",
     "status": "scheduled",
     "classes": [
@@ -6339,6 +6554,37 @@
     ]
   },
   {
+    "id": "pga-genesis-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Genesis Invitational",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
+    "location": "Riviera Country Club, Pacific Palisades, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Layout Tests Accuracy",
+        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+      },
+      {
+        "h": "Elite Field Chases Prestige and Points",
+        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+      },
+      {
+        "h": "Short Game Mastery Becomes Championship Currency",
+        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-jerez-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -6372,16 +6618,16 @@
     ]
   },
   {
-    "id": "pga-genesis-invitational-2027",
+    "id": "pga-puerto-rico-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Genesis Invitational",
+    "title": "Puerto Rico Open",
     "date": "2027-02-21",
     "dateStart": "2027-02-18",
     "dateEnd": "2027-02-21",
-    "location": "Riviera Country Club, Pacific Palisades, California",
+    "location": "Grand Reserve Golf Club, Río Grande, Puerto Rico",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6389,16 +6635,16 @@
     ],
     "points": [
       {
-        "h": "Riviera's Demanding Layout Tests Accuracy",
-        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+        "h": "Caribbean Conditions Test Shot-Making",
+        "b": "Grand Reserve's tropical layout at sea level will reward players who can control trajectory and spin in the humid, salt-air environment that's vastly different from the mainland tour schedule. <strong>Ball flight unpredictability</strong> could make this week particularly punishing for long hitters who rely on precision distance control."
       },
       {
-        "h": "Elite Field Chases Prestige and Points",
-        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+        "h": "Early Season Form Indicators Matter",
+        "b": "Playing just three weeks before the Masters, the Puerto Rico Open attracts a mix of established names fine-tuning their games and rising prospects making their PGA Tour statement. <strong>Consistency here often predicts momentum</strong> into Augusta's second major test."
       },
       {
-        "h": "Short Game Mastery Becomes Championship Currency",
-        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
+        "h": "Field Depth Creates Unpredictable Winner",
+        "b": "Without the tour's elite competing for FedEx Cup points at this early stage, expect a wide-open leaderboard where relative unknowns and mid-tier talent can genuinely contend. <strong>Lower world-ranking winners here tend to spike immediately</strong> into playoff contention later that season."
       }
     ]
   },
@@ -6532,6 +6778,68 @@
     ]
   },
   {
+    "id": "pga-valspar-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Valspar Championship",
+    "date": "2027-02-28",
+    "dateStart": "2027-02-25",
+    "dateEnd": "2027-02-28",
+    "location": "Innisbrook Resort, Palm Harbor, Florida",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Copperleaf's Demanding Rough Tests Accuracy",
+        "b": "This Tampa layout punishes wayward shots with <strong>thick, unforgiving rough that requires pinpoint iron play</strong>, meaning long hitters without precision won't find success despite the course's relatively modest 7,100-yard setup."
+      },
+      {
+        "h": "Early Season Form Matters Most",
+        "b": "As a mid-March event in the FedEx Cup race, <strong>players who've maintained winter momentum from Hawaii and Mexico events will carry significant confidence</strong>, while those struggling early face pressure before the Masters approaches."
+      },
+      {
+        "h": "Greens Demand Surgical Short Game",
+        "b": "Copperleaf's bentgrass putting surfaces are notoriously quick and severely sloped, meaning <strong>scrambling ability and lag-putting precision will separate contenders from the field</strong> more than raw driving distance."
+      }
+    ]
+  },
+  {
+    "id": "pga-arnold-palmer-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Arnold Palmer Invitational",
+    "date": "2027-03-07",
+    "dateStart": "2027-03-04",
+    "dateEnd": "2027-03-07",
+    "location": "Bay Hill Club & Lodge, Orlando, Florida",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Bay Hill's Demanding Par-4s Test Precision",
+        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
+      },
+      {
+        "h": "March Elite Field Shapes FedEx Cup Narrative",
+        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
+      },
+      {
+        "h": "Palmer's Legacy Attracts Sentimental Contenders",
+        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-phoenix-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -6600,39 +6908,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-03-06",
-    "dateStart": "2027-03-06",
-    "dateEnd": "2027-03-06",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-superbike-florida-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -6666,16 +6941,16 @@
     ]
   },
   {
-    "id": "pga-arnold-palmer-invitational-2027",
+    "id": "pga-players-championship-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Arnold Palmer Invitational",
+    "title": "THE PLAYERS Championship",
     "date": "2027-03-14",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-14",
-    "location": "Bay Hill Club & Lodge, Orlando, Florida",
+    "location": "TPC Sawgrass, Ponte Vedra Beach, Florida",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6683,16 +6958,16 @@
     ],
     "points": [
       {
-        "h": "Bay Hill's Demanding Par-4s Test Precision",
-        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
+        "h": "Island Green Pressure Intensifies",
+        "b": "The 17th hole at TPC Sawgrass has claimed countless dreams, but in 2027 expect <strong>even more aggressive short-game strategies</strong> as modern equipment allows players to attack pins from previously impossible angles. Watch for the leaderboard to shift dramatically in final rounds when nerves meet the island."
       },
       {
-        "h": "March Elite Field Shapes FedEx Cup Narrative",
-        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
+        "h": "FedEx Cup Standings Reshape",
+        "b": "With only weeks until the playoffs intensify, <strong>every stroke at THE PLAYERS carries double weight</strong> as players battle both for the tournament itself and crucial ranking points. Expect calculated risk-taking from bubble competitors desperate to secure playoff positioning."
       },
       {
-        "h": "Palmer's Legacy Attracts Sentimental Contenders",
-        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
+        "h": "Stadium Course's Brutal Conditioning",
+        "b": "TPC Sawgrass in March traditionally plays firmer and faster than winter events, meaning <strong>ball-striking consistency will punish even small misses</strong> more severely than typical Tour venues. Players who thrive in windy conditions with precise iron play will dominate those struggling with distance control."
       }
     ]
   },
@@ -6732,16 +7007,16 @@
     ]
   },
   {
-    "id": "pga-players-championship-2027",
+    "id": "pga-valero-texas-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "THE PLAYERS Championship",
+    "title": "Valero Texas Open",
     "date": "2027-03-21",
     "dateStart": "2027-03-18",
     "dateEnd": "2027-03-21",
-    "location": "TPC Sawgrass Stadium Course, Ponte Vedra Beach, Florida",
+    "location": "Oaks Course, San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6749,78 +7024,16 @@
     ],
     "points": [
       {
-        "h": "Island Green Pressure Intensifies",
-        "b": "The 17th hole at TPC Sawgrass has claimed countless dreams, but in 2027 expect <strong>even more aggressive short-game strategies</strong> as modern equipment allows players to attack pins from previously impossible angles. Watch for the leaderboard to shift dramatically in final rounds when nerves meet the island."
+        "h": "Oaks Course Demands Precision Iron Play",
+        "b": "The Oaks Course's narrow fairways and elevated greens punish wayward approaches, making <strong>iron accuracy and distance control</strong> the true separators this week rather than raw power off the tee."
       },
       {
-        "h": "FedEx Cup Standings Reshape",
-        "b": "With only weeks until the playoffs intensify, <strong>every stroke at THE PLAYERS carries double weight</strong> as players battle both for the tournament itself and crucial ranking points. Expect calculated risk-taking from bubble competitors desperate to secure playoff positioning."
+        "h": "Spring Form Matters for FedEx Cup Seeding",
+        "b": "With the FedEx Cup season in full swing, <strong>late-season momentum into the majors</strong> could be worth more than the $4.1M purse, as players build confidence heading into Augusta in two weeks."
       },
       {
-        "h": "Stadium Course's Brutal Conditioning",
-        "b": "TPC Sawgrass in March traditionally plays firmer and faster than winter events, meaning <strong>ball-striking consistency will punish even small misses</strong> more severely than typical Tour venues. Players who thrive in windy conditions with precise iron play will dominate those struggling with distance control."
-      }
-    ]
-  },
-  {
-    "id": "pga-valspar-championship-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Valspar Championship",
-    "date": "2027-03-21",
-    "dateStart": "2027-03-18",
-    "dateEnd": "2027-03-21",
-    "location": "Copperleaf Country Club, Tampa, Florida",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Copperleaf's Demanding Rough Tests Accuracy",
-        "b": "This Tampa layout punishes wayward shots with <strong>thick, unforgiving rough that requires pinpoint iron play</strong>, meaning long hitters without precision won't find success despite the course's relatively modest 7,100-yard setup."
-      },
-      {
-        "h": "Early Season Form Matters Most",
-        "b": "As a mid-March event in the FedEx Cup race, <strong>players who've maintained winter momentum from Hawaii and Mexico events will carry significant confidence</strong>, while those struggling early face pressure before the Masters approaches."
-      },
-      {
-        "h": "Greens Demand Surgical Short Game",
-        "b": "Copperleaf's bentgrass putting surfaces are notoriously quick and severely sloped, meaning <strong>scrambling ability and lag-putting precision will separate contenders from the field</strong> more than raw driving distance."
-      }
-    ]
-  },
-  {
-    "id": "pga-puerto-rico-open-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Puerto Rico Open",
-    "date": "2027-03-21",
-    "dateStart": "2027-03-18",
-    "dateEnd": "2027-03-21",
-    "location": "Grand Reserve Golf Club, Rio Grande, Puerto Rico",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Caribbean Conditions Test Shot-Making",
-        "b": "Grand Reserve's tropical layout at sea level will reward players who can control trajectory and spin in the humid, salt-air environment that's vastly different from the mainland tour schedule. <strong>Ball flight unpredictability</strong> could make this week particularly punishing for long hitters who rely on precision distance control."
-      },
-      {
-        "h": "Early Season Form Indicators Matter",
-        "b": "Playing just three weeks before the Masters, the Puerto Rico Open attracts a mix of established names fine-tuning their games and rising prospects making their PGA Tour statement. <strong>Consistency here often predicts momentum</strong> into Augusta's second major test."
-      },
-      {
-        "h": "Field Depth Creates Unpredictable Winner",
-        "b": "Without the tour's elite competing for FedEx Cup points at this early stage, expect a wide-open leaderboard where relative unknowns and mid-tier talent can genuinely contend. <strong>Lower world-ranking winners here tend to spike immediately</strong> into playoff contention later that season."
+        "h": "Defending Champion's Pressure to Repeat",
+        "b": "Back-to-back wins at San Antonio are exceedingly rare in modern PGA Tour history, so <strong>defending champion motivation and course familiarity</strong> could either fuel a dominant performance or invite psychological pressure."
       }
     ]
   },
@@ -6926,6 +7139,39 @@
       {
         "h": "Championship Points Battle Intensifies",
         "b": "With only the opening round in the books, this spring event becomes <strong>the first true test of championship contenders</strong>, revealing which teams have solved winter development issues and which are still chasing setup consistency."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-03-20",
+    "dateStart": "2027-03-20",
+    "dateEnd": "2027-03-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -7062,16 +7308,16 @@
     ]
   },
   {
-    "id": "pga-valero-texas-open-2027",
+    "id": "pga-masters-tournament-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Valero Texas Open",
-    "date": "2027-04-05",
-    "dateStart": "2027-04-02",
-    "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, Texas",
+    "title": "Masters Tournament",
+    "date": "2027-04-11",
+    "dateStart": "2027-04-08",
+    "dateEnd": "2027-04-11",
+    "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7079,16 +7325,16 @@
     ],
     "points": [
       {
-        "h": "Oaks Course Demands Precision Iron Play",
-        "b": "The Oaks Course's narrow fairways and elevated greens punish wayward approaches, making <strong>iron accuracy and distance control</strong> the true separators this week rather than raw power off the tee."
+        "h": "Rory's Augusta redemption arc",
+        "b": "With four runner-up finishes at the Masters, McIlroy enters 2027 as a man obsessed with finally conquering Amen Corner. <strong>His iron play around the greens has never been sharper</strong>, and at 37, this may represent his last genuine window to claim the green jacket he desperately needs for a career Grand Slam."
       },
       {
-        "h": "Spring Form Matters for FedEx Cup Seeding",
-        "b": "With the FedEx Cup season in full swing, <strong>late-season momentum into the majors</strong> could be worth more than the $4.1M purse, as players build confidence heading into Augusta in two weeks."
+        "h": "The young gun threat deepens",
+        "b": "Golfers under 25 have won five of the last eight majors, and Augusta's precision-demanding design hasn't deterred this generation of long-bombers with video-game swing mechanics. <strong>Look for a 22-year-old to contend Sunday</strong> as the youth movement continues reshaping professional golf's power structure."
       },
       {
-        "h": "Defending Champion's Pressure to Repeat",
-        "b": "Back-to-back wins at San Antonio are exceedingly rare in modern PGA Tour history, so <strong>defending champion motivation and course familiarity</strong> could either fuel a dominant performance or invite psychological pressure."
+        "h": "Weather volatility reshapes strategy",
+        "b": "Spring patterns in Georgia have become increasingly unpredictable, and the 2027 forecast suggests potential rain mid-week that could soften greens and compress scoring. <strong>Poa annua management becomes everything</strong> when conditions change rapidly, favoring players with adaptive short-game prowess over one-dimensional bombers who rely on firm greens."
       }
     ]
   }
