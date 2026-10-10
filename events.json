@@ -4155,10 +4155,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Allen vs. Duncan headliner"
+          "note": "Featured bout: Allen vs. Duncan"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "Subscribe to Paramount+ for the main card, or watch prelims on ESPN+ in the US."
     }
   },
   {
@@ -4199,7 +4199,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -4208,7 +4208,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights on ESPN+"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -4217,10 +4217,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card exclusive to Paramount+"
+          "note": "Main event card"
         }
       ],
-      "watch_note": "The easiest way to watch DWCS 10.10 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The best way to watch DWCS 10.10 in the US is through Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -4262,25 +4262,43 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free streaming on Samsung TV Plus"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free streaming on Samsung TV Plus"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
+        },
+        {
+          "name": "Stock 1000 Race",
+          "day": "Saturday",
+          "time_mt": "10:00 AM MT",
+          "channels": [
+            "Samsung TV Plus"
+          ],
+          "note": "Free stream available"
+        },
+        {
+          "name": "Stock 1000 Race",
+          "day": "Sunday",
+          "time_mt": "10:00 AM MT",
+          "channels": [
+            "Samsung TV Plus"
+          ],
+          "note": "Free stream available"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or on FS1 with cable."
+      "watch_note": "MotoAmerica races at Miller Motorsports Park are broadcast free on Samsung TV Plus with cable login also available on FS2."
     }
   },
   {
@@ -4319,25 +4337,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first Superbike race at Brands Hatch"
+          "note": "Live from Brands Hatch; BSB Showdown Finale begins"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale - decisive second race of the championship"
+          "note": "Decisive final round of the championship season"
         }
       ],
-      "watch_note": "Peacock offers the most convenient US streaming access for British Superbike Championship coverage, with beIN Sports as an alternative cable option."
+      "watch_note": "The British Superbike Championship Showdown Finale is best watched via Peacock or beIN Sports in the early morning hours MT, with live coverage from Brands Hatch available to US subscribers."
     }
   },
   {
@@ -4374,27 +4392,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "Superpole",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "beIN Sports"
+            "WorldSBK App"
           ],
-          "note": "Live coverage of first 25-lap race"
+          "note": "Qualifying session to determine grid positions"
         },
         {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "name": "Race 1",
+          "day": "Saturday",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
-            "beIN Sports"
+            "WorldSBK App"
           ],
-          "note": "Live coverage of second 25-lap race"
+          "note": "First race of the weekend"
+        },
+        {
+          "name": "Warm-Up",
+          "day": "Sunday",
+          "time_mt": "5:30 AM MT",
+          "channels": [
+            "Peacock",
+            "WorldSBK App"
+          ],
+          "note": "Sunday morning practice session"
+        },
+        {
+          "name": "Race 2",
+          "day": "Sunday",
+          "time_mt": "8:00 AM MT",
+          "channels": [
+            "Peacock",
+            "WorldSBK App"
+          ],
+          "note": "Main race of the weekend"
         }
       ],
-      "watch_note": "The Pirelli Spanish Round is best watched on Peacock or beIN Sports, with early morning start times in Mountain Time due to the European location."
+      "watch_note": "Peacock offers the most comprehensive WSBK coverage in the US, with all sessions available via subscription or the WorldSBK App."
     }
   },
   {
@@ -4431,27 +4469,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 11 - Superbike Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch"
+          "note": "Live coverage of opening race"
         },
         {
-          "name": "Round 11 - Superbike Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale concludes championship battle"
+          "note": "Championship finale race"
         }
       ],
-      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for British Superbike Championship events, with live streaming available on the WorldSBK app."
+      "watch_note": "BSB Round 11 Showdown Finale is best watched via Peacock or beIN Sports, with early morning Mountain Time coverage of both Saturday and Sunday races from Brands Hatch."
     }
   },
   {
@@ -4490,27 +4528,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Championship Round 10 - Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first race"
+          "note": "Live coverage of opening superbike race"
         },
         {
-          "name": "MotoAmerica Superbike Championship Round 10 - Race 2",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "2:30 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Supersport class racing"
+        },
+        {
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the round"
+          "note": "Final superbike race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Barber are broadcast on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike Championship rounds are best watched on FS1 or the free Samsung TV Plus app in the United States."
     }
   },
   {
@@ -4554,7 +4602,7 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Opening race of the Showdown Finale"
+          "note": "Live from Brands Hatch"
         },
         {
           "name": "Superbike Race 2",
@@ -4564,10 +4612,10 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Championship-deciding final race"
+          "note": "Showdown Finale - championship decider"
         }
       ],
-      "watch_note": "BSB Round 11 from Brands Hatch is best watched via Peacock or beIN Sports, with early morning start times on both Saturday and Sunday in Mountain Time."
+      "watch_note": "BSB Round 11 is best watched on Peacock or beIN Sports, with early morning start times due to the UK time difference."
     }
   },
   {
@@ -4580,7 +4628,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch GP, Fawkham, United Kingdom",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4604,27 +4652,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 11 - Race 1",
+          "name": "Round 11 - Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch GP"
+          "note": "Live from Brands Hatch"
         },
         {
-          "name": "Round 11 - Race 2",
+          "name": "Round 11 - Superbike Race 2 (Showdown Finale)",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale - Championship decider"
+          "note": "Championship-deciding final round"
         }
       ],
-      "watch_note": "The British Superbike Championship Showdown Finale at Brands Hatch is best watched on Peacock or beIN Sports with early morning start times in Mountain Time."
+      "watch_note": "The British Superbike Championship Showdown Finale is best watched on Peacock or beIN Sports, with early morning start times for US viewers due to the UK time difference."
     }
   },
   {
@@ -4667,23 +4715,32 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free with Samsung TV Plus; FS1 also available with cable login"
+          "note": "Free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "11:30 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free with Samsung TV Plus; FS1 also available with cable login"
+          "note": "Free on Samsung TV Plus"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Sunday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available for free on Samsung TV Plus or on FS1 for cable subscribers."
+      "watch_note": "MotoAmerica races are available free on Samsung TV Plus, with select races also on FS2 for cable subscribers."
     }
   },
   {
@@ -4723,27 +4780,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 1 - Superbike Race",
+          "name": "MotoAmerica Superbike Championship - Round 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first race"
+          "note": "Practice and qualifying sessions earlier in the day"
         },
         {
-          "name": "Round 2 - Superbike Race",
+          "name": "MotoAmerica Superbike Championship - Round 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second race"
+          "note": "Main race day concluding the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are available on FS2 and free via Samsung TV Plus in the US."
     }
   },
   {
@@ -4787,23 +4844,33 @@
           "day": "Saturday",
           "time_mt": "1:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free on Samsung TV Plus"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Sunday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Utah is best watched free on Samsung TV Plus or via FS1 cable channel."
+      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via FS2 cable subscription."
     }
   },
   {
@@ -4834,7 +4901,39 @@
         "h": "Edmonton's elevation impacts cardio endurance",
         "b": "Fighting at 3,600 feet above sea level in Edmonton means <strong>both fighters must recalibrate their conditioning strategies</strong>, potentially favoring whoever maintains better oxygen efficiency in the third round when fatigue becomes the deciding factor."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "5:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Available on UFC Fight Pass subscription"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "6:30 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Requires ESPN+ subscription"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "8:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Premium pay-per-view event on Paramount+"
+        }
+      ],
+      "watch_note": "The main card featuring Buckley vs. Malott airs on Paramount+ at 8:00 PM MT on Saturday, October 17th, with prelims available on ESPN+ starting at 6:30 PM MT."
+    }
   },
   {
     "id": "mgp-australia-gp-2026",
@@ -4846,7 +4945,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island, Melbourne, Australia",
+    "location": "Phillip Island Circuit, Melbourne, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6151,16 +6250,49 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sentry Tournament of Champions",
-    "date": "2027-01-09",
+    "date": "2027-01-10",
     "dateStart": "2027-01-07",
     "dateEnd": "2027-01-10",
-    "location": "Kapalua Resort Plantation Course, Maui, Hawaii",
+    "location": "Plantation Course at Kapalua, Maui, Hawaii",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6187,9 +6319,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-10",
-    "dateStart": "2027-01-07",
-    "dateEnd": "2027-01-10",
+    "date": "2027-01-17",
+    "dateStart": "2027-01-14",
+    "dateEnd": "2027-01-17",
     "location": "Waialae Country Club, Honolulu, Hawaii",
     "status": "scheduled",
     "classes": [
@@ -6211,12 +6343,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
+    "id": "ufc-bjj-3",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 2",
+    "title": "UFC BJJ 3",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -6230,16 +6362,16 @@
     ],
     "points": [
       {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -6253,7 +6385,7 @@
     "date": "2027-01-24",
     "dateStart": "2027-01-21",
     "dateEnd": "2027-01-24",
-    "location": "PGA West Stadium Course, La Quinta, California",
+    "location": "La Quinta Country Club, La Quinta, California",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6306,36 +6438,6 @@
     ]
   },
   {
-    "id": "pga-farmers-insurance-open-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Farmers Insurance Open",
-    "date": "2027-01-24",
-    "dateStart": "2027-01-21",
-    "dateEnd": "2027-01-24",
-    "location": "Torrey Pines Golf Course, San Diego, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play"
-    ],
-    "points": [
-      {
-        "h": "Torrey Pines rewards precision ball-striking",
-        "b": "This San Diego layout's narrow fairways and dense rough demand <strong>exceptional accuracy off the tee</strong>, making it nearly impossible for bombers to overpower the course—expect to see shorter hitters and precise ball-strikers dominate the leaderboard."
-      },
-      {
-        "h": "Winter conditions favor aggressive play",
-        "b": "January's softer greens and calmer winds at Torrey Pines typically allow <strong>low scoring and attacking golf</strong>, setting up an early-season offensive showcase before the tour heads into tougher spring conditions."
-      },
-      {
-        "h": "FedEx Cup race early momentum matters",
-        "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-sbk-daytona-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -6366,6 +6468,36 @@
       {
         "h": "January Weather and Track Evolution",
         "b": "Florida's winter conditions create unpredictable grip levels and cooler air that <strong>significantly alters tire performance windows compared to summer rounds</strong>, forcing teams to completely recalibrate their setups and creating opportunities for underdogs who nail the weather-dependent setup lottery."
+      }
+    ]
+  },
+  {
+    "id": "pga-farmers-insurance-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Farmers Insurance Open",
+    "date": "2027-01-31",
+    "dateStart": "2027-01-28",
+    "dateEnd": "2027-01-31",
+    "location": "Torrey Pines Golf Course, San Diego, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ],
+    "points": [
+      {
+        "h": "Torrey Pines rewards precision ball-striking",
+        "b": "This San Diego layout's narrow fairways and dense rough demand <strong>exceptional accuracy off the tee</strong>, making it nearly impossible for bombers to overpower the course—expect to see shorter hitters and precise ball-strikers dominate the leaderboard."
+      },
+      {
+        "h": "Winter conditions favor aggressive play",
+        "b": "January's softer greens and calmer winds at Torrey Pines typically allow <strong>low scoring and attacking golf</strong>, setting up an early-season offensive showcase before the tour heads into tougher spring conditions."
+      },
+      {
+        "h": "FedEx Cup race early momentum matters",
+        "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
       }
     ]
   },
@@ -6440,7 +6572,7 @@
     "date": "2027-02-07",
     "dateStart": "2027-02-04",
     "dateEnd": "2027-02-07",
-    "location": "TPC Scottsdale Stadium Course, Scottsdale, Arizona",
+    "location": "TPC Scottsdale, Scottsdale, Arizona",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6618,6 +6750,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2027-02-13",
+    "dateStart": "2027-02-13",
+    "dateEnd": "2027-02-13",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+      }
+    ]
+  },
+  {
     "id": "pga-puerto-rico-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6645,6 +6810,37 @@
       {
         "h": "Field Depth Creates Unpredictable Winner",
         "b": "Without the tour's elite competing for FedEx Cup points at this early stage, expect a wide-open leaderboard where relative unknowns and mid-tier talent can genuinely contend. <strong>Lower world-ranking winners here tend to spike immediately</strong> into playoff contention later that season."
+      }
+    ]
+  },
+  {
+    "id": "pga-worlds-championship-mexico-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "World Golf Championship - Mexico City",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-18",
+    "dateEnd": "2027-02-21",
+    "location": "Club de Golf Chapultepec, Mexico City, Mexico",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Altitude advantage rewards aggressive play",
+        "b": "At 7,382 feet above sea level, Chapultepec's thin air means <strong>golf balls fly 10-15% farther</strong>, transforming this into a bomber's paradise where distance off the tee becomes a decisive advantage over precision."
+      },
+      {
+        "h": "Mexico City's inconsistent February weather",
+        "b": "With afternoon rain probability hovering around 40% and afternoon winds gusting unpredictably, <strong>tee time becomes lottery-critical</strong>—early starters could face dramatically different conditions than evening groups, potentially making the draw as important as the scorecard."
+      },
+      {
+        "h": "International field hungers for WGC prestige",
+        "b": "This event's Mexico City location attracts Latin American stars and international players craving <strong>FedEx Cup points outside the US circuit</strong>, creating a fascinating dynamic where distance players and proven international competitors converge on one of golf's most unique venues."
       }
     ]
   },
@@ -6679,39 +6875,6 @@
       {
         "h": "Superbike Grid Battles Intensify Hard",
         "b": "Daytona's unique banking and 3.56-mile layout creates passing opportunities that reward aggressive throttle control and late braking, so <strong>risk-taking behavior will spike dramatically</strong> as competitors jockey for position on the high-speed oval sections. Expect several multi-bike battles and potential contact as riders push the limits of grip and machinery."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-4",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 4",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
-      },
-      {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
-      },
-      {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
@@ -6917,7 +7080,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -7007,33 +7170,35 @@
     ]
   },
   {
-    "id": "pga-valero-texas-open-2027",
-    "sport": "golf",
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
     "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Valero Texas Open",
-    "date": "2027-03-21",
-    "dateStart": "2027-03-18",
-    "dateEnd": "2027-03-21",
-    "location": "Oaks Course, San Antonio, Texas",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-03-13",
+    "dateStart": "2027-03-13",
+    "dateEnd": "2027-03-13",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
     ],
     "points": [
       {
-        "h": "Oaks Course Demands Precision Iron Play",
-        "b": "The Oaks Course's narrow fairways and elevated greens punish wayward approaches, making <strong>iron accuracy and distance control</strong> the true separators this week rather than raw power off the tee."
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
       },
       {
-        "h": "Spring Form Matters for FedEx Cup Seeding",
-        "b": "With the FedEx Cup season in full swing, <strong>late-season momentum into the majors</strong> could be worth more than the $4.1M purse, as players build confidence heading into Augusta in two weeks."
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
       },
       {
-        "h": "Defending Champion's Pressure to Repeat",
-        "b": "Back-to-back wins at San Antonio are exceedingly rare in modern PGA Tour history, so <strong>defending champion motivation and course familiarity</strong> could either fuel a dominant performance or invite psychological pressure."
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
@@ -7143,101 +7308,33 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
+    "id": "pga-world-golf-championship-dell-2027",
+    "sport": "golf",
     "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-03-20",
-    "dateStart": "2027-03-20",
-    "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "World Golf Championship - Dell Match Play",
+    "date": "2027-03-28",
+    "dateStart": "2027-03-25",
+    "dateEnd": "2027-03-28",
+    "location": "Austin Country Club, Austin, Texas",
     "status": "scheduled",
     "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Match Play",
+      "FedEx Cup Points"
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Austin's Brutal Rough Tests Accuracy",
+        "b": "The Hill Country terrain at Austin Country Club features some of the thickest native rough on the PGA Tour, which in match play format becomes absolutely devastating since players can't afford a single wayward shot. <strong>Ball-striking precision will be the ultimate separator</strong>, as recovery shots in this rough are nearly impossible."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "Rory vs. Rafa Rematch Looms Large",
+        "b": "With both Rory McIlroy and Jon Rahm seeded high and hungry after recent form adjustments, a potential meeting between them could define the entire tournament narrative. <strong>Their head-to-head record in match play carries significant psychological weight</strong>, making any potential bracket convergence must-watch television."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-03-20",
-    "dateStart": "2027-03-20",
-    "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-6",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 6",
-    "date": "2027-03-20",
-    "dateStart": "2027-03-20",
-    "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas stages pure grappling showcase",
-        "b": "UFC BJJ 6 brings submission-only competition to the entertainment capital, marking a significant commitment to <strong>legitimizing Brazilian Jiu-Jitsu as a mainstream combat sport</strong> rather than just an MMA prerequisite. This Vegas staging signals the organization's confidence in drawing dedicated BJJ audiences beyond traditional fight fans."
-      },
-      {
-        "h": "Elite submission specialists converge February",
-        "b": "The 2027 edition will attract top-tier grapplers seeking <strong>credibility outside the octagon</strong>, creating matchups between athletes who've perfected leg lock systems, berimbolo techniques, and pressure-based passing that rarely see full expression in mixed rules. Expect technical chess matches that reward pure positional mastery."
-      },
-      {
-        "h": "Fractured grappling landscape finds rival",
-        "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
+        "h": "Short Game Edge Wins Match Play",
+        "b": "Austin Country Club's small, firm greens demand exceptional chipping and putting touch, playing directly into the hands of craftsmen over bombers in this format. <strong>The player who gets up-and-down most consistently will advance deepest</strong>, as missed birdie opportunities are far more costly in match play than stroke play."
       }
     ]
   },
@@ -7269,6 +7366,37 @@
       {
         "h": "Texas Hill Country Wind Factor",
         "b": "San Antonio's unpredictable spring winds can dramatically alter club selection and trajectory, making <strong>shot-making versatility and par-par golf</strong> more valuable than aggressive scoring attempts on this notoriously finicky course."
+      }
+    ]
+  },
+  {
+    "id": "pga-valero-texas-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Valero Texas Open",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-01",
+    "dateEnd": "2027-04-04",
+    "location": "TPC San Antonio, San Antonio, Texas",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Oaks Course Demands Precision Iron Play",
+        "b": "The Oaks Course's narrow fairways and elevated greens punish wayward approaches, making <strong>iron accuracy and distance control</strong> the true separators this week rather than raw power off the tee."
+      },
+      {
+        "h": "Spring Form Matters for FedEx Cup Seeding",
+        "b": "With the FedEx Cup season in full swing, <strong>late-season momentum into the majors</strong> could be worth more than the $4.1M purse, as players build confidence heading into Augusta in two weeks."
+      },
+      {
+        "h": "Defending Champion's Pressure to Repeat",
+        "b": "Back-to-back wins at San Antonio are exceedingly rare in modern PGA Tour history, so <strong>defending champion motivation and course familiarity</strong> could either fuel a dominant performance or invite psychological pressure."
       }
     ]
   },
@@ -7335,6 +7463,39 @@
       {
         "h": "Weather volatility reshapes strategy",
         "b": "Spring patterns in Georgia have become increasingly unpredictable, and the 2027 forecast suggests potential rain mid-week that could soften greens and compress scoring. <strong>Poa annua management becomes everything</strong> when conditions change rapidly, favoring players with adaptive short-game prowess over one-dimensional bombers who rely on firm greens."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-6",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 6",
+    "date": "2027-04-10",
+    "dateStart": "2027-04-10",
+    "dateEnd": "2027-04-10",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas stages pure grappling showcase",
+        "b": "UFC BJJ 6 brings submission-only competition to the entertainment capital, marking a significant commitment to <strong>legitimizing Brazilian Jiu-Jitsu as a mainstream combat sport</strong> rather than just an MMA prerequisite. This Vegas staging signals the organization's confidence in drawing dedicated BJJ audiences beyond traditional fight fans."
+      },
+      {
+        "h": "Elite submission specialists converge February",
+        "b": "The 2027 edition will attract top-tier grapplers seeking <strong>credibility outside the octagon</strong>, creating matchups between athletes who've perfected leg lock systems, berimbolo techniques, and pressure-based passing that rarely see full expression in mixed rules. Expect technical chess matches that reward pure positional mastery."
+      },
+      {
+        "h": "Fractured grappling landscape finds rival",
+        "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
       }
     ]
   }
