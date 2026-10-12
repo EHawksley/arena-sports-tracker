@@ -4199,7 +4199,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
@@ -4208,7 +4208,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main card"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -4217,10 +4217,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card requires Paramount+ subscription"
+          "note": "Main event card"
         }
       ],
-      "watch_note": "The best way to watch DWCS 10.10 in the US is on Paramount+ for the main card at 9:00 PM MT, with prelims available on ESPN+ starting at 7:30 PM MT."
+      "watch_note": "The easiest way to watch DWCS 10.10 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
     }
   },
   {
@@ -4267,20 +4267,20 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of opening Superbike race"
+          "note": "Free with Samsung TV Plus or cable login"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Free with Samsung TV Plus or cable login"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free via Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are best watched free on Samsung TV Plus or via FS2 with cable login."
     }
   },
   {
@@ -4317,27 +4317,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "British Superbike Championship Round 11 - Race 1",
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch"
+          "note": "Showdown Finale begins with first race of the weekend"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "British Superbike Championship Round 11 - Race 2",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Championship finale"
+          "note": "Championship-deciding final race of the season"
         }
       ],
-      "watch_note": "The British Superbike Championship finale is best watched via Peacock or beIN Sports, with early morning start times for US viewers."
+      "watch_note": "Stream the BSB Showdown Finale live on Peacock or beIN Sports early Sunday morning MT to catch the championship conclusion from Brands Hatch."
     }
   },
   {
@@ -4374,37 +4374,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "WorldSBK Race 1",
+          "name": "Superpole",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first race of the weekend"
+          "note": "Qualifying session"
         },
         {
-          "name": "WorldSBK Race 2",
+          "name": "Race 1",
+          "day": "Saturday",
+          "time_mt": "8:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "First race of the round"
+        },
+        {
+          "name": "Warm-up",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final race of the Jerez round"
+          "note": "Pre-race warm-up session"
         },
         {
-          "name": "WorldSBK Superpole",
-          "day": "Saturday",
-          "time_mt": "2:30 AM MT",
+          "name": "Race 2",
+          "day": "Sunday",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Qualifying session determining grid positions"
+          "note": "Second race and main event"
         }
       ],
-      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for World Superbike Championship events; early morning start times required for European venue."
+      "watch_note": "Peacock is the primary US streaming home for World Superbike Championship, with select sessions also available on beIN Sports."
     }
   },
   {
@@ -4448,7 +4458,7 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch"
+          "note": "Live coverage of opening superbike race"
         },
         {
           "name": "Superbike Race 2",
@@ -4458,10 +4468,10 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Finale round"
+          "note": "Final championship-deciding superbike race"
         }
       ],
-      "watch_note": "BSB Round 11 Showdown Finale is best watched on Peacock or beIN Sports, with early morning MT start times due to the UK time difference."
+      "watch_note": "Stream live on Peacock or beIN Sports for comprehensive coverage of the BSB Championship finale from Brands Hatch."
     }
   },
   {
@@ -4507,17 +4517,17 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Supersport Race",
+          "name": "Supersport Race 1",
           "day": "Saturday",
-          "time_mt": "1:30 PM MT",
+          "time_mt": "1:45 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Supersport class competition"
         },
         {
           "name": "Superbike Race 2",
@@ -4527,10 +4537,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Final Superbike race of the round"
+        },
+        {
+          "name": "Supersport Race 2",
+          "day": "Sunday",
+          "time_mt": "12:30 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Final Supersport race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbike rounds are broadcast on FS1 with free streaming available on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica races are available on FS1 cable broadcasts and free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4569,25 +4589,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "beIN Sports"
           ],
           "note": "Live from Brands Hatch"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "beIN Sports"
           ],
-          "note": "Championship showdown finale"
+          "note": "Showdown Finale Race"
         }
       ],
-      "watch_note": "Stream both BSB races live on Peacock or the WorldSBK app, with early morning start times due to UK timezone."
+      "watch_note": "The BSB Showdown Finale at Brands Hatch can be streamed live on Peacock or beIN Sports, with early morning start times in Mountain Time."
     }
   },
   {
@@ -4600,7 +4620,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch GP, Fawkham, United Kingdom",
+    "location": "Brands Hatch, Kent, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4624,27 +4644,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 11 - Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch GP"
+          "note": "Live coverage of first superbike race"
         },
         {
-          "name": "Round 11 - Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale - Championship decider"
+          "note": "Final round showdown finale"
         }
       ],
-      "watch_note": "The BSB Showdown Finale is best watched live on Peacock or beIN Sports, with early morning start times due to the UK time difference."
+      "watch_note": "The BSB Showdown Finale at Brands Hatch can be streamed on Peacock or watched on beIN Sports, with early morning start times due to the UK timezone difference."
     }
   },
   {
@@ -4690,40 +4710,20 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
-        },
-        {
-          "name": "Supersport Race 1",
-          "day": "Saturday",
-          "time_mt": "1:30 PM MT",
-          "channels": [
-            "FS2",
-            "Samsung TV Plus"
-          ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
-        },
-        {
-          "name": "Supersport Race 2",
-          "day": "Sunday",
-          "time_mt": "12:30 PM MT",
-          "channels": [
-            "FS2",
-            "Samsung TV Plus"
-          ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Final round of the championship"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via FS2 cable subscription."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4765,25 +4765,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "12:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Main Sunday race card"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Sonoma is broadcast live on FS1 and free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4823,27 +4823,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Final round of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or on FS2 cable for the best viewing experience in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 with free streaming available on Samsung TV Plus in the US."
     }
   },
   {
@@ -4884,16 +4884,16 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "UFC Fight Pass subscribers only"
         },
         {
-          "name": "Preliminary Card",
+          "name": "Prelims",
           "day": "Saturday",
           "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights before main card"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -4905,7 +4905,7 @@
           "note": "Buckley vs. Malott headliner"
         }
       ],
-      "watch_note": "The main card featuring Buckley vs. Malott airs Saturday night at 9:00 PM MT exclusively on Paramount+."
+      "watch_note": "The main card is exclusively on Paramount+ at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -5693,6 +5693,38 @@
     ]
   },
   {
+    "id": "wsbk-estoril-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Tissot Estoril Round",
+    "date": "2026-11-08",
+    "dateStart": "2026-11-06",
+    "dateEnd": "2026-11-08",
+    "location": "Circuito Estoril, Cascais, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Autumn Weather Wildcard at Estoril",
+        "b": "November's unpredictable Atlantic conditions could turn this finale into a <strong>tire strategy minefield</strong>, forcing teams to gamble between wet-weather compounds and intermediate setups that may never get used. Riders who've mastered Estoril's tricky elevation changes in mixed conditions will have a massive championship advantage."
+      },
+      {
+        "h": "Tight Title Fight Rewards Consistency",
+        "b": "By late November in WSBK, <strong>championship margins are typically razor-thin</strong>, meaning a single costly mistake or mechanical failure could determine the entire season's outcome. This penultimate round becomes a calculated risk assessment where championship contenders must balance aggression with the pragmatism of securing podium points."
+      },
+      {
+        "h": "Estoril's Braking Zone Battles Intensify",
+        "b": "This Portuguese circuit's demanding Turn 1 and tight corner sequences create <strong>relentless overtaking opportunities</strong> that expose any bike setup weaknesses in deceleration or mid-corner stability. Teams arriving with fresh aerodynamic packages or suspension tweaks will immediately show their hand in these high-speed duels."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-bonfim-vs-brady-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -5920,7 +5952,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6223,39 +6255,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-12-12",
-    "dateStart": "2026-12-12",
-    "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
-      }
-    ]
-  },
-  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6292,9 +6291,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-17",
-    "dateStart": "2027-01-14",
-    "dateEnd": "2027-01-17",
+    "date": "2027-01-11",
+    "dateStart": "2027-01-08",
+    "dateEnd": "2027-01-11",
     "location": "Waialae Country Club, Honolulu, Hawaii",
     "status": "scheduled",
     "classes": [
@@ -6316,12 +6315,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
+    "id": "ufc-bjj-2",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 3",
+    "title": "UFC BJJ 2",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -6335,16 +6334,16 @@
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -6572,9 +6571,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "AT&T Pebble Beach Pro-Am",
-    "date": "2027-02-07",
-    "dateStart": "2027-02-04",
-    "dateEnd": "2027-02-07",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
     "location": "Pebble Beach Golf Links, Pebble Beach, California",
     "status": "scheduled",
     "classes": [
@@ -6659,37 +6658,6 @@
     ]
   },
   {
-    "id": "pga-genesis-invitational-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Genesis Invitational",
-    "date": "2027-02-14",
-    "dateStart": "2027-02-11",
-    "dateEnd": "2027-02-14",
-    "location": "Riviera Country Club, Pacific Palisades, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Riviera's Demanding Layout Tests Accuracy",
-        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
-      },
-      {
-        "h": "Elite Field Chases Prestige and Points",
-        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
-      },
-      {
-        "h": "Short Game Mastery Becomes Championship Currency",
-        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-superbike-jerez-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -6752,6 +6720,37 @@
       {
         "h": "December timing targets holiday audiences",
         "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+      }
+    ]
+  },
+  {
+    "id": "pga-genesis-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Genesis Invitational",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-18",
+    "dateEnd": "2027-02-21",
+    "location": "Riviera Country Club, Los Angeles, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Layout Tests Accuracy",
+        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+      },
+      {
+        "h": "Elite Field Chases Prestige and Points",
+        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+      },
+      {
+        "h": "Short Game Mastery Becomes Championship Currency",
+        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
       }
     ]
   },
@@ -6852,6 +6851,38 @@
     ]
   },
   {
+    "id": "wsbk-australian-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Australian Round",
+    "date": "2027-02-22",
+    "dateStart": "2027-02-20",
+    "dateEnd": "2027-02-22",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Phillip Island's Speed Demands Peak Form",
+        "b": "The Australian circuit's high-speed corners and relentless pace typically expose any setup weaknesses or rider fatigue, making this round a <strong>crucial form indicator for championship contenders</strong>. Riders who can nail the tricky mid-corner speeds here usually have the confidence and machinery to challenge for titles."
+      },
+      {
+        "h": "Southern Hemisphere Weather Wildcard Factor",
+        "b": "February at Phillip Island means <strong>unpredictable wind and rain that can completely reshape grid positions</strong> between practice and race day, potentially neutralizing winter-tested European setups. Teams that master wet-weather tire strategies here gain psychological momentum heading into the European season."
+      },
+      {
+        "h": "Bridgestone Tire Performance Critical Test",
+        "b": "The demanding left-hander sequences at Phillip Island put extreme stress on front-end grip and mid-corner stability, making tire choice absolutely <strong>decisive for race-winning performance</strong>. Teams that struggle with tire warm-up in the cooler Australian conditions could find themselves fighting understeer for the entire weekend."
+      }
+    ]
+  },
+  {
     "id": "pga-honda-classic-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6892,7 +6923,7 @@
     "date": "2027-02-28",
     "dateStart": "2027-02-25",
     "dateEnd": "2027-02-28",
-    "location": "Club de Golf Chapultepec, Mexico City, Mexico",
+    "location": "TBD",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7248,6 +7279,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-03-20",
+    "dateStart": "2027-03-20",
+    "dateEnd": "2027-03-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
@@ -7312,6 +7376,38 @@
     ]
   },
   {
+    "id": "wsbk-portuguese-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Pirelli Portuguese Round",
+    "date": "2027-03-29",
+    "dateStart": "2027-03-27",
+    "dateEnd": "2027-03-29",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Portimão's High-Speed Challenge",
+        "b": "The Algarve circuit's sweeping corners and elevation changes demand precision throttle control that will <strong>separate tire management specialists from aggressive riders</strong>. Expect Pirelli's softer compound choices to play a crucial role in qualifying, where track temperature variations between morning and afternoon sessions could swing grid positions dramatically."
+      },
+      {
+        "h": "Weather's Unpredictable Portuguese Factor",
+        "b": "<strong>Atlantic wind patterns make Portimão notoriously difficult to predict</strong>, with conditions capable of shifting dramatically across practice sessions and race day. Teams that nail their setup window early will gain an insurmountable advantage, as mid-event adjustments to suspension and electronics often backfire on this technical layout."
+      },
+      {
+        "h": "Consistency Over Raw Pace Here",
+        "b": "Unlike power-dependent circuits, Portimão rewards <strong>smooth corner entry and mid-corner precision over brute horsepower</strong>, favoring technical riders who can maintain confidence through the bumpy Turns 5-7 complex. Expect the championship contenders with proven wet-weather adaptability to headline Sunday's battle, as this venue's racing rarely produces dominant performances."
+      }
+    ]
+  },
+  {
     "id": "pga-texas-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -7352,7 +7448,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, Texas",
+    "location": "TPC San Antonio (Oaks Course), San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7416,7 +7512,7 @@
     "icon": "⛳",
     "title": "Masters Tournament",
     "date": "2027-04-12",
-    "dateStart": "2027-04-09",
+    "dateStart": "2027-04-08",
     "dateEnd": "2027-04-12",
     "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
