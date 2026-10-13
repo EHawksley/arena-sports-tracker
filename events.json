@@ -4220,7 +4220,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "The easiest way to watch DWCS 10.10 in the US is through Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "The main card is available exclusively on Paramount+ in the US, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -4267,20 +4267,20 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free with Samsung TV Plus or cable login"
+          "note": "Free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free with Samsung TV Plus or cable login"
+          "note": "Free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are best watched free on Samsung TV Plus or via FS2 with cable login."
+      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via FS2 cable subscription."
     }
   },
   {
@@ -4317,27 +4317,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "British Superbike Championship Round 11 - Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale begins with first race of the weekend"
+          "note": "Live from Brands Hatch"
         },
         {
-          "name": "British Superbike Championship Round 11 - Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Championship-deciding final race of the season"
+          "note": "Championship Showdown Finale"
         }
       ],
-      "watch_note": "Stream the BSB Showdown Finale live on Peacock or beIN Sports early Sunday morning MT to catch the championship conclusion from Brands Hatch."
+      "watch_note": "The British Superbike Championship Showdown Finale can be streamed live on Peacock or beIN Sports, with early morning start times for US viewers."
     }
   },
   {
@@ -4374,47 +4374,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superpole",
+          "name": "WorldSBK Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Qualifying session"
+          "note": "Live coverage of the first WorldSBK race"
         },
         {
-          "name": "Race 1",
-          "day": "Saturday",
-          "time_mt": "8:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "First race of the round"
-        },
-        {
-          "name": "Warm-up",
+          "name": "WorldSBK Superpole Race",
           "day": "Sunday",
           "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Pre-race warm-up session"
+          "note": "Intermediate race format"
         },
         {
-          "name": "Race 2",
+          "name": "WorldSBK Race 2",
           "day": "Sunday",
-          "time_mt": "8:00 AM MT",
+          "time_mt": "8:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Second race and main event"
+          "note": "Final race of the weekend"
         }
       ],
-      "watch_note": "Peacock is the primary US streaming home for World Superbike Championship, with select sessions also available on beIN Sports."
+      "watch_note": "Peacock offers the most comprehensive US coverage of the World Superbike Championship Spanish Round with live streaming of all race sessions."
     }
   },
   {
@@ -4458,7 +4448,7 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of opening superbike race"
+          "note": "Live coverage of opening race"
         },
         {
           "name": "Superbike Race 2",
@@ -4468,10 +4458,10 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final championship-deciding superbike race"
+          "note": "Championship finale race"
         }
       ],
-      "watch_note": "Stream live on Peacock or beIN Sports for comprehensive coverage of the BSB Championship finale from Brands Hatch."
+      "watch_note": "The BSB Showdown Finale is best watched on Peacock or beIN Sports with early morning start times due to the UK timezone difference."
     }
   },
   {
@@ -4512,45 +4502,35 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
           "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Supersport Race 1",
+          "name": "Supersport Race",
           "day": "Saturday",
-          "time_mt": "1:45 PM MT",
+          "time_mt": "12:30 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Supersport class competition"
+          "note": "Supersport class racing"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the round"
-        },
-        {
-          "name": "Supersport Race 2",
-          "day": "Sunday",
-          "time_mt": "12:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Final Supersport race of the round"
+          "note": "Second Superbike race and championship points"
         }
       ],
-      "watch_note": "MotoAmerica races are available on FS1 cable broadcasts and free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike Championship rounds are broadcast on FS1/FS2 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -4594,7 +4574,7 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
@@ -4604,10 +4584,10 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale Race"
+          "note": "Final round showdown - championship decider"
         }
       ],
-      "watch_note": "The BSB Showdown Finale at Brands Hatch can be streamed live on Peacock or beIN Sports, with early morning start times in Mountain Time."
+      "watch_note": "Watch live on Peacock or beIN Sports early Sunday morning (5:00 AM MT) for the championship finale at Brands Hatch."
     }
   },
   {
@@ -4620,7 +4600,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch, Kent, England",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4644,27 +4624,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "Round 11 - Showdown Finale Race Day",
           "day": "Saturday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first superbike race"
+          "note": "Live coverage of British Superbike Championship finale at Brands Hatch"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "Round 11 - Showdown Finale Race Day (Repeat)",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "12:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final round showdown finale"
+          "note": "Repeat broadcast of Saturday's races"
         }
       ],
-      "watch_note": "The BSB Showdown Finale at Brands Hatch can be streamed on Peacock or watched on beIN Sports, with early morning start times due to the UK timezone difference."
+      "watch_note": "Stream live on Peacock or beIN Sports, with Saturday early morning coverage recommended for real-time viewing of the BSB Showdown Finale."
     }
   },
   {
@@ -4707,23 +4687,23 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Practice and qualifying earlier in the day"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final round of the championship"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via cable on FS1 in the US."
     }
   },
   {
@@ -4763,27 +4743,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Practice and qualifying earlier in the day"
+          "note": "Free stream available on Samsung TV Plus"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Main Sunday race card"
+          "note": "Free stream available on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and streamed free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -4823,27 +4803,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Practice and qualifying earlier in the day"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         },
         {
-          "name": "MotoAmerica Superbike Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final round of the weekend"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 with free streaming available on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via cable on FS1 in Mountain Time."
     }
   },
   {
@@ -4880,32 +4860,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "6:00 PM MT",
+          "time_mt": "4:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "UFC Fight Pass subscribers only"
+          "note": "Streaming only"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:30 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Prelim fights before main card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "9:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
           "note": "Buckley vs. Malott headliner"
         }
       ],
-      "watch_note": "The main card is exclusively on Paramount+ at 9:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card featuring Buckley vs. Malott airs on Paramount+ at 8:00 PM MT on Saturday, October 17th."
     }
   },
   {
@@ -5889,7 +5869,7 @@
     "date": "2026-11-14",
     "dateStart": "2026-11-14",
     "dateEnd": "2026-11-14",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -6261,10 +6241,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sentry Tournament of Champions",
-    "date": "2027-01-10",
-    "dateStart": "2027-01-07",
-    "dateEnd": "2027-01-10",
-    "location": "Plantation Course at Kapalua, Maui, Hawaii",
+    "date": "2027-01-07",
+    "dateStart": "2027-01-04",
+    "dateEnd": "2027-01-07",
+    "location": "Plantation Course at Kapalua Resort, Lahaina, Hawaii",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6291,9 +6271,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-11",
-    "dateStart": "2027-01-08",
-    "dateEnd": "2027-01-11",
+    "date": "2027-01-14",
+    "dateStart": "2027-01-11",
+    "dateEnd": "2027-01-14",
     "location": "Waialae Country Club, Honolulu, Hawaii",
     "status": "scheduled",
     "classes": [
@@ -6324,7 +6304,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -6357,7 +6337,7 @@
     "date": "2027-01-24",
     "dateStart": "2027-01-21",
     "dateEnd": "2027-01-24",
-    "location": "La Quinta Country Club, La Quinta, California",
+    "location": "PGA West - Stadium Course, La Quinta, California",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6571,9 +6551,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "AT&T Pebble Beach Pro-Am",
-    "date": "2027-02-14",
-    "dateStart": "2027-02-11",
-    "dateEnd": "2027-02-14",
+    "date": "2027-02-07",
+    "dateStart": "2027-02-04",
+    "dateEnd": "2027-02-07",
     "location": "Pebble Beach Golf Links, Pebble Beach, California",
     "status": "scheduled",
     "classes": [
@@ -6636,7 +6616,7 @@
     "date": "2027-02-14",
     "dateStart": "2027-02-11",
     "dateEnd": "2027-02-14",
-    "location": "TPC Scottsdale, Scottsdale, Arizona, USA",
+    "location": "TPC Scottsdale, Scottsdale, Arizona",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6654,6 +6634,37 @@
       {
         "h": "Desert Heat Tests Endurance Hard",
         "b": "February in Scottsdale brings warm temperatures that can push players to their physical and mental limits across four rounds of intense competition. <strong>Hydration, pacing, and emotional control</strong> often separate champions from burnouts as the thin desert air and bright sun create unique challenges rarely seen on tour courses elsewhere."
+      }
+    ]
+  },
+  {
+    "id": "pga-genesis-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Genesis Invitational",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
+    "location": "Riviera Country Club, Los Angeles, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Layout Tests Accuracy",
+        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+      },
+      {
+        "h": "Elite Field Chases Prestige and Points",
+        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+      },
+      {
+        "h": "Short Game Mastery Becomes Championship Currency",
+        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
       }
     ]
   },
@@ -6724,37 +6735,6 @@
     ]
   },
   {
-    "id": "pga-genesis-invitational-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Genesis Invitational",
-    "date": "2027-02-21",
-    "dateStart": "2027-02-18",
-    "dateEnd": "2027-02-21",
-    "location": "Riviera Country Club, Los Angeles, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Riviera's Demanding Layout Tests Accuracy",
-        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
-      },
-      {
-        "h": "Elite Field Chases Prestige and Points",
-        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
-      },
-      {
-        "h": "Short Game Mastery Becomes Championship Currency",
-        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
-      }
-    ]
-  },
-  {
     "id": "pga-puerto-rico-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6764,7 +6744,7 @@
     "date": "2027-02-21",
     "dateStart": "2027-02-18",
     "dateEnd": "2027-02-21",
-    "location": "Grand Reserve Golf Club, Río Grande, Puerto Rico",
+    "location": "Grand Reserve Golf Course, Río Grande, Puerto Rico",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7084,7 +7064,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -7288,7 +7268,7 @@
     "date": "2027-03-20",
     "dateStart": "2027-03-20",
     "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -7385,7 +7365,7 @@
     "date": "2027-03-29",
     "dateStart": "2027-03-27",
     "dateEnd": "2027-03-29",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Algarve, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -7445,10 +7425,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Valero Texas Open",
-    "date": "2027-04-05",
-    "dateStart": "2027-04-02",
-    "dateEnd": "2027-04-05",
-    "location": "TPC San Antonio (Oaks Course), San Antonio, Texas",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-01",
+    "dateEnd": "2027-04-04",
+    "location": "TPC San Antonio - Oaks Course, San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7511,9 +7491,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Masters Tournament",
-    "date": "2027-04-12",
+    "date": "2027-04-11",
     "dateStart": "2027-04-08",
-    "dateEnd": "2027-04-12",
+    "dateEnd": "2027-04-11",
     "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
