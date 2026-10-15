@@ -4195,25 +4195,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Final round of the season"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Miller can be watched live on FS1 or free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4250,27 +4250,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "British Superbike Championship - Round 11 Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale - First race of the weekend"
+          "note": "Live from Brands Hatch"
         },
         {
-          "name": "British Superbike Championship - Round 11 Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale - Second race of the weekend"
+          "note": "Showdown Finale - championship-deciding round"
         }
       ],
-      "watch_note": "The BSB Showdown Finale at Brands Hatch is best watched via Peacock or beIN Sports, with early morning start times due to the UK timezone difference."
+      "watch_note": "BSB Round 11 is best watched via Peacock or beIN Sports, with early morning start times due to the UK broadcast window."
     }
   },
   {
@@ -4307,37 +4307,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superpole",
+          "name": "WorldSBK Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Qualifying session"
+          "note": "Live from Jerez"
         },
         {
-          "name": "Race 1",
-          "day": "Saturday",
-          "time_mt": "8:00 AM MT",
+          "name": "WorldSBK Superpole Race",
+          "day": "Sunday",
+          "time_mt": "5:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "First of two races"
+          "note": "Sprint race format"
         },
         {
-          "name": "Race 2",
+          "name": "WorldSBK Race 2",
           "day": "Sunday",
           "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Second of two races"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "The Pirelli Spanish Round can be watched on Peacock and beIN Sports in the United States, with early morning Mountain Time starts due to the European time zone."
+      "watch_note": "Peacock and beIN Sports provide live coverage of all WorldSBK races from Jerez, with early morning start times for US viewers due to the European location."
     }
   },
   {
@@ -4374,37 +4374,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "4:00 AM MT",
-          "channels": [
-            "Peacock",
-            "WorldSBK app"
-          ],
-          "note": "Live coverage of Friday practice and qualifying sessions"
-        },
-        {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "WorldSBK App"
           ],
-          "note": "Opening race of the weekend"
+          "note": "Live coverage of opening race"
         },
         {
-          "name": "Superbike Race 2 (Showdown Finale)",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK app"
+            "WorldSBK App"
           ],
-          "note": "Championship-deciding finale at Brands Hatch"
+          "note": "Championship-deciding finale"
         }
       ],
-      "watch_note": "The BSB Showdown Finale is best watched on Peacock with a subscription or through the WorldSBK app, with early morning start times in Mountain Time."
+      "watch_note": "Stream BSB Round 11 on Peacock or the WorldSBK App; early morning starts required for US viewers due to UK time zone."
     }
   },
   {
@@ -4453,16 +4443,6 @@
           "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "2:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Supersport class racing"
-        },
-        {
           "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
@@ -4470,10 +4450,10 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the round"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica races are available on FS1 and free with Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Barber are broadcast live on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4517,40 +4497,20 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of the first Superbike race"
+          "note": "Main Superbike race of the weekend"
         },
         {
-          "name": "Superstock 1000 Race",
-          "day": "Saturday",
-          "time_mt": "6:30 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Support class race"
-        },
-        {
-          "name": "Superbike Race 2",
+          "name": "Superbike Race 2 (Showdown Finale)",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final round showdown race"
-        },
-        {
-          "name": "Superstock 1000 Final",
-          "day": "Sunday",
-          "time_mt": "6:30 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Championship-deciding support class final"
+          "note": "Championship-deciding final race"
         }
       ],
-      "watch_note": "The BSB Showdown Finale at Brands Hatch is best watched on Peacock or beIN Sports, with early morning start times due to the UK time difference."
+      "watch_note": "Stream BSB Round 11 via Peacock or beIN Sports; early morning ET viewing required for live coverage from Brands Hatch."
     }
   },
   {
@@ -4563,7 +4523,7 @@
     "date": "2026-10-18",
     "dateStart": "2026-10-16",
     "dateEnd": "2026-10-18",
-    "location": "Brands Hatch GP, Kent, United Kingdom",
+    "location": "Brands Hatch GP, Longfield, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4587,27 +4547,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Round 11 - Superbike Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "Peacock",
-            "beIN Sports"
+            "beIN Sports",
+            "Peacock"
           ],
           "note": "Live from Brands Hatch GP"
         },
         {
-          "name": "Round 11 - Superbike Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "6:00 AM MT",
           "channels": [
-            "Peacock",
-            "beIN Sports"
+            "beIN Sports",
+            "Peacock"
           ],
-          "note": "Showdown Finale - Championship-deciding race"
+          "note": "Final round of the championship"
         }
       ],
-      "watch_note": "The British Superbike Championship finale is best watched via Peacock or beIN Sports, with early morning start times for US viewers due to the UK timezone difference."
+      "watch_note": "BSB Round 11 finale at Brands Hatch is best watched live on Peacock or beIN Sports early Sunday morning MT, with race replays available on-demand."
     }
   },
   {
@@ -4653,20 +4613,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free on Samsung TV Plus with cable option on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via cable on FS1, making it the most accessible way to watch in the US."
     }
   },
   {
@@ -4706,27 +4666,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike - Round 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         },
         {
-          "name": "MotoAmerica Superbike - Round 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available on FS1 and Samsung TV Plus (free ad-supported streaming), with Sunday's race being the main event of the weekend."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4766,27 +4726,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike - Round 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike - Round 2",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Final round of the Utah doubleheader"
         }
       ],
-      "watch_note": "MotoAmerica races are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races from Utah are broadcast on FS1 with free streaming available on Samsung TV Plus."
     }
   },
   {
@@ -4832,7 +4792,7 @@
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "6:30 PM MT",
           "channels": [
             "ESPN+"
           ],
@@ -4841,14 +4801,14 @@
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "9:00 PM MT",
+          "time_mt": "8:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Buckley vs. Malott headliner"
+          "note": "Buckley vs. Malott main event"
         }
       ],
-      "watch_note": "The main card featuring Buckley vs. Malott airs on Paramount+ at 9:00 PM MT on Saturday, October 17th."
+      "watch_note": "The main card featuring Buckley vs. Malott is exclusively on Paramount+ at 8:00 PM MT on Saturday, October 17th."
     }
   },
   {
@@ -4861,7 +4821,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island, Melbourne, Australia",
+    "location": "Phillip Island, Victoria, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4882,7 +4842,32 @@
         "h": "Autumn Weather as Wild Card",
         "b": "October conditions at Phillip Island bring unpredictable wind gusts and potential rain showers that <strong>can completely reshape tire strategies and braking points lap-to-lap</strong>. Riders and teams with superior adaptability to rapidly changing grip levels will have a decisive edge in both practice sessions and the race."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "12:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Live coverage of 12-lap sprint race"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "12:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Live coverage of full-distance MotoGP race"
+        }
+      ],
+      "watch_note": "MotoGP at Phillip Island airs live on FS1 in the early morning hours MT; Fox Sports app offers streaming with cable login."
+    }
   },
   {
     "id": "pga-butterfield-bermuda-championship-2026",
@@ -4912,7 +4897,53 @@
         "h": "Champions Return to Defend Status",
         "b": "Defending champions often gain massive confidence advantages in return trips to familiar terrain, and <strong>back-to-back winners at Port Royal</strong> historically show significantly improved scoring patterns the second year around."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early morning coverage from Bermuda"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early morning coverage from Bermuda"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early morning coverage from Bermuda"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel",
+            "NBC",
+            "Peacock"
+          ],
+          "note": "Championship conclusion with expanded coverage"
+        }
+      ],
+      "watch_note": "The Butterfield Bermuda Championship broadcasts early in the morning on Golf Channel and Peacock due to the Atlantic timezone, with final round coverage also on NBC."
+    }
   },
   {
     "id": "motoamerica-superbike-las-vegas-2026",
@@ -5712,7 +5743,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Circuito Estoril, Cascais, Portugal",
+    "location": "Circuito Estoril, Estoril, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -7127,7 +7158,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -7552,9 +7583,9 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Masters Tournament",
-    "date": "2027-04-11",
-    "dateStart": "2027-04-08",
-    "dateEnd": "2027-04-11",
+    "date": "2027-04-12",
+    "dateStart": "2027-04-09",
+    "dateEnd": "2027-04-12",
     "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
@@ -7606,6 +7637,37 @@
       {
         "h": "Fractured grappling landscape finds rival",
         "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
+      }
+    ]
+  },
+  {
+    "id": "pga-rbc-heritage-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "RBC Heritage",
+    "date": "2027-04-19",
+    "dateStart": "2027-04-16",
+    "dateEnd": "2027-04-19",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Harbour Town's Narrow Fairways Punish",
+        "b": "This iconic layout demands precision over power, making it a <strong>complete departure from modern bombing and gouging</strong> that dominates the PGA Tour—expect significant strokes gained reversals from the usual distance leaders."
+      },
+      {
+        "h": "Spring Form Trumps Winter Dominance",
+        "b": "Players peaking in April often differ drastically from early-season winners, and <strong>course-specific experience at Harbour Town's unique green complexes</strong> becomes the great equalizer that disrupts typical season-long narratives."
+      },
+      {
+        "h": "FedEx Cup Positioning Shifts Dramatically",
+        "b": "An unexpected winner here could <strong>vault into playoff contention from relative obscurity</strong>, making this the ideal tournament for mid-tier competitors to announce themselves before the summer grind intensifies."
       }
     ]
   }
