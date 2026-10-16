@@ -34,6 +34,38 @@
     ]
   },
   {
+    "id": "bsb-r1-oulton-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "BSB Round 1 - Oulton Park",
+    "date": "2026-05-04",
+    "dateStart": "2026-05-02",
+    "dateEnd": "2026-05-04",
+    "location": "Oulton Park, Cheshire, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Oulton Park's Technical Demands",
+        "b": "The high-speed corners and elevation changes at this 2.19-mile circuit demand precision throttle control and aggressive trail-braking. <strong>Riders who nail the tricky Cascades section will gain decisive advantages</strong> over less committed competitors."
+      },
+      {
+        "h": "Weather Variability in Cheshire",
+        "b": "May conditions at Oulton Park can swing between dry racing and wet chaos within hours, forcing teams to commit setup gambles early. <strong>Tire strategy will be absolutely critical</strong> as riders must balance warm-up pace against unpredictable moisture patterns."
+      },
+      {
+        "h": "Psychological Round One Momentum",
+        "b": "Opening round confidence often translates to championship-long momentum, and a strong Oulton Park showing sets the tone for nine remaining battles. <strong>First-lap incidents here historically derail title bids before they begin</strong>, making aggressive but smart racing essential."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-barber-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -68,6 +100,38 @@
     ]
   },
   {
+    "id": "bsb-r2-donington-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "BSB Round 2 - Donington Park",
+    "date": "2026-05-17",
+    "dateStart": "2026-05-15",
+    "dateEnd": "2026-05-17",
+    "location": "Donington Park, Leicestershire, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Donington's High-Speed Sorting Hat",
+        "b": "The fast, flowing nature of Donington Park's Craner Curves and Esses will <strong>separate genuine pace from one-lap wonder riders</strong>, making this round a crucial barometer for true championship contenders heading into the season's second half."
+      },
+      {
+        "h": "Wet Weather Wildcard at Leicestershire",
+        "b": "Donington's notoriously changeable May conditions mean <strong>tyre strategy and bike setup flexibility</strong> could prove as decisive as raw speed, potentially shuffling the grid order and creating opportunities for adaptable teams to strike."
+      },
+      {
+        "h": "Round Two Momentum Shifts Titles",
+        "b": "With only one race in the books, <strong>consistency over pure pace becomes the narrative</strong>, and Donington's technical demands will reward riders who've developed balanced setups rather than those relying on qualifying heroics alone."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-road-america-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -97,6 +161,102 @@
       {
         "h": "Championship Momentum Shifts at Stake",
         "b": "Road America's brutal layout punishes consistency lapses and mechanical reliability failures, meaning <strong>championship leaders who've relied on racecraft at tighter circuits</strong> must prove they can sustain focus across 25+ minutes of sustained full-throttle racing or risk significant points losses."
+      }
+    ]
+  },
+  {
+    "id": "bsb-r3-knockhill-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "BSB Round 3 - Knockhill",
+    "date": "2026-06-21",
+    "dateStart": "2026-06-19",
+    "dateEnd": "2026-06-21",
+    "location": "Knockhill, Dunfermline, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Knockhill's tight corners punish mistakes",
+        "b": "This Scottish circuit's technical layout demands precision over pure horsepower, making it a <strong>leveller for mid-grid contenders</strong> who excel at bike control and trail-braking technique."
+      },
+      {
+        "h": "Weather chaos expected in Scotland",
+        "b": "Knockhill's exposed location near the Forth means <strong>unpredictable weather changes mid-race</strong> could force dramatic tire strategy calls and separate the adaptable riders from those locked into their setup."
+      },
+      {
+        "h": "Title contenders must capitalize here",
+        "b": "Round 3 is critical for championship positioning, and Knockhill's unforgiving nature means <strong>a DNF or poor result could derail entire seasons</strong> before summer break consolidates the grid hierarchy."
+      }
+    ]
+  },
+  {
+    "id": "bsb-r4-snetterton-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "BSB Round 4 - Snetterton 300",
+    "date": "2026-07-05",
+    "dateStart": "2026-07-03",
+    "dateEnd": "2026-07-05",
+    "location": "Snetterton Circuit, Norfolk, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Snetterton's High-Speed Attrition Test",
+        "b": "The 300 layout demands sustained throttle commitment through fast, sweeping corners where <strong>tire degradation becomes a championship variable</strong>. Riders who manage front-end grip through Murrays and the Chicane will bank crucial points while others fade in the final laps."
+      },
+      {
+        "h": "Mid-Season Momentum Shift Incoming",
+        "b": "Round 4 typically exposes which teams have nailed setup consistency, as <strong>one-lap pace means nothing without race-distance competitiveness</strong>. Expect established frontrunners to consolidate or fresh challengers to exploit setup advantages in the Norfolk heat."
+      },
+      {
+        "h": "Wet Weather Wild Card Factor",
+        "b": "Norfolk's maritime climate delivers unpredictable summer showers that can transform Snetterton into a wet-grip lottery, where <strong>bike balance through the technical sections becomes more critical than raw horsepower</strong>. Championship protagonists must prepare two complete setups."
+      }
+    ]
+  },
+  {
+    "id": "bsb-r5-brandshatch-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "British Superbike Championship (BSB)",
+    "icon": "🏍️",
+    "title": "BSB Round 5 - Brands Hatch",
+    "date": "2026-07-19",
+    "dateStart": "2026-07-17",
+    "dateEnd": "2026-07-19",
+    "location": "Brands Hatch, Kent, United Kingdom",
+    "status": "scheduled",
+    "classes": [
+      "Superbike",
+      "Supersport",
+      "Superstock"
+    ],
+    "points": [
+      {
+        "h": "Brands Hatch's Technical Challenge Awaits",
+        "b": "The tight, twisting layout of Brands Hatch will <strong>expose any setup weaknesses</strong> in the grid, making this round a crucial test of bike balance and rider precision rather than pure power. Teams that mastered the high-speed circuits may struggle here if their suspension geometry isn't dialed in for constant direction changes."
+      },
+      {
+        "h": "Mid-Season Title Fight Intensifies Here",
+        "b": "<strong>Round 5 typically decides the championship's narrative</strong> for the remaining season, as inconsistent performers are sifted from genuine contenders. With half the season still ahead, a dominant showing at Brands Hatch could shift momentum decisively toward a specific rider or manufacturer."
+      },
+      {
+        "h": "Wet Weather Could Shuffle the Order",
+        "b": "Kent's unpredictable summer weather means <strong>rain is a genuine threat</strong> that could dramatically alter race outcomes and wet-weather specialists could capitalize on conditions where setup flexibility becomes more valuable than raw horsepower. Teams carrying extra rain compounds and brake options may gain a strategic advantage over one-setup squads."
       }
     ]
   },
@@ -666,7 +826,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton Circuit, Hampshire, United Kingdom",
+    "location": "Thruxton, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1464,7 +1624,7 @@
     "series": "British Superbike Championship (BSB)",
     "icon": "🏍️",
     "title": "BSB Round 8 - Cadwell Park",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
     "location": "Cadwell Park, Lincolnshire, United Kingdom",
@@ -4195,25 +4355,45 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS2",
-            "Samsung TV Plus"
+            "MotoAmerica.com"
           ],
-          "note": "Practice and qualifying earlier in the day"
+          "note": "Live coverage of first Superbike race"
+        },
+        {
+          "name": "Supersport Race 1",
+          "day": "Saturday",
+          "time_mt": "12:30 PM MT",
+          "channels": [
+            "FS2",
+            "MotoAmerica.com"
+          ],
+          "note": "Supersport class race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
-            "FS2",
-            "Samsung TV Plus"
+            "FS1",
+            "MotoAmerica.com"
           ],
-          "note": "Final round of the season"
+          "note": "Final Superbike race of the round"
+        },
+        {
+          "name": "Supersport Race 2",
+          "day": "Sunday",
+          "time_mt": "11:30 AM MT",
+          "channels": [
+            "FS1",
+            "MotoAmerica.com"
+          ],
+          "note": "Final Supersport race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica races are best watched on FS1/FS2 or free through MotoAmerica.com streaming."
     }
   },
   {
@@ -4250,27 +4430,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "British Superbike Championship Round 11 - Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Brands Hatch"
+          "note": "Live coverage of first race of the Showdown Finale"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "British Superbike Championship Round 11 - Race 2",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Showdown Finale - championship-deciding round"
+          "note": "Final race of the championship season"
         }
       ],
-      "watch_note": "BSB Round 11 is best watched via Peacock or beIN Sports, with early morning start times due to the UK broadcast window."
+      "watch_note": "The easiest way to watch BSB in the US is through Peacock or beIN Sports, which carry live coverage of all races from Brands Hatch."
     }
   },
   {
@@ -4307,37 +4487,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "WorldSBK Race 1",
+          "name": "Superpole",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Jerez"
+          "note": "Qualifying session"
         },
         {
-          "name": "WorldSBK Superpole Race",
-          "day": "Sunday",
-          "time_mt": "5:30 AM MT",
+          "name": "Race 1",
+          "day": "Saturday",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Sprint race format"
+          "note": "Main race Saturday"
         },
         {
-          "name": "WorldSBK Race 2",
+          "name": "Race 2",
           "day": "Sunday",
           "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Final race of the round"
+          "note": "Main race Sunday"
         }
       ],
-      "watch_note": "Peacock and beIN Sports provide live coverage of all WorldSBK races from Jerez, with early morning start times for US viewers due to the European location."
+      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for World Superbike Championship events."
     }
   },
   {
@@ -4376,25 +4556,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK App"
+            "beIN Sports"
           ],
-          "note": "Live coverage of opening race"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
-            "WorldSBK App"
+            "beIN Sports"
           ],
-          "note": "Championship-deciding finale"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "Stream BSB Round 11 on Peacock or the WorldSBK App; early morning starts required for US viewers due to UK time zone."
+      "watch_note": "The easiest way to watch BSB Round 11 in the US is through Peacock, which offers live streaming of both races from Brands Hatch."
     }
   },
   {
@@ -4440,7 +4620,17 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "2:30 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Support series race"
         },
         {
           "name": "Superbike Race 2",
@@ -4450,10 +4640,10 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Barber are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4497,20 +4687,20 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main Superbike race of the weekend"
+          "note": "Live coverage from Brands Hatch"
         },
         {
-          "name": "Superbike Race 2 (Showdown Finale)",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Championship-deciding final race"
+          "note": "Showdown Finale - championship decider"
         }
       ],
-      "watch_note": "Stream BSB Round 11 via Peacock or beIN Sports; early morning ET viewing required for live coverage from Brands Hatch."
+      "watch_note": "The best way to watch BSB Round 11 in the US is through Peacock or beIN Sports, with early morning start times in Mountain Time due to the UK time difference."
     }
   },
   {
@@ -4549,25 +4739,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
-            "beIN Sports",
-            "Peacock"
+            "Peacock",
+            "beIN Sports"
           ],
           "note": "Live from Brands Hatch GP"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
-            "beIN Sports",
-            "Peacock"
+            "Peacock",
+            "beIN Sports"
           ],
-          "note": "Final round of the championship"
+          "note": "Showdown Finale - Championship decider"
         }
       ],
-      "watch_note": "BSB Round 11 finale at Brands Hatch is best watched live on Peacock or beIN Sports early Sunday morning MT, with race replays available on-demand."
+      "watch_note": "BSB Round 11 is best watched on Peacock or beIN Sports with early morning start times due to UK timezone difference."
     }
   },
   {
@@ -4613,20 +4803,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable option on FS1"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable option on FS1"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via cable on FS1, making it the most accessible way to watch in the US."
+      "watch_note": "MotoAmerica Superbikes are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -4670,23 +4860,23 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS2"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS2"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbikes at Sonoma can be watched live on FS1 or free via Samsung TV Plus in the US."
     }
   },
   {
@@ -4730,7 +4920,7 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
           "note": "Practice and qualifying earlier in the day"
@@ -4740,13 +4930,13 @@
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Final round of the Utah doubleheader"
+          "note": "Main race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races from Utah are broadcast on FS1 with free streaming available on Samsung TV Plus."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -4787,28 +4977,28 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Streaming only"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Prelim fights before main card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Buckley vs. Malott main event"
+          "note": "Buckley vs. Malott headline bout"
         }
       ],
-      "watch_note": "The main card featuring Buckley vs. Malott is exclusively on Paramount+ at 8:00 PM MT on Saturday, October 17th."
+      "watch_note": "Subscribe to Paramount+ for the main card featuring Buckley vs. Malott, with prelims available on ESPN+."
     }
   },
   {
@@ -4821,7 +5011,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island, Victoria, Australia",
+    "location": "Phillip Island, Melbourne, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -4853,7 +5043,7 @@
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Live coverage of 12-lap sprint race"
+          "note": "Early morning broadcast; Friday practice sessions available on FS2"
         },
         {
           "name": "MotoGP Main Race",
@@ -4863,10 +5053,10 @@
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Live coverage of full-distance MotoGP race"
+          "note": "Live coverage of the Australian Grand Prix main event"
         }
       ],
-      "watch_note": "MotoGP at Phillip Island airs live on FS1 in the early morning hours MT; Fox Sports app offers streaming with cable login."
+      "watch_note": "MotoGP racing at Phillip Island airs live early Sunday morning on FS1; Fox Sports app provides streaming access with cable login."
     }
   },
   {
@@ -4936,13 +5126,13 @@
           "time_mt": "7:00 AM MT",
           "channels": [
             "Golf Channel",
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion with expanded coverage"
+          "note": "Championship conclusion with CBS joining coverage"
         }
       ],
-      "watch_note": "The Butterfield Bermuda Championship broadcasts early in the morning on Golf Channel and Peacock due to the Atlantic timezone, with final round coverage also on NBC."
+      "watch_note": "The Butterfield Bermuda Championship is best watched on Golf Channel or Peacock with early morning start times due to the Atlantic timezone location."
     }
   },
   {
@@ -4983,26 +5173,36 @@
       "sessions": [
         {
           "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "day": "Friday",
+          "time_mt": "2:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Round 14 of MotoAmerica Superbike Championship"
         },
         {
           "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Final round of the season"
+        },
+        {
+          "name": "Supersport/Support Classes",
+          "day": "Saturday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Supporting series races"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbikes at Las Vegas can be watched for free on Samsung TV Plus or on cable via FS1/FS2."
     }
   },
   {
@@ -5037,7 +5237,42 @@
         "h": "Title Implications in Final Stretch",
         "b": "With the championship potentially on the line at this penultimate round, <strong>risk-reward calculations will shift dramatically</strong> as contenders balance aggressive overtakes against catastrophic crash consequences. Points leaders may play it safe while challengers attack ruthlessly, creating unpredictable race dynamics."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoAmerica Superbike Race 1",
+          "day": "Friday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Opening race of Speedfest weekend"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 2",
+          "day": "Saturday",
+          "time_mt": "12:30 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Main event Saturday"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 3",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Final race of the weekend"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 with free streaming on Samsung TV Plus in the United States."
+    }
   },
   {
     "id": "ufc-333-volkanovski-evloev-2026",
@@ -5993,7 +6228,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -7158,7 +7393,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -7608,39 +7843,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-6",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 6",
-    "date": "2027-04-10",
-    "dateStart": "2027-04-10",
-    "dateEnd": "2027-04-10",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas stages pure grappling showcase",
-        "b": "UFC BJJ 6 brings submission-only competition to the entertainment capital, marking a significant commitment to <strong>legitimizing Brazilian Jiu-Jitsu as a mainstream combat sport</strong> rather than just an MMA prerequisite. This Vegas staging signals the organization's confidence in drawing dedicated BJJ audiences beyond traditional fight fans."
-      },
-      {
-        "h": "Elite submission specialists converge February",
-        "b": "The 2027 edition will attract top-tier grapplers seeking <strong>credibility outside the octagon</strong>, creating matchups between athletes who've perfected leg lock systems, berimbolo techniques, and pressure-based passing that rarely see full expression in mixed rules. Expect technical chess matches that reward pure positional mastery."
-      },
-      {
-        "h": "Fractured grappling landscape finds rival",
-        "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
-      }
-    ]
-  },
-  {
     "id": "pga-rbc-heritage-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -7668,6 +7870,39 @@
       {
         "h": "FedEx Cup Positioning Shifts Dramatically",
         "b": "An unexpected winner here could <strong>vault into playoff contention from relative obscurity</strong>, making this the ideal tournament for mid-tier competitors to announce themselves before the summer grind intensifies."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-6",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 6",
+    "date": "2027-04-17",
+    "dateStart": "2027-04-17",
+    "dateEnd": "2027-04-17",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas stages pure grappling showcase",
+        "b": "UFC BJJ 6 brings submission-only competition to the entertainment capital, marking a significant commitment to <strong>legitimizing Brazilian Jiu-Jitsu as a mainstream combat sport</strong> rather than just an MMA prerequisite. This Vegas staging signals the organization's confidence in drawing dedicated BJJ audiences beyond traditional fight fans."
+      },
+      {
+        "h": "Elite submission specialists converge February",
+        "b": "The 2027 edition will attract top-tier grapplers seeking <strong>credibility outside the octagon</strong>, creating matchups between athletes who've perfected leg lock systems, berimbolo techniques, and pressure-based passing that rarely see full expression in mixed rules. Expect technical chess matches that reward pure positional mastery."
+      },
+      {
+        "h": "Fractured grappling landscape finds rival",
+        "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
       }
     ]
   }
