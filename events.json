@@ -1,5 +1,37 @@
 [
   {
+    "id": "wsbk-portuguese-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Pirelli Portuguese Round",
+    "date": "2026-03-29",
+    "dateStart": "2026-03-27",
+    "dateEnd": "2026-03-29",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Portimão's High-Speed Elevation Challenge",
+        "b": "The Algarve circuit's relentless elevation changes and aggressive corner sequencing demand exceptional bike setup, making <strong>suspension geometry optimization</strong> the critical differentiator for WSBK competitors chasing top-ten grid positions this March."
+      },
+      {
+        "h": "Spring Tire Strategy Reshapes Grid",
+        "b": "March weather in Portugal brings unpredictable track temperatures that force teams into <strong>aggressive tire degradation calculations</strong>, potentially neutralizing pre-season testing data and favoring riders who excel at adaptive throttle management throughout the 25-lap distance."
+      },
+      {
+        "h": "Factory Resources Edge Independent Teams",
+        "b": "Portimão's technical demands on engine braking and mid-corner stability expose <strong>the engineering depth gap between factory and satellite operations</strong>, historically favoring Kawasaki and Ducati squads with unlimited development resources to fine-tune electronics packages."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-road-atlanta-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -30,6 +62,38 @@
       {
         "h": "Championship Momentum Shifts in Georgia",
         "b": "As only the third round of the season, this event provides <strong>early title-defining separation</strong> before summer consistency becomes decisive. Riders gaining substantial points here establish psychological advantage while others scramble to recover from potential mechanical gremlins on a demanding circuit."
+      }
+    ]
+  },
+  {
+    "id": "wsbk-dutch-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Pirelli Dutch Round",
+    "date": "2026-04-19",
+    "dateStart": "2026-04-17",
+    "dateEnd": "2026-04-19",
+    "location": "TT Circuit Assen, Assen, Netherlands",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Assen's Left-Hander Demands Precision",
+        "b": "The iconic Oost corner at TT Circuit Assen is a <strong>high-speed left-hand sweeper that separates bike setup specialists from the rest</strong>, making tire management and chassis balance absolutely critical for the 300km race distance. Teams that nail the entry stability here will gain significant time advantages throughout the weekend."
+      },
+      {
+        "h": "Dutch Weather Wildcard Looms Large",
+        "b": "<strong>April conditions at Assen are notoriously unpredictable</strong>, with frequent rain showers potentially throwing multiple practice sessions and even race day into chaos. Riders who adapt fastest between wet and dry setups could steal podium positions from favorites who banked their early-season form."
+      },
+      {
+        "h": "Championship Contenders Tested Early",
+        "b": "The Pirelli Dutch Round marks the third round of 2026, making it <strong>an ideal barometer for genuine title contenders versus one-off winners</strong>. Consistency across wet and dry conditions at this technical circuit will expose who has the complete package for a full season campaign."
       }
     ]
   },
@@ -174,7 +238,7 @@
     "date": "2026-06-21",
     "dateStart": "2026-06-19",
     "dateEnd": "2026-06-21",
-    "location": "Knockhill, Dunfermline, United Kingdom",
+    "location": "Knockhill, Fife, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -206,7 +270,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton Circuit, Norfolk, United Kingdom",
+    "location": "Snetterton, Norfolk, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -2930,7 +2994,7 @@
     "date": "2026-09-20",
     "dateStart": "2026-09-18",
     "dateEnd": "2026-09-20",
-    "location": "Assen, Netherlands",
+    "location": "Assen, Drenthe, Netherlands",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4973,20 +5037,20 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "5:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Streaming only"
+          "note": "Streaming only on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "7:00 PM MT",
+          "time_mt": "7:30 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Prelim fights before main card"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -4995,10 +5059,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Buckley vs. Malott headline bout"
+          "note": "Main event features Buckley vs. Malott"
         }
       ],
-      "watch_note": "Subscribe to Paramount+ for the main card featuring Buckley vs. Malott, with prelims available on ESPN+."
+      "watch_note": "UFC Fight Night: Buckley vs. Malott is best watched on Paramount+ for the main card starting at 9:00 PM MT on Saturday, October 17th, 2026."
     }
   },
   {
@@ -5041,9 +5105,9 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "ESPN+"
           ],
-          "note": "Early morning broadcast; Friday practice sessions available on FS2"
+          "note": "Early morning live coverage"
         },
         {
           "name": "MotoGP Main Race",
@@ -5051,12 +5115,12 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "ESPN+"
           ],
-          "note": "Live coverage of the Australian Grand Prix main event"
+          "note": "Early morning live coverage"
         }
       ],
-      "watch_note": "MotoGP racing at Phillip Island airs live early Sunday morning on FS1; Fox Sports app provides streaming access with cable login."
+      "watch_note": "The Australian Grand Prix at Phillip Island airs very early Sunday morning on FS1 and ESPN+ due to the time zone difference."
     }
   },
   {
@@ -5125,14 +5189,13 @@
           "day": "Sunday",
           "time_mt": "7:00 AM MT",
           "channels": [
-            "Golf Channel",
             "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion with CBS joining coverage"
+          "note": "Championship conclusion with CBS primetime replay"
         }
       ],
-      "watch_note": "The Butterfield Bermuda Championship is best watched on Golf Channel or Peacock with early morning start times due to the Atlantic timezone location."
+      "watch_note": "The Butterfield Bermuda Championship airs early morning on Golf Channel and Peacock, with Sunday's final round also airing on CBS for prime time viewing."
     }
   },
   {
@@ -5173,36 +5236,35 @@
       "sessions": [
         {
           "name": "Superbike Race 1",
-          "day": "Friday",
-          "time_mt": "2:00 PM MT",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Round 14 of MotoAmerica Superbike Championship"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
-          "day": "Saturday",
-          "time_mt": "1:30 PM MT",
+          "day": "Sunday",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final round of the season"
+          "note": "Final Superbike race of the weekend"
         },
         {
-          "name": "Supersport/Support Classes",
+          "name": "Support Classes Racing",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
-            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Supporting series races"
+          "note": "Supersport and other support series races"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Las Vegas can be watched for free on Samsung TV Plus or on cable via FS1/FS2."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -5241,37 +5303,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Race 1",
-          "day": "Friday",
+          "name": "Superbike Race 1",
+          "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Opening race of Speedfest weekend"
+          "note": "Live coverage on FS1 with free streaming on Samsung TV Plus"
         },
         {
-          "name": "MotoAmerica Superbike Race 2",
+          "name": "Supersport Race 1",
           "day": "Saturday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "1:45 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Main event Saturday"
+          "note": "Preliminary race before main Superbike action"
         },
         {
-          "name": "MotoAmerica Superbike Race 3",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the weekend"
+          "note": "Final Superbike race of the weekend"
+        },
+        {
+          "name": "Supersport Race 2",
+          "day": "Sunday",
+          "time_mt": "1:15 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Concluding Supersport race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 with free streaming on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Speedfest is best watched on FS1 with free simultaneous streaming available on Samsung TV Plus."
     }
   },
   {
@@ -5303,7 +5375,39 @@
         "h": "Abu Dhabi's Elite Lightweight Showcase",
         "b": "The UFC returns to Yas Island for what promises to be a technically superior striking display, as both fighters are known for their <strong>crisp boxing and footwork precision</strong> rather than brawling styles."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "10:00 AM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Early preliminary fights available on UFC Fight Pass"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card on ESPN+"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "2:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event featuring Volkanovski vs. Evloev"
+        }
+      ],
+      "watch_note": "The main card is available exclusively on Paramount+ at 2:00 PM MT, with prelims on ESPN+ and early prelims on UFC Fight Pass."
+    }
   },
   {
     "id": "pga-vidantaworld-mexico-open-2026",
@@ -6228,7 +6332,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6531,39 +6635,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2026-12-12",
-    "dateStart": "2026-12-12",
-    "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
-      }
-    ]
-  },
-  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6624,12 +6695,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
+    "id": "ufc-bjj-2",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 3",
+    "title": "UFC BJJ 2",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -6643,16 +6714,16 @@
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -7584,6 +7655,39 @@
       {
         "h": "Championship Points Battle Intensifies",
         "b": "With only the opening round in the books, this spring event becomes <strong>the first true test of championship contenders</strong>, revealing which teams have solved winter development issues and which are still chasing setup consistency."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-03-20",
+    "dateStart": "2027-03-20",
+    "dateEnd": "2027-03-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
