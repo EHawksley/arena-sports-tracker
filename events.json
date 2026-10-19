@@ -173,7 +173,7 @@
     "date": "2026-05-17",
     "dateStart": "2026-05-15",
     "dateEnd": "2026-05-17",
-    "location": "Donington Park, Castle Donington, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -238,7 +238,7 @@
     "date": "2026-06-21",
     "dateStart": "2026-06-19",
     "dateEnd": "2026-06-21",
-    "location": "Knockhill, Dunfermline, United Kingdom",
+    "location": "Knockhill Racing Circuit, Dunfermline, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -270,7 +270,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton, Norwich, United Kingdom",
+    "location": "Snetterton Circuit, Norwich, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -334,7 +334,7 @@
     "date": "2026-07-19",
     "dateStart": "2026-07-17",
     "dateEnd": "2026-07-19",
-    "location": "Brands Hatch, Longfield, United Kingdom",
+    "location": "Brands Hatch Circuit, Sevenoaks, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -922,7 +922,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1723,7 +1723,7 @@
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park, Louth, United Kingdom",
+    "location": "Cadwell Park, Lincolnshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -4289,6 +4289,38 @@
     }
   },
   {
+    "id": "wsbk-estoril-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Tissot Estoril Round",
+    "date": "2026-10-11",
+    "dateStart": "2026-10-09",
+    "dateEnd": "2026-10-11",
+    "location": "Circuito Estoril, Estoril, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Autumn Weather Wildcard at Estoril",
+        "b": "November's unpredictable Atlantic conditions could turn this finale into a <strong>tire strategy minefield</strong>, forcing teams to gamble between wet-weather compounds and intermediate setups that may never get used. Riders who've mastered Estoril's tricky elevation changes in mixed conditions will have a massive championship advantage."
+      },
+      {
+        "h": "Tight Title Fight Rewards Consistency",
+        "b": "By late November in WSBK, <strong>championship margins are typically razor-thin</strong>, meaning a single costly mistake or mechanical failure could determine the entire season's outcome. This penultimate round becomes a calculated risk assessment where championship contenders must balance aggression with the pragmatism of securing podium points."
+      },
+      {
+        "h": "Estoril's Braking Zone Battles Intensify",
+        "b": "This Portuguese circuit's demanding Turn 1 and tight corner sequences create <strong>relentless overtaking opportunities</strong> that expose any bike setup weaknesses in deceleration or mid-corner stability. Teams arriving with fresh aerodynamic packages or suspension tweaks will immediately show their hand in these high-speed duels."
+      }
+    ]
+  },
+  {
     "id": "ufc-fight-night-allen-vs-duncan-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -5107,7 +5139,7 @@
     "date": "2026-10-25",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-25",
-    "location": "Phillip Island, Melbourne, Australia",
+    "location": "Phillip Island, Victoria, Australia",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -5139,20 +5171,20 @@
             "FS1",
             "FS2"
           ],
-          "note": "Live coverage of 12-lap sprint race"
+          "note": "Early morning broadcast; also available on Fox Sports app"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
             "FS2"
           ],
-          "note": "Live coverage of full-distance race"
+          "note": "Main event; cable login required for streaming"
         }
       ],
-      "watch_note": "The Australian Grand Prix at Phillip Island streams live on FS1/FS2 in the early morning hours MT due to the time difference from Australia."
+      "watch_note": "MotoGP races at Phillip Island are best watched on FS1/FS2 early Sunday morning in US time, with live streaming available through the Fox Sports app with cable login."
     }
   },
   {
@@ -5225,10 +5257,10 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Championship Sunday with expanded coverage"
+          "note": "Concluding coverage with CBS joining for final round"
         }
       ],
-      "watch_note": "The Butterfield Bermuda Championship airs early morning on Golf Channel and Peacock due to the Atlantic timezone, with CBS joining Sunday's final round for peak viewership."
+      "watch_note": "The Butterfield Bermuda Championship airs early in the morning on Golf Channel and Peacock due to the Atlantic timezone; cable login or Peacock subscription provides full access."
     }
   },
   {
@@ -5268,37 +5300,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Championship - Round 1",
           "day": "Friday",
           "time_mt": "2:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Opening race of the weekend"
+          "note": "Practice and qualifying sessions throughout the day"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Championship - Race 1",
           "day": "Saturday",
-          "time_mt": "1:30 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Main Saturday action"
+          "note": "Main race broadcast"
         },
         {
-          "name": "Superbike Race 3",
+          "name": "MotoAmerica Superbike Championship - Race 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final round of the weekend"
+          "note": "Final race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 with free streaming available on Samsung TV Plus."
+      "watch_note": "Watch MotoAmerica Superbikes at Las Vegas Motor Speedway on FS1 or free on Samsung TV Plus."
     }
   },
   {
@@ -5337,27 +5369,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Race 1",
+          "name": "Superbike Race 1",
+          "day": "Friday",
+          "time_mt": "2:30 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of first Superbike race"
+        },
+        {
+          "name": "Superbike Race 2",
           "day": "Saturday",
+          "time_mt": "2:15 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of second Superbike race"
+        },
+        {
+          "name": "Superbike Race 3",
+          "day": "Sunday",
           "time_mt": "1:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of opening race"
-        },
-        {
-          "name": "MotoAmerica Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "12:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Main event closing race"
+          "note": "Final Superbike race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available on FS1 and Samsung TV Plus (free ad-supported streaming), with FS1 being the primary cable option for US viewers."
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1/FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -5399,16 +5441,17 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "ESPN+"
+            "ESPN+",
+            "UFC Fight Pass"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -5417,10 +5460,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Volkanovski vs. Evloev"
+          "note": "Volkanovski vs. Evloev main event"
         }
       ],
-      "watch_note": "The UFC 333 main card is available exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is exclusively on Paramount+ in the US, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -6087,38 +6130,6 @@
     ]
   },
   {
-    "id": "wsbk-estoril-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "World Superbike Championship (WSBK)",
-    "icon": "🏍️",
-    "title": "Tissot Estoril Round",
-    "date": "2026-11-08",
-    "dateStart": "2026-11-06",
-    "dateEnd": "2026-11-08",
-    "location": "Circuito Estoril, Estoril, Portugal",
-    "status": "scheduled",
-    "classes": [
-      "WorldSBK",
-      "WorldSSP",
-      "WorldSSP300"
-    ],
-    "points": [
-      {
-        "h": "Autumn Weather Wildcard at Estoril",
-        "b": "November's unpredictable Atlantic conditions could turn this finale into a <strong>tire strategy minefield</strong>, forcing teams to gamble between wet-weather compounds and intermediate setups that may never get used. Riders who've mastered Estoril's tricky elevation changes in mixed conditions will have a massive championship advantage."
-      },
-      {
-        "h": "Tight Title Fight Rewards Consistency",
-        "b": "By late November in WSBK, <strong>championship margins are typically razor-thin</strong>, meaning a single costly mistake or mechanical failure could determine the entire season's outcome. This penultimate round becomes a calculated risk assessment where championship contenders must balance aggression with the pragmatism of securing podium points."
-      },
-      {
-        "h": "Estoril's Braking Zone Battles Intensify",
-        "b": "This Portuguese circuit's demanding Turn 1 and tight corner sequences create <strong>relentless overtaking opportunities</strong> that expose any bike setup weaknesses in deceleration or mid-corner stability. Teams arriving with fresh aerodynamic packages or suspension tweaks will immediately show their hand in these high-speed duels."
-      }
-    ]
-  },
-  {
     "id": "ufc-fight-night-bonfim-vs-brady-2026",
     "sport": "ufc",
     "entityType": "championship",
@@ -6188,7 +6199,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6280,9 +6291,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 1",
-    "date": "2026-11-15",
-    "dateStart": "2026-11-15",
-    "dateEnd": "2026-11-15",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -6316,7 +6327,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6687,9 +6698,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 2",
-    "date": "2026-12-20",
-    "dateStart": "2026-12-20",
-    "dateEnd": "2026-12-20",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -6780,9 +6791,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 3",
-    "date": "2027-01-17",
-    "dateStart": "2027-01-17",
-    "dateEnd": "2027-01-17",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-16",
+    "dateEnd": "2027-01-16",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -7213,6 +7224,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2027-02-13",
+    "dateStart": "2027-02-13",
+    "dateEnd": "2027-02-13",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
+      }
+    ]
+  },
+  {
     "id": "pga-puerto-rico-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -7337,39 +7381,6 @@
       {
         "h": "Bridgestone Tire Performance Critical Test",
         "b": "The demanding left-hander sequences at Phillip Island put extreme stress on front-end grip and mid-corner stability, making tire choice absolutely <strong>decisive for race-winning performance</strong>. Teams that struggle with tire warm-up in the cooler Australian conditions could find themselves fighting understeer for the entire weekend."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-4",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 4",
-    "date": "2027-02-21",
-    "dateStart": "2027-02-21",
-    "dateEnd": "2027-02-21",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
-      },
-      {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
-      },
-      {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
@@ -7575,7 +7586,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -7661,6 +7672,39 @@
       {
         "h": "New Machinery Clashes With Experience",
         "b": "2027 brings significant technical regulation changes to MotoAmerica, forcing teams to develop confidence in unfamiliar platforms on one of the most demanding tracks. <strong>Data accumulation at high speeds</strong> on COTA's long straightaways and complex corners will determine which teams adapted fastest to the new specifications."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-5",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 5",
+    "date": "2027-03-13",
+    "dateStart": "2027-03-13",
+    "dateEnd": "2027-03-13",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
+      },
+      {
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
+      },
+      {
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
@@ -7770,39 +7814,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-03-21",
-    "dateStart": "2027-03-21",
-    "dateEnd": "2027-03-21",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
-      }
-    ]
-  },
-  {
     "id": "pga-world-golf-championship-dell-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -7843,7 +7854,7 @@
     "date": "2027-03-29",
     "dateStart": "2027-03-26",
     "dateEnd": "2027-03-29",
-    "location": "Memorial Park Golf Club, Houston, Texas",
+    "location": "Memorial Park Golf Club, Houston, TX",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7937,7 +7948,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, Texas",
+    "location": "Oaks Course, San Antonio, TX",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8003,7 +8014,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, Georgia",
+    "location": "Augusta National Golf Club, Augusta, GA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8034,7 +8045,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
+    "location": "Harbour Town Golf Links, Hilton Head Island, SC",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8094,9 +8105,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 6",
-    "date": "2027-04-18",
-    "dateStart": "2027-04-18",
-    "dateEnd": "2027-04-18",
+    "date": "2027-04-17",
+    "dateStart": "2027-04-17",
+    "dateEnd": "2027-04-17",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
