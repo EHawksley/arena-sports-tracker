@@ -173,7 +173,7 @@
     "date": "2026-05-17",
     "dateStart": "2026-05-15",
     "dateEnd": "2026-05-17",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park, Castle Donington, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -302,7 +302,7 @@
     "date": "2026-06-21",
     "dateStart": "2026-06-19",
     "dateEnd": "2026-06-21",
-    "location": "Knockhill, Fife, United Kingdom",
+    "location": "Knockhill, Dunfermline, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -334,7 +334,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton, Norfolk, United Kingdom",
+    "location": "Snetterton 300, Norwich, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -398,7 +398,7 @@
     "date": "2026-07-19",
     "dateStart": "2026-07-17",
     "dateEnd": "2026-07-19",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch, Fawkham, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1018,7 +1018,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton, Andover, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1819,7 +1819,7 @@
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park, Lincolnshire, United Kingdom",
+    "location": "Cadwell Park, Louth, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -5264,10 +5264,10 @@
           "day": "Saturday",
           "time_mt": "12:00 AM MT",
           "channels": [
-            "FS1",
-            "FS2"
+            "FS2",
+            "Fox Sports app"
           ],
-          "note": "Live coverage of 12-lap sprint race"
+          "note": "Early morning broadcast; sprint race distance is approximately half the main race"
         },
         {
           "name": "MotoGP Main Race",
@@ -5275,12 +5275,12 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "FS2"
+            "Fox Sports app"
           ],
-          "note": "Live coverage of full-distance race"
+          "note": "Primary MotoGP race event"
         }
       ],
-      "watch_note": "MotoGP Australian Grand Prix is available on FS1/FS2 in the United States via cable or streaming with authentication."
+      "watch_note": "MotoGP's Australian Grand Prix at Phillip Island is broadcast live on FS1 and FS2 in the early morning hours (midnight MT) via Fox Sports channels and the Fox Sports app with a cable subscription."
     }
   },
   {
@@ -5350,13 +5350,70 @@
           "time_mt": "7:00 AM MT",
           "channels": [
             "Golf Channel",
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Concluding round with network coverage"
+          "note": "Final round concludes championship"
         }
       ],
-      "watch_note": "The Butterfield Bermuda Championship broadcasts early in the morning on Golf Channel and Peacock due to the 3-hour time difference from Mountain Time."
+      "watch_note": "The Butterfield Bermuda Championship broadcasts early in the morning Mountain Time due to the tournament's Atlantic location; stream on Peacock or watch on Golf Channel and CBS."
+    }
+  },
+  {
+    "id": "wsbk-jerez-test-oct-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Jerez Test",
+    "date": "2026-10-23",
+    "dateStart": "2026-10-22",
+    "dateEnd": "2026-10-23",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Jerez's high-speed nature favors aerodynamics",
+        "b": "The fast, flowing layout of Circuito de Jerez demands aggressive aero packages and top-speed stability, making this test crucial for teams to optimize their 2027 bike configurations. <strong>Teams that nail the high-speed balance here will have a significant advantage heading into winter development</strong>."
+      },
+      {
+        "h": "Late-season grip conditions prove deceptive",
+        "b": "October at Jerez typically presents unpredictable track conditions with cooler temperatures and variable grip levels that don't reflect race-day scenarios, forcing engineers to extrapolate data carefully. <strong>How teams interpret and apply this test data will be the real differentiator</strong> when temperatures normalize in spring racing."
+      },
+      {
+        "h": "New regulations demand immediate tire strategy clarity",
+        "b": "With potential 2027 technical changes looming, this test offers the first real opportunity to evaluate tire performance windows and pit-stop strategy implications in competitive conditions. <strong>Tire choice validation at Jerez could dictate which manufacturers gain early-season momentum</strong> in the new regulatory era."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Jerez Test - Day 1",
+          "day": "Thursday",
+          "time_mt": "1:00 AM MT",
+          "channels": [
+            "WorldSBK app",
+            "Peacock"
+          ],
+          "note": "Live streaming of testing sessions"
+        },
+        {
+          "name": "Jerez Test - Day 2",
+          "day": "Friday",
+          "time_mt": "1:00 AM MT",
+          "channels": [
+            "WorldSBK app",
+            "Peacock"
+          ],
+          "note": "Final day of official testing"
+        }
+      ],
+      "watch_note": "The Jerez Test is best watched via the WorldSBK app or Peacock, which offer live streaming of all testing sessions from Spain."
     }
   },
   {
@@ -5397,36 +5454,26 @@
       "sessions": [
         {
           "name": "Superbike Race 1",
-          "day": "Friday",
-          "time_mt": "2:00 PM MT",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Opening race of the weekend"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
-          "day": "Saturday",
-          "time_mt": "11:00 AM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Main Saturday race"
-        },
-        {
-          "name": "Superbike Race 3",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the round"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes are best watched on FS1 with cable, or free via Samsung TV Plus with a compatible smart TV."
+      "watch_note": "MotoAmerica Superbikes can be watched for free on Samsung TV Plus or via FS1 for cable subscribers."
     }
   },
   {
@@ -5465,37 +5512,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Friday",
-          "time_mt": "2:00 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Opening race of the weekend"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Saturday",
-          "time_mt": "1:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Main Saturday race card"
-        },
-        {
-          "name": "Superbike Race 3",
-          "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Finale race of the Speedfest"
+          "note": "Opening round of Speedfest weekend"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 2",
+          "day": "Saturday",
+          "time_mt": "11:30 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Main race day"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 3",
+          "day": "Sunday",
+          "time_mt": "10:30 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Finale of Speedfest weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1/FS2 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available for free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -5533,32 +5580,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "2:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Volkanovski vs. Evloev headliner"
+          "note": "Main card featuring Volkanovski vs. Evloev"
         }
       ],
-      "watch_note": "Subscribe to Paramount+ for the main card featuring the Volkanovski vs. Evloev title fight from Abu Dhabi."
+      "watch_note": "Subscribe to Paramount+ to watch the main card live, with prelims available on ESPN+ starting earlier that morning."
     }
   },
   {
@@ -5961,7 +6008,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Doha, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6452,7 +6499,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6562,6 +6609,38 @@
       {
         "h": "Stirling's Rise Meets Elite Test",
         "b": "<strong>Stirling's momentum against solid competition now faces its most significant moment</strong> fighting a former title contender with vastly more octagon experience. This matchup serves as the clearest barometer yet of whether Stirling belongs in legitimate title discussions or needs more seasoning against elite-level opposition."
+      }
+    ]
+  },
+  {
+    "id": "wsbk-jerez-test-nov-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Jerez Test",
+    "date": "2026-11-26",
+    "dateStart": "2026-11-25",
+    "dateEnd": "2026-11-26",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Winter Testing Defines Championship Contenders",
+        "b": "Late November testing at Jerez gives teams their final opportunity to validate setup changes and tire strategies before the 2027 season opener. <strong>Teams that nail their baseline setup here will carry momentum into winter development</strong>, potentially gaining a crucial edge over competitors still searching for solutions."
+      },
+      {
+        "h": "New Regulations Push Technical Innovation",
+        "b": "With WSBK's evolving technical regulations, Jerez becomes a proving ground for aerodynamic packages and engine mapping refinements that manufacturers have been developing. <strong>How quickly teams adapt to these changes in testing will directly predict their competitiveness</strong> when racing resumes in early 2027."
+      },
+      {
+        "h": "Rider Confidence Crucial After Off-Season",
+        "b": "Extended time away from competition means riders need to rebuild muscle memory and trust in their machines, making this test critical for psychological preparation. <strong>First-lap confidence and brake point aggression at Jerez typically forecast which pilots will start strong</strong> when the season officially begins."
       }
     ]
   },
@@ -6695,6 +6774,38 @@
     ]
   },
   {
+    "id": "wsbk-valencia-test-dec-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Valencia Test",
+    "date": "2026-12-10",
+    "dateStart": "2026-12-09",
+    "dateEnd": "2026-12-10",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Season finale determines championship fate",
+        "b": "Valencia's tight technical layout punishes mistakes, making this the perfect stage for a title decider where <strong>consistency trumps pure speed</strong>. Expect aggressive racing as contenders fight for final points in close quarters through the chicanes."
+      },
+      {
+        "h": "Test data crucial for 2027 prep",
+        "b": "Teams are already eyeing next season's regulations, and <strong>Valencia's December slot provides invaluable real-world testing</strong> before winter development begins in earnest. Engineers will extract every detail about tire performance and setup optimization on this demanding circuit."
+      },
+      {
+        "h": "Weather volatility reshapes race strategy",
+        "b": "December at Circuit Ricardo Tormo brings unpredictable conditions—sudden rain showers are common and can dramatically alter tire selection and setup. <strong>Adaptive team strategy will separate winners from the rest</strong>, especially if conditions flip between sessions."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-sbk-atlanta-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -6787,6 +6898,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "pga-sentry-tournament-of-champions-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -6847,12 +6991,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
+    "id": "ufc-bjj-3",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 2",
+    "title": "UFC BJJ 3",
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
@@ -6866,16 +7010,48 @@
     ],
     "points": [
       {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+      }
+    ]
+  },
+  {
+    "id": "wsbk-jerez-test-jan-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Jerez Test",
+    "date": "2027-01-21",
+    "dateStart": "2027-01-20",
+    "dateEnd": "2027-01-21",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Winter Conditions Test Tire Strategy",
+        "b": "January's unpredictable Jerez weather will force teams to evaluate cold-weather tire compounds and setup configurations that differ drastically from championship-deciding races. <strong>How riders adapt their throttle control in low-grip conditions</strong> could reveal hidden performance gaps before the season opener."
+      },
+      {
+        "h": "New Regulations First Real Gauge",
+        "b": "This test marks the first genuine competitive running under 2027's technical changes, giving satellite teams a crucial opportunity to close the gap against factory squads. <strong>Teams that nail aerodynamic balance early</strong> will carry momentum into preseason qualifying and avoid costly mid-season development pivots."
+      },
+      {
+        "h": "Injury Comebacks Under Pressure",
+        "b": "Any riders recovering from offseason injuries face their first meaningful test against full-strength competitors in realistic race conditions. <strong>Confidence levels and pain tolerance will directly translate to lap times</strong>, potentially reshaping championship favorites before official race weekends begin."
       }
     ]
   },
@@ -6976,6 +7152,38 @@
     ]
   },
   {
+    "id": "wsbk-valencia-test-jan-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Valencia Test",
+    "date": "2027-01-26",
+    "dateStart": "2027-01-25",
+    "dateEnd": "2027-01-26",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Winter Testing Reveals Championship Contenders",
+        "b": "Valencia's January test serves as the crucial final preparation before the 2027 WSBK season opener, where manufacturers will showcase their winter development and <strong>reveal which teams have made significant aerodynamic and chassis gains</strong>. Teams struggling here often struggle all season, making these three days invaluable for gauging the competitive pecking order."
+      },
+      {
+        "h": "Tire Strategy Testing in Cool Conditions",
+        "b": "January's cooler Spanish temperatures provide a completely different window into tire performance compared to summer racing, forcing engineers to <strong>extrapolate warm-weather performance from cold-weather data</strong>. Pirelli's tire selections for the season could shift dramatically based on how machines handle the transition from winter testing to spring race conditions."
+      },
+      {
+        "h": "Rookie Integration and Seat Fitting Critical",
+        "b": "With several new faces joining the grid for 2027, Valencia represents the <strong>first real opportunity for rookie riders to adapt to WSBK machinery and crew dynamics</strong> without championship pressure. How smoothly new signings find their feet here will significantly impact expectations heading into round one."
+      }
+    ]
+  },
+  {
     "id": "pga-farmers-insurance-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -7032,6 +7240,38 @@
       {
         "h": "Recent Winners Avoid Repeat Success",
         "b": "The Phoenix Open has shown a trend of denying back-to-back champions in recent years, suggesting the course setup and field dynamics reset dramatically year to year. <strong>Defending advantages matter far less here than in other PGA Tour events</strong>, making this one of the most wide-open fields relative to the previous winner's credentials."
+      }
+    ]
+  },
+  {
+    "id": "wsbk-portimao-test-jan-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Portimao Test",
+    "date": "2027-01-29",
+    "dateStart": "2027-01-28",
+    "dateEnd": "2027-01-29",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Winter Testing Reveals 2027 Pecking Order",
+        "b": "Portimão's January test is where manufacturers expose their hand before the season opener, making this the first genuine barometer of which factories have cracked the new technical regulations. <strong>Real-world performance data here directly predicts championship contenders</strong>, not manufacturer hype."
+      },
+      {
+        "h": "Portuguese Circuit Rewards Aggressive Cornering",
+        "b": "Portimão's flowing, high-speed layout with demanding mid-corner speeds is a perfect winter proving ground that separates smooth riders from gutsy ones. <strong>Tire warm-up in cool January conditions</strong> will expose which bike-rider combinations have genuinely improved their package."
+      },
+      {
+        "h": "Budget Cap Era Tilts Playing Field",
+        "b": "With tighter spending restrictions entering effect for 2027, Portimão testing becomes critical for smaller teams to maximize limited development resources and prove competitive pace early. <strong>Grid-filling teams that nail setup here avoid costly mid-season scrambles</strong> that their budgets cannot absorb."
       }
     ]
   },
@@ -7286,36 +7526,21 @@
     ]
   },
   {
-    "id": "ufc-bjj-4",
-    "sport": "bjj",
+    "id": "wsbk-phillip-island-official-test-feb-2027",
+    "sport": "moto",
     "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 4",
-    "date": "2027-02-13",
-    "dateStart": "2027-02-13",
-    "dateEnd": "2027-02-13",
-    "location": "Las Vegas, Nevada, USA",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Phillip Island Official Test",
+    "date": "2027-02-16",
+    "dateStart": "2027-02-15",
+    "dateEnd": "2027-02-16",
+    "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
     "status": "scheduled",
     "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
-      },
-      {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
-      },
-      {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
-      }
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
     ]
   },
   {
@@ -7411,6 +7636,39 @@
       {
         "h": "Superbike Grid Battles Intensify Hard",
         "b": "Daytona's unique banking and 3.56-mile layout creates passing opportunities that reward aggressive throttle control and late braking, so <strong>risk-taking behavior will spike dramatically</strong> as competitors jockey for position on the high-speed oval sections. Expect several multi-bike battles and potential contact as riders push the limits of grip and machinery."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2027-02-20",
+    "dateStart": "2027-02-20",
+    "dateEnd": "2027-02-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
@@ -7648,7 +7906,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -7738,39 +7996,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-5",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 5",
-    "date": "2027-03-13",
-    "dateStart": "2027-03-13",
-    "dateEnd": "2027-03-13",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes grappling",
-        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
-      },
-      {
-        "h": "Fifth installment momentum matters",
-        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
-      },
-      {
-        "h": "January timing favors pure technique",
-        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
-      }
-    ]
-  },
-  {
     "id": "motoa-superbike-vir-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -7840,12 +8065,12 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
+    "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
     "series": "UFC BJJ",
     "icon": "🥋",
-    "title": "UFC BJJ 3",
+    "title": "UFC BJJ 5",
     "date": "2027-03-20",
     "dateStart": "2027-03-20",
     "dateEnd": "2027-03-20",
@@ -7853,22 +8078,22 @@
     "status": "scheduled",
     "classes": [
       "Bantamweight",
+      "Featherweight",
       "Lightweight",
-      "Middleweight",
-      "Featherweight"
+      "Middleweight"
     ],
     "points": [
       {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+        "h": "Las Vegas legitimizes grappling",
+        "b": "UFC bringing its BJJ series to the iconic Vegas venue signals major mainstream crossover for submission grappling. <strong>This isn't a niche event anymore</strong>—it's a statement that pure jiu-jitsu belongs on the same stages as MMA's biggest spectacles."
       },
       {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+        "h": "Fifth installment momentum matters",
+        "b": "By UFC BJJ 5, the series has built sustainable fan interest and roster depth that the inaugural events couldn't match. <strong>Established storylines and recognizable grapplers</strong> now compete instead of unknowns, creating genuine narrative weight for headline matchups."
       },
       {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+        "h": "January timing favors pure technique",
+        "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
       }
     ]
   },
