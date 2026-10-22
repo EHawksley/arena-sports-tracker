@@ -173,7 +173,7 @@
     "date": "2026-05-17",
     "dateStart": "2026-05-15",
     "dateEnd": "2026-05-17",
-    "location": "Donington Park, Castle Donington, United Kingdom",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -302,7 +302,7 @@
     "date": "2026-06-21",
     "dateStart": "2026-06-19",
     "dateEnd": "2026-06-21",
-    "location": "Knockhill, Dunfermline, United Kingdom",
+    "location": "Knockhill, Fife, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -334,7 +334,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton 300, Norwich, United Kingdom",
+    "location": "Snetterton 300, Norfolk, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -398,7 +398,7 @@
     "date": "2026-07-19",
     "dateStart": "2026-07-17",
     "dateEnd": "2026-07-19",
-    "location": "Brands Hatch, Fawkham, United Kingdom",
+    "location": "Brands Hatch, Kent, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1018,7 +1018,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Andover, United Kingdom",
+    "location": "Thruxton, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1819,7 +1819,7 @@
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park, Louth, United Kingdom",
+    "location": "Cadwell Park, Lincolnshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -5264,10 +5264,10 @@
           "day": "Saturday",
           "time_mt": "12:00 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports app"
+            "FS1",
+            "FS2"
           ],
-          "note": "Early morning broadcast; sprint race distance is approximately half the main race"
+          "note": "Live coverage of 12-lap sprint race"
         },
         {
           "name": "MotoGP Main Race",
@@ -5275,12 +5275,12 @@
           "time_mt": "12:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Primary MotoGP race event"
+          "note": "Live coverage of full Grand Prix race"
         }
       ],
-      "watch_note": "MotoGP's Australian Grand Prix at Phillip Island is broadcast live on FS1 and FS2 in the early morning hours (midnight MT) via Fox Sports channels and the Fox Sports app with a cable subscription."
+      "watch_note": "The Australian Grand Prix airs live on FS1/FS2 early Sunday and Monday morning in the US, with coverage also available via Fox Sports app with cable login."
     }
   },
   {
@@ -5349,14 +5349,13 @@
           "day": "Sunday",
           "time_mt": "7:00 AM MT",
           "channels": [
-            "Golf Channel",
             "CBS",
             "Peacock"
           ],
-          "note": "Final round concludes championship"
+          "note": "Championship conclusion from Port Royal GC"
         }
       ],
-      "watch_note": "The Butterfield Bermuda Championship broadcasts early in the morning Mountain Time due to the tournament's Atlantic location; stream on Peacock or watch on Golf Channel and CBS."
+      "watch_note": "The Butterfield Bermuda Championship airs early mornings on Golf Channel (Rounds 1-3) and CBS (Final Round), with full coverage available on Peacock."
     }
   },
   {
@@ -5366,7 +5365,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2026-10-23",
+    "date": "2026-10-22",
     "dateStart": "2026-10-22",
     "dateEnd": "2026-10-23",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -5393,27 +5392,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "Jerez Test - Day 1",
+          "name": "WSBK Test Session - Day 1",
           "day": "Thursday",
-          "time_mt": "1:00 AM MT",
+          "time_mt": "12:00 AM MT",
           "channels": [
-            "WorldSBK app",
+            "WorldSBK+",
             "Peacock"
           ],
-          "note": "Live streaming of testing sessions"
+          "note": "Live stream available on official WorldSBK+ platform"
         },
         {
-          "name": "Jerez Test - Day 2",
+          "name": "WSBK Test Session - Day 2",
           "day": "Friday",
-          "time_mt": "1:00 AM MT",
+          "time_mt": "12:00 AM MT",
           "channels": [
-            "WorldSBK app",
+            "WorldSBK+",
             "Peacock"
           ],
-          "note": "Final day of official testing"
+          "note": "Final day of Jerez testing"
         }
       ],
-      "watch_note": "The Jerez Test is best watched via the WorldSBK app or Peacock, which offer live streaming of all testing sessions from Spain."
+      "watch_note": "The Jerez Test is a private manufacturer test day; live broadcast coverage is limited, with highlights typically available on Peacock and the official WorldSBK+ streaming service."
     }
   },
   {
@@ -5454,26 +5453,36 @@
       "sessions": [
         {
           "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "day": "Friday",
+          "time_mt": "2:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage of second Superbike race"
+        },
+        {
+          "name": "Superbike Race 3",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of final Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes can be watched for free on Samsung TV Plus or via FS1 for cable subscribers."
+      "watch_note": "MotoAmerica Superbikes are best watched on FS1/FS2 or free on Samsung TV Plus with an internet connection."
     }
   },
   {
@@ -5512,37 +5521,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Race 1",
+          "name": "Superbike Race 1",
           "day": "Friday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Opening round of Speedfest weekend"
+          "note": "Opening round of Speedfest"
         },
         {
-          "name": "MotoAmerica Superbike Race 2",
+          "name": "Superbike Race 2",
           "day": "Saturday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "12:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Main race day"
+          "note": "Second race of weekend"
         },
         {
-          "name": "MotoAmerica Superbike Race 3",
+          "name": "Superbike Race 3",
           "day": "Sunday",
-          "time_mt": "10:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Finale of Speedfest weekend"
+          "note": "Final race of Speedfest"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available for free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free via Samsung TV Plus in the United States."
     }
   },
   {
@@ -5580,32 +5589,33 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass subscription"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "ESPN+ subscription required"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "2:00 PM MT",
           "channels": [
-            "Paramount+"
+            "Paramount+",
+            "ESPN+"
           ],
-          "note": "Main card featuring Volkanovski vs. Evloev"
+          "note": "Main event headliner Volkanovski vs. Evloev"
         }
       ],
-      "watch_note": "Subscribe to Paramount+ to watch the main card live, with prelims available on ESPN+ starting earlier that morning."
+      "watch_note": "UFC 333 is best watched via Paramount+ for the main card in the United States, with prelims available on ESPN+."
     }
   },
   {
@@ -5636,7 +5646,52 @@
         "h": "VidantaWorld's resort course advantage",
         "b": "The resort setting will attract <strong>spectator-friendly galleries and hospitality packages</strong>, potentially creating an electric atmosphere that rewards players comfortable with gallery noise and could neutralize the advantage of traditionally quieter tournament environments."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early round coverage"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Afternoon broadcast"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Weekend coverage begins"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "NBC",
+            "Peacock"
+          ],
+          "note": "Championship conclusion"
+        }
+      ],
+      "watch_note": "Watch the VidantaWorld Mexico Open on Golf Channel for early rounds, then switch to NBC on Sunday for the final round; Peacock offers streaming access for all rounds."
+    }
   },
   {
     "id": "wsbk-tissot-estoril-round-2026",
@@ -6008,7 +6063,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Losail International Circuit, Doha, Qatar",
+    "location": "Lusail International Circuit, Lusail, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6341,7 +6396,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6469,7 +6524,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6499,7 +6554,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6619,7 +6674,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2026-11-26",
+    "date": "2026-11-25",
     "dateStart": "2026-11-25",
     "dateEnd": "2026-11-26",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -6780,7 +6835,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2026-12-10",
+    "date": "2026-12-09",
     "dateStart": "2026-12-09",
     "dateEnd": "2026-12-10",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7030,7 +7085,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2027-01-21",
+    "date": "2027-01-20",
     "dateStart": "2027-01-20",
     "dateEnd": "2027-01-21",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -7158,7 +7213,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2027-01-26",
+    "date": "2027-01-25",
     "dateStart": "2027-01-25",
     "dateEnd": "2027-01-26",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7250,10 +7305,10 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Portimao Test",
-    "date": "2027-01-29",
+    "date": "2027-01-28",
     "dateStart": "2027-01-28",
     "dateEnd": "2027-01-29",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimao, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -7532,7 +7587,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Phillip Island Official Test",
-    "date": "2027-02-16",
+    "date": "2027-02-15",
     "dateStart": "2027-02-15",
     "dateEnd": "2027-02-16",
     "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
@@ -7541,6 +7596,20 @@
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Southern Summer Advantage Shifts",
+        "b": "February testing at Phillip Island gives European teams their first real opportunity to <strong>dial in setups for hot-weather racing</strong>, a crucial edge when the championship battle inevitably swings back to scorching European circuits in summer. Teams that nail tire management and cooling solutions here will have a significant technical blueprint advantage."
+      },
+      {
+        "h": "New Machinery Gets Track Time",
+        "b": "WSBK's strict testing limitations mean <strong>this official test is the premier laboratory for 2027 machinery validation</strong>, with manufacturers pushing prototype components and electronics packages that won't see another controlled environment until actual race weekends. Expect data collection to focus heavily on the new generation of aerodynamics and hybrid power systems."
+      },
+      {
+        "h": "Injury Recovery Barometer Critical",
+        "b": "Phillip Island's fast, flowing layout will immediately expose which injured riders from the off-season have regained full physical confidence, particularly in high-speed corners where <strong>commitment levels separate frontrunners from hesitant competitors</strong>. Multiple crashes here could signal deeper issues heading into the season opener."
+      }
     ]
   },
   {
@@ -8169,7 +8238,7 @@
     "date": "2027-03-28",
     "dateStart": "2027-03-27",
     "dateEnd": "2027-03-29",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimao, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -8232,7 +8301,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, TX",
+    "location": "Oaks Course, San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8298,7 +8367,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, GA",
+    "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8365,7 +8434,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, SC",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8448,6 +8517,37 @@
       {
         "h": "Fractured grappling landscape finds rival",
         "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
+      }
+    ]
+  },
+  {
+    "id": "pga-zurich-classic-new-orleans-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Zurich Classic of New Orleans",
+    "date": "2027-04-26",
+    "dateStart": "2027-04-23",
+    "dateEnd": "2027-04-26",
+    "location": "TPC Louisiana, Avondale, Louisiana",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Team Format Tests Partnership Chemistry",
+        "b": "The Zurich Classic's unique two-man team format rewards communication and trust over individual brilliance, making this event a fascinating laboratory for seeing which partnerships can truly sync under pressure. <strong>Pairing compatibility often matters more than raw talent</strong> in this 72-hole scramble-and-alternate-shot hybrid."
+      },
+      {
+        "h": "TPC Louisiana Demands Precision Over Power",
+        "b": "Playing at sea level with narrow fairways and strategically placed water hazards, TPC Louisiana punishes long hitters who lack accuracy far more than most PGA Tour venues. <strong>Driving accuracy and iron play precision</strong> will separate the contenders from the pretenders this week."
+      },
+      {
+        "h": "FedEx Cup Points Battle Intensifies Here",
+        "b": "With the FedEx Cup playoffs looming, the Zurich Classic serves as a final regular-season opportunity for mid-tier players to vault into better seeding positions through an unexpected team run. <strong>A surprise team chemistry breakthrough can dramatically reshape playoff positioning</strong> in ways traditional individual events simply cannot."
       }
     ]
   }
