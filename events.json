@@ -334,7 +334,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton 300, Norfolk, United Kingdom",
+    "location": "Snetterton, Norfolk, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -5459,30 +5459,30 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Saturday",
           "time_mt": "1:30 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 3",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of final Superbike race"
+          "note": "Free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes are best watched on FS1/FS2 or free on Samsung TV Plus with an internet connection."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or on FS1/FS2 cable."
     }
   },
   {
@@ -5521,9 +5521,9 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superbike Race 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Friday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
@@ -5531,27 +5531,27 @@
           "note": "Opening round of Speedfest"
         },
         {
-          "name": "Superbike Race 2",
+          "name": "MotoAmerica Superbike Race 2",
           "day": "Saturday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Second race of weekend"
+          "note": "Second round of the weekend"
         },
         {
-          "name": "Superbike Race 3",
+          "name": "MotoAmerica Superbike Race 3",
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of Speedfest"
+          "note": "Final round of Speedfest"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free via Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica races are broadcast on FS1 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -5589,7 +5589,7 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
@@ -5598,24 +5598,23 @@
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "ESPN+ subscription required"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "2:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "Paramount+",
-            "ESPN+"
+            "Paramount+"
           ],
-          "note": "Main event headliner Volkanovski vs. Evloev"
+          "note": "PPV on Paramount+ ($79.99)"
         }
       ],
-      "watch_note": "UFC 333 is best watched via Paramount+ for the main card in the United States, with prelims available on ESPN+."
+      "watch_note": "The main card featuring Volkanovski vs. Evloev is available exclusively on Paramount+ PPV at noon MT Saturday."
     }
   },
   {
@@ -5657,7 +5656,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early round coverage"
+          "note": "Early coverage of first round"
         },
         {
           "name": "Round 2",
@@ -5667,30 +5666,30 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Afternoon broadcast"
+          "note": "Second round coverage"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "Peacock"
+            "CBS",
+            "Paramount+"
           ],
-          "note": "Weekend coverage begins"
+          "note": "Third round with expanded coverage"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "NBC",
-            "Peacock"
+            "CBS",
+            "Paramount+"
           ],
           "note": "Championship conclusion"
         }
       ],
-      "watch_note": "Watch the VidantaWorld Mexico Open on Golf Channel for early rounds, then switch to NBC on Sunday for the final round; Peacock offers streaming access for all rounds."
+      "watch_note": "The VidantaWorld Mexico Open is best watched on CBS for weekend rounds or Golf Channel for early rounds, with streaming available on Paramount+ and Peacock."
     }
   },
   {
@@ -5727,37 +5726,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "WorldSBK Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "7:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live from Estoril"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "WorldSBK Superpole",
-          "day": "Sunday",
-          "time_mt": "4:00 AM MT",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "9:15 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Qualifying session"
+          "note": "Supersport class support race"
         },
         {
-          "name": "WorldSBK Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "7:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main race"
+          "note": "Final race of the round"
+        },
+        {
+          "name": "Supersport Race 2",
+          "day": "Sunday",
+          "time_mt": "9:15 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Supersport class final race"
         }
       ],
-      "watch_note": "Peacock and beIN Sports are the primary US broadcasters for WSBK; the WorldSBK app also offers streaming options with appropriate subscription."
+      "watch_note": "Peacock offers the easiest streaming access for WSBK in the US, with early morning coverage from Portugal."
     }
   },
   {
@@ -5792,7 +5801,52 @@
         "h": "Factory support and tire strategy",
         "b": "Teams backed by major manufacturers will leverage their resources to find optimal tire compounds and brake temperatures for this challenging layout. <strong>The rider who best manages front-end grip through Laguna Seca's high-speed corners</strong> will likely claim victory and valuable championship points."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+        },
+        {
+          "name": "Supersport Race 1",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Supporting class"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Final race of Round 10"
+        },
+        {
+          "name": "Supersport Race 2",
+          "day": "Sunday",
+          "time_mt": "12:30 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Supporting class final race"
+        }
+      ],
+      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or live on FS1 with cable access."
+    }
   },
   {
     "id": "mgp-malaysia-gp-2026",
@@ -5825,7 +5879,32 @@
         "h": "Asian Calendar Momentum Swing",
         "b": "With multiple Asian rounds compressed into late season, <strong>championship contenders cannot afford inconsistency at Sepang</strong> or risk losing ground to rivals who thrive in these back-to-back pressure situations."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "12:00 AM MT",
+          "channels": [
+            "FS1",
+            "FS2"
+          ],
+          "note": "Early morning broadcast; live from Sepang"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "12:00 AM MT",
+          "channels": [
+            "FS1",
+            "FS2"
+          ],
+          "note": "Early morning broadcast; live from Sepang"
+        }
+      ],
+      "watch_note": "MotoGP's Malaysian Grand Prix is best watched on FS1 or FS2 with an early morning alarm for US viewers, as Sepang's race time translates to midnight-early morning Mountain Time."
+    }
   },
   {
     "id": "motoamerica-superbike-r11-new-jersey-2026",
@@ -5859,7 +5938,32 @@
         "h": "Tire Strategy Becomes Make-or-Break",
         "b": "The challenging weather patterns typical of November in New Jersey combined with NJMP's demanding surface mean <strong>tire choice and degradation management will heavily influence both race day outcomes and championship momentum</strong>. Teams that master the balance between grip and longevity could secure unexpected podium finishes against better-resourced competitors."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Live coverage on FS1 with free streaming on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Final round of the season at New Jersey Motorsports Park"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike Championship Round 11 is broadcast on FS1 with free streaming available on Samsung TV Plus in the US."
+    }
   },
   {
     "id": "motoa-superbike-new-jersey-2026",
@@ -5892,7 +5996,32 @@
         "h": "Title Dreams Down to Details",
         "b": "With the championship decided so late in the season, <strong>qualifying position and first-lap positioning become absolutely critical</strong> to avoid traffic and track position fights that could derail a rider's entire race strategy. Every tenth matters when the crown is on the line."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoAmerica Superbike Race 1",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free with Samsung TV Plus; cable login required for FS2"
+        },
+        {
+          "name": "MotoAmerica Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free with Samsung TV Plus; cable login required for FS2"
+        }
+      ],
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus, with cable subscribers also able to watch on FS2."
+    }
   },
   {
     "id": "ufc-fight-night-2026-10-31",
@@ -6674,7 +6803,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "dateStart": "2026-11-25",
     "dateEnd": "2026-11-26",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -6835,7 +6964,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2026-12-09",
+    "date": "2026-12-10",
     "dateStart": "2026-12-09",
     "dateEnd": "2026-12-10",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7085,7 +7214,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2027-01-20",
+    "date": "2027-01-21",
     "dateStart": "2027-01-20",
     "dateEnd": "2027-01-21",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -7213,7 +7342,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2027-01-25",
+    "date": "2027-01-26",
     "dateStart": "2027-01-25",
     "dateEnd": "2027-01-26",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7305,7 +7434,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Portimao Test",
-    "date": "2027-01-28",
+    "date": "2027-01-29",
     "dateStart": "2027-01-28",
     "dateEnd": "2027-01-29",
     "location": "Autódromo Internacional do Algarve, Portimao, Portugal",
@@ -7327,6 +7456,37 @@
       {
         "h": "Budget Cap Era Tilts Playing Field",
         "b": "With tighter spending restrictions entering effect for 2027, Portimão testing becomes critical for smaller teams to maximize limited development resources and prove competitive pace early. <strong>Grid-filling teams that nail setup here avoid costly mid-season scrambles</strong> that their budgets cannot absorb."
+      }
+    ]
+  },
+  {
+    "id": "ufc-336",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 336",
+    "date": "2027-01-30",
+    "dateStart": "2027-01-30",
+    "dateEnd": "2027-01-30",
+    "location": "Toronto, Canada",
+    "status": "scheduled",
+    "classes": [
+      "Main Card",
+      "Prelims"
+    ],
+    "points": [
+      {
+        "h": "Toronto's Home Advantage Narrative",
+        "b": "UFC 336 marks a return to Canada's largest market, where the crowd energy could be a decisive factor for any fighter with Canadian ties or charisma. <strong>Home crowd momentum has historically swung close decisions</strong>, making pre-fight positioning around local fighter narratives crucial to understand."
+      },
+      {
+        "h": "January Title Shot Positioning",
+        "b": "Coming off the New Year reset, UFC 336 serves as a critical proving ground for contenders eyeing spring championship opportunities. <strong>A dominant victory here could leapfrog a fighter over established contenders</strong> and reset the entire divisional hierarchy heading into Q1 2027."
+      },
+      {
+        "h": "Legacy Window Closing for Veterans",
+        "b": "If any aging former champions or perennial contenders are on this card, Toronto represents a last chance to make a compelling title run narrative before the window fully closes. <strong>Performance requirements intensify when careers enter their twilight</strong>, making every fight increasingly binary—redemption or retirement."
       }
     ]
   },
@@ -7451,6 +7611,37 @@
       {
         "h": "February heat complicates tire strategy",
         "b": "Peak summer temperatures in San Juan will push soft compound selections to their limits, forcing teams to gamble between grip and longevity across two races. <strong>Brake fade management in the high-speed corners</strong> becomes equally critical as riders attack harder in scorching conditions."
+      }
+    ]
+  },
+  {
+    "id": "ufc-fight-night-sydney",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night",
+    "date": "2027-02-06",
+    "dateStart": "2027-02-06",
+    "dateEnd": "2027-02-06",
+    "location": "Sydney, Australia",
+    "status": "scheduled",
+    "classes": [
+      "Main Card",
+      "Prelims"
+    ],
+    "points": [
+      {
+        "h": "Sydney's Octagon Advantage Looms Large",
+        "b": "Fighting in Australia typically favors wrestlers and grapplers who thrive in the longer rounds, and <strong>Sydney's high-altitude training environment has produced several current UFC contenders</strong>. Expect aggressive ground-fighting strategies to dominate the card as fighters acclimate to the venue's unique conditions."
+      },
+      {
+        "h": "Jetlag Creates Unpredictable Fight Dynamics",
+        "b": "<strong>International fighters traveling from North America face a 16-17 hour time difference</strong>, which historically impacts cardio performance in later rounds and decision-making in pivotal moments. This Sydney event could see surprising upsets from local competitors with fresher legs late in fights."
+      },
+      {
+        "h": "Regional Talent Gets Prime Spotlight",
+        "b": "<strong>UFC Fight Night events in Australia consistently feature rising Oceania-based fighters seeking to break into mainstream recognition</strong>. Sydney's passionate fanbase creates a pressure-cooker environment that separates mentally tough competitors from those who wilt under adversity."
       }
     ]
   },
@@ -7587,7 +7778,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Phillip Island Official Test",
-    "date": "2027-02-15",
+    "date": "2027-02-16",
     "dateStart": "2027-02-15",
     "dateEnd": "2027-02-16",
     "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
