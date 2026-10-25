@@ -334,7 +334,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton, Norfolk, United Kingdom",
+    "location": "Snetterton 300, Norfolk, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -5651,7 +5651,7 @@
         {
           "name": "Round 1",
           "day": "Thursday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
@@ -5661,35 +5661,35 @@
         {
           "name": "Round 2",
           "day": "Friday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Second round action"
+          "note": "Second round coverage"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "CBS",
-            "Paramount+"
+            "NBC",
+            "Peacock"
           ],
-          "note": "Third round with CBS broadcast"
+          "note": "Third round with primetime coverage"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
-            "CBS",
-            "Paramount+"
+            "NBC",
+            "Peacock"
           ],
-          "note": "Championship round finale"
+          "note": "Championship final round coverage"
         }
       ],
-      "watch_note": "The VidantaWorld Mexico Open is best watched on Golf Channel and Peacock for early rounds, with CBS and Paramount+ providing coverage of the weekend rounds."
+      "watch_note": "The VidantaWorld Mexico Open is best watched on NBC for weekend coverage or Golf Channel/Peacock for early rounds, with most sessions available on Peacock for streaming."
     }
   },
   {
@@ -5728,7 +5728,7 @@
         {
           "name": "Superpole",
           "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
@@ -5738,22 +5738,22 @@
         {
           "name": "Race 1",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "8:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "First race of the weekend"
+          "note": "First of two races"
         },
         {
-          "name": "Superpole Superbike",
+          "name": "Warm Up",
           "day": "Sunday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "4:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Sunday qualifying"
+          "note": "Pre-race warm up session"
         },
         {
           "name": "Race 2",
@@ -5763,10 +5763,10 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Main race"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "The Tissot Estoril Round can be watched on Peacock with a subscription, or on beIN Sports for cable subscribers in the US."
+      "watch_note": "Peacock provides the most comprehensive WSBK coverage in the US, with beIN Sports as an alternative for cable subscribers."
     }
   },
   {
@@ -5809,33 +5809,23 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
-        },
-        {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "1:30 PM MT",
-          "channels": [
-            "FS2",
-            "Samsung TV Plus"
-          ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Final round of championship season"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus, with select races also on FS1/FS2 for cable subscribers."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -5873,37 +5863,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice & Qualifying",
-          "day": "Friday",
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
           "time_mt": "12:00 AM MT",
-          "channels": [
-            "FS2",
-            "Fox Sports app"
-          ],
-          "note": "Practice sessions and qualifying rounds"
-        },
-        {
-          "name": "MotoGP Warm-up",
-          "day": "Sunday",
-          "time_mt": "12:30 AM MT",
-          "channels": [
-            "FS2",
-            "Fox Sports app"
-          ],
-          "note": "Final warm-up session before race"
-        },
-        {
-          "name": "MotoGP Race",
-          "day": "Sunday",
-          "time_mt": "1:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "Main MotoGP race event"
+          "note": "Early morning broadcast of Saturday sprint session"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "12:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Early morning broadcast of Sunday main race"
         }
       ],
-      "watch_note": "MotoGP's Malaysian Grand Prix will be broadcast on FS1 and the Fox Sports app in the United States, with early morning start times due to the Asia-Pacific timezone."
+      "watch_note": "MotoGP coverage in the US is available on FS1 and the Fox Sports app, with early morning start times due to the Malaysian time zone."
     }
   },
   {
@@ -5949,17 +5929,7 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
-        },
-        {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "2:30 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Supersport class racing"
+          "note": "Live coverage of Round 11 Race 1"
         },
         {
           "name": "Superbike Race 2",
@@ -5969,10 +5939,10 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final round decisive race"
+          "note": "Final race of the round"
         }
       ],
-      "watch_note": "MotoAmerica Superbike Championship Round 11 is broadcast live on FS1 with free streaming available on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -6022,7 +5992,7 @@
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
@@ -6030,7 +6000,7 @@
           "note": "Live coverage on FS2 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via cable on FS2 in the United States."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or live on FS2 for cable subscribers."
     }
   },
   {
@@ -6071,7 +6041,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights available on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -6080,7 +6050,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card exclusive to ESPN+"
+          "note": "ESPN+ subscription required"
         },
         {
           "name": "Main Card",
@@ -6089,10 +6059,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card requires Paramount+ subscription"
+          "note": "Pay-per-view on Paramount+"
         }
       ],
-      "watch_note": "UFC Fight Night from Las Vegas is best watched on Paramount+ for the main card, with preliminary fights available on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The UFC Fight Night main card streams exclusively on Paramount+ starting at 9:00 PM MT, with prelims available on ESPN+ an hour earlier."
     }
   },
   {
@@ -6133,7 +6103,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -6142,7 +6112,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Prelim fights before main card"
         },
         {
           "name": "Main Card",
@@ -6154,7 +6124,7 @@
           "note": "Moicano vs. Nolan headliner"
         }
       ],
-      "watch_note": "Subscribe to Paramount+ for the main card featuring Moicano vs. Nolan on Saturday night, with prelims available on ESPN+."
+      "watch_note": "The main card featuring Moicano vs. Nolan is exclusively on Paramount+ at 9:00 PM MT on Saturday, October 31st, 2026."
     }
   },
   {
@@ -6599,7 +6569,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -6694,7 +6664,7 @@
     "date": "2026-11-14",
     "dateStart": "2026-11-14",
     "dateEnd": "2026-11-14",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -6727,7 +6697,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -6757,7 +6727,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-20",
     "dateEnd": "2026-11-22",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -7041,7 +7011,7 @@
     "date": "2026-12-10",
     "dateStart": "2026-12-09",
     "dateEnd": "2026-12-10",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "location": "Valencia Circuit, Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -7165,7 +7135,7 @@
     "date": "2026-12-12",
     "dateStart": "2026-12-12",
     "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -7258,7 +7228,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -7419,7 +7389,7 @@
     "date": "2027-01-26",
     "dateStart": "2027-01-25",
     "dateEnd": "2027-01-26",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "location": "Valencia Circuit, Valencia, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -7983,7 +7953,7 @@
     "date": "2027-02-20",
     "dateStart": "2027-02-20",
     "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8408,7 +8378,7 @@
     "date": "2027-03-20",
     "dateStart": "2027-03-20",
     "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8472,7 +8442,7 @@
     "date": "2027-03-29",
     "dateStart": "2027-03-26",
     "dateEnd": "2027-03-29",
-    "location": "Memorial Park Golf Club, Houston, TX",
+    "location": "Memorial Park Golf Course, Houston, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8566,7 +8536,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, Texas",
+    "location": "Oaks Course, San Antonio, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8632,7 +8602,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, Georgia",
+    "location": "Augusta National Golf Club, Augusta, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8699,7 +8669,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8762,7 +8732,7 @@
     "date": "2027-04-17",
     "dateStart": "2027-04-17",
     "dateEnd": "2027-04-17",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8795,7 +8765,7 @@
     "date": "2027-04-26",
     "dateStart": "2027-04-23",
     "dateEnd": "2027-04-26",
-    "location": "TPC Louisiana, Avondale, Louisiana",
+    "location": "TPC Louisiana, Avondale, Louisiana, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
