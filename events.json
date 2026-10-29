@@ -205,7 +205,7 @@
     "date": "2026-05-17",
     "dateStart": "2026-05-15",
     "dateEnd": "2026-05-17",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park, Castle Donington, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -334,7 +334,7 @@
     "date": "2026-06-21",
     "dateStart": "2026-06-19",
     "dateEnd": "2026-06-21",
-    "location": "Knockhill, Fife, United Kingdom",
+    "location": "Knockhill Racing Circuit, Dunfermline, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -366,7 +366,7 @@
     "date": "2026-07-05",
     "dateStart": "2026-07-03",
     "dateEnd": "2026-07-05",
-    "location": "Snetterton, Norfolk, United Kingdom",
+    "location": "Snetterton 300, Norwich, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -430,7 +430,7 @@
     "date": "2026-07-19",
     "dateStart": "2026-07-17",
     "dateEnd": "2026-07-19",
-    "location": "Brands Hatch, Kent, United Kingdom",
+    "location": "Brands Hatch, Fawkham, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1050,7 +1050,7 @@
     "date": "2026-08-16",
     "dateStart": "2026-08-14",
     "dateEnd": "2026-08-16",
-    "location": "Thruxton, Hampshire, United Kingdom",
+    "location": "Thruxton Circuit, Hampshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -1851,7 +1851,7 @@
     "date": "2026-08-31",
     "dateStart": "2026-08-29",
     "dateEnd": "2026-08-31",
-    "location": "Cadwell Park, Lincolnshire, United Kingdom",
+    "location": "Cadwell Park, Louth, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -3866,7 +3866,7 @@
     "date": "2026-10-04",
     "dateStart": "2026-10-02",
     "dateEnd": "2026-10-04",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park, Castle Donington, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -5720,7 +5720,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early coverage begins"
+          "note": "Early coverage of first round"
         },
         {
           "name": "Round 2",
@@ -5730,32 +5730,30 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Continuing tournament action"
+          "note": "Second round coverage"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Weekend coverage"
+          "note": "Third round with network coverage"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "NBC",
-            "Golf Channel",
+            "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion"
+          "note": "Championship Sunday conclusion"
         }
       ],
-      "watch_note": "Stream all four rounds on Peacock or catch final round coverage on NBC and Golf Channel."
+      "watch_note": "The VidantaWorld Mexico Open is best watched on CBS for weekend coverage or Golf Channel/Peacock for weekday rounds, with all sessions available via Peacock."
     }
   },
   {
@@ -5809,30 +5807,20 @@
             "Peacock",
             "beIN Sports"
           ],
-          "note": "WorldSBK Championship race"
+          "note": "First race of the round"
         },
         {
-          "name": "Warm-Up",
+          "name": "Warm-up & Race 2",
           "day": "Sunday",
-          "time_mt": "5:30 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Sunday morning warm-up session"
-        },
-        {
-          "name": "Race 2",
-          "day": "Sunday",
-          "time_mt": "8:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Final race of the weekend"
+          "note": "Warm-up followed by second race"
         }
       ],
-      "watch_note": "Peacock provides the most convenient streaming access for WSBK in the US, with beIN Sports as an alternative cable option."
+      "watch_note": "Peacock and beIN Sports provide the primary US coverage of the Tissot Estoril Round, with early morning start times due to the Portugal time zone difference."
     }
   },
   {
@@ -5871,27 +5859,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Championship Round 10 - Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of opening race"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         },
         {
-          "name": "MotoAmerica Superbike Championship Round 10 - Race 2",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Support series race"
+        },
+        {
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the round"
+          "note": "Main event, free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica races are available on FS1 and free via Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike Championship Round 10 is available free on Samsung TV Plus or via FS1/FS2 cable channels."
     }
   },
   {
@@ -5929,27 +5927,35 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Sprint Race",
-          "day": "Saturday",
+          "name": "MotoGP Practice & Qualifying",
+          "day": "Friday",
           "time_mt": "12:00 AM MT",
           "channels": [
-            "FS1",
-            "ESPN+"
+            "FS2"
           ],
-          "note": "Early morning broadcast; also available on Fox Sports app"
+          "note": "Practice sessions and qualifying rounds"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Warm-up",
           "day": "Sunday",
-          "time_mt": "12:00 AM MT",
+          "time_mt": "12:30 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Final warm-up session before main race"
+        },
+        {
+          "name": "MotoGP Race",
+          "day": "Sunday",
+          "time_mt": "2:00 AM MT",
           "channels": [
             "FS1",
-            "ESPN+"
+            "Fox Sports"
           ],
-          "note": "Early morning broadcast; also available on Fox Sports app"
+          "note": "Main MotoGP Race"
         }
       ],
-      "watch_note": "The Malaysian Grand Prix will be broadcast on FS1 and ESPN+ early Sunday and Monday mornings MT; ESPN+ offers the most convenient streaming access for MotoGP fans in the US."
+      "watch_note": "Stream the Malaysian Grand Prix on FS1 or Fox Sports, with early morning start times in Mountain Time due to Malaysia's timezone."
     }
   },
   {
@@ -5995,30 +6001,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 with free streaming option on Samsung TV Plus"
-        },
-        {
-          "name": "Supersport Race",
-          "day": "Saturday",
-          "time_mt": "1:15 PM MT",
-          "channels": [
-            "FS1",
-            "Samsung TV Plus"
-          ],
-          "note": "Secondary class race"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "10:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final race of the round"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike Championship races are available on FS1 or free via Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -6060,23 +6056,23 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:30 AM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS2",
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS2 and free on Samsung TV Plus"
+          "note": "Live coverage on FS1 and free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via FS2 cable subscription."
+      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available for free on Samsung TV Plus in the US."
     }
   },
   {
@@ -6117,7 +6113,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -6126,7 +6122,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary card exclusive to ESPN+"
         },
         {
           "name": "Main Card",
@@ -6135,10 +6131,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card"
+          "note": "Main card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "Subscribe to Paramount+ for the main card, ESPN+ for prelims, or UFC Fight Pass for early prelims to watch UFC Fight Night from Las Vegas on October 31st."
+      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT, with preliminary fights available earlier on ESPN+ and UFC Fight Pass."
     }
   },
   {
@@ -6175,33 +6171,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "5:00 PM MT",
+          "time_mt": "6:00 PM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Streaming only on UFC Fight Pass"
+          "note": "Early preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "6:30 PM MT",
+          "time_mt": "7:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "8:00 PM MT",
+          "time_mt": "9:00 PM MT",
           "channels": [
-            "Paramount+",
-            "ESPN+"
+            "Paramount+"
           ],
-          "note": "Moicano vs. Nolan headliner"
+          "note": "Moicano vs. Nolan main event"
         }
       ],
-      "watch_note": "The main card is available on Paramount+ and ESPN+ starting at 8:00 PM MT, with prelims on ESPN+ at 6:30 PM MT."
+      "watch_note": "The best way to watch UFC Fight Night in the US is through Paramount+ for the main card, with preliminary fights available on ESPN+."
     }
   },
   {
@@ -6232,7 +6227,52 @@
         "h": "Altitude and Heat Twist Traditional Distances",
         "b": "Cabo's elevation and thin air will <strong>add 15-20 yards to club distances</strong>, forcing players to completely recalibrate their approach and potentially favoring shorter hitters who control trajectory over bombers."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Featured groups available on Peacock"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Featured groups available on Peacock"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Featured groups available on Peacock"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Prime coverage on CBS with streaming on Peacock"
+        }
+      ],
+      "watch_note": "The World Wide Technology Championship is best watched on Golf Channel for Thursday-Saturday rounds, with CBS taking over for Sunday's final round; Peacock offers featured group coverage throughout the tournament."
+    }
   },
   {
     "id": "motoamerica-superbike-sonoma-2026",
@@ -6313,7 +6353,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6924,7 +6964,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2026-11-26",
+    "date": "2026-11-25",
     "dateStart": "2026-11-25",
     "dateEnd": "2026-11-26",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -7085,7 +7125,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2026-12-10",
+    "date": "2026-12-09",
     "dateStart": "2026-12-09",
     "dateEnd": "2026-12-10",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7209,9 +7249,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 2",
-    "date": "2026-12-19",
-    "dateStart": "2026-12-19",
-    "dateEnd": "2026-12-19",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -7335,7 +7375,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2027-01-21",
+    "date": "2027-01-20",
     "dateStart": "2027-01-20",
     "dateEnd": "2027-01-21",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -7432,7 +7472,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2027-01-26",
+    "date": "2027-01-25",
     "dateStart": "2027-01-25",
     "dateEnd": "2027-01-26",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7494,7 +7534,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Portimao Test",
-    "date": "2027-01-29",
+    "date": "2027-01-28",
     "dateStart": "2027-01-28",
     "dateEnd": "2027-01-29",
     "location": "Autódromo Internacional do Algarve, Portimao, Portugal",
@@ -7867,7 +7907,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Phillip Island Official Test",
-    "date": "2027-02-16",
+    "date": "2027-02-15",
     "dateStart": "2027-02-15",
     "dateEnd": "2027-02-16",
     "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
@@ -8602,6 +8642,37 @@
     ]
   },
   {
+    "id": "pga-texas-childrens-houston-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Texas Children's Houston Open",
+    "date": "2027-04-29",
+    "dateStart": "2027-03-26",
+    "dateEnd": "2027-03-29",
+    "location": "Memorial Park Golf Course, Houston, Texas",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Memorial Park's Demanding Rough Tests Accuracy",
+        "b": "The recently renovated layout at Memorial Park features thick, punishing rough that will <strong>penalize errant tee shots heavily</strong>, making this week more about precision than distance off the tee."
+      },
+      {
+        "h": "Early Season Form Matters Most Here",
+        "b": "Playing in late March means <strong>winter prep and early tournament rhythm take precedence over past-season performance</strong>, giving hot starters a significant advantage over players still shaking off rust."
+      },
+      {
+        "h": "Houston's Climate Plays Underrated Role",
+        "b": "The humid Texas spring air will <strong>compress distance and potentially shift ball flight patterns</strong>, favoring players who've practiced in similar conditions and those with excellent short-game control around the greens."
+      }
+    ]
+  },
+  {
     "id": "wsbk-portuguese-gp-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -8921,37 +8992,6 @@
       {
         "h": "FedEx Cup Points Battle Intensifies Here",
         "b": "With the FedEx Cup playoffs looming, the Zurich Classic serves as a final regular-season opportunity for mid-tier players to vault into better seeding positions through an unexpected team run. <strong>A surprise team chemistry breakthrough can dramatically reshape playoff positioning</strong> in ways traditional individual events simply cannot."
-      }
-    ]
-  },
-  {
-    "id": "pga-texas-childrens-houston-open-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Texas Children's Houston Open",
-    "date": "2027-04-29",
-    "dateStart": "2027-04-26",
-    "dateEnd": "2027-04-29",
-    "location": "Memorial Park, Houston, Texas",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Memorial Park's Demanding Rough Tests Accuracy",
-        "b": "The recently renovated layout at Memorial Park features thick, punishing rough that will <strong>penalize errant tee shots heavily</strong>, making this week more about precision than distance off the tee."
-      },
-      {
-        "h": "Early Season Form Matters Most Here",
-        "b": "Playing in late March means <strong>winter prep and early tournament rhythm take precedence over past-season performance</strong>, giving hot starters a significant advantage over players still shaking off rust."
-      },
-      {
-        "h": "Houston's Climate Plays Underrated Role",
-        "b": "The humid Texas spring air will <strong>compress distance and potentially shift ball flight patterns</strong>, favoring players who've practiced in similar conditions and those with excellent short-game control around the greens."
       }
     ]
   }
