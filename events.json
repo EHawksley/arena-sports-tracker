@@ -6347,43 +6347,45 @@
         {
           "name": "Round 1",
           "day": "Thursday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel"
+            "Golf Channel",
+            "ESPN+"
           ],
-          "note": "Live coverage begins"
+          "note": "Featured groups streaming on ESPN+"
         },
         {
           "name": "Round 2",
           "day": "Friday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
-            "Golf Channel"
+            "Golf Channel",
+            "ESPN+"
           ],
-          "note": "Continued tournament play"
+          "note": "Featured groups streaming on ESPN+"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "NBC",
-            "Peacock"
+            "CBS",
+            "ESPN+"
           ],
-          "note": "Weekend coverage"
+          "note": "CBS broadcast begins at 1 PM ET"
         },
         {
-          "name": "Final Round",
+          "name": "Round 4 (Final Round)",
           "day": "Sunday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "NBC",
             "Peacock"
           ],
-          "note": "Championship conclusion"
+          "note": "NBC broadcast begins at 1 PM ET"
         }
       ],
-      "watch_note": "The World Wide Technology Championship is best watched on NBC for Sunday's final round, or stream all four rounds on Peacock with a subscription."
+      "watch_note": "The World Wide Technology Championship concludes the PGA Tour regular season and is best watched on Golf Channel for early rounds, CBS on Saturday, and NBC on Sunday, with streaming available on ESPN+ and Peacock."
     }
   },
   {
@@ -6423,27 +6425,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike - Round 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Practice and qualifying earlier in the day"
+          "note": "Live coverage of opening Superbike race"
         },
         {
-          "name": "MotoAmerica Superbike - Round 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final round of the weekend"
+          "note": "Final Superbike race of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbikes at Sonoma is available on FS1 and free on Samsung TV Plus in the US."
     }
   },
   {
@@ -6489,7 +6491,7 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Free with Samsung TV Plus"
         },
         {
           "name": "Superbike Race 2",
@@ -6499,19 +6501,20 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the event"
+          "note": "Free with Samsung TV Plus"
         },
         {
-          "name": "Support Classes",
-          "day": "Saturday",
-          "time_mt": "10:30 AM MT",
+          "name": "Speedfest Feature Race",
+          "day": "Sunday",
+          "time_mt": "2:00 PM MT",
           "channels": [
+            "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Supersport and other support class races"
+          "note": "Main event of the weekend"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via cable on FS2 during the Speedfest weekend at Laguna Seca."
+      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or via FS1/FS2 cable broadcasts for the best viewing experience in the US."
     }
   },
   {
@@ -6549,37 +6552,34 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice & Qualifying",
+          "name": "MotoGP Practice",
           "day": "Friday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "1:55 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Practice sessions and qualifying rounds"
+          "note": "Free Practice 1 and 2"
         },
         {
-          "name": "MotoGP Warm-up",
+          "name": "MotoGP Qualifying",
           "day": "Saturday",
-          "time_mt": "4:40 AM MT",
+          "time_mt": "1:35 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports app"
+            "FS2"
           ],
-          "note": "Final warm-up session before race"
+          "note": "Q1 and Q2 qualifying sessions"
         },
         {
           "name": "MotoGP Race",
-          "day": "Saturday",
-          "time_mt": "6:00 AM MT",
+          "day": "Sunday",
+          "time_mt": "1:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS1"
           ],
-          "note": "Main MotoGP race event"
+          "note": "Main race event"
         }
       ],
-      "watch_note": "MotoGP races in Qatar are broadcast live on FS1 in the early morning hours; FS1 and Fox Sports app are your primary options for US viewers."
+      "watch_note": "MotoGP races at Qatar are broadcast on Fox Sports (FS1/FS2) with early morning start times due to the Asian time zone; streaming is available on Fox Sports app and website with cable login."
     }
   },
   {
@@ -6620,45 +6620,45 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
-            "Samsung TV Plus"
+            "MotoAmerica TV"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live coverage of first superbike race"
         },
         {
           "name": "Supersport Race",
           "day": "Saturday",
-          "time_mt": "2:30 PM MT",
+          "time_mt": "1:15 PM MT",
           "channels": [
             "FS1",
-            "Samsung TV Plus"
+            "MotoAmerica TV"
           ],
           "note": "Supersport class race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "10:30 AM MT",
           "channels": [
             "FS1",
-            "Samsung TV Plus"
+            "MotoAmerica TV"
           ],
-          "note": "Final Superbike race of the round"
+          "note": "Final superbike race of the round"
         },
         {
           "name": "Supersport Race 2",
           "day": "Sunday",
-          "time_mt": "1:30 PM MT",
+          "time_mt": "12:45 PM MT",
           "channels": [
             "FS1",
-            "Samsung TV Plus"
+            "MotoAmerica TV"
           ],
-          "note": "Final Supersport race"
+          "note": "Second supersport race"
         }
       ],
-      "watch_note": "MotoAmerica rounds are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica races are broadcast on FS1 and available via MotoAmerica TV streaming service in the United States."
     }
   },
   {
@@ -6699,25 +6699,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica races are available free on Samsung TV Plus or via FS2 cable subscription for US viewers."
+      "watch_note": "MotoAmerica Superbikes can be watched free on Samsung TV Plus or on FS2 for cable subscribers."
     }
   },
   {
@@ -6758,25 +6758,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Free stream on Samsung TV Plus"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of opening Superbike race"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "11:00 AM MT",
-          "channels": [
-            "FS2",
-            "Samsung TV Plus"
-          ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Free stream on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free via Samsung TV Plus in the US."
     }
   },
   {
@@ -6814,27 +6814,37 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Sprint Race",
-          "day": "Saturday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "FS1",
-            "Fox Sports app"
-          ],
-          "note": "12-lap sprint race; also available on Fox Sports app with cable login"
-        },
-        {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
             "FS1",
             "Fox Sports app"
           ],
-          "note": "22-lap Grand Prix; also available on Fox Sports app with cable login"
+          "note": "Live coverage of the main MotoGP race at Losail"
+        },
+        {
+          "name": "Moto2 Race",
+          "day": "Sunday",
+          "time_mt": "3:30 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Moto2 support class race"
+        },
+        {
+          "name": "Moto3 Race",
+          "day": "Sunday",
+          "time_mt": "2:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Moto3 support class race"
         }
       ],
-      "watch_note": "MotoGP races at Losail are broadcast live on FS1 early Sunday and Saturday mornings; Fox Sports app offers streaming with cable login."
+      "watch_note": "All MotoGP races at Losail are broadcast live on FS1 and the Fox Sports app early Sunday morning in Mountain Time."
     }
   },
   {
@@ -6876,25 +6886,35 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Free with Samsung TV Plus"
+        },
+        {
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "12:30 PM MT",
+          "channels": [
+            "FS2",
+            "Samsung TV Plus"
+          ],
+          "note": "Support class race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus with cable login on FS1"
+          "note": "Main event, free with Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races from Phoenix are broadcast on FS1 and available free on Samsung TV Plus."
+      "watch_note": "MotoAmerica Superbike races at Phoenix are broadcast on FS1/FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -6936,25 +6956,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races from Sonoma are best watched on FS1 or free via Samsung TV Plus."
+      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast live on FS1/FS2 and available free on Samsung TV Plus in the United States."
     }
   },
   {
@@ -6994,27 +7014,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Championship - Round 1",
+          "name": "MotoAmerica Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus; cable subscribers can watch on FS1"
+          "note": "Free on Samsung TV Plus; also on FS1"
         },
         {
-          "name": "MotoAmerica Superbike Championship - Round 2",
+          "name": "MotoAmerica Superbike Race 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Free on Samsung TV Plus; cable subscribers can watch on FS1"
+          "note": "Free on Samsung TV Plus; also on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Sonoma are best watched free on Samsung TV Plus or via FS1 for cable subscribers."
+      "watch_note": "MotoAmerica Superbike races are broadcast free on Samsung TV Plus and cable channels FS1/FS2 in the United States."
     }
   },
   {
@@ -7055,7 +7075,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -7064,7 +7084,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary card exclusive to ESPN+"
         },
         {
           "name": "Main Card",
@@ -7073,10 +7093,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Bonfim vs. Brady headliner"
+          "note": "Main card featuring Bonfim vs. Brady headliner"
         }
       ],
-      "watch_note": "The main card featuring Bonfim vs. Brady airs on Paramount+ at 9:00 PM MT on Saturday, with prelims starting earlier on ESPN+."
+      "watch_note": "The best way to watch in the US is through Paramount+ for the main card, with prelims available on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -7136,10 +7156,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event features Cortes vs. Acosta and Walker"
+          "note": "Main event featuring Cortes Acosta vs. Walker"
         }
       ],
-      "watch_note": "The main card is exclusive to Paramount+, while prelims stream on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is available exclusively on Paramount+ with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -7182,7 +7202,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7277,7 +7297,7 @@
     "date": "2026-11-14",
     "dateStart": "2026-11-14",
     "dateEnd": "2026-11-14",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -7310,7 +7330,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -7460,7 +7480,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2026-11-26",
+    "date": "2026-11-25",
     "dateStart": "2026-11-25",
     "dateEnd": "2026-11-26",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -7621,7 +7641,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2026-12-10",
+    "date": "2026-12-09",
     "dateStart": "2026-12-09",
     "dateEnd": "2026-12-10",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -7748,7 +7768,7 @@
     "date": "2026-12-12",
     "dateStart": "2026-12-12",
     "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -7841,7 +7861,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -7871,7 +7891,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Jerez Test",
-    "date": "2027-01-21",
+    "date": "2027-01-20",
     "dateStart": "2027-01-20",
     "dateEnd": "2027-01-21",
     "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
@@ -7968,7 +7988,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Valencia Test",
-    "date": "2027-01-26",
+    "date": "2027-01-25",
     "dateStart": "2027-01-25",
     "dateEnd": "2027-01-26",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
@@ -8030,7 +8050,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Portimao Test",
-    "date": "2027-01-29",
+    "date": "2027-01-28",
     "dateStart": "2027-01-28",
     "dateEnd": "2027-01-29",
     "location": "Autódromo Internacional do Algarve, Portimao, Portugal",
@@ -8403,7 +8423,7 @@
     "series": "World Superbike Championship (WSBK)",
     "icon": "🏍️",
     "title": "Phillip Island Official Test",
-    "date": "2027-02-16",
+    "date": "2027-02-15",
     "dateStart": "2027-02-15",
     "dateEnd": "2027-02-16",
     "location": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
@@ -8597,7 +8617,7 @@
     "date": "2027-02-20",
     "dateStart": "2027-02-20",
     "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8853,7 +8873,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -9052,7 +9072,7 @@
     "date": "2027-03-20",
     "dateStart": "2027-03-20",
     "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -9147,7 +9167,7 @@
     "date": "2027-04-29",
     "dateStart": "2027-03-26",
     "dateEnd": "2027-03-29",
-    "location": "Memorial Park Golf Course, Houston, TX",
+    "location": "Memorial Park Golf Course, Houston, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9241,7 +9261,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, TX",
+    "location": "Oaks Course, San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9337,10 +9357,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Masters Tournament",
-    "date": "2027-04-12",
-    "dateStart": "2027-04-09",
-    "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, GA",
+    "date": "2027-04-11",
+    "dateStart": "2027-04-08",
+    "dateEnd": "2027-04-11",
+    "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9371,7 +9391,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, GA, USA",
+    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -9407,7 +9427,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, SC",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9503,7 +9523,7 @@
     "date": "2027-04-17",
     "dateStart": "2027-04-17",
     "dateEnd": "2027-04-17",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -9568,7 +9588,7 @@
     "date": "2027-04-26",
     "dateStart": "2027-04-23",
     "dateEnd": "2027-04-26",
-    "location": "TPC Louisiana, Avondale, LA",
+    "location": "TPC Louisiana, Avondale, Louisiana",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9596,10 +9616,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Cadillac Championship",
-    "date": "2027-05-02",
+    "date": "2027-05-03",
     "dateStart": "2027-04-30",
-    "dateEnd": "2027-05-02",
-    "location": "Trump National Doral (Blue Monster Course), Doral, FL",
+    "dateEnd": "2027-05-03",
+    "location": "Trump National Doral (Blue Monster Course), Doral, Florida",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
