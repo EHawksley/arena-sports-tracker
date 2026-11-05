@@ -6382,10 +6382,10 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Championship round with primetime finish"
+          "note": "Championship conclusion"
         }
       ],
-      "watch_note": "The World Wide Technology Championship streams on Peacock and airs on Golf Channel and CBS, with Sunday's final round on CBS as the main broadcast."
+      "watch_note": "The World Wide Technology Championship airs across Golf Channel, CBS, and Peacock throughout the week, with the final round moving to CBS on Sunday afternoon."
     }
   },
   {
@@ -6432,20 +6432,20 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS1"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Sonoma can be watched live on FS1 or for free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast on FS1 and available free on Samsung TV Plus, making it accessible to most US viewers."
     }
   },
   {
@@ -6491,20 +6491,29 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Live coverage of first Superbike race"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 and free on Samsung TV Plus"
+          "note": "Final Superbike race of the weekend"
+        },
+        {
+          "name": "Supersport and Support Classes",
+          "day": "Sunday",
+          "time_mt": "9:30 AM MT",
+          "channels": [
+            "Samsung TV Plus"
+          ],
+          "note": "Preliminary support class races"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are available on FS1 and free via Samsung TV Plus in the United States."
     }
   },
   {
@@ -6517,7 +6526,7 @@
     "date": "2026-11-08",
     "dateStart": "2026-11-06",
     "dateEnd": "2026-11-08",
-    "location": "Lusail International Circuit, Lusail, Qatar",
+    "location": "Losail International Circuit, Doha, Qatar",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -6544,35 +6553,33 @@
         {
           "name": "MotoGP Practice & Qualifying",
           "day": "Friday",
-          "time_mt": "3:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
           "note": "Practice sessions and qualifying rounds"
         },
         {
-          "name": "MotoGP Warm-up",
+          "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "2:30 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS1"
           ],
-          "note": "Final warm-up session before race"
+          "note": "Short format sprint race"
         },
         {
-          "name": "MotoGP Race",
-          "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "6:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS1"
           ],
-          "note": "Main MotoGP race"
+          "note": "Full distance Grand Prix race"
         }
       ],
-      "watch_note": "The Qatar Grand Prix races air live on FS1 early Saturday morning; Fox Sports app provides streaming access with cable login."
+      "watch_note": "MotoGP races in Qatar are broadcast live on FS1 with early morning starts in Mountain Time; streaming is available through Fox Sports app and cable login."
     }
   },
   {
@@ -6613,12 +6620,12 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
-            "Samsung TV Plus"
+            "MotoAmerica.com"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live coverage of Race 1"
         },
         {
           "name": "Superbike Race 2",
@@ -6626,12 +6633,12 @@
           "time_mt": "11:00 AM MT",
           "channels": [
             "FS1",
-            "Samsung TV Plus"
+            "MotoAmerica.com"
           ],
-          "note": "Final Superbike race of Round 11"
+          "note": "Live coverage of Race 2"
         }
       ],
-      "watch_note": "MotoAmerica rounds are broadcast on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races are best watched on FS1 or streamed via MotoAmerica.com with cable login."
     }
   },
   {
@@ -6670,27 +6677,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of Race 1"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "MotoAmerica Superbike Race 2",
+          "name": "Superbike Race 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of Race 2"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are available free on Samsung TV Plus or through FS2 cable subscription."
+      "watch_note": "MotoAmerica Superbikes can be watched free on Samsung TV Plus or via cable on FS2 in the United States."
     }
   },
   {
@@ -6729,27 +6736,27 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoAmerica Superbike - Round 1",
+          "name": "MotoAmerica Superbike Championship - Round 1",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free stream available on Samsung TV Plus"
+          "note": "Practice and qualifying earlier in the day"
         },
         {
-          "name": "MotoAmerica Superbike - Round 2",
+          "name": "MotoAmerica Superbike Championship - Round 2",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Free stream available on Samsung TV Plus"
+          "note": "Final round of the event"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 with free streaming available through Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS2 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -6791,22 +6798,23 @@
           "day": "Friday",
           "time_mt": "5:00 AM MT",
           "channels": [
-            "FS1",
-            "FS2"
+            "FS2",
+            "Fox Sports app"
           ],
           "note": "Practice sessions and qualifying rounds"
         },
         {
           "name": "MotoGP Race",
           "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "6:00 AM MT",
           "channels": [
-            "FS1"
+            "FS1",
+            "Fox Sports app"
           ],
           "note": "Main race event"
         }
       ],
-      "watch_note": "MotoGP's Qatari Grand Prix is broadcast on Fox Sports (FS1/FS2) in the United States, with early morning start times due to the Qatar timezone."
+      "watch_note": "MotoGP races in Qatar are broadcast live on FS1 and Fox Sports app early Sunday morning in Mountain Time."
     }
   },
   {
@@ -6858,15 +6866,15 @@
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Live coverage of second Superbike race"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at Phoenix are broadcast live on FS1 and available free on Samsung TV Plus in the United States."
+      "watch_note": "MotoAmerica Superbike races at Phoenix are broadcast live on FS1 and available free on Samsung TV Plus in the US."
     }
   },
   {
@@ -6908,25 +6916,25 @@
         {
           "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Live coverage on cable and free streaming"
         },
         {
           "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "12:30 PM MT",
+          "time_mt": "11:30 AM MT",
           "channels": [
-            "FS1",
+            "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Final Superbike race of the weekend"
+          "note": "Final round of the season"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Sonoma can be watched for free on Samsung TV Plus or via FS1 with cable."
+      "watch_note": "MotoAmerica Superbike races at Sonoma are broadcast on FS2 with free streaming available via Samsung TV Plus in the US."
     }
   },
   {
@@ -6973,20 +6981,30 @@
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of first Superbike race"
+          "note": "Free on Samsung TV Plus with cable login on FS2"
         },
         {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
           "channels": [
             "FS2",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage of second Superbike race"
+          "note": "Support class racing"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Free on Samsung TV Plus with cable login on FS1"
         }
       ],
-      "watch_note": "MotoAmerica Superbikes at Sonoma can be watched live on FS2 or free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are available on FS1/FS2 and free via Samsung TV Plus in the US."
     }
   },
   {
@@ -7027,7 +7045,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Early preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -7036,7 +7054,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -7045,10 +7063,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card featuring Bonfim vs. Brady"
+          "note": "Main card featuring Bonfim vs. Brady"
         }
       ],
-      "watch_note": "UFC Fight Night: Bonfim vs. Brady is best watched on Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card is exclusively available on Paramount+ starting at 9:00 PM MT on Saturday, November 7, 2026."
     }
   },
   {
@@ -7090,7 +7108,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "UFC Fight Pass subscribers only"
+          "note": "UFC Fight Pass subscription required"
         },
         {
           "name": "Prelims",
@@ -7099,7 +7117,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "ESPN+ subscription required"
         },
         {
           "name": "Main Card",
@@ -7108,10 +7126,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Headliner: Cortes vs. Acosta vs. Walker"
+          "note": "Paramount+ subscription required"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT Saturday, with preliminary fights on ESPN+ starting at 7:00 PM MT."
+      "watch_note": "The main card airs on Paramount+ at 9:00 PM MT, with prelims available on ESPN+ starting at 7:00 PM MT."
     }
   },
   {
@@ -7142,7 +7160,52 @@
         "h": "FedEx Cup Finale Stakes Peak",
         "b": "As the culminating event of the FedEx Cup race, this championship will determine the season's ultimate winner with maximum financial incentives, making <strong>consistency under pressure</strong> the defining factor between contenders and champions."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "First round coverage"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Second round coverage"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Third round coverage"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Championship final round"
+        }
+      ],
+      "watch_note": "The Good Good Championship is broadcast on Golf Channel and Peacock for early rounds, with CBS taking over for the weekend action on Saturday and Sunday."
+    }
   },
   {
     "id": "pga-austin-championship-2026",
@@ -7154,7 +7217,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7173,7 +7236,52 @@
         "h": "Austin's First Major Tour Championship Slot",
         "b": "This venue's inaugural hosting of such a prestigious FedEx Cup event brings <strong>unpredictable weather patterns and course setup variables</strong> that even seasoned Texas Tour professionals haven't experienced at this level. The lack of historical data makes course management and adaptability genuinely decisive factors rather than relying on past tournament templates."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early coverage of opening round"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Second round coverage"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "CBS",
+            "Paramount+"
+          ],
+          "note": "Third round with expanded coverage"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "CBS",
+            "Paramount+"
+          ],
+          "note": "Championship conclusion and winner determination"
+        }
+      ],
+      "watch_note": "The Austin Championship is best watched on CBS for the weekend rounds or Golf Channel/Peacock for Thursday-Friday action, with full streaming available on Paramount+ for cable subscribers."
+    }
   },
   {
     "id": "motoamerica-superbike-r12-austin-2026",
@@ -7240,6 +7348,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-1",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 1",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "UFC's Bold BJJ Expansion Move",
+        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
+      },
+      {
+        "h": "Vegas Venue Attracts Elite Grapplers",
+        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
+      },
+      {
+        "h": "Bridging MMA and Pure Grappling Worlds",
+        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
+      }
+    ]
+  },
+  {
     "id": "pga-rsm-classic-2026",
     "sport": "golf",
     "entityType": "championship",
@@ -7249,7 +7390,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -7331,39 +7472,6 @@
       {
         "h": "Turkish Crowd Energy Fuels Home Heroes",
         "b": "Istanbul Park's passionate local fanbase and geography as the bridge between Europe and Asia make this <strong>a psychological advantage zone</strong> for any riders with regional support, potentially influencing mental edge in close championship moments."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-1",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 1",
-    "date": "2026-11-21",
-    "dateStart": "2026-11-21",
-    "dateEnd": "2026-11-21",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "UFC's Bold BJJ Expansion Move",
-        "b": "By launching a dedicated BJJ series in Las Vegas, the UFC is directly challenging IBJJF's monopoly on elite grappling competition. <strong>This signals a major shift toward legitimizing submission-only formats</strong> at the highest promotional level, potentially reshaping how combat sports organizations value pure Brazilian Jiu-Jitsu."
-      },
-      {
-        "h": "Vegas Venue Attracts Elite Grapplers",
-        "b": "Las Vegas's infrastructure and global reputation make it the ideal launchpad for UFC BJJ's inaugural event, likely drawing top competitors from both traditional BJJ and MMA backgrounds. <strong>The prestige of a Sin City debut</strong> will be crucial in establishing legitimacy and drawing international talent that might otherwise compete exclusively in IBJJF tournaments."
-      },
-      {
-        "h": "Bridging MMA and Pure Grappling Worlds",
-        "b": "UFC BJJ 1 represents an unprecedented opportunity to cross-pollinate audiences between MMA fans and the niche but passionate BJJ community. <strong>Prize money and UFC promotion leverage</strong> could elevate submission grappling's mainstream visibility in a way traditional BJJ promotions haven't achieved, potentially creating a new revenue stream for elite competitors."
       }
     ]
   },
@@ -7717,9 +7825,9 @@
     "series": "UFC BJJ",
     "icon": "🥋",
     "title": "UFC BJJ 2",
-    "date": "2026-12-19",
-    "dateStart": "2026-12-19",
-    "dateEnd": "2026-12-19",
+    "date": "2026-12-12",
+    "dateStart": "2026-12-12",
+    "dateEnd": "2026-12-12",
     "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
@@ -9184,6 +9292,53 @@
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Portimão's Brutal Turn-In Challenge",
+        "b": "The Algarve circuit's relentless sequence of high-speed direction changes will <strong>punish imprecise throttle control and reward smooth, progressive inputs</strong>—making this a technical masterclass where bike setup nuances separate winners from mid-field runners."
+      },
+      {
+        "h": "Spring Weather as Unknown Variable",
+        "b": "March conditions at Portimão historically bring unpredictable wind patterns and temperature swings that can <strong>completely shuffle tire strategies and fuel consumption calculations mid-race</strong>, potentially neutralizing winter-testing advantages gained by factory teams."
+      },
+      {
+        "h": "Overtaking Desperado at Turn 1",
+        "b": "The first corner's tight hairpin following a long straight creates <strong>a high-risk passing window that often decides Sunday's podium</strong>—expect aggressive moves here as riders gamble on cold-tire braking and positioning before the technical middle section."
+      }
+    ]
+  },
+  {
+    "id": "mgp-argentina-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Argentina Grand Prix",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-19",
+    "dateEnd": "2027-03-21",
+    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "High altitude chaos awaits riders",
+        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
+      },
+      {
+        "h": "Factory strategy splits on tire selection",
+        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
+      },
+      {
+        "h": "South American crowd fuels unpredictable outcomes",
+        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
+      }
     ]
   },
   {
@@ -9314,6 +9469,37 @@
     ]
   },
   {
+    "id": "pga-texas-childrens-houston-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Texas Children's Houston Open",
+    "date": "2027-04-29",
+    "dateStart": "2027-03-26",
+    "dateEnd": "2027-03-29",
+    "location": "Memorial Park Golf Course, Houston, Texas",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Memorial Park's Demanding Rough Tests Accuracy",
+        "b": "The recently renovated layout at Memorial Park features thick, punishing rough that will <strong>penalize errant tee shots heavily</strong>, making this week more about precision than distance off the tee."
+      },
+      {
+        "h": "Early Season Form Matters Most Here",
+        "b": "Playing in late March means <strong>winter prep and early tournament rhythm take precedence over past-season performance</strong>, giving hot starters a significant advantage over players still shaking off rust."
+      },
+      {
+        "h": "Houston's Climate Plays Underrated Role",
+        "b": "The humid Texas spring air will <strong>compress distance and potentially shift ball flight patterns</strong>, favoring players who've practiced in similar conditions and those with excellent short-game control around the greens."
+      }
+    ]
+  },
+  {
     "id": "wsbk-portuguese-gp-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9386,7 +9572,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, TX",
+    "location": "Oaks Course, San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9443,39 +9629,6 @@
     ]
   },
   {
-    "id": "mgp-argentina-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Argentina Grand Prix",
-    "date": "2027-04-04",
-    "dateStart": "2027-04-02",
-    "dateEnd": "2027-04-04",
-    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "High altitude chaos awaits riders",
-        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
-      },
-      {
-        "h": "Factory strategy splits on tire selection",
-        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
-      },
-      {
-        "h": "South American crowd fuels unpredictable outcomes",
-        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
-      }
-    ]
-  },
-  {
     "id": "wsbk-valencian-round-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9491,6 +9644,53 @@
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Home advantage fuels Spanish firepower",
+        "b": "Valencia's tight, technical layout traditionally favors European riders who test extensively at Ricardo Tormo, and with multiple Spanish manufacturers and riders competing, <strong>domestic pressure to podium could reshape championship momentum</strong> early in the season."
+      },
+      {
+        "h": "Tire management becomes critical weapon",
+        "b": "The abrasive Spanish asphalt combined with Valencia's demanding braking zones means <strong>traction control calibration and cold-tire performance</strong> will separate contenders from pretenders more than raw engine power this weekend."
+      },
+      {
+        "h": "Spring weather chaos could shuffle order",
+        "b": "Early April coastal conditions at Valencia notoriously bring unpredictable rain patterns and temperature swings, so <strong>bike setup flexibility and wet-weather tire strategy</strong> could hand unexpected victories to teams who prepared for multiple scenarios."
+      }
+    ]
+  },
+  {
+    "id": "mgp-americas-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Americas Grand Prix",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-02",
+    "dateEnd": "2027-04-04",
+    "location": "Circuit of The Americas, Austin, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Austin's High-Speed Elevation Challenge",
+        "b": "Circuit of the Americas sits at 823 feet above sea level, the highest MotoGP venue in the world, which <strong>significantly reduces aerodynamic downforce and engine power output</strong> compared to sea-level circuits. Teams running high-downforce setups elsewhere will need to completely recalibrate their strategies to manage the thinner air."
+      },
+      {
+        "h": "Wet Weather Wildcard in April",
+        "b": "Spring thunderstorms frequently batter Austin in mid-April, and MotoGP's notoriously demanding Turn 1 becomes a lottery in wet conditions where even the smallest mistake triggers massive crashes. <strong>The unpredictable weather window could shuffle the championship order</strong> more dramatically than any dry-weather battle."
+      },
+      {
+        "h": "Factory Yamaha's Texas Redemption Arc",
+        "b": "After years of struggles, Yamaha has finally developed a competitive package, and the Americas circuit's fast, flowing corners perfectly suit their bike's newfound cornering prowess. <strong>This could be the first genuine challenge to Ducati's dominance</strong> we've seen all season on a track where raw speed and stability matter most."
+      }
     ]
   },
   {
@@ -9503,7 +9703,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, GA",
+    "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9570,7 +9770,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, SC",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9588,39 +9788,6 @@
       {
         "h": "FedEx Cup Positioning Shifts Dramatically",
         "b": "An unexpected winner here could <strong>vault into playoff contention from relative obscurity</strong>, making this the ideal tournament for mid-tier competitors to announce themselves before the summer grind intensifies."
-      }
-    ]
-  },
-  {
-    "id": "mgp-americas-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Americas Grand Prix",
-    "date": "2027-04-18",
-    "dateStart": "2027-04-16",
-    "dateEnd": "2027-04-18",
-    "location": "Circuit of the Americas, Austin, United States",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Austin's High-Speed Elevation Challenge",
-        "b": "Circuit of the Americas sits at 823 feet above sea level, the highest MotoGP venue in the world, which <strong>significantly reduces aerodynamic downforce and engine power output</strong> compared to sea-level circuits. Teams running high-downforce setups elsewhere will need to completely recalibrate their strategies to manage the thinner air."
-      },
-      {
-        "h": "Wet Weather Wildcard in April",
-        "b": "Spring thunderstorms frequently batter Austin in mid-April, and MotoGP's notoriously demanding Turn 1 becomes a lottery in wet conditions where even the smallest mistake triggers massive crashes. <strong>The unpredictable weather window could shuffle the championship order</strong> more dramatically than any dry-weather battle."
-      },
-      {
-        "h": "Factory Yamaha's Texas Redemption Arc",
-        "b": "After years of struggles, Yamaha has finally developed a competitive package, and the Americas circuit's fast, flowing corners perfectly suit their bike's newfound cornering prowess. <strong>This could be the first genuine challenge to Ducati's dominance</strong> we've seen all season on a track where raw speed and stability matter most."
       }
     ]
   },
@@ -9672,6 +9839,20 @@
       "WorldSBK",
       "WorldSSP",
       "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Assen's Left-Turn Dominance Test",
+        "b": "TT Circuit Assen is notorious for its constant left-hand corners and high-speed sweepers, meaning <strong>front-tire management becomes absolutely critical</strong> for WSBK riders competing here. Teams that arrive with setup packages favoring left-side grip will have a significant advantage over those optimized for more balanced circuits."
+      },
+      {
+        "h": "Dutch Home Advantage Factor",
+        "b": "<strong>Local rider support and intimate track knowledge</strong> could provide crucial psychological and tactical benefits for any Dutch competitors on the WSBK roster. Assen's unique character—including its weather patterns and optimal racing lines—often rewards teams that have logged extensive seat time in previous seasons."
+      },
+      {
+        "h": "Spring Conditions Unpredictability",
+        "b": "April weather at Assen is notoriously changeable, with rain and wind capable of transforming the 4.5-mile circuit within hours and <strong>forcing rapid bike setup adjustments</strong>. Teams with flexible tire strategies and adaptive setups will likely convert these volatile conditions into podium opportunities against unprepared competitors."
+      }
     ]
   },
   {
@@ -9781,7 +9962,7 @@
     "date": "2027-04-26",
     "dateStart": "2027-04-23",
     "dateEnd": "2027-04-26",
-    "location": "TPC Louisiana, Avondale, LA",
+    "location": "TPC Louisiana, Avondale, Louisiana",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9803,37 +9984,6 @@
     ]
   },
   {
-    "id": "pga-texas-childrens-houston-open-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Texas Children's Houston Open",
-    "date": "2027-04-29",
-    "dateStart": "2027-04-26",
-    "dateEnd": "2027-04-29",
-    "location": "Memorial Park Golf Course, Houston, TX",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Memorial Park's Demanding Rough Tests Accuracy",
-        "b": "The recently renovated layout at Memorial Park features thick, punishing rough that will <strong>penalize errant tee shots heavily</strong>, making this week more about precision than distance off the tee."
-      },
-      {
-        "h": "Early Season Form Matters Most Here",
-        "b": "Playing in late March means <strong>winter prep and early tournament rhythm take precedence over past-season performance</strong>, giving hot starters a significant advantage over players still shaking off rust."
-      },
-      {
-        "h": "Houston's Climate Plays Underrated Role",
-        "b": "The humid Texas spring air will <strong>compress distance and potentially shift ball flight patterns</strong>, favoring players who've practiced in similar conditions and those with excellent short-game control around the greens."
-      }
-    ]
-  },
-  {
     "id": "pga-cadillac-championship-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -9843,7 +9993,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-04-30",
     "dateEnd": "2027-05-03",
-    "location": "Trump National Doral (Blue Monster Course), Doral, FL",
+    "location": "Trump National Doral (Blue Monster Course), Doral, Florida",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
