@@ -7181,7 +7181,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Early coverage of first round"
+          "note": "Featured groups available on Peacock"
         },
         {
           "name": "Round 2",
@@ -7191,30 +7191,30 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Second round coverage"
+          "note": "Featured groups available on Peacock"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Third round with expanded coverage"
+          "note": "CBS coverage with Peacock streaming"
         },
         {
-          "name": "Final Round",
+          "name": "Round 4 (Final Round)",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "NBC",
+            "CBS",
             "Peacock"
           ],
-          "note": "Championship finale"
+          "note": "CBS coverage with Peacock streaming"
         }
       ],
-      "watch_note": "The Good Good Championship will be broadcast across Golf Channel, NBC, and Peacock throughout the week, with the finale airing on NBC on Sunday."
+      "watch_note": "The Good Good Championship will be broadcast on Golf Channel Thursday-Friday and CBS for the weekend rounds, with full streaming available on Peacock."
     }
   },
   {
@@ -7227,7 +7227,7 @@
     "date": "2026-11-15",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-15",
-    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, USA",
+    "location": "Fazio Canyons Golf Course at Omni Barton Creek Resort & Spa, Austin, TX, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -7257,7 +7257,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups available on Peacock"
+          "note": "Early coverage begins at 1:00 PM MT"
         },
         {
           "name": "Round 2",
@@ -7267,7 +7267,7 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Featured groups available on Peacock"
+          "note": "Afternoon broadcast"
         },
         {
           "name": "Round 3",
@@ -7277,20 +7277,20 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Afternoon coverage begins at 12 PM MT"
+          "note": "Weekend coverage shifts to CBS"
         },
         {
-          "name": "Round 4 (Final)",
+          "name": "Final Round",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
             "CBS",
             "Peacock"
           ],
-          "note": "Championship conclusion"
+          "note": "Championship Sunday conclusion"
         }
       ],
-      "watch_note": "Stream live on Peacock or watch on CBS/Golf Channel; Peacock offers the most comprehensive coverage with featured group options throughout the week."
+      "watch_note": "The Austin Championship is best watched through CBS on Sunday for the final round, or stream all rounds via Peacock with a subscription."
     }
   },
   {
@@ -7336,20 +7336,30 @@
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 with free streaming on Samsung TV Plus"
+          "note": "Live coverage on FS1; also available free on Samsung TV Plus"
         },
         {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "12:00 PM MT",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "1:30 PM MT",
           "channels": [
             "FS1",
             "Samsung TV Plus"
           ],
-          "note": "Live coverage on FS1 with free streaming on Samsung TV Plus"
+          "note": "Preliminary support class race"
+        },
+        {
+          "name": "Superbike Race 2",
+          "day": "Sunday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "FS1",
+            "Samsung TV Plus"
+          ],
+          "note": "Main event; live coverage on FS1; also available free on Samsung TV Plus"
         }
       ],
-      "watch_note": "MotoAmerica Superbike races at COTA are broadcast live on FS1 and available free on Samsung TV Plus in the US."
+      "watch_note": "MotoAmerica Superbike races are broadcast on FS1 and available free via Samsung TV Plus in the US."
     }
   },
   {
@@ -7390,7 +7400,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights available on UFC Fight Pass"
+          "note": "Preliminary fights begin on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -7399,7 +7409,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary fights exclusive to ESPN+"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
@@ -7408,10 +7418,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main card PPV available on Paramount+"
+          "note": "Main card featuring Gane vs. Hokit"
         }
       ],
-      "watch_note": "The best way to watch UFC 334 in the US is through Paramount+ for the main card, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The UFC 334 main card is available exclusively on Paramount+ starting at 9:00 PM MT on Saturday, November 14th."
     }
   },
   {
@@ -7455,7 +7465,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest matches begin on UFC Fight Pass"
+          "note": "Early preliminary matches"
         },
         {
           "name": "Prelims",
@@ -7464,7 +7474,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card matches"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
@@ -7473,10 +7483,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event card with top competitors"
+          "note": "Main card featuring top BJJ matchups"
         }
       ],
-      "watch_note": "The main card streams exclusively on Paramount+, while preliminary matches are available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The main card streams on Paramount+ at 6:00 PM MT, with prelims available on ESPN+ and early fights on UFC Fight Pass."
     }
   },
   {
@@ -7489,7 +7499,7 @@
     "date": "2026-11-22",
     "dateStart": "2026-11-19",
     "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, USA",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -7957,10 +7967,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sentry Tournament of Champions",
-    "date": "2027-01-07",
-    "dateStart": "2027-01-04",
-    "dateEnd": "2027-01-07",
-    "location": "Plantation Course at Kapalua Resort, Lahaina, Hawaii",
+    "date": "2027-01-03",
+    "dateStart": "2027-01-01",
+    "dateEnd": "2027-01-03",
+    "location": "Plantation Course at Kapalua, Maui, HI, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -7987,10 +7997,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-14",
-    "dateStart": "2027-01-11",
-    "dateEnd": "2027-01-14",
-    "location": "Waialae Country Club, Honolulu, Hawaii",
+    "date": "2027-01-10",
+    "dateStart": "2027-01-07",
+    "dateEnd": "2027-01-10",
+    "location": "Waialae Country Club, Honolulu, HI, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -8107,6 +8117,36 @@
     ]
   },
   {
+    "id": "pga-farmers-insurance-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Farmers Insurance Open",
+    "date": "2027-01-24",
+    "dateStart": "2027-01-21",
+    "dateEnd": "2027-01-24",
+    "location": "Torrey Pines Golf Course, San Diego, CA, United States",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ],
+    "points": [
+      {
+        "h": "Torrey Pines rewards precision ball-striking",
+        "b": "This San Diego layout's narrow fairways and dense rough demand <strong>exceptional accuracy off the tee</strong>, making it nearly impossible for bombers to overpower the course—expect to see shorter hitters and precise ball-strikers dominate the leaderboard."
+      },
+      {
+        "h": "Winter conditions favor aggressive play",
+        "b": "January's softer greens and calmer winds at Torrey Pines typically allow <strong>low scoring and attacking golf</strong>, setting up an early-season offensive showcase before the tour heads into tougher spring conditions."
+      },
+      {
+        "h": "FedEx Cup race early momentum matters",
+        "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-sbk-daytona-2026",
     "sport": "moto",
     "entityType": "championship",
@@ -8173,36 +8213,6 @@
     ]
   },
   {
-    "id": "pga-farmers-insurance-open-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Farmers Insurance Open",
-    "date": "2027-01-31",
-    "dateStart": "2027-01-28",
-    "dateEnd": "2027-01-31",
-    "location": "Torrey Pines Golf Course, San Diego, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play"
-    ],
-    "points": [
-      {
-        "h": "Torrey Pines rewards precision ball-striking",
-        "b": "This San Diego layout's narrow fairways and dense rough demand <strong>exceptional accuracy off the tee</strong>, making it nearly impossible for bombers to overpower the course—expect to see shorter hitters and precise ball-strikers dominate the leaderboard."
-      },
-      {
-        "h": "Winter conditions favor aggressive play",
-        "b": "January's softer greens and calmer winds at Torrey Pines typically allow <strong>low scoring and attacking golf</strong>, setting up an early-season offensive showcase before the tour heads into tougher spring conditions."
-      },
-      {
-        "h": "FedEx Cup race early momentum matters",
-        "b": "With playoff positioning ramifications already in play after just a few events, <strong>a win here carries significant bonus points</strong>, making this one of the highest-leverage early-season tournaments for players eyeing the lucrative FedEx Cup finale."
-      }
-    ]
-  },
-  {
     "id": "wsbk-portimao-test-jan-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -8261,6 +8271,37 @@
       {
         "h": "Satellite Teams Close Factory Gap",
         "b": "Portimão's fast, flowing layout rewards consistent throttle control where <strong>independent squads historically compete closest to factory efforts</strong>. Teams running year-old machinery will use these three days to prove whether parity improvements in WSBK regulations are real or just marketing."
+      }
+    ]
+  },
+  {
+    "id": "pga-ava-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "AVA Championship",
+    "date": "2027-01-31",
+    "dateStart": "2027-01-28",
+    "dateEnd": "2027-01-31",
+    "location": "Ridgewood Country Club, Paramus, NJ, United States",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Winter Golf in the Northeast",
+        "b": "Playing championship golf in late January at Ridgewood presents <strong>brutal weather conditions</strong> that could dramatically shake up the leaderboard, favoring players with superior ball-striking consistency over those relying on aggressive short-game creativity."
+      },
+      {
+        "h": "FedEx Cup Implications Intensify",
+        "b": "With this event positioned in the early FedEx Cup schedule, <strong>every stroke carries double weight</strong> as competitors jostle for playoff positioning while the pressure-packed field separates pretenders from genuine contenders for the season's ultimate prize."
+      },
+      {
+        "h": "Ridgewood's Demanding Greens Test",
+        "b": "Ridgewood Country Club's notoriously firm, undulating putting surfaces demand <strong>precision approach play and nerves of steel</strong>, likely eliminating bombers who can't finesse their way around the course and rewarding calculated, cerebral golf."
       }
     ]
   },
@@ -8388,32 +8429,32 @@
     ]
   },
   {
-    "id": "pga-waste-management-phoenix-open-2027",
+    "id": "pga-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Waste Management Phoenix Open",
+    "title": "Phoenix Open",
     "date": "2027-02-07",
     "dateStart": "2027-02-04",
     "dateEnd": "2027-02-07",
-    "location": "TPC Scottsdale, Scottsdale, Arizona",
+    "location": "TPC Scottsdale, Scottsdale, AZ, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
     ],
     "points": [
       {
-        "h": "Stadium Course Rewards Aggressive Golf",
-        "b": "TPC Scottsdale's narrow fairways and strategic bunkering punish conservative play, making this event a showcase for <strong>elite ball-striking and course management</strong> rather than pure distance off the tee."
+        "h": "Desert Heat Meets Firm Greens",
+        "b": "TPC Scottsdale's Stadium Course plays brutally firm in late January, with lightning-fast greens that punish imprecision more than any other venue on tour. <strong>Ball-striking accuracy off the tee becomes non-negotiable</strong>, as approach shots from rough or poor angles will leave even elite pros struggling to two-putt."
       },
       {
-        "h": "Phoenix's February Window Matters",
-        "b": "Playing in early February means <strong>firm, fast greens and minimal moisture</strong>, creating dramatically different conditions than summer events and favoring players with exceptional touch around the greens."
+        "h": "Spectator Chaos Favors Fearless Players",
+        "b": "The Phoenix Open draws the rowdiest galleries in golf, with thousands of fans packed around holes 16 and 17 creating an electric, almost uncontrollable atmosphere. <strong>Mental fortitude and comfort under extreme pressure</strong> separate champions from contenders here, as a player's ability to execute under noise and distraction is as important as their swing mechanics."
       },
       {
-        "h": "16th Hole Drama Defines Legacy",
-        "b": "The iconic par-3 with its island green and raucous gallery <strong>separates clutch performers from the rest</strong>, and recent winners have almost universally made their move by converting scoring opportunities on this stage."
+        "h": "Recent Winners Avoid Repeat Success",
+        "b": "The Phoenix Open has shown a trend of denying back-to-back champions in recent years, suggesting the course setup and field dynamics reset dramatically year to year. <strong>Defending advantages matter far less here than in other PGA Tour events</strong>, making this one of the most wide-open fields relative to the previous winner's credentials."
       }
     ]
   },
@@ -8541,32 +8582,32 @@
     ]
   },
   {
-    "id": "pga-phoenix-open-2027",
+    "id": "pga-waste-management-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "Phoenix Open",
+    "title": "Waste Management Phoenix Open",
     "date": "2027-02-14",
     "dateStart": "2027-02-11",
     "dateEnd": "2027-02-14",
-    "location": "TPC Scottsdale - Stadium Course, Scottsdale, Arizona",
+    "location": "TPC Scottsdale, Scottsdale, AZ, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
     ],
     "points": [
       {
-        "h": "Desert Heat Meets Firm Greens",
-        "b": "TPC Scottsdale's Stadium Course plays brutally firm in late January, with lightning-fast greens that punish imprecision more than any other venue on tour. <strong>Ball-striking accuracy off the tee becomes non-negotiable</strong>, as approach shots from rough or poor angles will leave even elite pros struggling to two-putt."
+        "h": "Stadium Course Rewards Aggressive Golf",
+        "b": "TPC Scottsdale's narrow fairways and strategic bunkering punish conservative play, making this event a showcase for <strong>elite ball-striking and course management</strong> rather than pure distance off the tee."
       },
       {
-        "h": "Spectator Chaos Favors Fearless Players",
-        "b": "The Phoenix Open draws the rowdiest galleries in golf, with thousands of fans packed around holes 16 and 17 creating an electric, almost uncontrollable atmosphere. <strong>Mental fortitude and comfort under extreme pressure</strong> separate champions from contenders here, as a player's ability to execute under noise and distraction is as important as their swing mechanics."
+        "h": "Phoenix's February Window Matters",
+        "b": "Playing in early February means <strong>firm, fast greens and minimal moisture</strong>, creating dramatically different conditions than summer events and favoring players with exceptional touch around the greens."
       },
       {
-        "h": "Recent Winners Avoid Repeat Success",
-        "b": "The Phoenix Open has shown a trend of denying back-to-back champions in recent years, suggesting the course setup and field dynamics reset dramatically year to year. <strong>Defending advantages matter far less here than in other PGA Tour events</strong>, making this one of the most wide-open fields relative to the previous winner's credentials."
+        "h": "16th Hole Drama Defines Legacy",
+        "b": "The iconic par-3 with its island green and raucous gallery <strong>separates clutch performers from the rest</strong>, and recent winners have almost universally made their move by converting scoring opportunities on this stage."
       }
     ]
   },
@@ -8598,37 +8639,6 @@
       {
         "h": "Winter Wind Patterns Shift Play",
         "b": "February's unpredictable Pacific coastal winds will make club selection and trajectory management critical variables that typical summer conditions don't demand. <strong>Course management and mental toughness</strong> separate those who adapt quickly from those who fight the elements all week."
-      }
-    ]
-  },
-  {
-    "id": "pga-genesis-invitational-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Genesis Invitational",
-    "date": "2027-02-14",
-    "dateStart": "2027-02-11",
-    "dateEnd": "2027-02-14",
-    "location": "Riviera Country Club, Los Angeles, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Riviera's Demanding Layout Tests Accuracy",
-        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
-      },
-      {
-        "h": "Elite Field Chases Prestige and Points",
-        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
-      },
-      {
-        "h": "Short Game Mastery Becomes Championship Currency",
-        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
       }
     ]
   },
@@ -8694,6 +8704,37 @@
       {
         "h": "Injury Recovery Barometer Critical",
         "b": "Phillip Island's fast, flowing layout will immediately expose which injured riders from the off-season have regained full physical confidence, particularly in high-speed corners where <strong>commitment levels separate frontrunners from hesitant competitors</strong>. Multiple crashes here could signal deeper issues heading into the season opener."
+      }
+    ]
+  },
+  {
+    "id": "pga-genesis-invitational-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Genesis Invitational",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-18",
+    "dateEnd": "2027-02-21",
+    "location": "Riviera Country Club, Pacific Palisades, CA, United States",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Riviera's Demanding Layout Tests Accuracy",
+        "b": "The Genesis Invitational at Riviera is notorious for punishing wayward drives with its tight fairways and penal rough, meaning <strong>ball-striking consistency will separate contenders from pretenders</strong> more than distance off the tee."
+      },
+      {
+        "h": "Elite Field Chases Prestige and Points",
+        "b": "With limited field size and world-class competition, the Genesis offers both significant FedEx Cup points for the spring race and the prestige of winning at golf's most exclusive venue, making <strong>this one of the Tour's most coveted titles</strong>."
+      },
+      {
+        "h": "Short Game Mastery Becomes Championship Currency",
+        "b": "Riviera's approach shots demand precision with its elevated greens and tricky angles, so players who can master <strong>delicate chipping and lag putting will gain decisive advantages</strong> in scoring opportunities throughout the tournament."
       }
     ]
   },
@@ -9078,6 +9119,37 @@
     ]
   },
   {
+    "id": "pga-valspar-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Valspar Championship",
+    "date": "2027-03-07",
+    "dateStart": "2027-03-04",
+    "dateEnd": "2027-03-07",
+    "location": "Copperhead Course at Innisbrook Resort, Palm Harbor, FL, United States",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Copperleaf's Demanding Rough Tests Accuracy",
+        "b": "This Tampa layout punishes wayward shots with <strong>thick, unforgiving rough that requires pinpoint iron play</strong>, meaning long hitters without precision won't find success despite the course's relatively modest 7,100-yard setup."
+      },
+      {
+        "h": "Early Season Form Matters Most",
+        "b": "As a mid-March event in the FedEx Cup race, <strong>players who've maintained winter momentum from Hawaii and Mexico events will carry significant confidence</strong>, while those struggling early face pressure before the Masters approaches."
+      },
+      {
+        "h": "Greens Demand Surgical Short Game",
+        "b": "Copperleaf's bentgrass putting surfaces are notoriously quick and severely sloped, meaning <strong>scrambling ability and lag-putting precision will separate contenders from the field</strong> more than raw driving distance."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-phoenix-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9145,37 +9217,6 @@
     ]
   },
   {
-    "id": "pga-valspar-championship-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Valspar Championship",
-    "date": "2027-03-14",
-    "dateStart": "2027-03-11",
-    "dateEnd": "2027-03-14",
-    "location": "Copperhead Club, Tampa, Florida",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Copperleaf's Demanding Rough Tests Accuracy",
-        "b": "This Tampa layout punishes wayward shots with <strong>thick, unforgiving rough that requires pinpoint iron play</strong>, meaning long hitters without precision won't find success despite the course's relatively modest 7,100-yard setup."
-      },
-      {
-        "h": "Early Season Form Matters Most",
-        "b": "As a mid-March event in the FedEx Cup race, <strong>players who've maintained winter momentum from Hawaii and Mexico events will carry significant confidence</strong>, while those struggling early face pressure before the Masters approaches."
-      },
-      {
-        "h": "Greens Demand Surgical Short Game",
-        "b": "Copperleaf's bentgrass putting surfaces are notoriously quick and severely sloped, meaning <strong>scrambling ability and lag-putting precision will separate contenders from the field</strong> more than raw driving distance."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-daytona-200-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9218,7 +9259,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -9242,16 +9283,16 @@
     ]
   },
   {
-    "id": "pga-players-championship-2027",
+    "id": "pga-arnold-palmer-invitational-2027",
     "sport": "golf",
     "entityType": "championship",
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
-    "title": "THE PLAYERS Championship",
+    "title": "Arnold Palmer Invitational",
     "date": "2027-03-14",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-14",
-    "location": "TPC Sawgrass, Ponte Vedra Beach, Florida",
+    "location": "Bay Hill Club & Lodge, Orlando, FL, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9259,16 +9300,16 @@
     ],
     "points": [
       {
-        "h": "Island Green Pressure Intensifies",
-        "b": "The 17th hole at TPC Sawgrass has claimed countless dreams, but in 2027 expect <strong>even more aggressive short-game strategies</strong> as modern equipment allows players to attack pins from previously impossible angles. Watch for the leaderboard to shift dramatically in final rounds when nerves meet the island."
+        "h": "Bay Hill's Demanding Par-4s Test Precision",
+        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
       },
       {
-        "h": "FedEx Cup Standings Reshape",
-        "b": "With only weeks until the playoffs intensify, <strong>every stroke at THE PLAYERS carries double weight</strong> as players battle both for the tournament itself and crucial ranking points. Expect calculated risk-taking from bubble competitors desperate to secure playoff positioning."
+        "h": "March Elite Field Shapes FedEx Cup Narrative",
+        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
       },
       {
-        "h": "Stadium Course's Brutal Conditioning",
-        "b": "TPC Sawgrass in March traditionally plays firmer and faster than winter events, meaning <strong>ball-striking consistency will punish even small misses</strong> more severely than typical Tour venues. Players who thrive in windy conditions with precise iron play will dominate those struggling with distance control."
+        "h": "Palmer's Legacy Attracts Sentimental Contenders",
+        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
       }
     ]
   },
@@ -9336,6 +9377,37 @@
       {
         "h": "Early season championship momentum",
         "b": "As only the third round of 2027, whoever tames Phillip Island's technical challenges will carry <strong>psychological confidence and data advantage</strong> into the flyaway races, potentially establishing a title narrative that's difficult to overturn."
+      }
+    ]
+  },
+  {
+    "id": "pga-players-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "THE PLAYERS Championship",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-18",
+    "dateEnd": "2027-03-21",
+    "location": "TPC Sawgrass - Stadium Course, Ponte Vedra Beach, FL, United States",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Island Green Pressure Intensifies",
+        "b": "The 17th hole at TPC Sawgrass has claimed countless dreams, but in 2027 expect <strong>even more aggressive short-game strategies</strong> as modern equipment allows players to attack pins from previously impossible angles. Watch for the leaderboard to shift dramatically in final rounds when nerves meet the island."
+      },
+      {
+        "h": "FedEx Cup Standings Reshape",
+        "b": "With only weeks until the playoffs intensify, <strong>every stroke at THE PLAYERS carries double weight</strong> as players battle both for the tournament itself and crucial ranking points. Expect calculated risk-taking from bubble competitors desperate to secure playoff positioning."
+      },
+      {
+        "h": "Stadium Course's Brutal Conditioning",
+        "b": "TPC Sawgrass in March traditionally plays firmer and faster than winter events, meaning <strong>ball-striking consistency will punish even small misses</strong> more severely than typical Tour venues. Players who thrive in windy conditions with precise iron play will dominate those struggling with distance control."
       }
     ]
   },
@@ -9505,6 +9577,38 @@
     ]
   },
   {
+    "id": "wsbk-portuguese-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Pirelli Portuguese Round",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-19",
+    "dateEnd": "2027-03-21",
+    "location": "Autòdromo Internacional do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Portimão's High-Speed Challenge",
+        "b": "The Algarve circuit's sweeping corners and elevation changes demand precision throttle control that will <strong>separate tire management specialists from aggressive riders</strong>. Expect Pirelli's softer compound choices to play a crucial role in qualifying, where track temperature variations between morning and afternoon sessions could swing grid positions dramatically."
+      },
+      {
+        "h": "Weather's Unpredictable Portuguese Factor",
+        "b": "<strong>Atlantic wind patterns make Portimão notoriously difficult to predict</strong>, with conditions capable of shifting dramatically across practice sessions and race day. Teams that nail their setup window early will gain an insurmountable advantage, as mid-event adjustments to suspension and electronics often backfire on this technical layout."
+      },
+      {
+        "h": "Consistency Over Raw Pace Here",
+        "b": "Unlike power-dependent circuits, Portimão rewards <strong>smooth corner entry and mid-corner precision over brute horsepower</strong>, favoring technical riders who can maintain confidence through the bumpy Turns 5-7 complex. Expect the championship contenders with proven wet-weather adaptability to headline Sunday's battle, as this venue's racing rarely produces dominant performances."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
@@ -9534,37 +9638,6 @@
       {
         "h": "January timing favors pure technique",
         "b": "Post-holiday January events traditionally attract less casual crossover traffic, meaning the audience is specifically there for technical grappling excellence. <strong>This filters for hardcore BJJ enthusiasts</strong> who appreciate nuanced positional battles over flash, elevating the quality of discourse around performances."
-      }
-    ]
-  },
-  {
-    "id": "pga-arnold-palmer-invitational-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Arnold Palmer Invitational",
-    "date": "2027-03-28",
-    "dateStart": "2027-03-25",
-    "dateEnd": "2027-03-28",
-    "location": "Bay Hill Club & Lodge, Orlando, Florida",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Bay Hill's Demanding Par-4s Test Precision",
-        "b": "The Arnold Palmer Invitational has long been defined by its brutally difficult par-4 layout, where <strong>approach shot accuracy determines winners more than raw distance</strong>. Players who can consistently hit greens in regulation on holes 1, 9, and 18 will have a significant advantage in what's historically been one of the Tour's most grinding tests."
-      },
-      {
-        "h": "March Elite Field Shapes FedEx Cup Narrative",
-        "b": "With the event occurring in late March as part of the FedEx Cup schedule, <strong>early season form becomes heavily weighted in the playoff standings</strong>. A victory here for any top-10 player could establish momentum heading into the deeper season rather than serving as a feel-good early-year statement."
-      },
-      {
-        "h": "Palmer's Legacy Attracts Sentimental Contenders",
-        "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
       }
     ]
   },
@@ -9695,38 +9768,6 @@
     ]
   },
   {
-    "id": "wsbk-portuguese-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "World Superbike Championship (WSBK)",
-    "icon": "🏍️",
-    "title": "Pirelli Portuguese Round",
-    "date": "2027-03-29",
-    "dateStart": "2027-03-27",
-    "dateEnd": "2027-03-29",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
-    "status": "scheduled",
-    "classes": [
-      "WorldSBK",
-      "WorldSSP",
-      "WorldSSP300"
-    ],
-    "points": [
-      {
-        "h": "Portimão's High-Speed Challenge",
-        "b": "The Algarve circuit's sweeping corners and elevation changes demand precision throttle control that will <strong>separate tire management specialists from aggressive riders</strong>. Expect Pirelli's softer compound choices to play a crucial role in qualifying, where track temperature variations between morning and afternoon sessions could swing grid positions dramatically."
-      },
-      {
-        "h": "Weather's Unpredictable Portuguese Factor",
-        "b": "<strong>Atlantic wind patterns make Portimão notoriously difficult to predict</strong>, with conditions capable of shifting dramatically across practice sessions and race day. Teams that nail their setup window early will gain an insurmountable advantage, as mid-event adjustments to suspension and electronics often backfire on this technical layout."
-      },
-      {
-        "h": "Consistency Over Raw Pace Here",
-        "b": "Unlike power-dependent circuits, Portimão rewards <strong>smooth corner entry and mid-corner precision over brute horsepower</strong>, favoring technical riders who can maintain confidence through the bumpy Turns 5-7 complex. Expect the championship contenders with proven wet-weather adaptability to headline Sunday's battle, as this venue's racing rarely produces dominant performances."
-      }
-    ]
-  },
-  {
     "id": "pga-texas-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -9767,7 +9808,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, TX, USA",
+    "location": "Oaks Course at TPC San Antonio, San Antonio, TX, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9889,6 +9930,38 @@
     ]
   },
   {
+    "id": "wsbk-valencian-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Valencian Round - Ricardo Tormo",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-02",
+    "dateEnd": "2027-04-04",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Home advantage for Spanish riders",
+        "b": "Valencia's technical layout with its tight corners and demanding braking zones perfectly suits the Spanish contingent's aggressive riding style. <strong>Álvaro Bautista and Xavi Vierge will be heavily favored to dominate</strong> on their home circuit where they've logged countless testing miles."
+      },
+      {
+        "h": "Tire strategy in spring heat",
+        "b": "April temperatures at Ricardo Tormo create unpredictable track conditions that can swing between cool mornings and blistering afternoons. <strong>Teams must nail tire selection and degradation management</strong> early in the season when setups remain fluid and every tenth matters for championship positioning."
+      },
+      {
+        "h": "Kawasaki's vulnerability exposed early",
+        "b": "The green machines have historically struggled at Valencia's mid-speed corners where corner speed and chassis balance dominate over raw acceleration. <strong>Kawasaki's lack of mid-range punch will be exposed</strong> against the nimbler Ducatis and Yamahas, potentially costing them crucial early-season points in the title fight."
+      }
+    ]
+  },
+  {
     "id": "pga-masters-tournament-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -9898,7 +9971,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, GA, USA",
+    "location": "Augusta National Golf Club, Augusta, GA, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9929,7 +10002,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
+    "location": "Michelin Raceway Road Atlanta, Braselton, GA, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -9965,7 +10038,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, SC, USA",
+    "location": "Harbour Town Golf Links, Hilton Head Island, SC, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10047,6 +10120,38 @@
       {
         "h": "Spring Conditions Unpredictability",
         "b": "April weather at Assen is notoriously changeable, with rain and wind capable of transforming the 4.5-mile circuit within hours and <strong>forcing rapid bike setup adjustments</strong>. Teams with flexible tire strategies and adaptive setups will likely convert these volatile conditions into podium opportunities against unprepared competitors."
+      }
+    ]
+  },
+  {
+    "id": "wsbk-dutch-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Dutch Round - TT Circuit Assen",
+    "date": "2027-04-18",
+    "dateStart": "2027-04-16",
+    "dateEnd": "2027-04-18",
+    "location": "TT Circuit Assen, Assen, Netherlands",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Assen's High-Speed Commitment Test",
+        "b": "TT Circuit Assen demands relentless throttle control through its flowing corners, where <strong>mid-corner acceleration</strong> separates championship contenders from pretenders. Riders who can carry maximum corner speed through the technical section will gain precious tenths that compound over 25 laps."
+      },
+      {
+        "h": "Tire Strategy in Dutch Spring",
+        "b": "April weather at Assen notoriously swings between dry and damp conditions, forcing teams to make <strong>aggressive tire compound choices</strong> that could backfire spectacularly if the forecast shifts. The rider with best tire management intuition, not just raw pace, will claim the podium."
+      },
+      {
+        "h": "Manufacturer Parity at Peak Intensity",
+        "b": "Assen's 6.3-kilometer layout exposes any aerodynamic or engine deficiencies within tenths, meaning <strong>no manufacturer can hide weak points</strong> on this circuit. This is where genuinely balanced competition reveals itself or where one brand's development advantage becomes undeniably obvious."
       }
     ]
   },
@@ -10189,7 +10294,7 @@
     "date": "2027-04-26",
     "dateStart": "2027-04-23",
     "dateEnd": "2027-04-26",
-    "location": "TPC Louisiana, Avondale, LA, USA",
+    "location": "TPC Louisiana, Avondale, LA, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10220,7 +10325,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-04-30",
     "dateEnd": "2027-05-03",
-    "location": "Trump National Doral (Blue Monster Course), Doral, FL, USA",
+    "location": "Trump National Doral (Blue Monster Course), Doral, FL, United States",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
