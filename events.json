@@ -7411,322 +7411,15 @@
     }
   },
   {
-    "id": "ufc-334-gane-vs-hokit-2026",
-    "sport": "ufc",
-    "entityType": "championship",
-    "series": "UFC",
-    "icon": "🥊",
-    "title": "UFC 334: Gane vs. Hokit",
-    "date": "2026-11-14",
-    "dateStart": "2026-11-14",
-    "dateEnd": "2026-11-14",
-    "location": "New York City, USA",
-    "status": "scheduled",
-    "classes": [
-      "Main Card"
-    ],
-    "points": [
-      {
-        "h": "Gane's Heavyweight Redemption Arc",
-        "b": "After back-to-back losses to Jones and Ngannou, Ciryl Gane faces Hokit as a critical career inflection point where <strong>a dominant performance is essential to remain in title contention</strong>. The Parisian's technical striking and movement have never been in question—it's his ability to close fights against elite competition that needs validation."
-      },
-      {
-        "h": "Hokit's Unexpected Shot at Stardom",
-        "b": "This represents <strong>a massive step up in competition for Hokit</strong>, jumping from relative obscurity into the main event of a flagship UFC card in MSG. If the challenger can execute defensive wrestling and weather Gane's striking volume, an upset victory would instantly catapult him into heavyweight title discussions."
-      },
-      {
-        "h": "Madison Square Garden's Heavyweight Spectacle",
-        "b": "New York City's iconic venue demands a statement performance, and <strong>Gane's striking prowess is tailor-made for the fast-paced, technical showcase</strong> MSG crowds typically reward. Expect both fighters to bring enhanced offensive output knowing they're performing on one of combat sports' most prestigious stages."
-      }
-    ],
-    "watch": {
-      "sessions": [
-        {
-          "name": "Early Prelims",
-          "day": "Saturday",
-          "time_mt": "6:00 PM MT",
-          "channels": [
-            "UFC Fight Pass"
-          ],
-          "note": "Earliest fights on UFC Fight Pass"
-        },
-        {
-          "name": "Prelims",
-          "day": "Saturday",
-          "time_mt": "7:00 PM MT",
-          "channels": [
-            "ESPN+",
-            "UFC Fight Pass"
-          ],
-          "note": "Preliminary card before main event"
-        },
-        {
-          "name": "Main Card",
-          "day": "Saturday",
-          "time_mt": "9:00 PM MT",
-          "channels": [
-            "Paramount+",
-            "ESPN+"
-          ],
-          "note": "Main card featuring Gane vs. Hokit"
-        }
-      ],
-      "watch_note": "The main card is available on Paramount+ and ESPN+, with prelims on ESPN+ starting at 7:00 PM MT."
-    }
-  },
-  {
-    "id": "pga-rsm-classic-2026",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "The RSM Classic",
-    "date": "2026-11-22",
-    "dateStart": "2026-11-19",
-    "dateEnd": "2026-11-22",
-    "location": "Sea Island Golf Club - Seaside Course, Sea Island, GA, USA",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play"
-    ],
-    "points": [
-      {
-        "h": "Sea Island's Greenskeeping Advantage",
-        "b": "The Seaside Course at Sea Island is meticulously maintained year-round and favors players with exceptional iron precision, making <strong>accuracy off the tee more valuable than distance</strong> in this late-season event. Look for players who excel in elevated greens and firm, fast conditions typical of Georgia's coastal layout."
-      },
-      {
-        "h": "FedEx Cup Positioning Battle Intensifies",
-        "b": "As the final event before the Tour Championship, the RSM Classic serves as <strong>the last chance for marginal players to secure playoff positioning</strong> and dramatically alter their season earnings. Expect aggressive, desperate golf from those sitting on the playoff bubble fighting for that final invitation."
-      },
-      {
-        "h": "Veteran Success Pattern at Sea Island",
-        "b": "This event has historically rewarded <strong>experienced players who thrive in pressure situations and shorter fields</strong>, with winners often featuring multiple PGA Tour victories and comfort in match-play-style competition. Sea Island's intimate setup and early-season timing attract quality fields, but success tends to track with proven pedigree."
-      }
-    ],
-    "watch": {
-      "sessions": [
-        {
-          "name": "Round 1",
-          "day": "Thursday",
-          "time_mt": "1:00 PM MT",
-          "channels": [
-            "Golf Channel",
-            "ESPN+"
-          ],
-          "note": "Early round coverage"
-        },
-        {
-          "name": "Round 2",
-          "day": "Friday",
-          "time_mt": "1:00 PM MT",
-          "channels": [
-            "Golf Channel",
-            "ESPN+"
-          ],
-          "note": "Continued round coverage"
-        },
-        {
-          "name": "Round 3",
-          "day": "Saturday",
-          "time_mt": "12:00 PM MT",
-          "channels": [
-            "Golf Channel",
-            "CBS",
-            "Peacock"
-          ],
-          "note": "Weekend coverage begins"
-        },
-        {
-          "name": "Final Round",
-          "day": "Sunday",
-          "time_mt": "12:00 PM MT",
-          "channels": [
-            "CBS",
-            "Peacock"
-          ],
-          "note": "Championship conclusion"
-        }
-      ],
-      "watch_note": "The RSM Classic is best watched on CBS for the final round Sunday, with earlier rounds available on Golf Channel or streamed via ESPN+ and Peacock."
-    }
-  },
-  {
-    "id": "wsbk-istanbul-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "World Superbike Championship (WSBK)",
-    "icon": "🏍️",
-    "title": "Turkish Round",
-    "date": "2026-11-22",
-    "dateStart": "2026-11-20",
-    "dateEnd": "2026-11-22",
-    "location": "Istanbul Park, Istanbul, Turkey",
-    "status": "scheduled",
-    "classes": [
-      "WorldSBK",
-      "WorldSSP",
-      "WorldSSP300"
-    ],
-    "points": [
-      {
-        "h": "Istanbul's High-Speed Straights Test Bikes",
-        "b": "Istanbul Park's 5.3km layout features two extended straights that demand maximum power delivery and aerodynamic efficiency, making this round <strong>a crucial horsepower benchmark</strong> where teams lacking top-end speed will struggle to recover on corner exit."
-      },
-      {
-        "h": "Late Season Momentum Shifts Championship Fight",
-        "b": "With the championship battle heading into November, Istanbul's unpredictable weather patterns and abrasive asphalt surface create <strong>high tire degradation scenarios</strong> that can drastically shake up the podium order and test rider consistency when points matter most."
-      },
-      {
-        "h": "Turkish Crowd Energy Fuels Home Heroes",
-        "b": "Istanbul Park's passionate local fanbase and geography as the bridge between Europe and Asia make this <strong>a psychological advantage zone</strong> for any riders with regional support, potentially influencing mental edge in close championship moments."
-      }
-    ],
-    "watch": {
-      "sessions": [
-        {
-          "name": "Superbike Race 1",
-          "day": "Saturday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Live coverage of first 45-minute race"
-        },
-        {
-          "name": "Superbike Race 2",
-          "day": "Sunday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Live coverage of second 45-minute race"
-        },
-        {
-          "name": "WorldSSP Race",
-          "day": "Saturday",
-          "time_mt": "3:30 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "World Supersport 600cc class race"
-        },
-        {
-          "name": "WorldSSP300 Race",
-          "day": "Sunday",
-          "time_mt": "3:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "World Supersport 300cc class race"
-        }
-      ],
-      "watch_note": "Peacock offers the most comprehensive WSBK coverage in the US, with live races and on-demand replays available to subscribers."
-    }
-  },
-  {
-    "id": "ufc-fight-night-doha",
-    "sport": "ufc",
-    "entityType": "championship",
-    "series": "UFC",
-    "icon": "🥊",
-    "title": "UFC Fight Night",
-    "date": "2026-11-21",
-    "dateStart": "2026-11-21",
-    "dateEnd": "2026-11-21",
-    "location": "Doha, Qatar",
-    "status": "scheduled",
-    "classes": [],
-    "points": [
-      {
-        "h": "Desert Heat Impacts Fighter Conditioning",
-        "b": "Doha's climate presents a unique challenge for UFC athletes, as the November heat and humidity can accelerate dehydration and cardio depletion even in late fall. <strong>Fighters who excel in high-altitude or tropical training camps will have a significant advantage</strong> over those accustomed to temperate climates."
-      },
-      {
-        "h": "Middle East's Growing Combat Sports Hub",
-        "b": "Qatar has invested heavily in becoming a premier combat sports destination, hosting major events and offering lucrative purses that attract top-tier talent. <strong>This financial commitment signals a shift in where elite MMA talent gravitates</strong>, potentially making Middle Eastern venues as competitive as traditional UFC strongholds."
-      },
-      {
-        "h": "Timing Creates Undercard Dark Horse Opportunity",
-        "b": "Late November Fight Night cards often feature hungry prospects looking to build momentum before the year's major championship events. <strong>Lesser-known fighters frequently deliver knockout performances to impress decision-makers</strong>, making the undercard particularly volatile and unpredictable for bettors and analysts."
-      }
-    ]
-  },
-  {
-    "id": "ufc-fight-night-prochazka-stirling-2026",
-    "sport": "ufc",
-    "entityType": "championship",
-    "series": "UFC",
-    "icon": "🥊",
-    "title": "UFC Fight Night: Prochazka vs. Stirling",
-    "date": "2026-11-21",
-    "dateStart": "2026-11-21",
-    "dateEnd": "2026-11-21",
-    "location": "Doha, Qatar",
-    "status": "scheduled",
-    "classes": [
-      "Main Card"
-    ],
-    "points": [
-      {
-        "h": "Prochazka's Comeback Timing Crucial",
-        "b": "After his recent setbacks, Prochazka faces a pivotal moment where <strong>a victory could reignite his title trajectory</strong> in a light heavyweight division that's been in flux. His devastating striking and submission game will be tested against Stirling's technical wrestling in what could determine if he's truly back to championship form."
-      },
-      {
-        "h": "Doha's Elevation Impacts Cardio Wars",
-        "b": "Fighting in Qatar's climate at altitude presents <strong>unique conditioning challenges that favor wrestlers who can control tempo</strong> over strikers who rely on volume. This environmental factor could significantly influence the fight's pacing, especially in championship-caliber rounds where fatigue management becomes critical."
-      },
-      {
-        "h": "Stirling's Rise Meets Elite Test",
-        "b": "<strong>Stirling's momentum against solid competition now faces its most significant moment</strong> fighting a former title contender with vastly more octagon experience. This matchup serves as the clearest barometer yet of whether Stirling belongs in legitimate title discussions or needs more seasoning against elite-level opposition."
-      }
-    ]
-  },
-  {
-    "id": "wsbk-jerez-test-nov-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "World Superbike Championship (WSBK)",
-    "icon": "🏍️",
-    "title": "Jerez Test",
-    "date": "2026-11-26",
-    "dateStart": "2026-11-25",
-    "dateEnd": "2026-11-26",
-    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
-    "status": "scheduled",
-    "classes": [
-      "WorldSBK",
-      "WorldSSP",
-      "WorldSSP300"
-    ],
-    "points": [
-      {
-        "h": "Winter Testing Defines Championship Contenders",
-        "b": "Late November testing at Jerez gives teams their final opportunity to validate setup changes and tire strategies before the 2027 season opener. <strong>Teams that nail their baseline setup here will carry momentum into winter development</strong>, potentially gaining a crucial edge over competitors still searching for solutions."
-      },
-      {
-        "h": "New Regulations Push Technical Innovation",
-        "b": "With WSBK's evolving technical regulations, Jerez becomes a proving ground for aerodynamic packages and engine mapping refinements that manufacturers have been developing. <strong>How quickly teams adapt to these changes in testing will directly predict their competitiveness</strong> when racing resumes in early 2027."
-      },
-      {
-        "h": "Rider Confidence Crucial After Off-Season",
-        "b": "Extended time away from competition means riders need to rebuild muscle memory and trust in their machines, making this test critical for psychological preparation. <strong>First-lap confidence and brake point aggression at Jerez typically forecast which pilots will start strong</strong> when the season officially begins."
-      }
-    ]
-  },
-  {
     "id": "mgp-valencia-gp-2026",
     "sport": "moto",
     "entityType": "championship",
     "series": "MotoGP World Championship",
     "icon": "🏍️",
     "title": "Valencia Grand Prix",
-    "date": "2026-11-29",
-    "dateStart": "2026-11-27",
-    "dateEnd": "2026-11-29",
+    "date": "2026-11-15",
+    "dateStart": "2026-11-13",
+    "dateEnd": "2026-11-15",
     "location": "Circuit Ricardo Tormo, Valencia, Spain",
     "status": "scheduled",
     "classes": [
@@ -7784,6 +7477,354 @@
       ],
       "watch_note": "MotoGP races in the US are broadcast on FS1 with early morning start times due to the European timezone difference."
     }
+  },
+  {
+    "id": "ufc-334-gane-vs-hokit-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC 334: Gane vs. Hokit",
+    "date": "2026-11-14",
+    "dateStart": "2026-11-14",
+    "dateEnd": "2026-11-14",
+    "location": "New York City, USA",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Gane's Heavyweight Redemption Arc",
+        "b": "After back-to-back losses to Jones and Ngannou, Ciryl Gane faces Hokit as a critical career inflection point where <strong>a dominant performance is essential to remain in title contention</strong>. The Parisian's technical striking and movement have never been in question—it's his ability to close fights against elite competition that needs validation."
+      },
+      {
+        "h": "Hokit's Unexpected Shot at Stardom",
+        "b": "This represents <strong>a massive step up in competition for Hokit</strong>, jumping from relative obscurity into the main event of a flagship UFC card in MSG. If the challenger can execute defensive wrestling and weather Gane's striking volume, an upset victory would instantly catapult him into heavyweight title discussions."
+      },
+      {
+        "h": "Madison Square Garden's Heavyweight Spectacle",
+        "b": "New York City's iconic venue demands a statement performance, and <strong>Gane's striking prowess is tailor-made for the fast-paced, technical showcase</strong> MSG crowds typically reward. Expect both fighters to bring enhanced offensive output knowing they're performing on one of combat sports' most prestigious stages."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "5:00 PM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "Early preliminary fights"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "6:30 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "Preliminary card"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "8:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Gane vs. Hokit main event"
+        }
+      ],
+      "watch_note": "Subscribe to Paramount+ to watch the main card featuring Gane vs. Hokit live from New York City on Saturday night."
+    }
+  },
+  {
+    "id": "pga-rsm-classic-2026",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "The RSM Classic",
+    "date": "2026-11-22",
+    "dateStart": "2026-11-19",
+    "dateEnd": "2026-11-22",
+    "location": "Sea Island Golf Club - Seaside Course, Sea Island, Georgia, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play"
+    ],
+    "points": [
+      {
+        "h": "Sea Island's Greenskeeping Advantage",
+        "b": "The Seaside Course at Sea Island is meticulously maintained year-round and favors players with exceptional iron precision, making <strong>accuracy off the tee more valuable than distance</strong> in this late-season event. Look for players who excel in elevated greens and firm, fast conditions typical of Georgia's coastal layout."
+      },
+      {
+        "h": "FedEx Cup Positioning Battle Intensifies",
+        "b": "As the final event before the Tour Championship, the RSM Classic serves as <strong>the last chance for marginal players to secure playoff positioning</strong> and dramatically alter their season earnings. Expect aggressive, desperate golf from those sitting on the playoff bubble fighting for that final invitation."
+      },
+      {
+        "h": "Veteran Success Pattern at Sea Island",
+        "b": "This event has historically rewarded <strong>experienced players who thrive in pressure situations and shorter fields</strong>, with winners often featuring multiple PGA Tour victories and comfort in match-play-style competition. Sea Island's intimate setup and early-season timing attract quality fields, but success tends to track with proven pedigree."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early coverage begins at 1:00 PM MT"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Coverage continues Friday afternoon"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Saturday coverage"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Final round concludes Sunday"
+        }
+      ],
+      "watch_note": "The RSM Classic is best watched on Golf Channel for early rounds and CBS for the final round, with full coverage available via Peacock for subscribers."
+    }
+  },
+  {
+    "id": "wsbk-istanbul-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Turkish Round",
+    "date": "2026-11-22",
+    "dateStart": "2026-11-20",
+    "dateEnd": "2026-11-22",
+    "location": "Istanbul Park, Istanbul, Turkey",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Istanbul's High-Speed Straights Test Bikes",
+        "b": "Istanbul Park's 5.3km layout features two extended straights that demand maximum power delivery and aerodynamic efficiency, making this round <strong>a crucial horsepower benchmark</strong> where teams lacking top-end speed will struggle to recover on corner exit."
+      },
+      {
+        "h": "Late Season Momentum Shifts Championship Fight",
+        "b": "With the championship battle heading into November, Istanbul's unpredictable weather patterns and abrasive asphalt surface create <strong>high tire degradation scenarios</strong> that can drastically shake up the podium order and test rider consistency when points matter most."
+      },
+      {
+        "h": "Turkish Crowd Energy Fuels Home Heroes",
+        "b": "Istanbul Park's passionate local fanbase and geography as the bridge between Europe and Asia make this <strong>a psychological advantage zone</strong> for any riders with regional support, potentially influencing mental edge in close championship moments."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "WorldSBK Race 1",
+          "day": "Saturday",
+          "time_mt": "4:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Live coverage of opening race"
+        },
+        {
+          "name": "WorldSBK Race 2",
+          "day": "Sunday",
+          "time_mt": "4:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Final race of the round"
+        }
+      ],
+      "watch_note": "Peacock is the primary streaming option for WSBK in the US, with beIN Sports also carrying select races."
+    }
+  },
+  {
+    "id": "ufc-fight-night-doha",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-21",
+    "dateEnd": "2026-11-21",
+    "location": "Doha, Qatar",
+    "status": "scheduled",
+    "classes": [],
+    "points": [
+      {
+        "h": "Desert Heat Impacts Fighter Conditioning",
+        "b": "Doha's climate presents a unique challenge for UFC athletes, as the November heat and humidity can accelerate dehydration and cardio depletion even in late fall. <strong>Fighters who excel in high-altitude or tropical training camps will have a significant advantage</strong> over those accustomed to temperate climates."
+      },
+      {
+        "h": "Middle East's Growing Combat Sports Hub",
+        "b": "Qatar has invested heavily in becoming a premier combat sports destination, hosting major events and offering lucrative purses that attract top-tier talent. <strong>This financial commitment signals a shift in where elite MMA talent gravitates</strong>, potentially making Middle Eastern venues as competitive as traditional UFC strongholds."
+      },
+      {
+        "h": "Timing Creates Undercard Dark Horse Opportunity",
+        "b": "Late November Fight Night cards often feature hungry prospects looking to build momentum before the year's major championship events. <strong>Lesser-known fighters frequently deliver knockout performances to impress decision-makers</strong>, making the undercard particularly volatile and unpredictable for bettors and analysts."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "9:00 AM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "UFC Fight Pass subscribers only"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "11:00 AM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "ESPN+ subscription required"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "1:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Premium PPV event on Paramount+"
+        }
+      ],
+      "watch_note": "The main card airs on Paramount+ at 1:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+    }
+  },
+  {
+    "id": "ufc-fight-night-prochazka-stirling-2026",
+    "sport": "ufc",
+    "entityType": "championship",
+    "series": "UFC",
+    "icon": "🥊",
+    "title": "UFC Fight Night: Prochazka vs. Stirling",
+    "date": "2026-11-21",
+    "dateStart": "2026-11-21",
+    "dateEnd": "2026-11-21",
+    "location": "Doha, Qatar",
+    "status": "scheduled",
+    "classes": [
+      "Main Card"
+    ],
+    "points": [
+      {
+        "h": "Prochazka's Comeback Timing Crucial",
+        "b": "After his recent setbacks, Prochazka faces a pivotal moment where <strong>a victory could reignite his title trajectory</strong> in a light heavyweight division that's been in flux. His devastating striking and submission game will be tested against Stirling's technical wrestling in what could determine if he's truly back to championship form."
+      },
+      {
+        "h": "Doha's Elevation Impacts Cardio Wars",
+        "b": "Fighting in Qatar's climate at altitude presents <strong>unique conditioning challenges that favor wrestlers who can control tempo</strong> over strikers who rely on volume. This environmental factor could significantly influence the fight's pacing, especially in championship-caliber rounds where fatigue management becomes critical."
+      },
+      {
+        "h": "Stirling's Rise Meets Elite Test",
+        "b": "<strong>Stirling's momentum against solid competition now faces its most significant moment</strong> fighting a former title contender with vastly more octagon experience. This matchup serves as the clearest barometer yet of whether Stirling belongs in legitimate title discussions or needs more seasoning against elite-level opposition."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Early Prelims",
+          "day": "Saturday",
+          "time_mt": "10:00 AM MT",
+          "channels": [
+            "UFC Fight Pass"
+          ],
+          "note": "UFC Fight Pass subscribers only"
+        },
+        {
+          "name": "Prelims",
+          "day": "Saturday",
+          "time_mt": "12:00 PM MT",
+          "channels": [
+            "ESPN+"
+          ],
+          "note": "ESPN+ subscription required"
+        },
+        {
+          "name": "Main Card",
+          "day": "Saturday",
+          "time_mt": "2:00 PM MT",
+          "channels": [
+            "Paramount+"
+          ],
+          "note": "Main event featuring Prochazka vs. Stirling"
+        }
+      ],
+      "watch_note": "The main card airs on Paramount+ at 2:00 PM MT on Saturday, with prelims available on ESPN+ starting at noon MT."
+    }
+  },
+  {
+    "id": "wsbk-jerez-test-nov-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "Jerez Test",
+    "date": "2026-11-26",
+    "dateStart": "2026-11-25",
+    "dateEnd": "2026-11-26",
+    "location": "Circuito de Jerez - Ángel Nieto, Jerez, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Winter Testing Defines Championship Contenders",
+        "b": "Late November testing at Jerez gives teams their final opportunity to validate setup changes and tire strategies before the 2027 season opener. <strong>Teams that nail their baseline setup here will carry momentum into winter development</strong>, potentially gaining a crucial edge over competitors still searching for solutions."
+      },
+      {
+        "h": "New Regulations Push Technical Innovation",
+        "b": "With WSBK's evolving technical regulations, Jerez becomes a proving ground for aerodynamic packages and engine mapping refinements that manufacturers have been developing. <strong>How quickly teams adapt to these changes in testing will directly predict their competitiveness</strong> when racing resumes in early 2027."
+      },
+      {
+        "h": "Rider Confidence Crucial After Off-Season",
+        "b": "Extended time away from competition means riders need to rebuild muscle memory and trust in their machines, making this test critical for psychological preparation. <strong>First-lap confidence and brake point aggression at Jerez typically forecast which pilots will start strong</strong> when the season officially begins."
+      }
+    ]
   },
   {
     "id": "mgp-valencian-gp-2026",
@@ -7988,7 +8029,7 @@
     "date": "2026-12-12",
     "dateStart": "2026-12-12",
     "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8722,6 +8763,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2027-02-06",
+    "dateStart": "2027-02-06",
+    "dateEnd": "2027-02-06",
+    "location": "Las Vegas, Nevada, United States",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "pga-waste-management-phoenix-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -8812,39 +8886,6 @@
       {
         "h": "Defending Champions Face International Pressure",
         "b": "MotoAmerica's top guns must contend with the legitimacy test of racing on a circuit that hosts World Superbike events, where European regulars have already proven their mettle this season. <strong>Victory here carries credibility</strong> that domestic dominance simply cannot match, making podium finishes crucial for championship narratives."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2027-02-13",
-    "dateStart": "2027-02-13",
-    "dateEnd": "2027-02-13",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -9400,7 +9441,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -9949,7 +9990,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, TX, USA",
+    "location": "Oaks Course, San Antonio, Texas, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10047,7 +10088,7 @@
     "date": "2027-04-04",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-04",
-    "location": "Circuit of the Americas, Austin, USA",
+    "location": "Circuit of the Americas, Austin, United States",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -10112,7 +10153,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, GA, USA",
+    "location": "Augusta National Golf Club, Augusta, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10143,7 +10184,7 @@
     "date": "2027-04-10",
     "dateStart": "2027-04-10",
     "dateEnd": "2027-04-10",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -10176,7 +10217,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
+    "location": "Michelin Raceway Road Atlanta, Braselton, GA, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10212,7 +10253,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, SC, USA",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10468,7 +10509,7 @@
     "date": "2027-04-26",
     "dateStart": "2027-04-23",
     "dateEnd": "2027-04-26",
-    "location": "TPC Louisiana, Avondale, LA, USA",
+    "location": "TPC Louisiana, Avondale, Louisiana, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10496,10 +10537,10 @@
     "series": "MotoGP World Championship",
     "icon": "🏍️",
     "title": "Spanish Grand Prix",
-    "date": "2027-05-02",
-    "dateStart": "2027-04-30",
-    "dateEnd": "2027-05-02",
-    "location": "Circuito de Barcelona-Catalunya, Barcelona, Spain",
+    "date": "2027-04-25",
+    "dateStart": "2027-04-23",
+    "dateEnd": "2027-04-25",
+    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -10523,6 +10564,37 @@
     ]
   },
   {
+    "id": "pga-houston-open-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Texas Children's Houston Open",
+    "date": "2027-04-29",
+    "dateStart": "2027-04-26",
+    "dateEnd": "2027-04-29",
+    "location": "Memorial Park, Houston, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Memorial Park's Demanding Par 4s",
+        "b": "Memorial Park's back nine features some of the toughest par-4 scoring in the PGA Tour, where <strong>approach shot precision</strong> will separate contenders from the field. Expect winning scores around 12-14 under as players navigate tight landing zones and elevated greens."
+      },
+      {
+        "h": "Early Season Form Meets FedEx Stakes",
+        "b": "Coming just before the Players Championship, this event attracts hungry competitors looking to <strong>build momentum and secure FedEx Cup points</strong> before golf's biggest stretch. The field quality will be exceptional as tour leaders use Houston as a final tuneup."
+      },
+      {
+        "h": "Houston Heat and Course Conditions",
+        "b": "Late April temperatures and humidity will test endurance, but the recently renovated Memorial Park is playing <strong>firmer and faster than most expect</strong> for this time of year. Smart course management and mental toughness in the heat will prove decisive."
+      }
+    ]
+  },
+  {
     "id": "pga-cadillac-championship-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10532,7 +10604,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-04-30",
     "dateEnd": "2027-05-03",
-    "location": "Trump National Doral (Blue Monster Course), Doral, FL, USA",
+    "location": "Trump National Doral (Blue Monster Course), Doral, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10691,7 +10763,7 @@
     "date": "2027-05-10",
     "dateStart": "2027-05-07",
     "dateEnd": "2027-05-10",
-    "location": "Quail Hollow Club, Charlotte, NC, USA",
+    "location": "Quail Hollow Club, Charlotte, North Carolina, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10709,6 +10781,39 @@
       {
         "h": "FedEx Cup Race Starting to Tighten",
         "b": "<strong>Points distribution becomes increasingly critical</strong> as players jockey for position before the summer stretch, with a top-10 finish at Quail Hollow potentially worth more strategically than grinding out a 15th place finish at a more forgiving venue. Teams and coaches are using this event as a crucial barometer for playoff seeding strategy."
+      }
+    ]
+  },
+  {
+    "id": "mgp-le-mans-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "French Grand Prix",
+    "date": "2027-05-09",
+    "dateStart": "2027-05-07",
+    "dateEnd": "2027-05-09",
+    "location": "Circuit Bugatti, Le Mans, France",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Le Mans' High-Speed Demands",
+        "b": "Bugatti Circuit's legendary straights and minimal corner count create a unique aerodynamic battleground where <strong>top speed and slipstreaming tactics</strong> become as critical as cornering precision, fundamentally shifting strategy from traditional MotoGP tracks."
+      },
+      {
+        "h": "French Crowd Energy Factor",
+        "b": "Racing at Le Mans, one of motorsport's most storied venues, brings an electrified home crowd advantage that <strong>historically boosts European manufacturer morale</strong> and can psychologically shift momentum in championship battles."
+      },
+      {
+        "h": "Mid-Season Championship Positioning",
+        "b": "By May, the championship hierarchy typically solidifies, making Le Mans a <strong>crucial momentum-shifting round</strong> where title contenders either consolidate leads or face critical damage to their championship hopes before the summer break."
       }
     ]
   },
@@ -10746,39 +10851,6 @@
     ]
   },
   {
-    "id": "mgp-le-mans-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "French Grand Prix",
-    "date": "2027-05-16",
-    "dateStart": "2027-05-14",
-    "dateEnd": "2027-05-16",
-    "location": "Circuit Bugatti, Le Mans, France",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Le Mans' High-Speed Demands",
-        "b": "Bugatti Circuit's legendary straights and minimal corner count create a unique aerodynamic battleground where <strong>top speed and slipstreaming tactics</strong> become as critical as cornering precision, fundamentally shifting strategy from traditional MotoGP tracks."
-      },
-      {
-        "h": "French Crowd Energy Factor",
-        "b": "Racing at Le Mans, one of motorsport's most storied venues, brings an electrified home crowd advantage that <strong>historically boosts European manufacturer morale</strong> and can psychologically shift momentum in championship battles."
-      },
-      {
-        "h": "Mid-Season Championship Positioning",
-        "b": "By May, the championship hierarchy typically solidifies, making Le Mans a <strong>crucial momentum-shifting round</strong> where title contenders either consolidate leads or face critical damage to their championship hopes before the summer break."
-      }
-    ]
-  },
-  {
     "id": "pga-pga-championship-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10788,7 +10860,7 @@
     "date": "2027-05-17",
     "dateStart": "2027-05-14",
     "dateEnd": "2027-05-17",
-    "location": "Aronimink Golf Club, Newtown Square, PA, USA",
+    "location": "Aronimink Golf Club, Newtown Square, Pennsylvania, USA",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
