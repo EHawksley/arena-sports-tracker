@@ -7589,17 +7589,17 @@
             "Golf Channel",
             "Peacock"
           ],
-          "note": "Coverage continues Friday afternoon"
+          "note": "Continued coverage at 1:00 PM MT"
         },
         {
           "name": "Round 3",
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "Golf Channel",
+            "CBS",
             "Peacock"
           ],
-          "note": "Saturday coverage"
+          "note": "CBS takes over coverage for weekend rounds"
         },
         {
           "name": "Final Round",
@@ -7609,10 +7609,10 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Final round concludes Sunday"
+          "note": "Championship finale on CBS"
         }
       ],
-      "watch_note": "The RSM Classic is best watched on Golf Channel for early rounds and CBS for the final round, with full coverage available via Peacock for subscribers."
+      "watch_note": "The RSM Classic is best watched on Golf Channel or Peacock for early rounds, with CBS and Peacock providing coverage for the weekend rounds on Saturday and Sunday."
     }
   },
   {
@@ -7649,19 +7649,39 @@
     "watch": {
       "sessions": [
         {
-          "name": "WorldSBK Race 1",
+          "name": "Superpole",
           "day": "Saturday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "3:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of opening race"
+          "note": "Qualifying session"
         },
         {
-          "name": "WorldSBK Race 2",
+          "name": "Race 1",
+          "day": "Saturday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "First main race"
+        },
+        {
+          "name": "Race 2 (Superpole Race)",
           "day": "Sunday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "3:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Sunday morning race"
+        },
+        {
+          "name": "Race 3",
+          "day": "Sunday",
+          "time_mt": "6:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
@@ -7669,7 +7689,7 @@
           "note": "Final race of the round"
         }
       ],
-      "watch_note": "Peacock is the primary streaming option for WSBK in the US, with beIN Sports also carrying select races."
+      "watch_note": "Peacock offers live coverage of all WSBK sessions from Turkey, with early morning start times due to the Istanbul time zone."
     }
   },
   {
@@ -7704,32 +7724,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "9:00 AM MT",
+          "time_mt": "10:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "UFC Fight Pass subscribers only"
+          "note": "Preliminary fights available on UFC Fight Pass"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "11:00 AM MT",
+          "time_mt": "12:00 PM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "ESPN+ subscription required"
+          "note": "Preliminary card on ESPN+"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "1:00 PM MT",
+          "time_mt": "2:00 PM MT",
           "channels": [
             "Paramount+"
           ],
-          "note": "Premium PPV event on Paramount+"
+          "note": "Main event card on Paramount+"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ at 1:00 PM MT, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "The UFC Fight Night main card from Doha is exclusively available on Paramount+ in the United States on Saturday afternoon Mountain Time."
     }
   },
   {
@@ -7770,7 +7790,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "UFC Fight Pass subscribers only"
+          "note": "Exclusive to UFC Fight Pass subscribers"
         },
         {
           "name": "Prelims",
@@ -7779,7 +7799,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "ESPN+ subscription required"
+          "note": "Requires ESPN+ subscription"
         },
         {
           "name": "Main Card",
@@ -7788,10 +7808,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Prochazka vs. Stirling"
+          "note": "Prochazka vs. Stirling headline bout"
         }
       ],
-      "watch_note": "The main card airs on Paramount+ at 2:00 PM MT on Saturday, with prelims available on ESPN+ starting at noon MT."
+      "watch_note": "The main card featuring Prochazka vs. Stirling airs on Paramount+ at 2:00 PM MT on Saturday, November 21st."
     }
   },
   {
@@ -8029,7 +8049,7 @@
     "date": "2026-12-12",
     "dateStart": "2026-12-12",
     "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8326,6 +8346,39 @@
       {
         "h": "January Weather and Track Evolution",
         "b": "Florida's winter conditions create unpredictable grip levels and cooler air that <strong>significantly alters tire performance windows compared to summer rounds</strong>, forcing teams to completely recalibrate their setups and creating opportunities for underdogs who nail the weather-dependent setup lottery."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2027-01-23",
+    "dateStart": "2027-01-23",
+    "dateEnd": "2027-01-23",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -8759,39 +8812,6 @@
       {
         "h": "Ground exchange potential heavily favors Salkilld",
         "b": "<strong>Salkilld's wrestling base combined with Saint Denis's preference for striking</strong> creates a dangerous mismatch if the fight goes to the canvas, giving Salkilld multiple pathways to victory beyond pure striking exchanges."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2027-02-06",
-    "dateStart": "2027-02-06",
-    "dateEnd": "2027-02-06",
-    "location": "Las Vegas, Nevada, United States",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -9399,6 +9419,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-03-06",
+    "dateStart": "2027-03-06",
+    "dateEnd": "2027-03-06",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-daytona-200-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9441,7 +9494,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -9791,39 +9844,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-4",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 4",
-    "date": "2027-03-20",
-    "dateStart": "2027-03-20",
-    "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Featherweight",
-      "Lightweight",
-      "Middleweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas hosting elite grappling showcase",
-        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
-      },
-      {
-        "h": "Fourth installment builds crucial momentum",
-        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
-      },
-      {
-        "h": "December timing targets holiday audiences",
-        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
-      }
-    ]
-  },
-  {
     "id": "pga-world-golf-championship-dell-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10088,7 +10108,7 @@
     "date": "2027-04-04",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-04",
-    "location": "Circuit of the Americas, Austin, United States",
+    "location": "Circuit of The Americas, Austin, United States",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -10175,39 +10195,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-04-10",
-    "dateStart": "2027-04-10",
-    "dateEnd": "2027-04-10",
-    "location": "Las Vegas, Nevada, United States",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-superbike-road-atlanta-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -10217,7 +10204,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, GA, USA",
+    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10367,6 +10354,72 @@
       {
         "h": "Manufacturer Parity at Peak Intensity",
         "b": "Assen's 6.3-kilometer layout exposes any aerodynamic or engine deficiencies within tenths, meaning <strong>no manufacturer can hide weak points</strong> on this circuit. This is where genuinely balanced competition reveals itself or where one brand's development advantage becomes undeniably obvious."
+      }
+    ]
+  },
+  {
+    "id": "mgp-spanish-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Spanish Grand Prix",
+    "date": "2027-04-18",
+    "dateStart": "2027-04-16",
+    "dateEnd": "2027-04-18",
+    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Barcelona's High-Speed Cornering Test",
+        "b": "The tight, flowing corners at Circuit de Barcelona-Catalunya demand <strong>precision throttle control and trail braking</strong> that separates elite riders from the field. Expect the championship contenders to gain crucial tenths through Turn 1-5, where small mistakes compound into massive time losses."
+      },
+      {
+        "h": "Tire Strategy in Spring Heat",
+        "b": "May racing at Barcelona typically brings <strong>warm track temperatures that challenge tire degradation management</strong> over the full race distance. Teams will gamble on tire allocation, with some opting for softer compounds early to build a gap, while others play the long game for the final laps."
+      },
+      {
+        "h": "European Swing Momentum Builder",
+        "b": "<strong>Barcelona kicks off the European portion of the calendar</strong>, making this weekend's result a critical springboard for teams heading into summer races where European-based riders traditionally gain track advantage. Winning here establishes rhythm and confidence heading into back-to-back continental events."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-4",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 4",
+    "date": "2027-04-17",
+    "dateStart": "2027-04-17",
+    "dateEnd": "2027-04-17",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Featherweight",
+      "Lightweight",
+      "Middleweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas hosting elite grappling showcase",
+        "b": "Las Vegas has become the epicenter for combat sports, and UFC BJJ 4 continues this trend by bringing <strong>pure submission wrestling to Sin City's premier venues</strong>. The desert location ensures maximum exposure for a sport rapidly gaining mainstream recognition."
+      },
+      {
+        "h": "Fourth installment builds crucial momentum",
+        "b": "With three successful events behind it, UFC BJJ 4 represents <strong>the critical inflection point where the series transitions from novelty to institutional legitimacy</strong>. This iteration will determine whether UFC can establish BJJ as a permanent pillar of their combat sports portfolio."
+      },
+      {
+        "h": "December timing targets holiday audiences",
+        "b": "The late-year December 19 date strategically positions UFC BJJ 4 to <strong>capture viewers seeking premium content during the competitive holiday sports calendar</strong>. This timing also allows the promotion to build off holiday promotional momentum from other combat sports events."
       }
     ]
   },
@@ -10531,39 +10584,6 @@
     ]
   },
   {
-    "id": "mgp-spanish-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Spanish Grand Prix",
-    "date": "2027-04-25",
-    "dateStart": "2027-04-23",
-    "dateEnd": "2027-04-25",
-    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Barcelona's High-Speed Cornering Test",
-        "b": "The tight, flowing corners at Circuit de Barcelona-Catalunya demand <strong>precision throttle control and trail braking</strong> that separates elite riders from the field. Expect the championship contenders to gain crucial tenths through Turn 1-5, where small mistakes compound into massive time losses."
-      },
-      {
-        "h": "Tire Strategy in Spring Heat",
-        "b": "May racing at Barcelona typically brings <strong>warm track temperatures that challenge tire degradation management</strong> over the full race distance. Teams will gamble on tire allocation, with some opting for softer compounds early to build a gap, while others play the long game for the final laps."
-      },
-      {
-        "h": "European Swing Momentum Builder",
-        "b": "<strong>Barcelona kicks off the European portion of the calendar</strong>, making this weekend's result a critical springboard for teams heading into summer races where European-based riders traditionally gain track advantage. Winning here establishes rhythm and confidence heading into back-to-back continental events."
-      }
-    ]
-  },
-  {
     "id": "pga-houston-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10622,6 +10642,39 @@
       {
         "h": "Doral's Tropical Conditioning Tests",
         "b": "<strong>Thick rough and firm greens in May's heat make Doral unforgiving for any mental lapses</strong>. The course will play significantly longer than its yardage suggests, neutralizing bombers and rewarding experienced tour veterans who've learned Doral's specific demands."
+      }
+    ]
+  },
+  {
+    "id": "mgp-french-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "French Grand Prix",
+    "date": "2027-05-02",
+    "dateStart": "2027-04-30",
+    "dateEnd": "2027-05-02",
+    "location": "Circuit Bugatti, Le Mans, France",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Le Mans' High-Speed Layout Challenge",
+        "b": "The Bugatti Circuit's ultra-long straights and 300+ km/h top speeds will separate engine performance from bike handling, making <strong>aerodynamic efficiency and engine power</strong> the deciding factors in qualifying and race pace."
+      },
+      {
+        "h": "Tire Degradation Over Distance",
+        "b": "With Le Mans' abrasive asphalt and demanding braking zones, riders must manage <strong>front tire wear during the opening laps</strong> while preserving rear grip for the crucial final stint where overtaking becomes nearly impossible on this narrow circuit."
+      },
+      {
+        "h": "Drafting Tactics on Mulsanne",
+        "b": "The iconic Mulsanne straight offers unprecedented slipstreaming opportunities in MotoGP, meaning <strong>qualifying position and mental racing strategy</strong> become as critical as raw speed, potentially allowing mid-grid riders to gain positions through intelligent tow management."
       }
     ]
   },
@@ -10878,6 +10931,39 @@
       {
         "h": "FedEx Cup Momentum Enters Championship Week",
         "b": "With the PGA Championship falling just weeks before the FedEx Cup begins, winners will arrive at playoff events as <strong>confidence-fueled confidence headliners with maximum equity in the season-long points race</strong>."
+      }
+    ]
+  },
+  {
+    "id": "mgp-italian-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Italian Grand Prix",
+    "date": "2027-05-16",
+    "dateStart": "2027-05-14",
+    "dateEnd": "2027-05-16",
+    "location": "Autódromo Nazionale di Monza, Monza, Italy",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Monza's speed trap demands wing setup",
+        "b": "With top speeds exceeding 350km/h on the Parabolica, teams will face a critical aerodynamic gamble between downforce for cornering and minimal drag for the straights. <strong>The grid's qualifying performance will be decided entirely by fuel-saving strategy in the final lap</strong>, where fresher engines can exploit the track's legendary high-speed sections."
+      },
+      {
+        "h": "Wet weather chaos favors proven wet riders",
+        "b": "Monza's notoriously unpredictable May weather often brings sudden downpours that can transform race strategy in seconds, punishing teams that commit too early to slick tires. <strong>Riders with exceptional wet-weather muscle memory will have a decisive advantage</strong> since the track's high-speed corners offer minimal margin for error when grip is compromised."
+      },
+      {
+        "h": "Tyre degradation tests fuel management mastery",
+        "b": "The relentless pace around Monza's 5.8km circuit means rear tire life becomes the hidden battleground, forcing riders to balance aggressive early lapping with conservation for the final stint. <strong>The winner will likely be whoever best interprets fuel load strategy versus tire preservation</strong>, as both factors operate on opposing timelines during this grueling 25-lap encounter."
       }
     ]
   }
