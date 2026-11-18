@@ -7531,7 +7531,7 @@
             "CBS",
             "Peacock"
           ],
-          "note": "CBS takes over coverage on weekend"
+          "note": "Main coverage on CBS"
         },
         {
           "name": "Final Round",
@@ -7541,10 +7541,10 @@
             "CBS",
             "Peacock"
           ],
-          "note": "Live finale on CBS with Peacock streaming"
+          "note": "Championship round on CBS"
         }
       ],
-      "watch_note": "The RSM Classic is best watched on CBS during the weekend rounds (Saturday-Sunday) or via Golf Channel on weekdays, with ESPN+ and Peacock offering streaming options throughout."
+      "watch_note": "The RSM Classic is best watched on CBS for weekend rounds or via Golf Channel/ESPN+ for weekday coverage, with Peacock offering streaming access for cable subscribers."
     }
   },
   {
@@ -7581,47 +7581,135 @@
     "watch": {
       "sessions": [
         {
-          "name": "Superpole",
+          "name": "WorldSBK Race 1",
           "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "time_mt": "4:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Qualifying session"
+          "note": "Live coverage of first race of the Turkish Round"
         },
         {
-          "name": "Race 1",
-          "day": "Saturday",
-          "time_mt": "8:00 AM MT",
-          "channels": [
-            "Peacock",
-            "beIN Sports"
-          ],
-          "note": "Main race"
-        },
-        {
-          "name": "Warm Up",
+          "name": "WorldSBK Race 2",
           "day": "Sunday",
-          "time_mt": "4:30 AM MT",
+          "time_mt": "4:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Sunday morning warm up"
+          "note": "Live coverage of second race of the Turkish Round"
         },
         {
-          "name": "Race 2",
+          "name": "WorldSBK Superpole Race",
+          "day": "Sunday",
+          "time_mt": "1:00 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Sprint race held on Sunday morning in Istanbul"
+        }
+      ],
+      "watch_note": "Peacock offers the most accessible streaming option for US viewers, with early morning coverage due to the 10-hour time difference from Istanbul to Mountain Time."
+    }
+  },
+  {
+    "id": "mgp-valencia-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Valencia Grand Prix",
+    "date": "2026-11-22",
+    "dateStart": "2026-11-20",
+    "dateEnd": "2026-11-22",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Title Fight Comes Down to Valencia",
+        "b": "The Circuit Ricardo Tormo's tight corners and long straights will expose any bike setup weaknesses in the championship finale, making <strong>tire management in the final laps</strong> the deciding factor between champions."
+      },
+      {
+        "h": "Weather Could Shake Up Grid Order",
+        "b": "Valencia's November timing brings unpredictable autumn conditions that historically favor riders with superior wet-weather racecraft, potentially allowing <strong>underdogs to exploit championship contenders' dry-setup disadvantages</strong>."
+      },
+      {
+        "h": "Home Track Advantage Fuels Spanish Hopes",
+        "b": "With passionate local support at stake, any Spanish riders in contention will have <strong>massive mental and emotional leverage</strong> that could translate to aggressive, calculated risk-taking in wheel-to-wheel battles."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoGP Practice 1",
+          "day": "Friday",
+          "time_mt": "12:55 AM MT",
+          "channels": [
+            "FS2",
+            "ESPN+"
+          ],
+          "note": "Early morning session"
+        },
+        {
+          "name": "MotoGP Practice 2",
+          "day": "Friday",
+          "time_mt": "5:10 AM MT",
+          "channels": [
+            "FS2",
+            "ESPN+"
+          ],
+          "note": "Early morning session"
+        },
+        {
+          "name": "MotoGP Qualifying 1",
+          "day": "Saturday",
+          "time_mt": "12:50 AM MT",
+          "channels": [
+            "FS2",
+            "ESPN+"
+          ],
+          "note": "Early morning qualifying"
+        },
+        {
+          "name": "MotoGP Qualifying 2",
+          "day": "Saturday",
+          "time_mt": "5:05 AM MT",
+          "channels": [
+            "FS1",
+            "ESPN+"
+          ],
+          "note": "Main qualifying session"
+        },
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "FS1",
+            "ESPN+"
+          ],
+          "note": "Sprint race"
+        },
+        {
+          "name": "MotoGP Main Race",
           "day": "Sunday",
           "time_mt": "7:00 AM MT",
           "channels": [
-            "Peacock",
-            "beIN Sports"
+            "FS1",
+            "ESPN+"
           ],
-          "note": "Final race of the round"
+          "note": "Championship finale"
         }
       ],
-      "watch_note": "World Superbike Championship Turkish Round can be watched live on Peacock or beIN Sports in the US, with early morning start times due to the Istanbul time zone."
+      "watch_note": "The Valencia Grand Prix is best watched live on FS1 or ESPN+ early Sunday morning in Mountain Time as MotoGP concludes its season."
     }
   },
   {
@@ -7660,7 +7748,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Early preliminary fights"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -7669,7 +7757,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -7681,7 +7769,7 @@
           "note": "Main event card"
         }
       ],
-      "watch_note": "UFC Fight Night from Doha is best watched on Paramount+ for the main card, with prelims available on ESPN+."
+      "watch_note": "UFC Fight Night from Doha is best watched on Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
     }
   },
   {
@@ -7722,7 +7810,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Exclusive to UFC Fight Pass subscribers"
         },
         {
           "name": "Prelims",
@@ -7731,7 +7819,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "ESPN+ subscription required"
         },
         {
           "name": "Main Card",
@@ -7740,7 +7828,7 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Prochazka vs. Stirling main event"
+          "note": "Main event featuring Prochazka vs. Stirling"
         }
       ],
       "watch_note": "Stream the main card on Paramount+ starting at 1:00 PM MT on Saturday, with prelims available on ESPN+ earlier in the day."
@@ -7776,74 +7864,31 @@
         "h": "Rider Confidence Crucial After Off-Season",
         "b": "Extended time away from competition means riders need to rebuild muscle memory and trust in their machines, making this test critical for psychological preparation. <strong>First-lap confidence and brake point aggression at Jerez typically forecast which pilots will start strong</strong> when the season officially begins."
       }
-    ]
-  },
-  {
-    "id": "mgp-valencia-gp-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Valencia Grand Prix",
-    "date": "2026-11-29",
-    "dateStart": "2026-11-27",
-    "dateEnd": "2026-11-29",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Title Fight Comes Down to Valencia",
-        "b": "The Circuit Ricardo Tormo's tight corners and long straights will expose any bike setup weaknesses in the championship finale, making <strong>tire management in the final laps</strong> the deciding factor between champions."
-      },
-      {
-        "h": "Weather Could Shake Up Grid Order",
-        "b": "Valencia's November timing brings unpredictable autumn conditions that historically favor riders with superior wet-weather racecraft, potentially allowing <strong>underdogs to exploit championship contenders' dry-setup disadvantages</strong>."
-      },
-      {
-        "h": "Home Track Advantage Fuels Spanish Hopes",
-        "b": "With passionate local support at stake, any Spanish riders in contention will have <strong>massive mental and emotional leverage</strong> that could translate to aggressive, calculated risk-taking in wheel-to-wheel battles."
-      }
     ],
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "5:00 AM MT",
+          "name": "Jerez Test - Day 1",
+          "day": "Wednesday",
+          "time_mt": "12:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "WorldSBK App",
+            "Peacock"
           ],
-          "note": "Practice sessions and qualifying rounds"
+          "note": "Live streaming of test sessions"
         },
         {
-          "name": "MotoGP Sprint Race",
-          "day": "Saturday",
-          "time_mt": "8:00 AM MT",
+          "name": "Jerez Test - Day 2",
+          "day": "Thursday",
+          "time_mt": "12:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "WorldSBK App",
+            "Peacock"
           ],
-          "note": "Sprint race format"
-        },
-        {
-          "name": "MotoGP Main Race",
-          "day": "Sunday",
-          "time_mt": "8:00 AM MT",
-          "channels": [
-            "FS1",
-            "Fox Sports app"
-          ],
-          "note": "Season finale"
+          "note": "Final test day sessions"
         }
       ],
-      "watch_note": "MotoGP races in the US are broadcast on FS1 with early morning start times due to the European timezone difference."
+      "watch_note": "The Jerez Test is best watched via the WorldSBK App or Peacock, which provide live coverage of the two-day test sessions from Spain."
     }
   },
   {
@@ -8967,6 +9012,39 @@
     ]
   },
   {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2027-02-13",
+    "dateStart": "2027-02-13",
+    "dateEnd": "2027-02-13",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
+      }
+    ]
+  },
+  {
     "id": "wsbk-phillip-island-official-test-feb-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9249,39 +9327,6 @@
       {
         "h": "Superbike's Balance of Performance Debate",
         "b": "With WSBK's controversial BoP adjustments entering 2027, Phillip Island's high-speed corners will immediately expose whether <strong>the weight and power handicaps actually level the playing field</strong> or simply shuffle which manufacturer complains loudest."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2027-02-20",
-    "dateStart": "2027-02-20",
-    "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -9964,6 +10009,39 @@
     ]
   },
   {
+    "id": "mgp-argentina-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Argentina Grand Prix",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-19",
+    "dateEnd": "2027-03-21",
+    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "High altitude chaos awaits riders",
+        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
+      },
+      {
+        "h": "Factory strategy splits on tire selection",
+        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
+      },
+      {
+        "h": "South American crowd fuels unpredictable outcomes",
+        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-4",
     "sport": "bjj",
     "entityType": "championship",
@@ -10154,39 +10232,6 @@
     ]
   },
   {
-    "id": "mgp-argentina-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Argentina Grand Prix",
-    "date": "2027-04-04",
-    "dateStart": "2027-04-02",
-    "dateEnd": "2027-04-04",
-    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "High altitude chaos awaits riders",
-        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
-      },
-      {
-        "h": "Factory strategy splits on tire selection",
-        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
-      },
-      {
-        "h": "South American crowd fuels unpredictable outcomes",
-        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
-      }
-    ]
-  },
-  {
     "id": "pga-valero-texas-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10317,6 +10362,39 @@
     ]
   },
   {
+    "id": "mgp-americas-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Americas Grand Prix",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-02",
+    "dateEnd": "2027-04-04",
+    "location": "Circuit of the Americas, Austin, Texas, USA",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Austin's High-Speed Elevation Challenge",
+        "b": "Circuit of the Americas sits at 823 feet above sea level, the highest MotoGP venue in the world, which <strong>significantly reduces aerodynamic downforce and engine power output</strong> compared to sea-level circuits. Teams running high-downforce setups elsewhere will need to completely recalibrate their strategies to manage the thinner air."
+      },
+      {
+        "h": "Wet Weather Wildcard in April",
+        "b": "Spring thunderstorms frequently batter Austin in mid-April, and MotoGP's notoriously demanding Turn 1 becomes a lottery in wet conditions where even the smallest mistake triggers massive crashes. <strong>The unpredictable weather window could shuffle the championship order</strong> more dramatically than any dry-weather battle."
+      },
+      {
+        "h": "Factory Yamaha's Texas Redemption Arc",
+        "b": "After years of struggles, Yamaha has finally developed a competitive package, and the Americas circuit's fast, flowing corners perfectly suit their bike's newfound cornering prowess. <strong>This could be the first genuine challenge to Ducati's dominance</strong> we've seen all season on a track where raw speed and stability matter most."
+      }
+    ]
+  },
+  {
     "id": "pga-masters-tournament-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10348,35 +10426,35 @@
     ]
   },
   {
-    "id": "mgp-americas-gp-2027",
-    "sport": "moto",
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
     "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Americas Grand Prix",
-    "date": "2027-04-18",
-    "dateStart": "2027-04-16",
-    "dateEnd": "2027-04-18",
-    "location": "Circuit of the Americas, Austin, USA",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-04-10",
+    "dateStart": "2027-04-10",
+    "dateEnd": "2027-04-10",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
     ],
     "points": [
       {
-        "h": "Austin's High-Speed Elevation Challenge",
-        "b": "Circuit of the Americas sits at 823 feet above sea level, the highest MotoGP venue in the world, which <strong>significantly reduces aerodynamic downforce and engine power output</strong> compared to sea-level circuits. Teams running high-downforce setups elsewhere will need to completely recalibrate their strategies to manage the thinner air."
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
       },
       {
-        "h": "Wet Weather Wildcard in April",
-        "b": "Spring thunderstorms frequently batter Austin in mid-April, and MotoGP's notoriously demanding Turn 1 becomes a lottery in wet conditions where even the smallest mistake triggers massive crashes. <strong>The unpredictable weather window could shuffle the championship order</strong> more dramatically than any dry-weather battle."
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
       },
       {
-        "h": "Factory Yamaha's Texas Redemption Arc",
-        "b": "After years of struggles, Yamaha has finally developed a competitive package, and the Americas circuit's fast, flowing corners perfectly suit their bike's newfound cornering prowess. <strong>This could be the first genuine challenge to Ducati's dominance</strong> we've seen all season on a track where raw speed and stability matter most."
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -10577,6 +10655,38 @@
     ]
   },
   {
+    "id": "mgp-portimao-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Algarve Grand Prix",
+    "date": "2027-04-18",
+    "dateStart": "2027-04-16",
+    "dateEnd": "2027-04-18",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3"
+    ],
+    "points": [
+      {
+        "h": "Portimão's High-Speed Carnage",
+        "b": "The Algarve circuit's combination of blazing straights and technical corners creates a unique battleground where <strong>tire management becomes as critical as raw pace</strong>. Riders who nail the balance between aggression and conservation will dominate this punishing 5.4km layout."
+      },
+      {
+        "h": "May Weather Wildcards in Play",
+        "b": "Spring conditions in Portugal bring unpredictable rain showers that can completely shuffle the grid strategy, forcing teams to <strong>gamble on tire compounds during practice sessions</strong> with limited dry-weather running to build confidence."
+      },
+      {
+        "h": "Braking Zone Domination Decides It",
+        "b": "Portimão's brutal deceleration zones—particularly into Turn 1 and the chicane—expose which bikes have the most effective front-end grip and rider bravery. <strong>Bold late-braking moves here win races, but mistakes end them</strong> in spectacular fashion."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-5",
     "sport": "bjj",
     "entityType": "championship",
@@ -10737,71 +10847,6 @@
     ]
   },
   {
-    "id": "mgp-jerez-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Jerez Grand Prix",
-    "date": "2027-04-25",
-    "dateStart": "2027-04-23",
-    "dateEnd": "2027-04-25",
-    "location": "Circuito de Jerez-Ángel Nieto, Jerez, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3"
-    ],
-    "points": [
-      {
-        "h": "Spanish home advantage cuts deep",
-        "b": "Jerez is effectively a home Grand Prix for several European riders, but more importantly, <strong>the high-speed, flowing nature of this circuit rewards aggressive throttle control and bike stability</strong>—traits that could favor certain manufacturer philosophies over others heading into the season."
-      },
-      {
-        "h": "Early season championship momentum shifts",
-        "b": "By late April, the 2027 title picture should be crystallizing after three rounds, making Jerez a crucial <strong>momentum-building opportunity for teams to test setup variations and confirm their competitive window</strong> before the European calendar intensifies."
-      },
-      {
-        "h": "Tire strategy variance most critical here",
-        "b": "The Jerez circuit's unique combination of <strong>abrasive asphalt and extreme lean angles demands precision tire selection</strong>, meaning teams with better read-and-react capability to track conditions could gain unexpected advantages over those relying on pre-event data."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-04-24",
-    "dateStart": "2027-04-24",
-    "dateEnd": "2027-04-24",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
     "id": "pga-houston-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10829,6 +10874,38 @@
       {
         "h": "Houston Heat and Course Conditions",
         "b": "Late April temperatures and humidity will test endurance, but the recently renovated Memorial Park is playing <strong>firmer and faster than most expect</strong> for this time of year. Smart course management and mental toughness in the heat will prove decisive."
+      }
+    ]
+  },
+  {
+    "id": "mgp-jerez-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Jerez Grand Prix",
+    "date": "2027-05-02",
+    "dateStart": "2027-04-30",
+    "dateEnd": "2027-05-02",
+    "location": "Circuito de Jerez, Jerez de la Frontera, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3"
+    ],
+    "points": [
+      {
+        "h": "Spanish home advantage cuts deep",
+        "b": "Jerez is effectively a home Grand Prix for several European riders, but more importantly, <strong>the high-speed, flowing nature of this circuit rewards aggressive throttle control and bike stability</strong>—traits that could favor certain manufacturer philosophies over others heading into the season."
+      },
+      {
+        "h": "Early season championship momentum shifts",
+        "b": "By late April, the 2027 title picture should be crystallizing after three rounds, making Jerez a crucial <strong>momentum-building opportunity for teams to test setup variations and confirm their competitive window</strong> before the European calendar intensifies."
+      },
+      {
+        "h": "Tire strategy variance most critical here",
+        "b": "The Jerez circuit's unique combination of <strong>abrasive asphalt and extreme lean angles demands precision tire selection</strong>, meaning teams with better read-and-react capability to track conditions could gain unexpected advantages over those relying on pre-event data."
       }
     ]
   },
@@ -10893,38 +10970,6 @@
       {
         "h": "Drafting Tactics on Mulsanne",
         "b": "The iconic Mulsanne straight offers unprecedented slipstreaming opportunities in MotoGP, meaning <strong>qualifying position and mental racing strategy</strong> become as critical as raw speed, potentially allowing mid-grid riders to gain positions through intelligent tow management."
-      }
-    ]
-  },
-  {
-    "id": "mgp-france-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "French Grand Prix",
-    "date": "2027-05-02",
-    "dateStart": "2027-04-30",
-    "dateEnd": "2027-05-02",
-    "location": "Circuit Bugatti, Le Mans, France",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3"
-    ],
-    "points": [
-      {
-        "h": "Le Mans' High-Speed Demand",
-        "b": "Circuit Bugatti's long straights and minimal technical corners will expose which manufacturers have solved their top-speed deficit this season. <strong>Aerodynamic efficiency becomes the deciding factor</strong> where raw corner speed matters less than maintaining momentum through the Mulsanne-style sections."
-      },
-      {
-        "h": "Tire Management Over Five Miles",
-        "b": "The French Grand Prix's extended layout pushes tire degradation harder than typical MotoGP venues, forcing riders to balance aggression with conservation across 25 laps. <strong>Teams that nail the tire strategy window</strong> will have a significant advantage over those gambling on one-stop strategies."
-      },
-      {
-        "h": "French Rider Redemption Narrative",
-        "b": "Racing at home in Le Mans carries immense pressure and motivation for French competitors seeking a career-defining result on their national circuit. <strong>Emotional investment often translates to risk-taking that reshapes championship standings</strong> in unexpected ways during home races."
       }
     ]
   },
@@ -11089,38 +11134,6 @@
     ]
   },
   {
-    "id": "mgp-portimao-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Algarve Grand Prix",
-    "date": "2027-05-09",
-    "dateStart": "2027-05-07",
-    "dateEnd": "2027-05-09",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3"
-    ],
-    "points": [
-      {
-        "h": "Portimão's High-Speed Carnage",
-        "b": "The Algarve circuit's combination of blazing straights and technical corners creates a unique battleground where <strong>tire management becomes as critical as raw pace</strong>. Riders who nail the balance between aggression and conservation will dominate this punishing 5.4km layout."
-      },
-      {
-        "h": "May Weather Wildcards in Play",
-        "b": "Spring conditions in Portugal bring unpredictable rain showers that can completely shuffle the grid strategy, forcing teams to <strong>gamble on tire compounds during practice sessions</strong> with limited dry-weather running to build confidence."
-      },
-      {
-        "h": "Braking Zone Domination Decides It",
-        "b": "Portimão's brutal deceleration zones—particularly into Turn 1 and the chicane—expose which bikes have the most effective front-end grip and rider bravery. <strong>Bold late-braking moves here win races, but mistakes end them</strong> in spectacular fashion."
-      }
-    ]
-  },
-  {
     "id": "ufc-bjj-6",
     "sport": "bjj",
     "entityType": "championship",
@@ -11150,6 +11163,38 @@
       {
         "h": "Fractured grappling landscape finds rival",
         "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
+      }
+    ]
+  },
+  {
+    "id": "mgp-france-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "French Grand Prix",
+    "date": "2027-05-16",
+    "dateStart": "2027-05-14",
+    "dateEnd": "2027-05-16",
+    "location": "Circuit Bugatti, Le Mans, France",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3"
+    ],
+    "points": [
+      {
+        "h": "Le Mans' High-Speed Demand",
+        "b": "Circuit Bugatti's long straights and minimal technical corners will expose which manufacturers have solved their top-speed deficit this season. <strong>Aerodynamic efficiency becomes the deciding factor</strong> where raw corner speed matters less than maintaining momentum through the Mulsanne-style sections."
+      },
+      {
+        "h": "Tire Management Over Five Miles",
+        "b": "The French Grand Prix's extended layout pushes tire degradation harder than typical MotoGP venues, forcing riders to balance aggression with conservation across 25 laps. <strong>Teams that nail the tire strategy window</strong> will have a significant advantage over those gambling on one-stop strategies."
+      },
+      {
+        "h": "French Rider Redemption Narrative",
+        "b": "Racing at home in Le Mans carries immense pressure and motivation for French competitors seeking a career-defining result on their national circuit. <strong>Emotional investment often translates to risk-taking that reshapes championship standings</strong> in unexpected ways during home races."
       }
     ]
   },
