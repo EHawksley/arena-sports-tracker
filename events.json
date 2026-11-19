@@ -7528,23 +7528,25 @@
           "day": "Saturday",
           "time_mt": "12:00 PM MT",
           "channels": [
-            "CBS",
+            "Golf Channel",
+            "NBC",
             "Peacock"
           ],
-          "note": "Main coverage on CBS"
+          "note": "Main coverage on NBC from 12:00 PM MT onwards"
         },
         {
           "name": "Final Round",
           "day": "Sunday",
           "time_mt": "12:00 PM MT",
           "channels": [
+            "Golf Channel",
             "CBS",
             "Peacock"
           ],
-          "note": "Championship round on CBS"
+          "note": "Championship coverage on CBS from 12:00 PM MT onwards"
         }
       ],
-      "watch_note": "The RSM Classic is best watched on CBS for weekend rounds or via Golf Channel/ESPN+ for weekday coverage, with Peacock offering streaming access for cable subscribers."
+      "watch_note": "Stream on ESPN+ or Peacock, or watch on Golf Channel, NBC, and CBS depending on the round."
     }
   },
   {
@@ -7581,37 +7583,47 @@
     "watch": {
       "sessions": [
         {
-          "name": "WorldSBK Race 1",
+          "name": "Superbike Race 1",
           "day": "Saturday",
-          "time_mt": "4:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of first race of the Turkish Round"
+          "note": "Live coverage of first Superbike race"
         },
         {
-          "name": "WorldSBK Race 2",
-          "day": "Sunday",
-          "time_mt": "4:00 AM MT",
+          "name": "Supersport Race",
+          "day": "Saturday",
+          "time_mt": "6:30 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Live coverage of second race of the Turkish Round"
+          "note": "Supersport class race"
         },
         {
-          "name": "WorldSBK Superpole Race",
+          "name": "Superbike Race 2",
           "day": "Sunday",
-          "time_mt": "1:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "Peacock",
             "beIN Sports"
           ],
-          "note": "Sprint race held on Sunday morning in Istanbul"
+          "note": "Final Superbike race of the round"
+        },
+        {
+          "name": "Supersport Race 2",
+          "day": "Sunday",
+          "time_mt": "6:30 AM MT",
+          "channels": [
+            "Peacock",
+            "beIN Sports"
+          ],
+          "note": "Second Supersport class race"
         }
       ],
-      "watch_note": "Peacock offers the most accessible streaming option for US viewers, with early morning coverage due to the 10-hour time difference from Istanbul to Mountain Time."
+      "watch_note": "Peacock Premium provides comprehensive coverage of the Turkish Round, with early morning start times in Mountain Time due to the Istanbul Park location."
     }
   },
   {
@@ -7649,54 +7661,24 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice 1",
+          "name": "MotoGP Practice & Qualifying",
           "day": "Friday",
-          "time_mt": "12:55 AM MT",
+          "time_mt": "5:55 AM MT",
           "channels": [
             "FS2",
-            "ESPN+"
+            "Fox Sports app"
           ],
-          "note": "Early morning session"
-        },
-        {
-          "name": "MotoGP Practice 2",
-          "day": "Friday",
-          "time_mt": "5:10 AM MT",
-          "channels": [
-            "FS2",
-            "ESPN+"
-          ],
-          "note": "Early morning session"
-        },
-        {
-          "name": "MotoGP Qualifying 1",
-          "day": "Saturday",
-          "time_mt": "12:50 AM MT",
-          "channels": [
-            "FS2",
-            "ESPN+"
-          ],
-          "note": "Early morning qualifying"
-        },
-        {
-          "name": "MotoGP Qualifying 2",
-          "day": "Saturday",
-          "time_mt": "5:05 AM MT",
-          "channels": [
-            "FS1",
-            "ESPN+"
-          ],
-          "note": "Main qualifying session"
+          "note": "Practice sessions and qualifying rounds"
         },
         {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "7:10 AM MT",
           "channels": [
-            "FS1",
-            "ESPN+"
+            "FS2",
+            "Fox Sports app"
           ],
-          "note": "Sprint race"
+          "note": "12-lap sprint race"
         },
         {
           "name": "MotoGP Main Race",
@@ -7704,12 +7686,12 @@
           "time_mt": "7:00 AM MT",
           "channels": [
             "FS1",
-            "ESPN+"
+            "Fox Sports app"
           ],
-          "note": "Championship finale"
+          "note": "Full-distance Grand Prix race"
         }
       ],
-      "watch_note": "The Valencia Grand Prix is best watched live on FS1 or ESPN+ early Sunday morning in Mountain Time as MotoGP concludes its season."
+      "watch_note": "Stream all Valencia MotoGP sessions on Fox Sports platforms (FS1/FS2 and Fox Sports app) with early morning start times on US Mountain Time."
     }
   },
   {
@@ -7744,32 +7726,32 @@
         {
           "name": "Early Prelims",
           "day": "Saturday",
-          "time_mt": "10:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Earliest fights on UFC Fight Pass"
+          "note": "Early preliminary fights"
         },
         {
           "name": "Prelims",
           "day": "Saturday",
-          "time_mt": "12:00 PM MT",
+          "time_mt": "11:00 AM MT",
           "channels": [
             "ESPN+"
           ],
-          "note": "Preliminary card before main event"
+          "note": "Preliminary card"
         },
         {
           "name": "Main Card",
           "day": "Saturday",
-          "time_mt": "2:00 PM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "Paramount+"
           ],
           "note": "Main event card"
         }
       ],
-      "watch_note": "UFC Fight Night from Doha is best watched on Paramount+ for the main card, with prelims available on ESPN+ and early fights on UFC Fight Pass."
+      "watch_note": "Stream the entire UFC Fight Night event on Paramount+ for the main card, with prelims available on ESPN+ in the United States."
     }
   },
   {
@@ -7810,7 +7792,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "Exclusive to UFC Fight Pass subscribers"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -7819,7 +7801,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "ESPN+ subscription required"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -7828,10 +7810,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Main event featuring Prochazka vs. Stirling"
+          "note": "Main card featuring Prochazka vs. Stirling"
         }
       ],
-      "watch_note": "Stream the main card on Paramount+ starting at 1:00 PM MT on Saturday, with prelims available on ESPN+ earlier in the day."
+      "watch_note": "Stream the main card exclusively on Paramount+ in the United States, with prelims available on ESPN+ starting earlier in the day."
     }
   },
   {
@@ -7885,10 +7867,10 @@
             "WorldSBK App",
             "Peacock"
           ],
-          "note": "Final test day sessions"
+          "note": "Final day of winter test sessions"
         }
       ],
-      "watch_note": "The Jerez Test is best watched via the WorldSBK App or Peacock, which provide live coverage of the two-day test sessions from Spain."
+      "watch_note": "Stream the Jerez test sessions live on the WorldSBK App or Peacock, with early morning Mountain Time start for European timezone coverage."
     }
   },
   {
@@ -7921,6 +7903,38 @@
       {
         "h": "Weather volatility favors adaptive riders",
         "b": "November conditions in Valencia bring unpredictable wind patterns and morning rain that dry by afternoon qualifying. <strong>Riders who adapt their lines within a single session</strong> gain enormous advantages over those committed to fixed setups, rewarding raw feel over pre-planned data."
+      }
+    ]
+  },
+  {
+    "id": "mgp-portimao-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Portimão Grand Prix",
+    "date": "2026-11-29",
+    "dateStart": "2026-11-27",
+    "dateEnd": "2026-11-29",
+    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3"
+    ],
+    "points": [
+      {
+        "h": "December finale tests tire degradation",
+        "b": "Portimão's abrasive surface and demanding layout will expose which teams nailed their winter development, as <strong>tire management in cool December conditions</strong> becomes the decisive factor when points are likely still contested."
+      },
+      {
+        "h": "Algarve's elevation changes demand setup",
+        "b": "Unlike most circuits, Portimão's dramatic elevation shifts from Turn 1 through the uphill Turn 15 mean riders cannot rely on muscle memory from other tracks—<strong>chassis balance consistency over variable terrain</strong> will separate contenders from pretenders."
+      },
+      {
+        "h": "Rain probability reshuffles championship math",
+        "b": "December weather in Portugal brings unpredictable showers that could arrive mid-race, and <strong>sudden wet conditions would nullify any setup advantage</strong>, potentially giving long-shot contenders their only realistic path to close a gap heading into 2027."
       }
     ]
   },
@@ -7984,38 +7998,6 @@
       {
         "h": "Northwest Track Favors Smooth Operators",
         "b": "Ridge's flowing sections reward riders who can carry mid-corner speed without aggressive braking zones, giving <strong>technical precision riders an edge over aggressive throttle-dependent competitors</strong> in this Pacific Northwest showdown."
-      }
-    ]
-  },
-  {
-    "id": "mgp-portimao-gp-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Portimão Grand Prix",
-    "date": "2026-12-06",
-    "dateStart": "2026-12-04",
-    "dateEnd": "2026-12-06",
-    "location": "Autódromo do Algarve, Portimão, Portugal",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3"
-    ],
-    "points": [
-      {
-        "h": "December finale tests tire degradation",
-        "b": "Portimão's abrasive surface and demanding layout will expose which teams nailed their winter development, as <strong>tire management in cool December conditions</strong> becomes the decisive factor when points are likely still contested."
-      },
-      {
-        "h": "Algarve's elevation changes demand setup",
-        "b": "Unlike most circuits, Portimão's dramatic elevation shifts from Turn 1 through the uphill Turn 15 mean riders cannot rely on muscle memory from other tracks—<strong>chassis balance consistency over variable terrain</strong> will separate contenders from pretenders."
-      },
-      {
-        "h": "Rain probability reshuffles championship math",
-        "b": "December weather in Portugal brings unpredictable showers that could arrive mid-race, and <strong>sudden wet conditions would nullify any setup advantage</strong>, potentially giving long-shot contenders their only realistic path to close a gap heading into 2027."
       }
     ]
   },
@@ -9692,7 +9674,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
+    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -10146,7 +10128,7 @@
     "date": "2027-03-27",
     "dateStart": "2027-03-26",
     "dateEnd": "2027-03-27",
-    "location": "Donington Park, Leicestershire, United Kingdom",
+    "location": "Donington Park, Leicestershire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10371,7 +10353,7 @@
     "date": "2027-04-04",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-04",
-    "location": "Circuit of the Americas, Austin, Texas, USA",
+    "location": "Circuit of The Americas, Austin, Texas, United States",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -10468,7 +10450,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
+    "location": "Michelin Raceway Road Atlanta, Braselton, GA, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10622,39 +10604,6 @@
     ]
   },
   {
-    "id": "mgp-spanish-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Spanish Grand Prix",
-    "date": "2027-04-18",
-    "dateStart": "2027-04-16",
-    "dateEnd": "2027-04-18",
-    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Barcelona's High-Speed Cornering Test",
-        "b": "The tight, flowing corners at Circuit de Barcelona-Catalunya demand <strong>precision throttle control and trail braking</strong> that separates elite riders from the field. Expect the championship contenders to gain crucial tenths through Turn 1-5, where small mistakes compound into massive time losses."
-      },
-      {
-        "h": "Tire Strategy in Spring Heat",
-        "b": "May racing at Barcelona typically brings <strong>warm track temperatures that challenge tire degradation management</strong> over the full race distance. Teams will gamble on tire allocation, with some opting for softer compounds early to build a gap, while others play the long game for the final laps."
-      },
-      {
-        "h": "European Swing Momentum Builder",
-        "b": "<strong>Barcelona kicks off the European portion of the calendar</strong>, making this weekend's result a critical springboard for teams heading into summer races where European-based riders traditionally gain track advantage. Winning here establishes rhythm and confidence heading into back-to-back continental events."
-      }
-    ]
-  },
-  {
     "id": "mgp-portimao-gp-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -10793,7 +10742,7 @@
     "date": "2027-04-21",
     "dateStart": "2027-04-20",
     "dateEnd": "2027-04-21",
-    "location": "Oulton Park, Cheshire, United Kingdom",
+    "location": "Oulton Park, Cheshire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10878,6 +10827,39 @@
     ]
   },
   {
+    "id": "mgp-spanish-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Spanish Grand Prix",
+    "date": "2027-05-02",
+    "dateStart": "2027-04-30",
+    "dateEnd": "2027-05-02",
+    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Barcelona's High-Speed Cornering Test",
+        "b": "The tight, flowing corners at Circuit de Barcelona-Catalunya demand <strong>precision throttle control and trail braking</strong> that separates elite riders from the field. Expect the championship contenders to gain crucial tenths through Turn 1-5, where small mistakes compound into massive time losses."
+      },
+      {
+        "h": "Tire Strategy in Spring Heat",
+        "b": "May racing at Barcelona typically brings <strong>warm track temperatures that challenge tire degradation management</strong> over the full race distance. Teams will gamble on tire allocation, with some opting for softer compounds early to build a gap, while others play the long game for the final laps."
+      },
+      {
+        "h": "European Swing Momentum Builder",
+        "b": "<strong>Barcelona kicks off the European portion of the calendar</strong>, making this weekend's result a critical springboard for teams heading into summer races where European-based riders traditionally gain track advantage. Winning here establishes rhythm and confidence heading into back-to-back continental events."
+      }
+    ]
+  },
+  {
     "id": "mgp-jerez-gp-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -10937,39 +10919,6 @@
       {
         "h": "Doral's Tropical Conditioning Tests",
         "b": "<strong>Thick rough and firm greens in May's heat make Doral unforgiving for any mental lapses</strong>. The course will play significantly longer than its yardage suggests, neutralizing bombers and rewarding experienced tour veterans who've learned Doral's specific demands."
-      }
-    ]
-  },
-  {
-    "id": "mgp-french-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "French Grand Prix",
-    "date": "2027-05-02",
-    "dateStart": "2027-04-30",
-    "dateEnd": "2027-05-02",
-    "location": "Circuit Bugatti, Le Mans, France",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Le Mans' High-Speed Layout Challenge",
-        "b": "The Bugatti Circuit's ultra-long straights and 300+ km/h top speeds will separate engine performance from bike handling, making <strong>aerodynamic efficiency and engine power</strong> the deciding factors in qualifying and race pace."
-      },
-      {
-        "h": "Tire Degradation Over Distance",
-        "b": "With Le Mans' abrasive asphalt and demanding braking zones, riders must manage <strong>front tire wear during the opening laps</strong> while preserving rear grip for the crucial final stint where overtaking becomes nearly impossible on this narrow circuit."
-      },
-      {
-        "h": "Drafting Tactics on Mulsanne",
-        "b": "The iconic Mulsanne straight offers unprecedented slipstreaming opportunities in MotoGP, meaning <strong>qualifying position and mental racing strategy</strong> become as critical as raw speed, potentially allowing mid-grid riders to gain positions through intelligent tow management."
       }
     ]
   },
@@ -11047,7 +10996,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-05-01",
     "dateEnd": "2027-05-03",
-    "location": "Oulton Park, Cheshire, United Kingdom",
+    "location": "Oulton Park, Cheshire, England",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -11167,6 +11116,39 @@
     ]
   },
   {
+    "id": "mgp-french-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "French Grand Prix",
+    "date": "2027-05-16",
+    "dateStart": "2027-05-14",
+    "dateEnd": "2027-05-16",
+    "location": "Circuit Bugatti, Le Mans, France",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Le Mans' High-Speed Layout Challenge",
+        "b": "The Bugatti Circuit's ultra-long straights and 300+ km/h top speeds will separate engine performance from bike handling, making <strong>aerodynamic efficiency and engine power</strong> the deciding factors in qualifying and race pace."
+      },
+      {
+        "h": "Tire Degradation Over Distance",
+        "b": "With Le Mans' abrasive asphalt and demanding braking zones, riders must manage <strong>front tire wear during the opening laps</strong> while preserving rear grip for the crucial final stint where overtaking becomes nearly impossible on this narrow circuit."
+      },
+      {
+        "h": "Drafting Tactics on Mulsanne",
+        "b": "The iconic Mulsanne straight offers unprecedented slipstreaming opportunities in MotoGP, meaning <strong>qualifying position and mental racing strategy</strong> become as critical as raw speed, potentially allowing mid-grid riders to gain positions through intelligent tow management."
+      }
+    ]
+  },
+  {
     "id": "mgp-france-gp-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -11259,6 +11241,38 @@
       {
         "h": "Tyre degradation tests fuel management mastery",
         "b": "The relentless pace around Monza's 5.8km circuit means rear tire life becomes the hidden battleground, forcing riders to balance aggressive early lapping with conservation for the final stint. <strong>The winner will likely be whoever best interprets fuel load strategy versus tire preservation</strong>, as both factors operate on opposing timelines during this grueling 25-lap encounter."
+      }
+    ]
+  },
+  {
+    "id": "wsbk-aragon-round-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "World Superbike Championship (WSBK)",
+    "icon": "🏍️",
+    "title": "World Superbike Championship - Aragon Round",
+    "date": "2027-05-23",
+    "dateStart": "2027-05-21",
+    "dateEnd": "2027-05-23",
+    "location": "MotorLand Aragon, Alcañiz, Spain",
+    "status": "scheduled",
+    "classes": [
+      "WorldSBK",
+      "WorldSSP",
+      "WorldSSP300"
+    ],
+    "points": [
+      {
+        "h": "Aragon's High-Speed Demands Test Setup",
+        "b": "MotorLand Aragon's flowing layout and multiple long straights reward aggressive acceleration and efficient braking zones, making <strong>engine power and tire degradation management</strong> critical differentiators where even small setup errors become costly over race distance."
+      },
+      {
+        "h": "Spanish Circuit Favors Technical Consistency",
+        "b": "Unlike tight street circuits, Aragon's wide track surface allows riders to explore different racing lines and recover from minor mistakes, meaning <strong>sustained corner speed and smooth throttle control</strong> will separate championship contenders from mid-field runners across the full race distance."
+      },
+      {
+        "h": "May Weather Volatility Complicates Strategy",
+        "b": "Spring conditions at Aragon can shift rapidly from warm dry track to unpredictable wind and isolated rain showers, forcing teams to <strong>gamble on tire compounds and setup adjustments</strong> that could make or break race-day performance in qualifying and both races."
       }
     ]
   }
