@@ -7627,72 +7627,6 @@
     }
   },
   {
-    "id": "mgp-valencia-gp-2026",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Valencia Grand Prix",
-    "date": "2026-11-22",
-    "dateStart": "2026-11-20",
-    "dateEnd": "2026-11-22",
-    "location": "Circuit Ricardo Tormo, Valencia, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Title Fight Comes Down to Valencia",
-        "b": "The Circuit Ricardo Tormo's tight corners and long straights will expose any bike setup weaknesses in the championship finale, making <strong>tire management in the final laps</strong> the deciding factor between champions."
-      },
-      {
-        "h": "Weather Could Shake Up Grid Order",
-        "b": "Valencia's November timing brings unpredictable autumn conditions that historically favor riders with superior wet-weather racecraft, potentially allowing <strong>underdogs to exploit championship contenders' dry-setup disadvantages</strong>."
-      },
-      {
-        "h": "Home Track Advantage Fuels Spanish Hopes",
-        "b": "With passionate local support at stake, any Spanish riders in contention will have <strong>massive mental and emotional leverage</strong> that could translate to aggressive, calculated risk-taking in wheel-to-wheel battles."
-      }
-    ],
-    "watch": {
-      "sessions": [
-        {
-          "name": "MotoGP Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "5:00 AM MT",
-          "channels": [
-            "FS1",
-            "FS2"
-          ],
-          "note": "Practice sessions and qualifying rounds"
-        },
-        {
-          "name": "MotoGP Sprint Race",
-          "day": "Saturday",
-          "time_mt": "7:00 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Sprint race; main card prelims start earlier"
-        },
-        {
-          "name": "MotoGP Main Race",
-          "day": "Sunday",
-          "time_mt": "7:00 AM MT",
-          "channels": [
-            "FS1"
-          ],
-          "note": "Main Grand Prix race event"
-        }
-      ],
-      "watch_note": "MotoGP's Valencia Grand Prix is broadcast on Fox Sports 1 and 2 in the US, with early morning start times in Mountain Time due to the European location."
-    }
-  },
-  {
     "id": "ufc-fight-night-doha",
     "sport": "ufc",
     "entityType": "championship",
@@ -7728,7 +7662,7 @@
           "channels": [
             "UFC Fight Pass"
           ],
-          "note": "UFC Fight Pass subscribers only"
+          "note": "Earliest fights on UFC Fight Pass"
         },
         {
           "name": "Prelims",
@@ -7737,7 +7671,7 @@
           "channels": [
             "ESPN+"
           ],
-          "note": "Requires ESPN+ subscription"
+          "note": "Preliminary card before main event"
         },
         {
           "name": "Main Card",
@@ -7746,10 +7680,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Pay-per-view on Paramount+"
+          "note": "Main event card requires Paramount+ subscription"
         }
       ],
-      "watch_note": "UFC Fight Night from Doha streams on Paramount+ for the main card, with prelims available on ESPN+ starting in the early afternoon Mountain Time."
+      "watch_note": "UFC Fight Night from Doha is best watched on Paramount+ for the main card, with prelims available on ESPN+ starting in the early afternoon Mountain Time."
     }
   },
   {
@@ -7808,10 +7742,10 @@
           "channels": [
             "Paramount+"
           ],
-          "note": "Prochazka vs. Stirling headliner"
+          "note": "Prochazka vs. Stirling main event"
         }
       ],
-      "watch_note": "Stream the main card on Paramount+ starting at 1:00 PM MT on Saturday, with prelims available on ESPN+ and early prelims on UFC Fight Pass."
+      "watch_note": "UFC Fight Night is exclusively available on Paramount+ in the US for the main card, with prelims on ESPN+ and early prelims on UFC Fight Pass."
     }
   },
   {
@@ -7850,25 +7784,113 @@
         {
           "name": "Jerez Test - Day 1",
           "day": "Wednesday",
-          "time_mt": "2:00 AM MT",
+          "time_mt": "12:00 AM MT",
           "channels": [
             "WorldSBK App",
             "Peacock"
           ],
-          "note": "Live streaming of first day of official WSBK test"
+          "note": "Live streaming of test sessions"
         },
         {
           "name": "Jerez Test - Day 2",
           "day": "Thursday",
-          "time_mt": "2:00 AM MT",
+          "time_mt": "12:00 AM MT",
           "channels": [
             "WorldSBK App",
             "Peacock"
           ],
-          "note": "Live streaming of second day of official WSBK test"
+          "note": "Final day of Jerez testing"
         }
       ],
-      "watch_note": "The Jerez Test will be streamed live on the WorldSBK App and Peacock, with early morning Mountain Time start times due to the Spanish location."
+      "watch_note": "Stream the Jerez Test live on the WorldSBK App or Peacock, with sessions starting in the early morning hours MT due to the Spain time difference."
+    }
+  },
+  {
+    "id": "mgp-valencia-gp-2026",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Valencia Grand Prix",
+    "date": "2026-11-29",
+    "dateStart": "2026-11-27",
+    "dateEnd": "2026-11-29",
+    "location": "Circuit Ricardo Tormo, Valencia, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Title Fight Comes Down to Valencia",
+        "b": "The Circuit Ricardo Tormo's tight corners and long straights will expose any bike setup weaknesses in the championship finale, making <strong>tire management in the final laps</strong> the deciding factor between champions."
+      },
+      {
+        "h": "Weather Could Shake Up Grid Order",
+        "b": "Valencia's November timing brings unpredictable autumn conditions that historically favor riders with superior wet-weather racecraft, potentially allowing <strong>underdogs to exploit championship contenders' dry-setup disadvantages</strong>."
+      },
+      {
+        "h": "Home Track Advantage Fuels Spanish Hopes",
+        "b": "With passionate local support at stake, any Spanish riders in contention will have <strong>massive mental and emotional leverage</strong> that could translate to aggressive, calculated risk-taking in wheel-to-wheel battles."
+      }
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "MotoGP Practice 1",
+          "day": "Friday",
+          "time_mt": "1:00 AM MT",
+          "channels": [
+            "FS2",
+            "Fox Sports Go"
+          ],
+          "note": "Early morning session"
+        },
+        {
+          "name": "MotoGP Practice 2",
+          "day": "Friday",
+          "time_mt": "5:30 AM MT",
+          "channels": [
+            "FS2",
+            "Fox Sports Go"
+          ],
+          "note": "Early morning session"
+        },
+        {
+          "name": "MotoGP Qualifying",
+          "day": "Saturday",
+          "time_mt": "1:35 AM MT",
+          "channels": [
+            "FS2",
+            "Fox Sports Go"
+          ],
+          "note": "Determines grid positions"
+        },
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports Go"
+          ],
+          "note": "Short race format"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports Go"
+          ],
+          "note": "Championship decider"
+        }
+      ],
+      "watch_note": "The Valencia Grand Prix airs early morning on FS1/FS2 in the US; the main MotoGP race on Sunday morning can be streamed via Fox Sports Go with a cable login."
     }
   },
   {
@@ -7910,8 +7932,7 @@
           "day": "Friday",
           "time_mt": "12:55 AM MT",
           "channels": [
-            "FS2",
-            "ESPN+"
+            "FS2"
           ],
           "note": "Early morning session"
         },
@@ -7920,33 +7941,39 @@
           "day": "Friday",
           "time_mt": "5:10 AM MT",
           "channels": [
-            "FS2",
-            "ESPN+"
+            "FS2"
           ],
-          "note": "Early morning session"
+          "note": "Late morning European time"
         },
         {
           "name": "MotoGP Qualifying",
           "day": "Saturday",
-          "time_mt": "12:50 AM MT",
+          "time_mt": "12:55 AM MT",
           "channels": [
-            "FS1",
-            "ESPN+"
+            "FS2"
           ],
-          "note": "Early morning qualifying session"
+          "note": "Early morning qualifying"
         },
         {
-          "name": "MotoGP Race",
-          "day": "Sunday",
-          "time_mt": "12:00 AM MT",
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "5:00 AM MT",
           "channels": [
-            "FS1",
-            "ESPN+"
+            "FS1"
           ],
-          "note": "Main race event"
+          "note": "Sprint race format"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "5:00 AM MT",
+          "channels": [
+            "FS1"
+          ],
+          "note": "Season finale"
         }
       ],
-      "watch_note": "Stream MotoGP on ESPN+ or catch it on FS1/FS2 with cable subscription for the Valencian Grand Prix finale."
+      "watch_note": "MotoGP's season finale at Valencia airs live on FS1 and FS2 in the early morning hours MT; viewers can also stream on Fox Sports app with cable authentication."
     }
   },
   {
@@ -7983,61 +8010,35 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice 1",
-          "day": "Friday",
-          "time_mt": "5:55 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Opening practice session"
-        },
-        {
-          "name": "MotoGP Practice 2",
-          "day": "Friday",
-          "time_mt": "10:10 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Second practice session"
-        },
-        {
-          "name": "MotoGP Practice 3",
+          "name": "MotoGP Practice & Qualifying",
           "day": "Saturday",
           "time_mt": "5:55 AM MT",
           "channels": [
+            "FS1",
             "FS2"
           ],
-          "note": "Third practice session"
+          "note": "Practice sessions start earlier; qualifying in afternoon"
         },
         {
-          "name": "MotoGP Qualifying",
-          "day": "Saturday",
-          "time_mt": "9:35 AM MT",
-          "channels": [
-            "FS1"
-          ],
-          "note": "Pole position qualifying"
-        },
-        {
-          "name": "MotoGP Sprint Race",
-          "day": "Saturday",
-          "time_mt": "1:00 PM MT",
-          "channels": [
-            "FS1"
-          ],
-          "note": "15-lap sprint race"
-        },
-        {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
-          "time_mt": "8:00 AM MT",
+          "time_mt": "7:00 AM MT",
           "channels": [
             "FS1"
           ],
-          "note": "Full-distance Grand Prix race"
+          "note": "Main race event"
+        },
+        {
+          "name": "Moto2 & Moto3 Races",
+          "day": "Sunday",
+          "time_mt": "5:20 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Support class races before MotoGP"
         }
       ],
-      "watch_note": "Stream all MotoGP sessions live on FS1 and FS2, with FS1 carrying the main race and qualifying on Sunday morning."
+      "watch_note": "MotoGP's Portimão Grand Prix is best watched on FS1/FS2 with early morning start times in Mountain Time due to the European location."
     }
   },
   {
@@ -8210,7 +8211,7 @@
     "date": "2026-12-12",
     "dateStart": "2026-12-12",
     "dateEnd": "2026-12-12",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8330,10 +8331,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sentry Tournament of Champions",
-    "date": "2027-01-03",
-    "dateStart": "2027-01-01",
-    "dateEnd": "2027-01-03",
-    "location": "Plantation Course at Kapalua, Maui, HI, United States",
+    "date": "2027-01-07",
+    "dateStart": "2027-01-04",
+    "dateEnd": "2027-01-07",
+    "location": "Wailea Golf Club, Maui, Hawaii",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -8360,10 +8361,10 @@
     "series": "PGA Tour / FedEx Cup",
     "icon": "⛳",
     "title": "Sony Open in Hawaii",
-    "date": "2027-01-10",
-    "dateStart": "2027-01-07",
-    "dateEnd": "2027-01-10",
-    "location": "Waialae Country Club, Honolulu, HI, United States",
+    "date": "2027-01-14",
+    "dateStart": "2027-01-11",
+    "dateEnd": "2027-01-14",
+    "location": "Waialae Country Club, Honolulu, Hawaii",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -8423,7 +8424,7 @@
     "date": "2027-01-16",
     "dateStart": "2027-01-16",
     "dateEnd": "2027-01-16",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -8519,7 +8520,7 @@
     "date": "2027-01-24",
     "dateStart": "2027-01-21",
     "dateEnd": "2027-01-24",
-    "location": "Torrey Pines Golf Course, San Diego, CA, United States",
+    "location": "Torrey Pines Golf Course, San Diego, California",
     "status": "scheduled",
     "classes": [
       "Stroke Play"
@@ -8729,6 +8730,37 @@
     ]
   },
   {
+    "id": "pga-sanderson-farms-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Sanderson Farms Championship",
+    "date": "2027-01-31",
+    "dateStart": "2027-01-28",
+    "dateEnd": "2027-01-31",
+    "location": "Country Club of Jackson, Jackson, Mississippi",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Early Season Positioning Matters Most",
+        "b": "With the FedEx Cup race just starting, players finishing strong at Sanderson Farms will establish critical momentum heading into the elevated events. <strong>A top-10 finish here can mean the difference between playing for $18M or scrambling for invitations</strong> down the stretch."
+      },
+      {
+        "h": "Jackson's Soft Course Rewards Aggression",
+        "b": "Country Club of Jackson plays shorter and softer than typical Tour venues, creating ideal conditions for bombers and sharp iron players to separate themselves. <strong>Expect driving distance and accuracy off the tee to correlate directly with leaderboard position</strong> this week."
+      },
+      {
+        "h": "Proving Ground for Young Strikers",
+        "b": "This traditionally attracts hungry prospects looking to make statements before bigger stages arrive, making it a talent incubator for identifying breakout candidates. <strong>A first PGA Tour win here launches careers in ways mid-tier tournaments simply cannot</strong>."
+      }
+    ]
+  },
+  {
     "id": "ufc-336",
     "sport": "ufc",
     "entityType": "championship",
@@ -8799,7 +8831,7 @@
     "date": "2027-02-07",
     "dateStart": "2027-02-04",
     "dateEnd": "2027-02-07",
-    "location": "PGA West - Stadium Course, La Quinta, California",
+    "location": "PGA West, La Quinta, California",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -8817,37 +8849,6 @@
       {
         "h": "Win Sets Tone for Spring Majors",
         "b": "This event's timing just four weeks before the Masters means the winner enters Augusta with genuine confidence and proven competitive sharpness. <strong>A victory here often signals a player peaked at precisely the right moment</strong> to mount a serious major championship run."
-      }
-    ]
-  },
-  {
-    "id": "pga-sanderson-farms-championship-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "Sanderson Farms Championship",
-    "date": "2027-02-07",
-    "dateStart": "2027-02-04",
-    "dateEnd": "2027-02-07",
-    "location": "Country Club of Jackson, Jackson, Mississippi, USA",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Early Season Positioning Matters Most",
-        "b": "With the FedEx Cup race just starting, players finishing strong at Sanderson Farms will establish critical momentum heading into the elevated events. <strong>A top-10 finish here can mean the difference between playing for $18M or scrambling for invitations</strong> down the stretch."
-      },
-      {
-        "h": "Jackson's Soft Course Rewards Aggression",
-        "b": "Country Club of Jackson plays shorter and softer than typical Tour venues, creating ideal conditions for bombers and sharp iron players to separate themselves. <strong>Expect driving distance and accuracy off the tee to correlate directly with leaderboard position</strong> this week."
-      },
-      {
-        "h": "Proving Ground for Young Strikers",
-        "b": "This traditionally attracts hungry prospects looking to make statements before bigger stages arrive, making it a talent incubator for identifying breakout candidates. <strong>A first PGA Tour win here launches careers in ways mid-tier tournaments simply cannot</strong>."
       }
     ]
   },
@@ -9066,6 +9067,37 @@
     ]
   },
   {
+    "id": "pga-pebble-beach-pro-am-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "AT&T Pebble Beach Pro-Am",
+    "date": "2027-02-14",
+    "dateStart": "2027-02-11",
+    "dateEnd": "2027-02-14",
+    "location": "Pebble Beach Golf Links, Pebble Beach, California",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Valentine's Day Chaos at Pebble",
+        "b": "Playing one of golf's most iconic and unforgiving layouts on February 14th adds psychological pressure beyond the typical Pro-Am dynamics. <strong>Wind patterns off the Pacific on Valentine's Day historically create unpredictable conditions</strong> that can separate emotionally locked-in players from those struggling with focus."
+      },
+      {
+        "h": "Celebrity Partner Impact Intensifies",
+        "b": "The Pro-Am format at Pebble Beach means amateurs with varying skill levels play alongside PGA Tour pros, and <strong>managing partner chemistry and pace-of-play becomes unexpectedly crucial</strong> when split focus could cost strokes on one of the world's most demanding courses."
+      },
+      {
+        "h": "FedEx Cup Race Reshuffled Early",
+        "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-jerez-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9192,37 +9224,6 @@
     ]
   },
   {
-    "id": "pga-pebble-beach-pro-am-2027",
-    "sport": "golf",
-    "entityType": "championship",
-    "series": "PGA Tour / FedEx Cup",
-    "icon": "⛳",
-    "title": "AT&T Pebble Beach Pro-Am",
-    "date": "2027-02-21",
-    "dateStart": "2027-02-18",
-    "dateEnd": "2027-02-21",
-    "location": "Pebble Beach Golf Links, Pebble Beach, California",
-    "status": "scheduled",
-    "classes": [
-      "Stroke Play",
-      "FedEx Cup Points"
-    ],
-    "points": [
-      {
-        "h": "Valentine's Day Chaos at Pebble",
-        "b": "Playing one of golf's most iconic and unforgiving layouts on February 14th adds psychological pressure beyond the typical Pro-Am dynamics. <strong>Wind patterns off the Pacific on Valentine's Day historically create unpredictable conditions</strong> that can separate emotionally locked-in players from those struggling with focus."
-      },
-      {
-        "h": "Celebrity Partner Impact Intensifies",
-        "b": "The Pro-Am format at Pebble Beach means amateurs with varying skill levels play alongside PGA Tour pros, and <strong>managing partner chemistry and pace-of-play becomes unexpectedly crucial</strong> when split focus could cost strokes on one of the world's most demanding courses."
-      },
-      {
-        "h": "FedEx Cup Race Reshuffled Early",
-        "b": "As a early-season FedEx Cup event, this Pebble Beach tournament sets points distribution before March madness, meaning <strong>a breakthrough performance here significantly alters playoff positioning</strong> for players seeking to build momentum through the spring and secure favorable pairings later in the season."
-      }
-    ]
-  },
-  {
     "id": "pga-puerto-rico-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -9281,6 +9282,37 @@
       {
         "h": "International field hungers for WGC prestige",
         "b": "This event's Mexico City location attracts Latin American stars and international players craving <strong>FedEx Cup points outside the US circuit</strong>, creating a fascinating dynamic where distance players and proven international competitors converge on one of golf's most unique venues."
+      }
+    ]
+  },
+  {
+    "id": "pga-wcc-mexico-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "WCC Mexico Championship",
+    "date": "2027-02-21",
+    "dateStart": "2027-02-18",
+    "dateEnd": "2027-02-21",
+    "location": "Club de Golf Chapultepec, Mexico City, Mexico",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Altitude Advantage Reshapes Shot Selection",
+        "b": "At 7,382 feet above sea level, Chapultepec's thin air means <strong>golf balls fly 10-15% farther</strong>, fundamentally changing how players approach distance control and club selection compared to standard PGA Tour venues."
+      },
+      {
+        "h": "Mexico City's Rich Tournament Pedigree Returns",
+        "b": "This championship marks a significant moment as <strong>professional golf returns to Mexico City's most prestigious club</strong> after years of absence, potentially inspiring Latin American talent and reigniting fan enthusiasm in one of the world's largest markets."
+      },
+      {
+        "h": "Late-Season FedEx Cup Implications Critical",
+        "b": "Playing just weeks before the season's playoff push, <strong>victory here directly impacts FedEx Cup positioning and playoff seeding</strong>, making this event a pivotal battleground for players fighting to secure their postseason momentum and final ranking advantages."
       }
     ]
   },
@@ -9424,7 +9456,7 @@
     "date": "2027-02-20",
     "dateStart": "2027-02-20",
     "dateEnd": "2027-02-20",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -9488,7 +9520,7 @@
     "date": "2027-02-28",
     "dateStart": "2027-02-25",
     "dateEnd": "2027-02-28",
-    "location": "PGA National Resort & Spa (Champion Course), Palm Beach Gardens, Florida",
+    "location": "PGA National Resort and Spa, Palm Beach Gardens, Florida",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -9635,6 +9667,37 @@
     ]
   },
   {
+    "id": "pga-arc-championship-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "Arnold Palmer Invitational presented by Mastercard",
+    "date": "2027-03-07",
+    "dateStart": "2027-03-04",
+    "dateEnd": "2027-03-07",
+    "location": "Bay Hill Club and Lodge, Orlando, Florida",
+    "status": "scheduled",
+    "classes": [
+      "Stroke Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Bay Hill's Demanding Layout Returns",
+        "b": "Arnold Palmer's iconic course punishes anything offline with its thick rough and strategic water hazards, making <strong>course management more valuable than raw distance</strong> this week. Expect lower scoring from players who've mastered positioning over those relying on power alone."
+      },
+      {
+        "h": "FedEx Cup Points War Intensifies",
+        "b": "With the playoffs approaching, <strong>this event serves as a critical resume-builder</strong> for players on the bubble looking to secure favorable seeding. Watch for aggressive play from mid-tier competitors trying to leap into the top 50 instead of conservative grinding from established stars."
+      },
+      {
+        "h": "Weather Window Creates Spring Advantage",
+        "b": "Orlando's transitional March conditions mean <strong>afternoon thunderstorms could dramatically reshape tournament narratives</strong>, favoring early starters and penalizing late groups with potentially softer greens. Players with recent experience in unpredictable spring weather will have a tactical edge."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-superbike-phoenix-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9767,6 +9830,39 @@
     ]
   },
   {
+    "id": "mgp-argentina-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Argentina Grand Prix",
+    "date": "2027-03-07",
+    "dateStart": "2027-03-05",
+    "dateEnd": "2027-03-07",
+    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "High altitude chaos awaits riders",
+        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
+      },
+      {
+        "h": "Factory strategy splits on tire selection",
+        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
+      },
+      {
+        "h": "South American crowd fuels unpredictable outcomes",
+        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
+      }
+    ]
+  },
+  {
     "id": "motoamerica-daytona-200-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -9809,7 +9905,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, Florida",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -9860,6 +9956,37 @@
       {
         "h": "Palmer's Legacy Attracts Sentimental Contenders",
         "b": "The Arnold Palmer Invitational carries unique cultural weight that often elevates performances from players with <strong>historical connections to Palmer or a reverence for tour tradition</strong>. Expect multiple competitors to cite Bay Hill's legacy as motivation, potentially creating tighter scoring and more emotional narratives than typical Tour events."
+      }
+    ]
+  },
+  {
+    "id": "pga-wgc-match-play-2027",
+    "sport": "golf",
+    "entityType": "championship",
+    "series": "PGA Tour / FedEx Cup",
+    "icon": "⛳",
+    "title": "World Golf Championship - Match Play",
+    "date": "2027-03-14",
+    "dateStart": "2027-03-11",
+    "dateEnd": "2027-03-14",
+    "location": "Austin Country Club, Austin, Texas",
+    "status": "scheduled",
+    "classes": [
+      "Match Play",
+      "FedEx Cup Points"
+    ],
+    "points": [
+      {
+        "h": "Austin's Brutal Match Play Setup",
+        "b": "The Hill Country terrain at Austin Country Club punishes inconsistency, and <strong>match play's sudden-death format amplifies every mistake</strong> into immediate defeat. Expect defensive golf and conservative strategy rather than the aggressive scoring we see in stroke play events."
+      },
+      {
+        "h": "FedEx Cup Points Race Intensifies",
+        "b": "<strong>This WGC serves as a critical FedEx Cup barometer</strong> just weeks before the postseason begins, with players desperately chasing points to secure playoff positioning. The 64-man field guarantees every competitor faces high-stakes matches against elite talent."
+      },
+      {
+        "h": "Rory and Scottie's Head-to-Head Showdown",
+        "b": "When the world's top two players collide in match play—where head games matter as much as ball-striking—<strong>mental toughness becomes the ultimate separator</strong>. Expect fireworks if they meet deep in the bracket, as neither player backs down from direct competition."
       }
     ]
   },
@@ -10071,7 +10198,7 @@
     "date": "2027-03-21",
     "dateStart": "2027-03-19",
     "dateEnd": "2027-03-21",
-    "location": "Autódromo Internacional do Algarve, Portimão, Portugal",
+    "location": "Autòdromo Internacional do Algarve, Portimão, Portugal",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
@@ -10126,39 +10253,6 @@
     ]
   },
   {
-    "id": "mgp-argentina-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Argentina Grand Prix",
-    "date": "2027-03-21",
-    "dateStart": "2027-03-19",
-    "dateEnd": "2027-03-21",
-    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "High altitude chaos awaits riders",
-        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
-      },
-      {
-        "h": "Factory strategy splits on tire selection",
-        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
-      },
-      {
-        "h": "South American crowd fuels unpredictable outcomes",
-        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
-      }
-    ]
-  },
-  {
     "id": "ufc-bjj-4",
     "sport": "bjj",
     "entityType": "championship",
@@ -10168,7 +10262,7 @@
     "date": "2027-03-20",
     "dateStart": "2027-03-20",
     "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -10358,7 +10452,7 @@
     "date": "2027-04-05",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-05",
-    "location": "Oaks Course, San Antonio, TX, USA",
+    "location": "TPC San Antonio (Oaks Course), San Antonio, Texas",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10488,7 +10582,7 @@
     "date": "2027-04-04",
     "dateStart": "2027-04-02",
     "dateEnd": "2027-04-04",
-    "location": "Circuit of The Americas, Austin, USA",
+    "location": "Circuit of The Americas, Austin, Texas, USA",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -10521,7 +10615,7 @@
     "date": "2027-04-12",
     "dateStart": "2027-04-09",
     "dateEnd": "2027-04-12",
-    "location": "Augusta National Golf Club, Augusta, GA, USA",
+    "location": "Augusta National Golf Club, Augusta, Georgia",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10552,7 +10646,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia",
+    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10588,7 +10682,7 @@
     "date": "2027-04-19",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-19",
-    "location": "Harbour Town Golf Links, Hilton Head Island, SC, USA",
+    "location": "Harbour Town Golf Links, Hilton Head Island, South Carolina",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10747,7 +10841,7 @@
     "date": "2027-04-17",
     "dateStart": "2027-04-17",
     "dateEnd": "2027-04-17",
-    "location": "Las Vegas, Nevada, USA",
+    "location": "Las Vegas, Nevada, United States",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -10844,7 +10938,7 @@
     "date": "2027-04-21",
     "dateStart": "2027-04-20",
     "dateEnd": "2027-04-21",
-    "location": "Oulton Park, Cheshire, England",
+    "location": "Oulton Park, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10876,7 +10970,7 @@
     "date": "2027-04-26",
     "dateStart": "2027-04-23",
     "dateEnd": "2027-04-26",
-    "location": "TPC Louisiana, Avondale, LA, USA",
+    "location": "TPC Louisiana, Avondale, Louisiana",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -10894,6 +10988,38 @@
       {
         "h": "FedEx Cup Points Battle Intensifies Here",
         "b": "With the FedEx Cup playoffs looming, the Zurich Classic serves as a final regular-season opportunity for mid-tier players to vault into better seeding positions through an unexpected team run. <strong>A surprise team chemistry breakthrough can dramatically reshape playoff positioning</strong> in ways traditional individual events simply cannot."
+      }
+    ]
+  },
+  {
+    "id": "mgp-jerez-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Jerez Grand Prix",
+    "date": "2027-04-25",
+    "dateStart": "2027-04-23",
+    "dateEnd": "2027-04-25",
+    "location": "Circuito de Jerez, Jerez, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3"
+    ],
+    "points": [
+      {
+        "h": "Spanish home advantage cuts deep",
+        "b": "Jerez is effectively a home Grand Prix for several European riders, but more importantly, <strong>the high-speed, flowing nature of this circuit rewards aggressive throttle control and bike stability</strong>—traits that could favor certain manufacturer philosophies over others heading into the season."
+      },
+      {
+        "h": "Early season championship momentum shifts",
+        "b": "By late April, the 2027 title picture should be crystallizing after three rounds, making Jerez a crucial <strong>momentum-building opportunity for teams to test setup variations and confirm their competitive window</strong> before the European calendar intensifies."
+      },
+      {
+        "h": "Tire strategy variance most critical here",
+        "b": "The Jerez circuit's unique combination of <strong>abrasive asphalt and extreme lean angles demands precision tire selection</strong>, meaning teams with better read-and-react capability to track conditions could gain unexpected advantages over those relying on pre-event data."
       }
     ]
   },
@@ -10962,38 +11088,6 @@
     ]
   },
   {
-    "id": "mgp-jerez-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Jerez Grand Prix",
-    "date": "2027-05-02",
-    "dateStart": "2027-04-30",
-    "dateEnd": "2027-05-02",
-    "location": "Circuito de Jerez, Jerez de la Frontera, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3"
-    ],
-    "points": [
-      {
-        "h": "Spanish home advantage cuts deep",
-        "b": "Jerez is effectively a home Grand Prix for several European riders, but more importantly, <strong>the high-speed, flowing nature of this circuit rewards aggressive throttle control and bike stability</strong>—traits that could favor certain manufacturer philosophies over others heading into the season."
-      },
-      {
-        "h": "Early season championship momentum shifts",
-        "b": "By late April, the 2027 title picture should be crystallizing after three rounds, making Jerez a crucial <strong>momentum-building opportunity for teams to test setup variations and confirm their competitive window</strong> before the European calendar intensifies."
-      },
-      {
-        "h": "Tire strategy variance most critical here",
-        "b": "The Jerez circuit's unique combination of <strong>abrasive asphalt and extreme lean angles demands precision tire selection</strong>, meaning teams with better read-and-react capability to track conditions could gain unexpected advantages over those relying on pre-event data."
-      }
-    ]
-  },
-  {
     "id": "pga-cadillac-championship-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -11003,7 +11097,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-04-30",
     "dateEnd": "2027-05-03",
-    "location": "Trump National Doral (Blue Monster Course), Doral, FL, USA",
+    "location": "Trump National Doral (Blue Monster Course), Doral, Florida",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -11098,7 +11192,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-05-01",
     "dateEnd": "2027-05-03",
-    "location": "Oulton Park, Cheshire, England",
+    "location": "Oulton Park, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -11158,9 +11252,9 @@
     "series": "MotoGP World Championship",
     "icon": "🏍️",
     "title": "French Grand Prix",
-    "date": "2027-05-09",
-    "dateStart": "2027-05-07",
-    "dateEnd": "2027-05-09",
+    "date": "2027-05-16",
+    "dateStart": "2027-05-14",
+    "dateEnd": "2027-05-16",
     "location": "Circuit Bugatti, Le Mans, France",
     "status": "scheduled",
     "classes": [
@@ -11181,39 +11275,6 @@
       {
         "h": "Mid-Season Championship Positioning",
         "b": "By May, the championship hierarchy typically solidifies, making Le Mans a <strong>crucial momentum-shifting round</strong> where title contenders either consolidate leads or face critical damage to their championship hopes before the summer break."
-      }
-    ]
-  },
-  {
-    "id": "ufc-bjj-6",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 6",
-    "date": "2027-05-08",
-    "dateStart": "2027-05-08",
-    "dateEnd": "2027-05-08",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas stages pure grappling showcase",
-        "b": "UFC BJJ 6 brings submission-only competition to the entertainment capital, marking a significant commitment to <strong>legitimizing Brazilian Jiu-Jitsu as a mainstream combat sport</strong> rather than just an MMA prerequisite. This Vegas staging signals the organization's confidence in drawing dedicated BJJ audiences beyond traditional fight fans."
-      },
-      {
-        "h": "Elite submission specialists converge February",
-        "b": "The 2027 edition will attract top-tier grapplers seeking <strong>credibility outside the octagon</strong>, creating matchups between athletes who've perfected leg lock systems, berimbolo techniques, and pressure-based passing that rarely see full expression in mixed rules. Expect technical chess matches that reward pure positional mastery."
-      },
-      {
-        "h": "Fractured grappling landscape finds rival",
-        "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
       }
     ]
   },
@@ -11292,7 +11353,7 @@
     "date": "2027-05-17",
     "dateStart": "2027-05-14",
     "dateEnd": "2027-05-17",
-    "location": "Aronimink Golf Club, Newtown Square, PA, USA",
+    "location": "Aronimink Golf Club, Newtown Square, Pennsylvania",
     "status": "scheduled",
     "classes": [
       "Stroke Play",
@@ -11343,6 +11404,39 @@
       {
         "h": "Tyre degradation tests fuel management mastery",
         "b": "The relentless pace around Monza's 5.8km circuit means rear tire life becomes the hidden battleground, forcing riders to balance aggressive early lapping with conservation for the final stint. <strong>The winner will likely be whoever best interprets fuel load strategy versus tire preservation</strong>, as both factors operate on opposing timelines during this grueling 25-lap encounter."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-6",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 6",
+    "date": "2027-05-15",
+    "dateStart": "2027-05-15",
+    "dateEnd": "2027-05-15",
+    "location": "Las Vegas, Nevada, United States",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas stages pure grappling showcase",
+        "b": "UFC BJJ 6 brings submission-only competition to the entertainment capital, marking a significant commitment to <strong>legitimizing Brazilian Jiu-Jitsu as a mainstream combat sport</strong> rather than just an MMA prerequisite. This Vegas staging signals the organization's confidence in drawing dedicated BJJ audiences beyond traditional fight fans."
+      },
+      {
+        "h": "Elite submission specialists converge February",
+        "b": "The 2027 edition will attract top-tier grapplers seeking <strong>credibility outside the octagon</strong>, creating matchups between athletes who've perfected leg lock systems, berimbolo techniques, and pressure-based passing that rarely see full expression in mixed rules. Expect technical chess matches that reward pure positional mastery."
+      },
+      {
+        "h": "Fractured grappling landscape finds rival",
+        "b": "With multiple BJJ competition circuits competing for legitimacy, <strong>UFC's continued investment in dedicated BJJ events</strong> positions them as a serious alternative to traditional IBJJF competitions for athletes seeking unified rules and premium exposure. This directly challenges whether traditional tournament formats or UFC's model better serves the sport's growth."
       }
     ]
   },
