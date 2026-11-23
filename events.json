@@ -7789,7 +7789,7 @@
             "WorldSBK App",
             "Peacock"
           ],
-          "note": "Live streaming available; exact session times vary"
+          "note": "Live stream starts early morning MT"
         },
         {
           "name": "Jerez Test - Day 2",
@@ -7799,10 +7799,10 @@
             "WorldSBK App",
             "Peacock"
           ],
-          "note": "Final test day; live streaming available"
+          "note": "Final day of testing session"
         }
       ],
-      "watch_note": "The Jerez Test is best watched via the official WorldSBK App or Peacock, which provide live coverage of all test sessions."
+      "watch_note": "Stream the Jerez Test live on the WorldSBK App or Peacock, with sessions beginning in the early morning hours Mountain Time."
     }
   },
   {
@@ -7841,46 +7841,33 @@
       "sessions": [
         {
           "name": "MotoGP Practice & Qualifying",
-          "day": "Saturday",
-          "time_mt": "5:00 AM MT",
+          "day": "Friday",
+          "time_mt": "12:55 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS2"
           ],
           "note": "Practice sessions and qualifying rounds"
         },
         {
-          "name": "MotoGP Race",
-          "day": "Sunday",
-          "time_mt": "5:00 AM MT",
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "7:00 AM MT",
           "channels": [
-            "FS1",
-            "Fox Sports app"
+            "FS1"
           ],
-          "note": "Main race event"
+          "note": "Sprint race determining grid positions"
         },
         {
-          "name": "Moto2 Race",
+          "name": "MotoGP Main Race",
           "day": "Sunday",
-          "time_mt": "3:30 AM MT",
+          "time_mt": "7:00 AM MT",
           "channels": [
-            "FS2",
-            "Fox Sports app"
+            "FS1"
           ],
-          "note": "Support series race"
-        },
-        {
-          "name": "Moto3 Race",
-          "day": "Sunday",
-          "time_mt": "2:00 AM MT",
-          "channels": [
-            "FS2",
-            "Fox Sports app"
-          ],
-          "note": "Support series race"
+          "note": "Main Valencia Grand Prix race"
         }
       ],
-      "watch_note": "MotoGP's Valencia Grand Prix broadcasts live on FS1 and Fox Sports app early Sunday morning in Mountain Time."
+      "watch_note": "Stream all Valencia Grand Prix sessions on Fox Sports (FS1/FS2) or Fox Sports app with cable login; ESPN+ also carries select sessions."
     }
   },
   {
@@ -7918,52 +7905,35 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice",
+          "name": "MotoGP Practice & Qualifying",
           "day": "Friday",
-          "time_mt": "12:55 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Free Practice 1"
-        },
-        {
-          "name": "MotoGP Practice",
-          "day": "Friday",
-          "time_mt": "4:55 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Free Practice 2"
-        },
-        {
-          "name": "MotoGP Qualifying",
-          "day": "Saturday",
-          "time_mt": "12:55 AM MT",
-          "channels": [
-            "FS2"
-          ],
-          "note": "Free Practice 3"
-        },
-        {
-          "name": "MotoGP Qualifying",
-          "day": "Saturday",
-          "time_mt": "3:35 AM MT",
-          "channels": [
-            "FS1"
-          ],
-          "note": "Qualifying Sessions"
-        },
-        {
-          "name": "MotoGP Race",
-          "day": "Sunday",
           "time_mt": "5:00 AM MT",
           "channels": [
-            "FS1"
+            "FS2"
           ],
-          "note": "Main Race - 25 laps"
+          "note": "Practice and qualifying sessions combined coverage"
+        },
+        {
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Sprint race held on Saturday"
+        },
+        {
+          "name": "MotoGP Main Race",
+          "day": "Sunday",
+          "time_mt": "6:00 AM MT",
+          "channels": [
+            "FS1",
+            "Fox Sports app"
+          ],
+          "note": "Main Grand Prix race"
         }
       ],
-      "watch_note": "MotoGP's Valencian Grand Prix airs live on FS1 in the early morning hours; FS1 and FS2 coverage is included with cable or available through cable login."
+      "watch_note": "MotoGP's Valencian Grand Prix can be watched on FS1/FS2 in the US, with early morning start times on the East Coast due to European timezone conversion."
     }
   },
   {
@@ -8001,25 +7971,33 @@
       "sessions": [
         {
           "name": "MotoGP Practice & Qualifying",
-          "day": "Saturday",
-          "time_mt": "5:40 AM MT",
+          "day": "Friday",
+          "time_mt": "5:55 AM MT",
           "channels": [
-            "FS1",
             "FS2"
           ],
-          "note": "FP2 at 5:40 AM MT, Qualifying at 9:05 AM MT"
+          "note": "FP1, FP2, and qualifying sessions"
         },
         {
-          "name": "MotoGP Race",
+          "name": "MotoGP Sprint Race",
+          "day": "Saturday",
+          "time_mt": "7:10 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "12-lap sprint race"
+        },
+        {
+          "name": "MotoGP Main Race",
           "day": "Sunday",
           "time_mt": "7:00 AM MT",
           "channels": [
             "FS1"
           ],
-          "note": "Live coverage of the main race event"
+          "note": "Full-distance Grand Prix"
         }
       ],
-      "watch_note": "MotoGP's Portimão Grand Prix is broadcast live on FS1 and FS2 with early morning start times; streaming is available through Fox Sports app with cable login."
+      "watch_note": "MotoGP's Portimão Grand Prix broadcasts primarily on FS1 and FS2 in the US, with early morning start times due to the Portuguese timezone."
     }
   },
   {
@@ -8392,6 +8370,39 @@
       {
         "h": "Dallas crowd will fuel intensity",
         "b": "The home-state advantage for one of these fighters could prove decisive in a closely-scored affair. <strong>UFC Fight Night events in Texas typically see explosive finishes</strong>, so expect both men to leave everything in the octagon."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-2",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 2",
+    "date": "2027-01-16",
+    "dateStart": "2027-01-16",
+    "dateEnd": "2027-01-16",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Las Vegas legitimizes pure grappling",
+        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
+      },
+      {
+        "h": "Sequel momentum tests sustainable interest",
+        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
+      },
+      {
+        "h": "International talent convergence heats competition",
+        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
       }
     ]
   },
@@ -9079,39 +9090,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-2",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 2",
-    "date": "2027-02-13",
-    "dateStart": "2027-02-13",
-    "dateEnd": "2027-02-13",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Las Vegas legitimizes pure grappling",
-        "b": "By hosting UFC BJJ 2 in Sin City, the UFC is signaling that <strong>submission-only competition deserves arena-scale production</strong>, elevating Brazilian Jiu-Jitsu from niche mat rooms to mainstream fight venues. This strategic positioning could reshape how combat sports audiences perceive pure grappling's entertainment value."
-      },
-      {
-        "h": "Sequel momentum tests sustainable interest",
-        "b": "The inaugural UFC BJJ event's success now faces the critical test of whether <strong>repeat viewership and ticket sales validate the format</strong>, or if the novelty factor was the primary draw. A strong showing here determines if this becomes a permanent UFC franchise or a one-off experiment."
-      },
-      {
-        "h": "International talent convergence heats competition",
-        "b": "Las Vegas in 2026 will attract elite grapplers from Europe, Asia, and South America seeking the prestige and exposure that <strong>UFC branding brings to submission grappling</strong>, creating a genuinely world-class competitor pool that transcends traditional BJJ circuit limitations."
-      }
-    ]
-  },
-  {
     "id": "ufc-fight-night-pyfer-nickal-2027",
     "sport": "ufc",
     "entityType": "championship",
@@ -9424,6 +9402,39 @@
       {
         "h": "Superbike's Balance of Performance Debate",
         "b": "With WSBK's controversial BoP adjustments entering 2027, Phillip Island's high-speed corners will immediately expose whether <strong>the weight and power handicaps actually level the playing field</strong> or simply shuffle which manufacturer complains loudest."
+      }
+    ]
+  },
+  {
+    "id": "ufc-bjj-3",
+    "sport": "bjj",
+    "entityType": "championship",
+    "series": "UFC BJJ",
+    "icon": "🥋",
+    "title": "UFC BJJ 3",
+    "date": "2027-02-20",
+    "dateStart": "2027-02-20",
+    "dateEnd": "2027-02-20",
+    "location": "Las Vegas, Nevada, USA",
+    "status": "scheduled",
+    "classes": [
+      "Bantamweight",
+      "Lightweight",
+      "Middleweight",
+      "Featherweight"
+    ],
+    "points": [
+      {
+        "h": "Vegas spotlight on pure grappling",
+        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
+      },
+      {
+        "h": "Elite roster testing submission hierarchy",
+        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
+      },
+      {
+        "h": "Building UFC's grappling brand momentum",
+        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
       }
     ]
   },
@@ -9820,7 +9831,7 @@
     "date": "2027-03-13",
     "dateStart": "2027-03-11",
     "dateEnd": "2027-03-13",
-    "location": "Daytona International Speedway, Daytona Beach, FL, USA",
+    "location": "Daytona International Speedway, Daytona Beach, Florida, USA",
     "status": "scheduled",
     "classes": [
       "Supersport",
@@ -10044,7 +10055,7 @@
     "date": "2027-03-21",
     "dateStart": "2027-03-19",
     "dateEnd": "2027-03-21",
-    "location": "Termas de Río Hondo, Santiago del Estero, Argentina",
+    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
     "status": "scheduled",
     "classes": [
       "MotoGP (Sprint + Race)",
@@ -10210,7 +10221,7 @@
     "date": "2027-03-20",
     "dateStart": "2027-03-20",
     "dateEnd": "2027-03-20",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -10305,7 +10316,7 @@
     "date": "2027-03-27",
     "dateStart": "2027-03-26",
     "dateEnd": "2027-03-27",
-    "location": "Donington Park, Leicestershire, England",
+    "location": "Donington Park, Leicestershire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10554,6 +10565,38 @@
     ]
   },
   {
+    "id": "mgp-usa-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "United States Grand Prix",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-02",
+    "dateEnd": "2027-04-04",
+    "location": "Circuit of The Americas, Austin, Texas, United States",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3"
+    ],
+    "points": [
+      {
+        "h": "Austin's High-Speed Heat Challenge",
+        "b": "The Circuit of The Americas' 3.4-mile layout with its signature Turn 1 uphill section demands aggressive braking and acceleration, but April's Texas heat will make tire management <strong>a critical variable that could shuffle the grid midway through the race</strong>. Riders accustomed to cooler European circuits may struggle with front-end grip on the back stretch where speeds exceed 200 mph."
+      },
+      {
+        "h": "Factory Support Advantage Amplified",
+        "b": "By April 2027, factory teams will have accumulated significant data from early-season rounds, giving manufacturers like Ducati and KTM <strong>a substantial development advantage in engine performance and aerodynamic setup</strong>. Independent riders without factory backing face an uphill battle on a track where raw horsepower on the straights often decides podium positions."
+      },
+      {
+        "h": "American Contingent Seeks Redemption",
+        "b": "The MotoGP paddock has produced limited American talent in recent years, making home-track success increasingly rare and valuable for any U.S.-based competitor in the field. <strong>A strong American result in Austin would carry outsized significance for growing the sport domestically</strong> and reigniting fan interest in a market MotoGP desperately wants to penetrate."
+      }
+    ]
+  },
+  {
     "id": "pga-masters-tournament-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10585,39 +10628,6 @@
     ]
   },
   {
-    "id": "ufc-bjj-3",
-    "sport": "bjj",
-    "entityType": "championship",
-    "series": "UFC BJJ",
-    "icon": "🥋",
-    "title": "UFC BJJ 3",
-    "date": "2027-04-10",
-    "dateStart": "2027-04-10",
-    "dateEnd": "2027-04-10",
-    "location": "Las Vegas, Nevada, USA",
-    "status": "scheduled",
-    "classes": [
-      "Bantamweight",
-      "Lightweight",
-      "Middleweight",
-      "Featherweight"
-    ],
-    "points": [
-      {
-        "h": "Vegas spotlight on pure grappling",
-        "b": "UFC BJJ 3 brings submission-only action to Sin City's premier combat venue, marking the third installment of a series designed to showcase <strong>technical Brazilian Jiu-Jitsu without MMA's striking component</strong>. This dedicated format continues gaining mainstream traction as fans and fighters embrace the strategic depth of pure grappling."
-      },
-      {
-        "h": "Elite roster testing submission hierarchy",
-        "b": "The January 2027 card will feature competitors operating under <strong>submission-only rulesets that reward positional dominance and finishing techniques</strong> over points, creating pressure situations where even world-class grapplers face different strategic calculations than traditional BJJ tournaments. Expect explosive pace and higher finishing rates throughout the event."
-      },
-      {
-        "h": "Building UFC's grappling brand momentum",
-        "b": "UFC BJJ's Las Vegas placement signals <strong>the organization's investment in standalone grappling events as a distinct product category</strong>, separate from their mixed martial arts operations. This positioning could reshape how combat sports fans consume technical grappling content and establish a new revenue stream for the promotion."
-      }
-    ]
-  },
-  {
     "id": "motoamerica-superbike-road-atlanta-2027",
     "sport": "moto",
     "entityType": "championship",
@@ -10627,7 +10637,7 @@
     "date": "2027-04-18",
     "dateStart": "2027-04-16",
     "dateEnd": "2027-04-18",
-    "location": "Michelin Raceway Road Atlanta, Braselton, GA, USA",
+    "location": "Michelin Raceway Road Atlanta, Braselton, Georgia, USA",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -10681,38 +10691,6 @@
       {
         "h": "FedEx Cup Positioning Shifts Dramatically",
         "b": "An unexpected winner here could <strong>vault into playoff contention from relative obscurity</strong>, making this the ideal tournament for mid-tier competitors to announce themselves before the summer grind intensifies."
-      }
-    ]
-  },
-  {
-    "id": "mgp-usa-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "United States Grand Prix",
-    "date": "2027-04-18",
-    "dateStart": "2027-04-16",
-    "dateEnd": "2027-04-18",
-    "location": "Circuit of The Americas, Austin, Texas, USA",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3"
-    ],
-    "points": [
-      {
-        "h": "Austin's High-Speed Heat Challenge",
-        "b": "The Circuit of The Americas' 3.4-mile layout with its signature Turn 1 uphill section demands aggressive braking and acceleration, but April's Texas heat will make tire management <strong>a critical variable that could shuffle the grid midway through the race</strong>. Riders accustomed to cooler European circuits may struggle with front-end grip on the back stretch where speeds exceed 200 mph."
-      },
-      {
-        "h": "Factory Support Advantage Amplified",
-        "b": "By April 2027, factory teams will have accumulated significant data from early-season rounds, giving manufacturers like Ducati and KTM <strong>a substantial development advantage in engine performance and aerodynamic setup</strong>. Independent riders without factory backing face an uphill battle on a track where raw horsepower on the straights often decides podium positions."
-      },
-      {
-        "h": "American Contingent Seeks Redemption",
-        "b": "The MotoGP paddock has produced limited American talent in recent years, making home-track success increasingly rare and valuable for any U.S.-based competitor in the field. <strong>A strong American result in Austin would carry outsized significance for growing the sport domestically</strong> and reigniting fan interest in a market MotoGP desperately wants to penetrate."
       }
     ]
   },
@@ -10822,7 +10800,7 @@
     "date": "2027-04-17",
     "dateStart": "2027-04-17",
     "dateEnd": "2027-04-17",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
@@ -10919,7 +10897,7 @@
     "date": "2027-04-21",
     "dateStart": "2027-04-20",
     "dateEnd": "2027-04-21",
-    "location": "Oulton Park, Cheshire, England",
+    "location": "Oulton Park, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -11005,39 +10983,6 @@
     ]
   },
   {
-    "id": "mgp-spanish-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Spanish Grand Prix",
-    "date": "2027-04-25",
-    "dateStart": "2027-04-23",
-    "dateEnd": "2027-04-25",
-    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Barcelona's High-Speed Cornering Test",
-        "b": "The tight, flowing corners at Circuit de Barcelona-Catalunya demand <strong>precision throttle control and trail braking</strong> that separates elite riders from the field. Expect the championship contenders to gain crucial tenths through Turn 1-5, where small mistakes compound into massive time losses."
-      },
-      {
-        "h": "Tire Strategy in Spring Heat",
-        "b": "May racing at Barcelona typically brings <strong>warm track temperatures that challenge tire degradation management</strong> over the full race distance. Teams will gamble on tire allocation, with some opting for softer compounds early to build a gap, while others play the long game for the final laps."
-      },
-      {
-        "h": "European Swing Momentum Builder",
-        "b": "<strong>Barcelona kicks off the European portion of the calendar</strong>, making this weekend's result a critical springboard for teams heading into summer races where European-based riders traditionally gain track advantage. Winning here establishes rhythm and confidence heading into back-to-back continental events."
-      }
-    ]
-  },
-  {
     "id": "pga-houston-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -11065,6 +11010,39 @@
       {
         "h": "Houston Heat and Course Conditions",
         "b": "Late April temperatures and humidity will test endurance, but the recently renovated Memorial Park is playing <strong>firmer and faster than most expect</strong> for this time of year. Smart course management and mental toughness in the heat will prove decisive."
+      }
+    ]
+  },
+  {
+    "id": "mgp-spanish-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Spanish Grand Prix",
+    "date": "2027-05-02",
+    "dateStart": "2027-04-30",
+    "dateEnd": "2027-05-02",
+    "location": "Circuit de Barcelona-Catalunya, Barcelona, Spain",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Barcelona's High-Speed Cornering Test",
+        "b": "The tight, flowing corners at Circuit de Barcelona-Catalunya demand <strong>precision throttle control and trail braking</strong> that separates elite riders from the field. Expect the championship contenders to gain crucial tenths through Turn 1-5, where small mistakes compound into massive time losses."
+      },
+      {
+        "h": "Tire Strategy in Spring Heat",
+        "b": "May racing at Barcelona typically brings <strong>warm track temperatures that challenge tire degradation management</strong> over the full race distance. Teams will gamble on tire allocation, with some opting for softer compounds early to build a gap, while others play the long game for the final laps."
+      },
+      {
+        "h": "European Swing Momentum Builder",
+        "b": "<strong>Barcelona kicks off the European portion of the calendar</strong>, making this weekend's result a critical springboard for teams heading into summer races where European-based riders traditionally gain track advantage. Winning here establishes rhythm and confidence heading into back-to-back continental events."
       }
     ]
   },
@@ -11173,7 +11151,7 @@
     "date": "2027-05-03",
     "dateStart": "2027-05-01",
     "dateEnd": "2027-05-03",
-    "location": "Oulton Park, Cheshire, England",
+    "location": "Oulton Park, Cheshire, United Kingdom",
     "status": "scheduled",
     "classes": [
       "Superbike",
@@ -11398,7 +11376,7 @@
     "date": "2027-05-15",
     "dateStart": "2027-05-15",
     "dateEnd": "2027-05-15",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, Nevada, USA",
     "status": "scheduled",
     "classes": [
       "Bantamweight",
