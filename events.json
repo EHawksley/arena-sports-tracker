@@ -7841,36 +7841,43 @@
       "sessions": [
         {
           "name": "MotoGP Practice & Qualifying",
-          "day": "Friday",
-          "time_mt": "5:55 AM MT",
-          "channels": [
-            "FS1",
-            "FS2"
-          ],
-          "note": "FP1 and FP2 in morning, qualifying in afternoon (approximate times)"
-        },
-        {
-          "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "7:10 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
             "FS1",
             "FS2"
           ],
-          "note": "12-lap sprint race format"
+          "note": "Practice sessions and qualifying rounds"
         },
         {
-          "name": "MotoGP Main Race",
+          "name": "MotoGP Race",
           "day": "Sunday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "5:00 AM MT",
           "channels": [
-            "FS1",
+            "FS1"
+          ],
+          "note": "Main race event"
+        },
+        {
+          "name": "Moto2 Race",
+          "day": "Sunday",
+          "time_mt": "3:30 AM MT",
+          "channels": [
             "FS2"
           ],
-          "note": "Grand Prix finale, 25 laps"
+          "note": "Support series"
+        },
+        {
+          "name": "Moto3 Race",
+          "day": "Sunday",
+          "time_mt": "2:00 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Support series"
         }
       ],
-      "watch_note": "MotoGP's Valencia Grand Prix is broadcast live on FS1 and FS2 in the US, with early morning start times on the East Coast; ESPN+ may also carry coverage."
+      "watch_note": "The Valencia Grand Prix MotoGP race airs live on FS1 on Sunday morning in the US, with early morning start times due to the European time zone difference."
     }
   },
   {
@@ -7915,7 +7922,7 @@
             "FS1",
             "FS2"
           ],
-          "note": "FP1, FP2, and Q1/Q2 qualifying sessions throughout the day"
+          "note": "Practice sessions and qualifying rounds"
         },
         {
           "name": "MotoGP Sprint Race",
@@ -7925,7 +7932,7 @@
             "FS1",
             "FS2"
           ],
-          "note": "12-lap sprint race"
+          "note": "Short sprint race format"
         },
         {
           "name": "MotoGP Main Race",
@@ -7938,7 +7945,7 @@
           "note": "Full-distance championship race"
         }
       ],
-      "watch_note": "MotoGP's Valencian Grand Prix is broadcast live on FS1/FS2 in the US, with early morning start times in Mountain Time."
+      "watch_note": "MotoGP's Valencian Grand Prix can be watched on FS1/FS2 in early morning Mountain Time, with early morning starts due to the Spanish timezone."
     }
   },
   {
@@ -7975,34 +7982,61 @@
     "watch": {
       "sessions": [
         {
-          "name": "MotoGP Practice & Qualifying",
+          "name": "MotoGP Practice 1",
           "day": "Friday",
           "time_mt": "5:55 AM MT",
           "channels": [
             "FS2"
           ],
-          "note": "Practice sessions and qualifying rounds"
+          "note": "Opening practice session"
+        },
+        {
+          "name": "MotoGP Practice 2",
+          "day": "Friday",
+          "time_mt": "10:10 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Second practice session"
+        },
+        {
+          "name": "MotoGP Practice 3",
+          "day": "Saturday",
+          "time_mt": "5:55 AM MT",
+          "channels": [
+            "FS2"
+          ],
+          "note": "Third practice session"
+        },
+        {
+          "name": "MotoGP Qualifying",
+          "day": "Saturday",
+          "time_mt": "9:35 AM MT",
+          "channels": [
+            "FS1"
+          ],
+          "note": "Pole position qualifying"
         },
         {
           "name": "MotoGP Sprint Race",
           "day": "Saturday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "1:00 PM MT",
           "channels": [
             "FS1"
           ],
-          "note": "12-lap sprint race"
+          "note": "11-lap sprint race"
         },
         {
           "name": "MotoGP Main Race",
           "day": "Sunday",
-          "time_mt": "7:00 AM MT",
+          "time_mt": "9:00 AM MT",
           "channels": [
             "FS1"
           ],
-          "note": "Full-distance Grand Prix race"
+          "note": "Full-distance main race"
         }
       ],
-      "watch_note": "MotoGP's Portimão Grand Prix can be watched on FS1 and FS2 in the US, with early morning start times on the US Mountain Time zone."
+      "watch_note": "MotoGP's Portimão Grand Prix broadcasts primarily on FS1 in the United States, with early sessions on FS2 and all events available via Fox Sports app with cable login."
     }
   },
   {
@@ -8033,7 +8067,50 @@
         "h": "Albany Course Demands Precision Golf",
         "b": "The Par 73 layout at Albany Golf Club punishes imprecision with <strong>strategically placed water hazards and firm Bermuda greens</strong> that reward ball-strikers over bombers. Expect scores to be tight and course management to be the differentiator, favoring players with sharp iron play and short-game touch."
       }
-    ]
+    ],
+    "watch": {
+      "sessions": [
+        {
+          "name": "Round 1",
+          "day": "Thursday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel"
+          ],
+          "note": "Early morning coverage from Albany"
+        },
+        {
+          "name": "Round 2",
+          "day": "Friday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel"
+          ],
+          "note": "Early morning coverage from Albany"
+        },
+        {
+          "name": "Round 3",
+          "day": "Saturday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "Golf Channel",
+            "Peacock"
+          ],
+          "note": "Early morning coverage from Albany"
+        },
+        {
+          "name": "Final Round",
+          "day": "Sunday",
+          "time_mt": "7:00 AM MT",
+          "channels": [
+            "CBS",
+            "Peacock"
+          ],
+          "note": "Championship conclusion with expanded coverage"
+        }
+      ],
+      "watch_note": "Stream on Peacock or watch on Golf Channel/CBS for the best coverage of the Hero World Challenge from the Bahamas."
+    }
   },
   {
     "id": "motoamerica-superbike-ridge-2026",
@@ -10216,6 +10293,39 @@
     ]
   },
   {
+    "id": "mgp-argentina-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Argentina Grand Prix",
+    "date": "2027-03-21",
+    "dateStart": "2027-03-19",
+    "dateEnd": "2027-03-21",
+    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "High altitude chaos awaits riders",
+        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
+      },
+      {
+        "h": "Factory strategy splits on tire selection",
+        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
+      },
+      {
+        "h": "South American crowd fuels unpredictable outcomes",
+        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
+      }
+    ]
+  },
+  {
     "id": "ufc-bjj-4",
     "sport": "bjj",
     "entityType": "championship",
@@ -10406,39 +10516,6 @@
     ]
   },
   {
-    "id": "mgp-argentina-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Argentina Grand Prix",
-    "date": "2027-04-04",
-    "dateStart": "2027-04-02",
-    "dateEnd": "2027-04-04",
-    "location": "Autódromo Termas de Río Hondo, Santiago del Estero, Argentina",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "High altitude chaos awaits riders",
-        "b": "San Juan sits at 650 meters elevation, creating thinner air that reduces aerodynamic grip and forces teams into aggressive setup compromises. <strong>Braking zones become treacherous</strong> as bikes struggle for mechanical grip on what's already a technically demanding circuit."
-      },
-      {
-        "h": "Factory strategy splits on tire selection",
-        "b": "The abrasive asphalt and extreme temperature swings between day and night sessions at Villicum have historically punished tire choices—expect manufacturers to diverge sharply on compound strategies. <strong>Conservative teams risk losing pace while aggressive choices gamble on catastrophic wear mid-race.</strong>"
-      },
-      {
-        "h": "South American crowd fuels unpredictable outcomes",
-        "b": "Argentina's passionate fanbase and the circuit's unique characteristics have historically produced shock results that defy championship standings and pre-race expectations. <strong>Underdog performances thrive here</strong> more than at any European venue, making it impossible to predict grid position from recent form alone."
-      }
-    ]
-  },
-  {
     "id": "pga-valero-texas-open-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10601,6 +10678,39 @@
     ]
   },
   {
+    "id": "mgp-americas-gp-2027",
+    "sport": "moto",
+    "entityType": "championship",
+    "series": "MotoGP World Championship",
+    "icon": "🏍️",
+    "title": "Americas Grand Prix",
+    "date": "2027-04-04",
+    "dateStart": "2027-04-02",
+    "dateEnd": "2027-04-04",
+    "location": "Circuit of the Americas, Austin, USA",
+    "status": "scheduled",
+    "classes": [
+      "MotoGP (Sprint + Race)",
+      "Moto2",
+      "Moto3",
+      "MotoE"
+    ],
+    "points": [
+      {
+        "h": "Austin's High-Speed Elevation Challenge",
+        "b": "Circuit of the Americas sits at 823 feet above sea level, the highest MotoGP venue in the world, which <strong>significantly reduces aerodynamic downforce and engine power output</strong> compared to sea-level circuits. Teams running high-downforce setups elsewhere will need to completely recalibrate their strategies to manage the thinner air."
+      },
+      {
+        "h": "Wet Weather Wildcard in April",
+        "b": "Spring thunderstorms frequently batter Austin in mid-April, and MotoGP's notoriously demanding Turn 1 becomes a lottery in wet conditions where even the smallest mistake triggers massive crashes. <strong>The unpredictable weather window could shuffle the championship order</strong> more dramatically than any dry-weather battle."
+      },
+      {
+        "h": "Factory Yamaha's Texas Redemption Arc",
+        "b": "After years of struggles, Yamaha has finally developed a competitive package, and the Americas circuit's fast, flowing corners perfectly suit their bike's newfound cornering prowess. <strong>This could be the first genuine challenge to Ducati's dominance</strong> we've seen all season on a track where raw speed and stability matter most."
+      }
+    ]
+  },
+  {
     "id": "pga-masters-tournament-2027",
     "sport": "golf",
     "entityType": "championship",
@@ -10628,39 +10738,6 @@
       {
         "h": "Weather volatility reshapes strategy",
         "b": "Spring patterns in Georgia have become increasingly unpredictable, and the 2027 forecast suggests potential rain mid-week that could soften greens and compress scoring. <strong>Poa annua management becomes everything</strong> when conditions change rapidly, favoring players with adaptive short-game prowess over one-dimensional bombers who rely on firm greens."
-      }
-    ]
-  },
-  {
-    "id": "mgp-americas-gp-2027",
-    "sport": "moto",
-    "entityType": "championship",
-    "series": "MotoGP World Championship",
-    "icon": "🏍️",
-    "title": "Americas Grand Prix",
-    "date": "2027-04-18",
-    "dateStart": "2027-04-16",
-    "dateEnd": "2027-04-18",
-    "location": "Circuit of The Americas, Austin, Texas, USA",
-    "status": "scheduled",
-    "classes": [
-      "MotoGP (Sprint + Race)",
-      "Moto2",
-      "Moto3",
-      "MotoE"
-    ],
-    "points": [
-      {
-        "h": "Austin's High-Speed Elevation Challenge",
-        "b": "Circuit of the Americas sits at 823 feet above sea level, the highest MotoGP venue in the world, which <strong>significantly reduces aerodynamic downforce and engine power output</strong> compared to sea-level circuits. Teams running high-downforce setups elsewhere will need to completely recalibrate their strategies to manage the thinner air."
-      },
-      {
-        "h": "Wet Weather Wildcard in April",
-        "b": "Spring thunderstorms frequently batter Austin in mid-April, and MotoGP's notoriously demanding Turn 1 becomes a lottery in wet conditions where even the smallest mistake triggers massive crashes. <strong>The unpredictable weather window could shuffle the championship order</strong> more dramatically than any dry-weather battle."
-      },
-      {
-        "h": "Factory Yamaha's Texas Redemption Arc",
-        "b": "After years of struggles, Yamaha has finally developed a competitive package, and the Americas circuit's fast, flowing corners perfectly suit their bike's newfound cornering prowess. <strong>This could be the first genuine challenge to Ducati's dominance</strong> we've seen all season on a track where raw speed and stability matter most."
       }
     ]
   },
@@ -11446,7 +11523,7 @@
     "date": "2027-05-23",
     "dateStart": "2027-05-21",
     "dateEnd": "2027-05-23",
-    "location": "MotorLand Aragon, Alcañiz, Spain",
+    "location": "MotorLand Aragon, Alcaniz, Spain",
     "status": "scheduled",
     "classes": [
       "WorldSBK",
